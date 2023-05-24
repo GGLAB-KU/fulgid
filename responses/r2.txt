@@ -1,0 +1,37 @@
+Here's a sample implementation of the procedural text as a Python program using classes:
+
+```
+class Wind:
+    def create_waves(self):
+        return Waves()
+
+class Waves:
+    def wash_onto_beaches(self):
+        return Beaches()
+
+class Beaches:
+    def hit_rocks(self):
+        return Rocks()
+
+class Rocks:
+    def break_off(self):
+        return SmallRocks()
+
+class SmallRocks:
+    def __str__(self):
+        return "Small rocks"
+
+wind = Wind()
+waves = wind.create_waves()
+beaches = waves.wash_onto_beaches()
+rocks = beaches.hit_rocks()
+small_rocks = rocks.break_off()
+
+print(small_rocks)  # output: Small rocks
+```
+
+In this implementation, we have five classes representing the different participants in the erosion process. The `Wind` class has a method `create_waves` which returns a `Waves` object. The `Waves` class has a method `wash_onto_beaches` which returns a `Beaches` object, and so on.
+
+Each class has a method that returns the next stage in the process, until we finally get to the `SmallRocks` class which represents the end result of the erosion process. We print out a string representation of this object at the end.
+
+Note that this implementation is just one way to represent the procedural text as code. There are many other possible ways to do this, depending on the level of detail and complexity you want to include in the program.
