@@ -12,7 +12,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 MODEL_NAME = "text-davinci-003"
 JSONL_PATH = '../datasets/wiqa-dataset-v2-october-2019/train.jsonl'
 RESPONSE_PATH = '../responses/{engine}/{ques_id}.py'
-SLEEP_TIME = 60
+SLEEP_TIME = 100
 MAX_TOKENS = 4097
 
 openai.api_key = OPENAI_API_KEY
