@@ -11,20 +11,29 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 MODEL_NAME = "text-davinci-003"
 JSONL_PATH = '../datasets/wiqa-dataset-v2-october-2019/train.jsonl'
-RESPONSE_PATH = '../responses/{engine}/{ques_id}.py'
+CODE_BASE_PATH = '../code-base/{engine}/{ques_id}.py'
+CODE_UPDATED_PATH = '../code-updated/{engine}/{ques_id}.py'
 SLEEP_TIME = 100
 MAX_TOKENS = 4097
+TEMPERATURE = 0.3
 
 openai.api_key = OPENAI_API_KEY
 
 
-def generate_prompt(steps):
-    prompt_base = "I have a procedural event with the following steps. " \
-                  "Create a python code for it which has different classes for" \
-                  " the participants and their relationship with each other.\n"
+def generate_para_steps_prompt(steps):
+    para_steps_prompt = "I have a procedural event with the following steps. " \
+                        "Create a python code for it which has different classes for" \
+                        " the participants and their relationship with each other.\n"
     for step in steps:
-        prompt_base += f'- {step}\n'
-    return prompt_base
+        para_steps_prompt += f'- {step}\n'
+    return para_steps_prompt
+
+
+def generate_stem_prompt(stem):
+    stem_prompt = f"Update the base code you created with following question : {stem}.\n" \
+                  "The code should be executable so I run the updated code to get the answer of the question.\n" \
+                  "Valid options : ['more', 'less', 'no effect']"
+    return stem_prompt
 
 
 def num_tokens_from_string(string: str, model_name: str) -> int:
@@ -34,15 +43,13 @@ def num_tokens_from_string(string: str, model_name: str) -> int:
     return num_tokens
 
 
-def get_code_representation_from_gpt(steps):
-    prompt = generate_prompt(steps)
-
+def get_code_representation_from_gpt(prompt):
     num_tokens = num_tokens_from_string(prompt, MODEL_NAME)
 
     response = openai.Completion.create(
         engine=MODEL_NAME,
         prompt=prompt,
-        temperature=0.3,
+        temperature=TEMPERATURE,
         max_tokens=MAX_TOKENS - num_tokens,
     )
     return response.choices[0].text.strip()
@@ -55,16 +62,39 @@ def process_dataset():
     for json_str in json_list:
         data = json.loads(json_str)
         ques_id = data['metadata']['ques_id']
-        code_representation_path = Path(RESPONSE_PATH.format(engine=MODEL_NAME, ques_id=ques_id))
+        code_base_representation_path = Path(CODE_BASE_PATH.format(engine=MODEL_NAME, ques_id=ques_id))
+        code_updated_representation_path = Path(CODE_UPDATED_PATH.format(engine=MODEL_NAME, ques_id=ques_id))
 
-        if not code_representation_path.is_file():
-            code_representation = get_code_representation_from_gpt(data['question']['para_steps'])
-            with open(code_representation_path, 'w') as f:
+        if not code_base_representation_path.is_file():
+            para_steps = data['question']['para_steps']
+            para_steps_prompt = generate_para_steps_prompt(para_steps)
+
+            code_representation = get_code_representation_from_gpt(para_steps_prompt)
+            with open(code_base_representation_path, 'w') as f:
                 f.write(code_representation)
             print(ques_id, "finished")
 
             # Avoid hitting rate limit
             time.sleep(SLEEP_TIME)
+
+            stem = data['question']['stem']
+            stem_prompt = generate_stem_prompt(stem)
+
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "user", "content": para_steps_prompt},
+                    {"role": "assistant", "content": code_representation},
+                    {"role": "user", "content": stem_prompt},
+                ],
+                temperature=0,
+            )
+
+            code_updated_representation = response['choices'][0]['message']['content']
+
+            with open(code_updated_representation_path, 'w') as f:
+                f.write(code_updated_representation)
+            print(ques_id, "finished")
 
 
 process_dataset()
