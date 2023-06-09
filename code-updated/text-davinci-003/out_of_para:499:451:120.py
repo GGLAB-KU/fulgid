@@ -1,0 +1,1 @@
+I'm sorry, but the question you provided does not seem to be related to the procedural event of the flashlight. Could you please provide more context or clarify the question?
