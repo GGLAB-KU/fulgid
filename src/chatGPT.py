@@ -6,11 +6,12 @@ from dotenv import load_dotenv
 import openai
 import tiktoken
 
+from src.settings import Settings
+
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 MODEL_NAME = "text-davinci-003"
-JSONL_PATH = '../datasets/wiqa-dataset-v2-october-2019/train.jsonl'
 CODE_BASE_PATH = '../code-base/{engine}/{ques_id}.py'
 CODE_UPDATED_PATH = '../code-updated/{engine}/{ques_id}.py'
 SLEEP_TIME = 100
@@ -56,7 +57,7 @@ def get_code_representation_from_gpt(prompt):
 
 
 def process_dataset():
-    with open(JSONL_PATH, 'r') as json_file:
+    with open(Settings.wiqa_train, 'r') as json_file:
         json_list = list(json_file)
 
     for json_str in json_list:
