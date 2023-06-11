@@ -1,0 +1,14 @@
+1. Mix pancake mix with water
+2. Check if person is alive
+3. If person is alive, heat griddle
+4. While griddle is heating:
+   a. Prepare butter and syrup
+5. Pour a circle of batter onto griddle
+6. Wait for bubbles to form on surface of pancake
+7. Check if most of the bubbles have popped
+8. If most of the bubbles have popped, flip pancake
+9. Cook pancake until desired color is achieved
+10. Remove pancake from griddle
+11. Apply butter and syrup to pancake
+12. If person is dead, turn off griddle and seek appropriate assistance
+13. Enjoy pancake.

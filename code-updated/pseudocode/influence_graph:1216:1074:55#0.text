@@ -1,0 +1,18 @@
+The original pseudocode was describing the process of digestion and energy storage in the body. To update it based on the new information, we need to add steps that describe the impact of a healthy diet on the risk of developing pancreatic cancer. Here's an updated pseudocode:
+
+1. Input food
+2. Stomach digests food
+3. Sugars from food enter bloodstream
+4. If blood sugar level is high, then:
+   a. Insulin is released
+   b. Insulin helps turn sugars into energy
+   c. Insulin helps store energy in fat, muscle and liver cells
+5. If blood sugar level is low, then:
+   a. Glucagon is released
+   b. Glucagon helps release stored energy from fat, muscle and liver cells
+6. Evaluate the impact of the diet on the risk of developing pancreatic cancer
+7. If the diet is unhealthy, then:
+   a. The risk of developing pancreatic cancer may increase
+8. If the diet is healthy, then:
+   a. The risk of developing pancreatic cancer may decrease
+9. Output energy used by body and the impact of the diet on the risk of developing pancreatic cancer.

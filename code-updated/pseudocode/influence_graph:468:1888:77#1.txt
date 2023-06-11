@@ -1,0 +1,11 @@
+1. Input: Salt water in a container
+2. Heat the salt water
+3. While the salt water is being heated:
+   a. The water becomes a gas
+   b. The salt particles sink to the bottom of the container
+4. Pipe the gaseous water into another container
+5. While the gaseous water is being piped:
+   a. If the gas condenses back into water, return to step 2
+6. Allow the gaseous water to cool
+7. The salt particles are left behind in the first container
+8. Output: Fresh water in the second container

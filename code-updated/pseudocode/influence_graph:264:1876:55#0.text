@@ -1,0 +1,15 @@
+1. Collect items
+2. Sort items
+3. For each item:
+   a. If it is trash, remove it
+   b. If it is recyclable material:
+      i. Put it into the appropriate baler machine
+      ii. Baler machine compresses material into bales
+      iii. Ship bales to manufacturers for use in products
+   c. If faster baler machines are available:
+      i. Use faster baler machines to compress material into bales
+      ii. Ship bales to manufacturers for use in products
+4. For each non-recyclable item:
+   a. If landfill space is limited:
+      i. Explore alternative disposal methods such as incineration or waste-to-energy facilities
+   b. Send to landfill.

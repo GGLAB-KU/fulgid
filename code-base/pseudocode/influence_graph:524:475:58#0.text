@@ -1,0 +1,15 @@
+1. Begin
+2. Set stage = "Fetus"
+3. Print "There is a " + stage + " in the womb."
+4. Set stage = "Baby"
+5. Print "They are born and are a " + stage + "."
+6. Set stage = "Child"
+7. Print "The " + stage + " grows into a " + stage + "."
+8. Set stage = "Adolescent"
+9. Print "Puberty turns the " + stage + " into an " + stage + "."
+10. Set stage = "Adult"
+11. Print "The " + stage + " becomes an " + stage + "."
+12. Set stage = "Elderly person"
+13. Print "An " + stage + " becomes an " + stage + "."
+14. Print "The " + stage + " dies."
+15. End.

@@ -1,0 +1,12 @@
+1. Initialize variables for crack development, pressure, rock hardness, and seismic wave generation.
+2. Set a threshold for the number of earthquakes that can occur.
+3. While the number of earthquakes is below the threshold:
+   a. Determine the size and length of the cracks.
+   b. Calculate the pressure exerted by the earth on both sides of the cracks.
+   c. Determine the hardness of the rocks on both sides of the cracks.
+   d. Apply pressure to the rocks, causing them to press against each other.
+   e. Monitor the development of the cracks and the movement of the earth.
+   f. If the pressure and movement cause rocks to crumble, release a lot of energy.
+   g. Generate seismic waves from the energy released.
+   h. Increase the strength of the seismic waves if there have been fewer earthquakes than expected.
+4. End the procedure when the number of earthquakes has reached the threshold or when a very strong earthquake occurs.

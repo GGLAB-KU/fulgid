@@ -1,0 +1,12 @@
+1. Set variable "egg" to true
+2. If "egg" is true, set variable "larva" to true and "egg" to false
+3. While "larva" is true, set variable "molting" to true and "larva" to false
+4. If "molting" is true, repeat step 3 until "molting" is false
+5. Set variable "pupa" to true and "molting" to false
+6. If "pupa" is true, set variable "metamorphosis" to true and "pupa" to false
+7. While "metamorphosis" is true, set variable "changing" to true and "metamorphosis" to false
+8. If "changing" is true, repeat step 7 until "changing" is false
+9. Set variable "butterfly" to true and "changing" to false
+10. If "butterfly" is true, set variable "emerged" to true and "butterfly" to false
+11. If "emerged" is true, set variable "flying" to true and "emerged" to false
+12. If "flying" is true, the procedure is complete.

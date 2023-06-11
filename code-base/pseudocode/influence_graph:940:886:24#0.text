@@ -1,0 +1,15 @@
+1. Carbon dioxide enters the leaves through the stomates by diffusion
+2. Water is transported to the leaves in the xylem
+3. Energy is harvested through light reaction and stored by forming ATP
+4. Carbon dioxide and energy from ATP are used to create sugar
+5. Oxygen exits the leaves through the stomata by diffusion
+6. The plant reuses the water or the water exits through the stomata as water vapor. 
+
+Pseudocode:
+
+1. Input: Carbon dioxide
+2. Input: Water
+3. Light reaction to produce ATP
+4. ATP + Carbon dioxide = Sugar
+5. Output: Oxygen
+6. Output: Water vapor or reuse water.

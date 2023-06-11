@@ -1,0 +1,22 @@
+1. Rain falls on wood
+2. Wood surface absorbs rain
+3. Rain permeates wood
+4. Rain evaporates, leaving wood
+5. Finish of wood is taken with the evaporated rain
+6. Wood loses luster
+7. Paint on wood begins to chip away due to rain
+8. Wood appearance deteriorates further with each rainfall
+9. Eventually, all paint is gone from the wood. 
+
+Pseudocode:
+
+1. If rain falls on wood:
+2.   Wood surface absorbs rain
+3.   If rain permeates wood:
+4.     Rain evaporates, leaving wood
+5.     Finish of wood is taken with the evaporated rain
+6.     Wood loses luster
+7.     If paint on wood is missing due to rain:
+8.       Wood appearance deteriorates further with each rainfall
+9.       If all paint is gone from the wood:
+10.         End procedure.

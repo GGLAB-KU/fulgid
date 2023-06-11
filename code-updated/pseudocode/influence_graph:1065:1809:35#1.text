@@ -1,0 +1,7 @@
+1. AdultMushroom.produceSpores()
+2. Spores.releaseIntoAir()
+3. Wind.carrySpores()
+4. Environment.checkHospitability()
+5. If hospitable and less pollution, Spores.germinateIntoSoil(more)
+6. Mushroom.startGrowing()
+7. AdultMushroom.produceSpores() to repeat the process.

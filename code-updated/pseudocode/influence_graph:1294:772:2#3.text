@@ -1,0 +1,12 @@
+1. Check if there is water in the coffee pot
+2. If there is no water, display an error message and stop the procedure
+3. If there is water, pour it into the machine well
+4. Check if the water spout is broken
+5. If the water spout is broken, display an error message and stop the procedure
+6. If the water spout is not broken, place filter in basket
+7. Measure ground coffee into filter
+8. Turn on machine to start water heating
+9. Hot water rises up
+10. Water drops into ground coffee
+11. Hot water passes through grounds
+12. Coffee drips into pot from basket

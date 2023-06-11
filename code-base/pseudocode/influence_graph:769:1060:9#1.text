@@ -1,0 +1,10 @@
+1. Set color variable to "green"
+2. Set sunlight variable to 0
+3. While plant is alive:
+4.   If plant has leaves:
+5.     Add sunlight to leaves
+6.   If sunlight > 0:
+7.     Perform photosynthesis on leaves
+8.     Break down sunlight into glucose
+9.     Travel glucose through plant
+10.    Use glucose as energy to grow plant

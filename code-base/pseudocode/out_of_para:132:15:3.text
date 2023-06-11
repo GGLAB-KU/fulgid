@@ -1,0 +1,14 @@
+1. Breathe in oxygen through nose or mouth
+2. Oxygen travels to lungs through windpipe
+3. Air sacs in lungs transfer oxygen into bloodstream
+4. Carbon dioxide in bloodstream is transferred to air sacs
+5. Lungs expel carbon dioxide through nose or mouth back into environment. 
+
+Pseudocode:
+
+1. Input: Oxygen
+2. Function: Oxygen travels to lungs through windpipe
+3. Function: Air sacs in lungs transfer oxygen into bloodstream
+4. Input: Carbon dioxide
+5. Function: Carbon dioxide in bloodstream is transferred to air sacs
+6. Output: Lungs expel carbon dioxide through nose or mouth back into environment.

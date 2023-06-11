@@ -1,0 +1,16 @@
+1. Initialize star with hydrogen fuel
+2. While star has hydrogen fuel:
+   a. Star burns hydrogen
+3. Star becomes a red giant
+4. While red giant has fuel:
+   a. Red giant burns fuel
+5. Red giant burns itself out
+6. Core of star collapses
+7. Gasses disperse
+8. Only core remains
+9. If the core mass is less than 1.4 solar masses:
+   a. Core becomes a white dwarf
+10. Else if the core mass is between 1.4 and 3 solar masses:
+   a. Core becomes a neutron star
+11. Else:
+   a. Core becomes a black hole

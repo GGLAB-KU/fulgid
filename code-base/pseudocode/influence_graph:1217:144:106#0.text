@@ -1,0 +1,13 @@
+1. Define a function called "treeLifeCycle" that takes no parameters.
+2. Within the function, create a variable called "seeds" and set it to a random number between 10 and 100.
+3. Create a loop that will run until "seeds" is equal to 0.
+4. Within the loop, create a variable called "dispersal" and set it to a random method of seed dispersal (e.g. wind, animals, etc.).
+5. If "dispersal" is wind, subtract a random number between 1 and 10 from "seeds".
+6. If "dispersal" is animal, subtract a random number between 1 and 5 from "seeds".
+7. If "seeds" is equal to 0, exit the loop.
+8. Create a variable called "newTrees" and set it to a random number between 1 and 10.
+9. Create a loop that will run "newTrees" times.
+10. Within the loop, create a variable called "growth" and set it to a random number between 1 and 5.
+11. Subtract "growth" from "newTrees".
+12. If "newTrees" is equal to 0, exit the loop.
+13. Call the "treeLifeCycle" function to repeat the process.

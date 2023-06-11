@@ -1,0 +1,14 @@
+1. Waves hit the coast
+2. Energy from waves pushes water and sediment
+3. Sediment helps erode land like sandpaper
+4. Water washes sediment back
+5. Some sediment is left as sand
+
+Pseudocode:
+
+1. while waves hit the coast:
+2.     energy from waves pushes water and sediment
+3.     sediment helps erode land like sandpaper
+4.     water washes sediment back
+5. end while
+6. some sediment is left as sand

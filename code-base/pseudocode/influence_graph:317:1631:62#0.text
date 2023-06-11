@@ -1,0 +1,9 @@
+1. Input: Rocks
+2. Water seeps into rocks
+3. If temperature drops below freezing point, then water freezes
+4. If temperature rises above freezing point, then water thaws
+5. Freezing and thawing of water causes cracks to form in rocks
+6. Rocks also crack when heated up
+7. Over time, cracks in rocks become larger and more numerous
+8. Rocks slowly break down due to the formation and expansion of cracks
+9. Output: Broken down rocks

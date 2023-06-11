@@ -1,0 +1,14 @@
+1. Set variable "infected" to true
+2. While "infected" is true:
+   a. Bacteria begins to grow and reproduce inside the cells
+   b. Dividing bacteria begin to make toxins
+   c. If toxins reach a certain level:
+      i. Damage to cells occurs
+      ii. Set variable "symptoms" to true
+   d. If "symptoms" is true:
+      i. Display disease symptoms
+   e. If "symptoms" is severe:
+      i. Seek medical attention
+   f. If "symptoms" is not severe:
+      i. Wait for immune system to fight off infection
+3. Set variable "infected" to false.

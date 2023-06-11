@@ -1,0 +1,14 @@
+1. WHILE ocean waves hit land
+2.     IF ocean water is touching sand on beaches
+3.         ocean water pulls sand off of beaches
+4.     END IF
+5.     IF ocean water is touching rocks on cliffs
+6.         ocean water breaks rocks off of cliffs
+7.     END IF
+8.     ocean water carries sand and rocks into the ocean
+9. END WHILE
+10. IF sand and rocks are carried to other land
+11.     sand and rocks go to other land
+12. ELSE IF sand and rocks are carried to the bottom of the ocean
+13.     sand and rocks go to the bottom of the ocean
+14. END IF

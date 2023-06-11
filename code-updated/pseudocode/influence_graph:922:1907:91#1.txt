@@ -1,0 +1,16 @@
+1. Set up a condition: If rock melts inside the Earth's crust
+2. Create a variable: Magma = melted rock
+3. Create a function: Magma_rises(Magma)
+4. Create a function: Collects_inside_chambers(Magma)
+5. Create a variable: Pressure = 0
+6. Create a function: Pressure_builds(Pressure)
+7. Create a function: Gain_energy_for_eruption(Pressure)
+8. Create a function: Convert_energy_to_seismic_activity(Pressure)
+9. Set up a condition: If magma is thick and sticky
+10. Create a variable: Trapped_gases = true
+11. Create a function: Explosive_eruption(Trapped_gases)
+12. Set up a condition: If magma is thin and runs
+13. Create a function: Non_explosive_eruption()
+14. Set up a condition: If magma rises less
+15. Create a variable: Magma_thickness = thin
+16. Create a function: Magma_thickness_affects_eruption(Magma_thickness)

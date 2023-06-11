@@ -1,0 +1,8 @@
+1. Initialize virus object
+2. Virus object has receptors that lock onto target cell
+3. Virus object enters target cell
+4. Virus object uses target cell to replicate itself
+5. New copies of virus object leave target cell
+6. New copies of virus object infect other cells
+7. Host body experiences damage to cells
+8. Host body becomes sick.

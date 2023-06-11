@@ -1,0 +1,11 @@
+1. Mushroom.giveOffGills()
+2. Basidia.lineGills()
+3. Basidia.giveOffSpores()
+4. Oxygen.reachLungs() // New step added
+5. Spores.germinate(moreOxygen) // Updated step
+6. Spores.createHyphae()
+7. Hyphae.meetAndConverge()
+8. Hyphae.joinWithMycelium()
+9. Mycelium.formHyphalKnot()
+10. HyphalKnot.createPrimordia()
+11. Primordia.growMushroomCap()

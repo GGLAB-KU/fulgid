@@ -1,0 +1,9 @@
+1. Input: Water and iron object
+2. Combine water and iron object
+3. Check for presence of carbon dioxide in the air
+4. If carbon dioxide is present, combine with water to form carbonic acid
+5. As carbonic acid is formed, iron object starts to dissolve
+6. Break down some water into hydrogen and oxygen
+7. Free oxygen and dissolved iron bond together
+8. Form iron oxide, which is rust
+9. Output: Rusty iron object

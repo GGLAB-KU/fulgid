@@ -1,0 +1,8 @@
+1. Initialize bat's sound waves from mouth or nose
+2. Send out sound waves
+3. Wait for sound waves to hit an object
+4. Echoes are produced
+5. Wait for echo to return to bat's ears
+6. Bat hears the echo
+7. Analyze the echo to determine the location of the object
+8. Output the location of the object.

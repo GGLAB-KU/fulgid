@@ -1,0 +1,17 @@
+1. Set color variable to "green"
+2. Set sunlight variable to 0
+3. Set sunny_days variable to 0
+4. While plant is alive:
+5.   If plant has leaves:
+6.     Add sunlight to leaves
+7.     If sunny_days > 0:
+8.       Decrease glucose and oxygen production
+9.   If sunlight > 0:
+10.    Perform photosynthesis on leaves
+11.    Break down sunlight into glucose
+12.    Travel glucose through plant
+13.    Use glucose as energy to grow plant
+14.    If sunny_days > 0:
+15.      Decrease glucose and oxygen production
+16.  Increase sunny_days variable if day is sunny
+17.  Decrease sunny_days variable if day is not sunny

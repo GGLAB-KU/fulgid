@@ -1,0 +1,17 @@
+1. Bird lays eggs in nest
+2. Parent(s) incubate eggs
+3. Eggs hatch
+4. Mother (and sometimes father) bird takes care of baby birds
+5. Baby birds grow up and develop flight feathers
+6. Young birds learn to fly and leave the nest
+7. Adult birds find mates and mate
+
+Pseudocode:
+
+1. lay_eggs()
+2. incubate_eggs()
+3. hatch_eggs()
+4. take_care_of_babies()
+5. develop_flight_feathers()
+6. learn_to_fly()
+7. find_mate_and_mate()

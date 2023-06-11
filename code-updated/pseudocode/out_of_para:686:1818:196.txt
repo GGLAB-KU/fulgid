@@ -1,0 +1,10 @@
+1. Take in carbon dioxide through stomata in leaves
+2. Absorb water through roots
+3. Check if chloroplast cells are present in leaves
+4. If chloroplast cells are present, absorb energy from sunlight using chlorophyll
+5. If less light is available, reduce the amount of energy absorbed from sunlight
+6. Split water molecules into hydrogen and oxygen using absorbed energy
+7. Release oxygen into the atmosphere
+8. Combine hydrogen and carbon dioxide to create glucose
+9. If less energy is available, reduce the amount of glucose produced
+10. Use glucose as food for the plant.

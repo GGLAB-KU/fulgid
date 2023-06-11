@@ -1,0 +1,12 @@
+1. Butterfly lays an egg
+2. Larvae matures inside of the egg
+3. Caterpillar hatches from the egg
+4. While caterpillar is not fully grown:
+   a. Caterpillar eats
+   b. Caterpillar grows
+5. Caterpillar spins a coccoon around itself
+6. Caterpillar forms into a pupa inside the coccoon
+7. Butterfly forms inside of the coccoon
+8. Mature butterfly emerges from the coccoon
+9. Butterfly mates
+10. Female butterfly lays eggs.

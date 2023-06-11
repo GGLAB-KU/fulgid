@@ -1,0 +1,11 @@
+1. Initialize variables for crack development, pressure, rock hardness, and seismic wave generation.
+2. While cracks are developing:
+   a. Check for cracks deep beneath the surface.
+   b. If cracks are present, increase their length and size.
+   c. Apply pressure to rocks on both sides of the cracks.
+   d. Check for rock hardness and adjust pressure accordingly.
+   e. Continue to develop cracks and apply pressure.
+3. When rocks begin to crumble:
+   a. Release a lot of energy.
+   b. Generate seismic waves.
+   c. Move the earth in an earthquake.

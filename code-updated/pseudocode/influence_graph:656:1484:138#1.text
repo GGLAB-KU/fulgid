@@ -1,0 +1,12 @@
+1. Initialize larva
+2. While larva is alive:
+   a. Eat constantly
+   b. If larva has grown bigger:
+      i. Start forming a cocoon around itself
+      ii. Transform into a pupa
+      iii. Wait for some time
+      iv. If pollution in the environment is high:
+          1. Increase the time required for the cocoon to hatch
+      v. Hatch the cocoon
+      vi. A butterfly is born
+3. End procedure.

@@ -1,0 +1,14 @@
+1. if tsunami occurs:
+2.     while waves hit the coast:
+3.         energy from waves pushes water and sediment
+4.         more sediment is eroded from the land due to the force of the waves
+5.         water washes sediment back
+6.     end while
+7. else:
+8.     while waves hit the coast:
+9.         energy from waves pushes water and sediment
+10.        sediment helps erode land like sandpaper
+11.        water washes sediment back
+12.    end while
+13. end if
+14. some sediment is left as sand.

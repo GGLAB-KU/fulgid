@@ -1,0 +1,14 @@
+1. Start
+2. Input: Acid rain
+3. Acid rain makes waters acidic
+4. Waters absorb aluminum from soil
+5. If prices for aluminum rise:
+6.    Less aluminum will be used
+7.    Less aluminum will pollute waterways
+8. Water runs off from soil into lakes, streams, etc
+9. Fish and their eggs die
+10. Frogs and plants die
+11. Insects and other wildlife die
+12. The ecosystem is out of balance
+13. Further problems arise
+14. End

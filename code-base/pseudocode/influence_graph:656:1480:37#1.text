@@ -1,0 +1,10 @@
+1. Initialize larva
+2. While larva is alive:
+   a. Eat constantly
+   b. If larva has grown bigger:
+      i. Start forming a cocoon around itself
+      ii. Transform into a pupa
+      iii. Wait for some time
+      iv. Hatch the cocoon
+      v. Become a butterfly
+3. End procedure.

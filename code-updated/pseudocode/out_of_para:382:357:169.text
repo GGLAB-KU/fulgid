@@ -1,0 +1,9 @@
+1. Input bacteria into the body
+2. Check if there is enough space available in the body
+3. If there is enough space available, bacteria enters the bloodstream
+4. Identify cells in the body
+5. Attack identified cells
+6. Kill attacked cells
+7. Form different kinds of sickness based on the type of cells attacked
+8. Output the formed sickness. 
+9. If there is not enough space available, do not allow bacteria to enter the bloodstream.

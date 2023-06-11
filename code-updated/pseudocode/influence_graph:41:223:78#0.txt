@@ -1,0 +1,16 @@
+1. Initialize variables for crack development, pressure, rock hardness, seismic wave generation, and earthquake frequency.
+2. While cracks are developing:
+   a. Check for cracks deep beneath the surface.
+   b. If cracks are present, increase their length and size.
+   c. Apply pressure to rocks on both sides of the cracks.
+   d. Check for rock hardness and adjust pressure accordingly.
+   e. Continue to develop cracks and apply pressure.
+3. When rocks begin to crumble:
+   a. Release a lot of energy.
+   b. Generate seismic waves.
+   c. If earthquake frequency is low, store the energy for a longer period of time.
+   d. If earthquake frequency is high, release the energy immediately.
+   e. The stored energy can lead to more/stronger earthquakes when released.
+4. Adjust earthquake frequency based on the number of earthquakes that occur.
+   a. If fewer earthquakes occur, increase the likelihood of more/stronger earthquakes.
+   b. If more earthquakes occur, decrease the likelihood of more/stronger earthquakes.

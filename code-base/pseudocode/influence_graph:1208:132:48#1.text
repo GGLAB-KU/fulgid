@@ -1,0 +1,10 @@
+1. FuelMix = Fuel + Air
+2. Cylinder.induct(FuelMix)
+3. Piston.compress(FuelMix)
+4. SparkPlug.emitSpark()
+5. Combustion = ignite(FuelMix)
+6. CombustionGases.expand()
+7. Piston.pushDuringPowerStroke(CombustionGases)
+8. ExhaustValve.open()
+9. ExhaustValve.ventExhaust()
+10. ExhaustValve.close()

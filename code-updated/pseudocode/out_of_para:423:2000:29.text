@@ -1,0 +1,22 @@
+1. Excavate mine in side of mountain
+2. Miners enter mine
+3. While there is coal in the mine:
+   a. Miners remove coal from mine
+   b. Place coal into carts or on conveyor belt
+4. While there is limestone in the mine:
+   a. Miners remove limestone from mine
+   b. Place limestone into separate carts or on a separate conveyor belt
+5. Move coal up to surface:
+   a. If using carts:
+      i. Load carts onto conveyor belt
+      ii. Move conveyor belt up to surface
+   b. If using conveyor belt:
+      i. Move conveyor belt up to surface
+6. Load coal onto truck
+7. If there is limestone:
+   a. Load limestone onto separate truck
+   b. Take limestone to separate location
+8. Truck takes coal to power station. 
+9. If there is more limestone:
+   a. Increase the number of separate trucks for limestone
+   b. Ensure that the coal and limestone are not mixed during transportation.

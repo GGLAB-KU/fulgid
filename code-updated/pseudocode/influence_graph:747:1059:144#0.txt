@@ -1,0 +1,14 @@
+1. Input: Surface water
+2. Seep water below soil
+3. Water comes into contact with rock
+4. If rock is porous, continue to step 5. If rock is impermeable, end procedure.
+5. Rock is eroded by water over time
+6. Space in rock becomes larger
+7. If space is large enough to enter, continue to step 8. If space is not large enough, continue to step 5.
+8. Space becomes a cave
+9. If space rock is bigger, continue to step 10. If space rock is not bigger, continue to step 11.
+10. Water continues to erode the rock, making the space larger and forming a bigger cave. Continue to step 7.
+11. Water rushes through cave
+12. If water continues to flow, continue to step 13. If water stops flowing, end procedure.
+13. Cave becomes a cavern. 
+14. End procedure.

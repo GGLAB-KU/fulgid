@@ -1,0 +1,19 @@
+1. Carbon dioxide enters through stomata in leaves
+2. Water is absorbed through roots
+3. Chloroplast cells in leaves contain chlorophyll
+4. Chlorophyll absorbs energy from sunlight
+5. Energy splits water molecules into hydrogen and oxygen
+6. Oxygen is released into the atmosphere
+7. Hydrogen and carbon dioxide combine to create glucose
+8. Glucose is used as food for the plant
+
+Pseudocode:
+
+1. Take in carbon dioxide through stomata in leaves
+2. Absorb water through roots
+3. Check if chloroplast cells are present in leaves
+4. If chloroplast cells are present, absorb energy from sunlight using chlorophyll
+5. Split water molecules into hydrogen and oxygen using absorbed energy
+6. Release oxygen into the atmosphere
+7. Combine hydrogen and carbon dioxide to create glucose
+8. Use glucose as food for the plant.

@@ -1,0 +1,13 @@
+1. Set rock as magma from sas volcano
+2. While rock is hot, cool it down
+3. Crystals form within the rock
+4. Set the rock as igneous
+5. If the igneous rock is exposed to weathering and erosion, it breaks down into sediment
+6. If the sediment becomes a smaller rock, set it as a new type of sedimentary rock
+7. Set the new sedimentary rock as the rock
+8. If the rock is subjected to heat and/or pressure from plate-tectonic activity, it becomes metamorphic rock
+9. Set the metamorphic rock as the new rock
+10. If the metamorphic rock is exposed to high temperatures, it melts and becomes magma again
+11. Repeat from step 1.
+
+If the sediment becomes a smaller rock, it may affect the formation of more igneous rock by reducing the amount of sediment available for the process. This could potentially lead to a decrease in the amount of igneous rock formed over time.

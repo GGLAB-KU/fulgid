@@ -1,0 +1,10 @@
+1. Initialize a network of trees.
+2. Allow the trees to grow and form a forest ecosystem.
+3. As trees die off, leave the dead material on the forest floor.
+4. The dead material provides nutrients for new trees to grow.
+5. The new trees provide shelter for organisms to thrive.
+6. If acid rain occurs, adjust the growth rate of the trees accordingly.
+7. If acid rain is severe, reduce the growth rate of the trees or prevent new trees from growing.
+8. If acid rain persists, the forest ecosystem may be damaged and unable to support new growth.
+9. Repeat steps 3-8 to continue the cycle of growth and decay.
+10. The ecosystem known as a forest is made, but may be affected by acid rain.

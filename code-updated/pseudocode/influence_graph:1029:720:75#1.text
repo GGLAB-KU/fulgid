@@ -1,0 +1,11 @@
+1. Gather oil through mining operations
+2. If less oil is gathered:
+   a. Update inventory with new oil quantity
+3. Transport oil to stores
+4. Homeowners purchase oil
+5. If oil quantity is less than requested:
+   a. Notify homeowner of shortage
+6. Oil is placed into stove in house
+7. Light oil on fire
+8. Oil burns for a long time
+9. Warm air travels through house

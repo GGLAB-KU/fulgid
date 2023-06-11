@@ -1,0 +1,21 @@
+1. Sunlight shines on plants
+2. Cells with chlorophyll capture light energy
+3. Plants absorb carbon dioxide through stoma
+4. Plants absorb water through roots and other parts
+5. Plants absorb minerals through roots
+6. Convert inputs into sugars
+7. Sugars can be used as energy sources
+8. Oxygen and water are produced
+9. Excess water and oxygen are released through stoma and other parts of the plant. 
+
+Pseudocode:
+
+1. Get sunlight
+2. If cells have chlorophyll, capture light energy
+3. If stoma is open, absorb carbon dioxide
+4. Absorb water through roots and other parts
+5. Absorb minerals through roots
+6. Convert inputs into sugars
+7. Use sugars as energy sources
+8. Produce oxygen and water
+9. Release excess water and oxygen through stoma and other parts of the plant.

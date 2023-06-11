@@ -1,0 +1,11 @@
+1. Initialize tray
+2. Add water to tray
+3. If water level is less than required:
+   a. Display "Add more water to tray"
+4. Insert tray into freezer
+5. While temperature of water is above freezing point:
+   a. Water molecules slow down
+6. Water freezes into ice
+7. If ice cubes are less than expected:
+   a. Display "Less ice cubes were made due to less water added to tray"
+8. Ice cubes are ready

@@ -1,0 +1,9 @@
+1. If temperature < desired temperature:
+2.    Send signal to heating system
+3.    Oil travels from tank to burner
+4.    Oil is mixed with air to create a fine mist
+5.    Inject oil/air mixture into burner
+6.    Ignite burner in combustion chamber
+7.    Furnace heats air
+8.    Blower sends heated air through ducts
+9.    Heated air comes out of vents and into room.

@@ -1,0 +1,21 @@
+1. Begin
+2. Set stage = "Fetus"
+3. Print "There is a " + stage + " in the womb."
+4. Set abortion = false
+5. If abortion == false then
+6.     Print "The mother does not get an abortion."
+7.     Set stage = "Baby"
+8.     Print "They are born and are a " + stage + "."
+9.     Set stage = "Child"
+10.    Print "The " + stage + " grows into a " + stage + "."
+11.    Set stage = "Adolescent"
+12.    Print "Puberty turns the " + stage + " into an " + stage + "."
+13.    Set stage = "Adult"
+14.    Print "The " + stage + " becomes an " + stage + "."
+15.    Set stage = "Elderly person"
+16.    Print "An " + stage + " becomes an " + stage + "."
+17.    Print "The " + stage + " dies."
+18. Else
+19.    Print "The mother gets an abortion."
+20. End If
+21. End.

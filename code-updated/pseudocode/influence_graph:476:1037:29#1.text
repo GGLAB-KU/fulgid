@@ -1,0 +1,19 @@
+1. Set variable "fossil_fuels" to represent the burning of oil, gas, etc.
+2. Set variable "carbon_dioxide" to represent the release of carbon dioxide into the atmosphere from burning fossil fuels.
+3. Set variable "atmosphere" to represent the changing makeup of the atmosphere due to increased carbon dioxide levels.
+4. Set variable "sun_energy" to represent the energy from the sun that cannot escape back through the changed atmosphere.
+5. Set variable "earth_heat" to represent the heating of the earth due to the extra trapped energy.
+6. Set variable "tree_cutting" to represent the cutting down of trees by human beings.
+7. Set variable "tree_replanting" to represent the lack of re-planting of trees by human beings.
+8. Set variable "carbon_dioxide_absorption" to represent the inability of trees to absorb the extra carbon dioxide from the atmosphere.
+9. Set variable "weather_change" to represent the short-term changes in weather due to the extra trapped energy.
+10. Set variable "climate_change" to represent the long-term changes in climate patterns due to the extra trapped energy.
+11. Set variable "environmental_regulation" to represent the level of regulation on environmental practices.
+12. If "environmental_regulation" is decreased:
+    a. Increase "fossil_fuels" usage.
+    b. Increase "carbon_dioxide" release into the atmosphere.
+    c. Increase "atmosphere" changes.
+    d. Increase "sun_energy" trapped in the atmosphere.
+    e. Increase "earth_heat" due to the extra trapped energy.
+13. Execute steps 6-8.
+14. Execute steps 9-10.

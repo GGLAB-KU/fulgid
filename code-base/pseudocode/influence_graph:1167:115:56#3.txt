@@ -1,0 +1,9 @@
+1. Set the mass of the Sun.
+2. Calculate the gravitational force exerted by the Sun on its mass.
+3. Determine the pressure on the Sun due to the gravitational force.
+4. Check if the pressure is sufficient for nuclear fusion of hydrogen atoms.
+5. If yes, initiate nuclear fusion reactions.
+6. Calculate the energy released from the reactions.
+7. Emit different kinds of light corresponding to the energy released.
+8. Check if the light is traveling towards the Earth.
+9. If yes, continue emitting light towards the Earth.

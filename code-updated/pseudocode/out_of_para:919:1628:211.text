@@ -1,0 +1,23 @@
+1. Initialize variables: 
+   - plate1_position = starting position of plate 1
+   - plate2_position = starting position of plate 2
+   - force = force exerted by the plates
+   - crust_breaking_threshold = minimum force required to break the crust
+   - energy = amount of energy released when the crust breaks
+   - wave_speed = speed at which energy moves through the Earth
+   - earthquake_intensity = measure of the strength of the earthquake felt
+   - water_level = initial level of water in the streams
+
+2. While plates are still moving:
+   - Calculate force exerted by the plates on each other
+   - If force is greater than or equal to crust_breaking_threshold:
+     - If water_level is low:
+       - Increase pressure build up
+     - Else:
+       - Break the crust
+       - Release energy
+       - Calculate earthquake_intensity based on amount of energy released
+       - Print "Earthquake detected! Intensity: earthquake_intensity"
+   - Move plates to new positions
+
+3. End procedure.

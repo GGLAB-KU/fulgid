@@ -1,0 +1,13 @@
+1. Excavate mine in side of mountain
+2. Miners enter mine
+3. While there is coal in the mine:
+   a. Miners remove coal from mine
+   b. Place coal into carts or on conveyor belt
+4. Move coal up to surface:
+   a. If using carts:
+      i. Load carts onto conveyor belt
+      ii. Move conveyor belt up to surface
+   b. If using conveyor belt:
+      i. Move conveyor belt up to surface
+5. Load coal onto truck
+6. Truck takes coal to power station.

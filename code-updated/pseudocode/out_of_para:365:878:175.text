@@ -1,0 +1,13 @@
+1. Start
+2. Check for presence of acid rain
+3. If acid rain is present, proceed to step 4, else end
+4. Acid rain makes waters acidic
+5. Waters absorb aluminum from soil
+6. Check for presence of aluminum pollution in waterways
+7. If aluminum pollution is present, proceed to step 8, else end
+8. Determine the current price of aluminum
+9. If the price of aluminum is high, proceed to step 10, else end
+10. Less aluminum pollutes waterways due to reduced aluminum usage
+11. If the price of aluminum is low, proceed to step 12, else end
+12. More aluminum pollutes waterways due to increased aluminum usage
+13. End.

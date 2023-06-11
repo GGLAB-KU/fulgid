@@ -1,0 +1,24 @@
+1. MakeAirlineReservation()
+2. ArriveAtAirport()
+3. CheckLuggage()
+4. WaitInLine()
+5. ShowIdentificationAndGetBoardingPass()
+6. GoToGate()
+7. GetInLineToBoard()
+8. BoardPlane()
+9. ArriveAtDestination()
+10. GetOffPlane()
+
+Updated Pseudocode:
+
+1. MakeAirlineReservation()
+2. ArriveAtAirport()
+3. CheckLuggage()
+4. If there is no traffic, check more luggage
+5. WaitInLine()
+6. ShowIdentificationAndGetBoardingPass()
+7. GoToGate()
+8. GetInLineToBoard()
+9. BoardPlane()
+10. ArriveAtDestination()
+11. GetOffPlane()

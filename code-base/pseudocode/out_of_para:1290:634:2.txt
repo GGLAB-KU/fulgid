@@ -1,0 +1,12 @@
+1. Mix pancake mix with water
+2. Heat griddle
+3. While griddle is heating:
+   a. Prepare butter and syrup
+4. Pour a circle of batter onto griddle
+5. Wait for bubbles to form on surface of pancake
+6. Check if most of the bubbles have popped
+7. If most of the bubbles have popped, flip pancake
+8. Cook pancake until desired color is achieved
+9. Remove pancake from griddle
+10. Apply butter and syrup to pancake
+11. Enjoy pancake

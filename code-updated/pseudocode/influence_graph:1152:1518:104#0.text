@@ -1,0 +1,10 @@
+1. Check if the atom has too few or too many neutrons.
+2. If the atom is less stable, proceed to step 3. Otherwise, end the procedure.
+3. Determine the type of decay: alpha or beta.
+4. If alpha decay, release two protons and two neutrons from the atom.
+5. If beta decay, change a neutron into a proton and an electron.
+6. Join the proton with the nucleus of the atom.
+7. Release the electron.
+8. Check if the atom is still less stable.
+9. If the atom is still less stable, repeat steps 3-7 until the atom becomes stable.
+10. End the procedure.
