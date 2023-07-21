@@ -1,0 +1,14 @@
+1. Set fish as eggs
+2. Randomly determine the percentage of eggs that will hatch
+3. Hatch the determined percentage of eggs
+4. Emergence of larvae
+5. Maturation and growth of larvae
+6. Development of adolescent fish (or fry)
+7. Growth of adolescent fish
+8. Check for sub-stages based on species or type
+9. Maturation of fish into adult
+10. Determine the percentage of adult fish that can lay eggs
+11. Calculate the number of eggs laid by the adult fish
+12. Repeat the process from step 2 for the newly laid eggs. 
+
+Note: If less eggs hatch, it will result in fewer fish becoming adults, which will ultimately affect the population of the species.

@@ -1,0 +1,16 @@
+1. Set volcano = true
+2. Set magma = hot
+3. Set crops = better and stronger
+4. While volcano is true:
+   a. Magma rises towards surface of volcano
+   b. Magma cools
+   c. If magma is released from volcano:
+      i. Set magma = lava
+      ii. Lava cools and solidifies into hard rock
+   d. Magma starts to harden as it cools
+   e. If crops are better and stronger:
+      i. More nutrients are available in the soil
+      ii. Plants absorb more minerals from the soil
+      iii. More minerals are released into the soil as plants decompose
+      iv. More minerals are available for igneous rock formation
+4. End procedure.

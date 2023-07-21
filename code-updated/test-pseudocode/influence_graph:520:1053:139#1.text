@@ -1,0 +1,19 @@
+1. FemaleFish lays Eggs
+2. Eggs hatch into Larvae
+3. Larvae feed and grow
+4. Larvae develop into JuvenileFish
+5. JuvenileFish grow into AdultFish
+6. AdultFish mate
+7. FemaleFish lays Eggs
+8. If people eat more fish:
+   a. Decrease the number of AdultFish
+   b. Decrease the number of JuvenileFish
+   c. Decrease the number of Larvae
+   d. Decrease the number of Eggs
+   e. Reduce the growth rate of the fish population
+9. If people eat less fish:
+   a. Increase the number of AdultFish
+   b. Increase the number of JuvenileFish
+   c. Increase the number of Larvae
+   d. Increase the number of Eggs
+   e. Increase the growth rate of the fish population

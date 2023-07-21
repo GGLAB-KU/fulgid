@@ -1,0 +1,10 @@
+1. Input: Different kinds of rocks
+2. Process: 
+   a. Check if there are rocks in the area
+   b. If there are rocks, rocks melt into magma
+   c. Magma cools in the crust
+   d. Magma rises to the surface and becomes lava
+   e. Lava cools
+   f. Cooled magma and lava become igneous rock
+   g. If there are no rocks in the area, skip steps b-f
+3. Output: Igneous rock

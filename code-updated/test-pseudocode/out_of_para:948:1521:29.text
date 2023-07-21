@@ -1,0 +1,17 @@
+1. Set initial amount of water on earth
+2. Set initial number of predators
+3. While there is water on earth:
+   a. Water evaporates from the earth
+   b. The evaporated water condenses into water drops
+   c. The water drops fall back to earth
+   d. The water accumulates on the earth
+   e. The water collects into bodies of water
+   f. The water soaks into the earth
+   g. If the number of predators increases:
+      i. More frogs are eaten by predators
+      ii. The frog population decreases
+      iii. With fewer frogs, there is less water absorbed by their skin
+      iv. The water cycle becomes more intense
+   h. Update the amount of water on earth
+   i. Update the number of predators
+4. End while loop.

@@ -1,0 +1,21 @@
+1. Initialize tadpole
+2. While tadpole has no hind legs:
+   a. Feed tadpole
+   b. Monitor growth
+   c. If hind legs appear, go to step 3
+3. While tadpole has a tail:
+   a. Feed tadpole
+   b. Monitor growth
+   c. If tail is lost, go to step 4
+4. Initialize frog
+5. While frog is alive:
+   a. Feed frog
+   b. Monitor health
+   c. If frog mates with another frog, go to step 6
+   d. If frog is injured by global warming, go to step 7
+6. Initialize tadpole
+7. If there are fewer frogs due to global warming:
+   a. Increase efforts to protect and conserve frog populations
+   b. Monitor tadpole growth and survival closely
+   c. Implement measures to mitigate the effects of global warming on frog populations
+8. Go to step 2.

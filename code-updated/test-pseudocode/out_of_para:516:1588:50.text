@@ -1,0 +1,32 @@
+1. Adult frog spawns eggs in water
+2. Eggs hatch into tadpoles
+3. Tadpoles live in water and grow
+4. Tadpoles develop external gills and longer tail
+5. Tadpole stores food in tail
+6. Tadpole develops hind legs and lives off stored food in tail
+7. If climate is very temperate:
+   - Tadpole may develop faster or slower than usual
+   - Tadpole may be more or less susceptible to disease
+   - Tadpole may have different food requirements
+8. If FrontLegsAppear():
+   - ShortenTail()
+   - LookLikeYoungFrog()
+9. Young frog continues to grow to adulthood. 
+
+Pseudocode:
+
+1. SpawnEggsInWater()
+2. HatchEggsIntoTadpoles()
+3. While Tadpoles are alive:
+   - GrowTadpoles()
+   - DevelopExternalGillsAndLongerTail()
+   - StoreFoodInTail()
+   - DevelopHindLegsAndLiveOffStoredFood()
+   - If ClimateIsVeryTemperate():
+     - DevelopFasterOrSlower()
+     - BeMoreOrLessSusceptibleToDisease()
+     - HaveDifferentFoodRequirements()
+   - If FrontLegsAppear():
+     - ShortenTail()
+     - LookLikeYoungFrog()
+4. ContinueGrowingToAdulthood()

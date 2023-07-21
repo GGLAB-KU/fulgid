@@ -1,0 +1,11 @@
+1. Check if pregnancy is occurring
+2. If pregnancy is occurring, consider the potential impact on DNA replication
+3. If DNA replication is impacted, adjust the replication process as necessary to ensure proper replication
+4. Initiate DNA replication with proteins
+5. Break hydrogen bonds holding DNA strand together
+6. For each side of the strand:
+   a. Read the strand with a polymerase
+   b. Add complimentary nucleotides
+   c. Match all bases
+   d. Form a new DNA strand
+7. Seal new pieces into two new strands with DNA ligase.

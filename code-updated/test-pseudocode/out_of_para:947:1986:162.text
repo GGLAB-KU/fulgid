@@ -1,0 +1,30 @@
+1. Evaporation:
+   - Set initial water surface area
+   - Set initial temperature
+   - Set initial wind speed
+   - Set initial predator population
+   - While temperature, wind speed, and predator population are constant:
+     - Increase water surface area
+     - Calculate amount of water evaporated based on temperature, wind speed, and predator population
+     - Convert evaporated water into water vapor
+     - Move water vapor into atmosphere
+
+2. Condensation:
+   - Set initial atmospheric conditions (temperature, pressure, humidity)
+   - Set initial predator population
+   - While atmospheric conditions and predator population are constant:
+     - Water vapor in atmosphere cools and condenses into tiny particles of water/ice
+     - If predator population is lower, more condensation occurs due to less disturbance in the ecosystem
+     - Particles of water/ice combine to form clouds or fog
+
+3. Precipitation:
+   - Set initial atmospheric conditions (temperature, pressure, humidity)
+   - Set initial predator population
+   - While atmospheric conditions and predator population are constant:
+     - Changes in wind speed or temperature cause clouds to move
+     - When clouds reach a certain altitude or temperature, precipitation occurs
+     - Precipitation can be rain or snow depending on temperature
+
+4. Collection:
+   - Fallen rain or snow collects into surface water (rivers, lakes, oceans)
+   - Surface water evaporates into water vapor again, restarting the cycle.

@@ -1,0 +1,13 @@
+1. Set initial amount of water on earth
+2. Set initial amount of bees in the area
+3. While there is water on earth:
+   a. Water evaporates from the earth
+   b. The evaporated water condenses into water drops
+   c. The water drops fall back to earth
+   d. The water accumulates on the earth
+   e. If the amount of bees in the area is greater than the initial amount:
+         i. Less water accumulates on the earth
+      Else:
+         i. The water collects into bodies of water
+         ii. The water soaks into the earth
+4. End loop

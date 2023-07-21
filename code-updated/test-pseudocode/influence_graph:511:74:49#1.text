@@ -1,0 +1,12 @@
+1. Set moonOrbitingEarth = true
+2. Set earthOrbitingSun = true
+3. If moonComesBetweenSunAndEarth = true
+4.     Set solarEclipse = true
+5.     Set sunBlocked = true
+6. End if
+7. If changesInEarthRotation = true
+8.     Update earthOrbitingSun
+9.     Recalculate moon's orbit around the earth
+10.    Determine if moon will come between sun and earth more or less frequently
+11.    If moon will come between sun and earth more frequently, increase count of solarEclipses
+12. End if

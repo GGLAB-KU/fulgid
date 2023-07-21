@@ -1,0 +1,8 @@
+1. Input chemicals that cause acid rain
+2. Input level of conservation
+3. If level of conservation is less than optimal, then increase the likelihood of more acid rain occurring
+4. Chemicals reach atmosphere
+5. Chemicals fall onto ground as acid rain
+6. Acid rain scours rocks
+7. Vegetation is destroyed by acid rain
+8. Lack of vegetation alters surrounding environment.

@@ -1,0 +1,12 @@
+1. Fish lays eggs
+2. If soil is unproductive:
+   a. Less food is available for the fish
+   b. Fish may produce fewer eggs
+3. Else:
+   a. Eggs hatch
+   b. For each egg:
+      i. Tiny fish called fry emerge
+      ii. Fry eat and grow
+   c. For each fry:
+      i. Fry become adult fish
+      ii. Fish mate and more eggs are produced.

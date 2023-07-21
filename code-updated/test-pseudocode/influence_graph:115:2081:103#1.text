@@ -1,0 +1,11 @@
+1. Set up tectonic plates
+2. Move plates towards each other
+3. Check for collision
+4. If collision occurs, crumple edges of plates
+5. Form ridges from crumpled edges
+6. Check for magma presence
+7. If magma present, force it to the surface
+8. If no magma present, skip step 7 and 8
+9. Evaluate the size of the mountain range based on the extent of crumpling
+10. If no volcano formed, evaluate the size of the mountain range based on the extent of crumpling
+11. If no magma present, the size of the mountain range will be limited by the extent of crumpling and the absence of volcanic activity.

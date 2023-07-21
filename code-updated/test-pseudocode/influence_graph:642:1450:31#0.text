@@ -1,0 +1,28 @@
+1. SET initial number of adult frogs
+2. WHILE there are still adult frogs
+3.     FOR each female frog
+4.         IF the female frog is able to lay eggs
+5.             LAY thousands of eggs
+6.         END IF
+7.     END FOR
+8.     IF there are not enough eggs for all adult frogs
+9.         CALCULATE the percentage of eggs each adult frog will receive
+10.        FOR each adult frog
+11.            RECEIVE percentage of eggs
+12.        END FOR
+13.    END IF
+14.    WHILE there are still egg clusters
+15.        FLOAT egg clusters in water
+16.        FOR each egg cluster
+17.            HATCH tadpoles with gills
+18.            SWIM tadpoles in water
+19.            WHILE tadpoles still have tails
+20.                GROW legs
+21.                ABSORB tail
+22.            END WHILE
+23.            BECOME froglet
+24.        END FOR
+25.    END WHILE
+26.    DECREASE number of adult frogs
+27. END WHILE
+28. CALCULATE the impact of the reduced number of adult frogs on the frog population.

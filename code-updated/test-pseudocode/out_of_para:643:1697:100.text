@@ -1,0 +1,10 @@
+1. Initialize egg variable as "unhatched"
+2. Wait for egg to hatch
+3. If egg hatches, set tadpole variable as "born"
+4. Tadpole swims with siblings and avoids predators
+5. Tadpole grows larger over time
+6. If fewer adolescent fish grow, set variable "less_grow" as true
+7. If less_grow is true, tadpole has a lower chance of losing its tail
+8. When tadpole reaches a certain size and less_grow is false, it loses its tail
+9. Tadpole develops limbs and begins to resemble a frog
+10. When tadpole has fully developed into a frog, set frog variable as "formed"

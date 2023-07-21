@@ -1,0 +1,12 @@
+1. Set initial water source as oceans, lakes, swamps, rivers, and plants
+2. Convert water source into water vapor
+3. Condense water vapor into tiny droplets to form clouds
+4. Release droplets from clouds through precipitation (rain or snow)
+5. If less sunny days occur:
+   a. Increase the likelihood of more precipitation (rain or snow)
+6. Absorb precipitation into the ground or run off into rivers
+7. If absorbed into the ground, water is taken up by plants
+8. Plants release water from their surfaces as vapor
+9. Vapor goes back into the atmosphere
+10. If water runs off into rivers, it flows into ponds, lakes, or oceans
+11. Water evaporates back into the atmosphere.

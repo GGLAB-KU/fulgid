@@ -1,0 +1,16 @@
+1. Procedure: Frog Life Cycle and Environmental Impact
+2. Input: Hurricane impact on frogs and environment
+3. Output: Estimated impact on frog population
+4. Begin
+5.   If hurricane impact on frog population is significant then
+6.     Reduce the number of eggs laid by frogs
+7.     Egg clusters may not survive due to environmental damage
+8.     Tadpoles with gills may not hatch from the eggs
+9.     Tadpoles may not survive due to water pollution or destruction of their habitat
+10.    Froglet survival rate may decrease due to lack of food or shelter
+11.    Frog population may decrease significantly
+12.  Else
+13.    Follow the normal frog life cycle as described in the previous pseudocode
+14.  End If
+15.  Output estimated impact on frog population
+16. End Procedure

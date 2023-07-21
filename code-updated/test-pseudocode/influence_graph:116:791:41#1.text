@@ -1,0 +1,15 @@
+1. If tectonic plates move
+2.   Create a volcano
+3.   If volcano erupts
+4.     Form volcanic mountain
+5. If tectonic plates crash or ride over each other
+6.   Fold and buckle plates
+7.   Form fold mountains
+8. If fault blocks are raised or tilted
+9.   Form block mountains
+10. If more pressure underground occurs
+11.   Check if there are existing smaller mountains
+12.   If there are smaller mountains
+13.     Determine if the pressure is enough to affect them
+14.     If pressure is enough
+15.       Update the smaller mountains based on the new pressure

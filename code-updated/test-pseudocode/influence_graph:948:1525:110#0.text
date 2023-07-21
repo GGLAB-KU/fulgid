@@ -1,0 +1,10 @@
+1. Set initial amount of water on earth
+2. While there is water on earth:
+   a. Water evaporates from the earth
+   b. The evaporated water condenses into water drops
+   c. The water drops fall back to earth
+   d. The amount of water accumulated on the earth is proportional to the amount of water in the air
+   e. The water collects into bodies of water
+   f. The water soaks into the earth
+   g. Update the amount of water on earth
+3. End while loop.

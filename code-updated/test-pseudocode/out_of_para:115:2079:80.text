@@ -1,0 +1,12 @@
+1. Set up tectonic plates
+2. Move plates towards each other
+3. Check for collision
+4. If collision occurs, crumple edges of plates
+5. Form ridges from crumpled edges
+6. Check for magma presence
+7. If magma present, force it to the surface
+8. Form volcano from magma.
+9. Check for blooming flowers
+10. If less flowers bloom, reduce erosion
+11. Reduced erosion affects smaller mountains
+12. Smaller mountains may not form or may erode faster if less flowers bloom.

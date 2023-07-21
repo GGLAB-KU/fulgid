@@ -1,0 +1,45 @@
+1. Evaporation:
+   - Set initial water surface area
+   - Set initial temperature
+   - Set initial wind speed
+   - While temperature and wind speed remain constant:
+     - Calculate rate of evaporation based on surface area and temperature
+     - Reduce water surface area by the amount of water evaporated
+     - Output water vapor
+
+2. Atmospheric Rise:
+   - Set initial altitude
+   - While water vapor is being output:
+     - Increase altitude of water vapor
+     - Output water vapor at new altitude
+
+3. Condensation:
+   - Set initial temperature and pressure
+   - While water vapor is present:
+     - Calculate rate of condensation based on temperature and pressure
+     - Increase rate of condensation due to stasis
+     - Reduce altitude of water vapor by the amount of water condensed
+     - Output tiny particles of water/ice
+
+4. Cloud/Fog Formation:
+   - Set initial particle density
+   - While particles are present:
+     - Calculate rate of particle collision based on particle density and wind speed
+     - Increase particle size and density based on collision rate
+     - Output cloud/fog
+
+5. Precipitation:
+   - Set initial wind speed and temperature
+   - While cloud/fog is present:
+     - Calculate rate of precipitation based on wind speed and temperature
+     - Reduce particle size and density by the amount of precipitation
+     - Output rain/snow
+
+6. Surface Water Collection:
+   - Set initial surface area
+   - While rain/snow is present:
+     - Calculate rate of water collection based on surface area and precipitation
+     - Increase surface water by the amount of water collected
+     - Output surface water
+
+7. Evaporation (repeat step 1)

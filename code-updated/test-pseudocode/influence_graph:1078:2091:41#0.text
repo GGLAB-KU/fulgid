@@ -1,0 +1,9 @@
+1. Check for increased body activity
+2. If increased body activity is detected, proceed to step 3, else proceed to step 4
+3. Adjust replication process to account for increased activity, such as increasing the number of polymerases or slowing down the replication rate
+4. Break hydrogen bonds holding DNA strand together
+5. Read each side of the strand with a polymerase
+6. Add complimentary nucleotides to each side
+7. Match all bases on each side
+8. Form new DNA strand
+9. Seal new pieces into two new strands with DNA ligase.

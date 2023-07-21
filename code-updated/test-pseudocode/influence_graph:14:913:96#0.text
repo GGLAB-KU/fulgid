@@ -1,0 +1,8 @@
+1. Set initial water source as oceans, lakes, rivers, swamps, and plants
+2. Convert water from initial source into water vapor
+3. Form water vapor into droplets to create clouds
+4. Determine if droplets in clouds will become rain or snow
+5. If droplets become rain or snow, allow them to fall
+6. Some water will go into the ground
+7. If more water goes into the ground, update the amount of water that flows down streams into rivers and oceans accordingly. 
+8. Some water will flow down streams into rivers and oceans.

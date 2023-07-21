@@ -1,0 +1,11 @@
+1. Set tectonic plates variable to true
+2. Set hole variable to false
+3. While tectonic plates are true:
+   a. Tectonic plates smash together
+   b. The edges of the plates crumple up
+   c. The ridges are mountain ranges
+   d. If hole is false, continue to step e. If hole is true, skip to step f.
+   e. Magma is forced to the surface
+   f. Magma forms a volcano
+   g. If more volcanoes are desired, set hole variable to true and repeat steps d-f.
+4. End while loop.

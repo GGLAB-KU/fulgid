@@ -1,0 +1,29 @@
+1. SET totalEggsLaid to 0
+2. FOR each female frog
+3.     GENERATE a random number of eggs to lay between 1000 and 5000
+4.     INCREMENT totalEggsLaid by the number of eggs laid
+5. END FOR
+6. IF totalEggsLaid is less than 5000
+7.     PRINT "Warning: Less eggs were laid than expected."
+8. WHILE there are still egg clusters
+9.     FLOAT egg clusters in water
+10.     FOR each egg cluster
+11.         HATCH tadpoles with gills
+12.     END FOR
+13. END WHILE
+14. WHILE there are still tadpoles
+15.     SWIM tadpoles in water
+16.     FOR each tadpole
+17.         IF tadpole has grown legs
+18.             ABSORB tail
+19.             BECOME froglet
+20.         END IF
+21.     END FOR
+22. END WHILE
+23. SET totalFroglets to 0
+24. FOR each froglet
+25.     BECOME frog
+26.     INCREMENT totalFroglets by 1
+27. END FOR
+28. IF totalFroglets is less than 1000
+29.     PRINT "Warning: Less froglets became frogs than expected."

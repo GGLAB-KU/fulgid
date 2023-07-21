@@ -1,0 +1,12 @@
+1. Input: Liquid, Regular Pressure
+2. Heat Liquid from external source
+3. Increase energy of molecules in Liquid
+4. Molecules in Liquid start to move faster
+5. Increase in temperature of Liquid
+6. Check if temperature of Liquid has reached boiling point
+7. If temperature has reached boiling point, check if Regular Pressure is maintained
+8. If Regular Pressure is maintained, change Liquid to gas state
+9. Gas molecules float out into atmosphere
+10. Check if all Liquid has turned to gas
+11. If all Liquid has turned to gas, evaporation is complete
+12. Output: No Liquid left behind, Regular Pressure maintained, Less Evaporation due to Regular Pressure.

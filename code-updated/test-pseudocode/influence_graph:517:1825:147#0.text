@@ -1,0 +1,19 @@
+1. Frog eggs hatch
+2. Tadpole breaks free
+3. While (6 weeks have not passed)
+   a. Gills slowly disappear
+   b. If (tadpole is eaten by predator)
+      i. End loop
+4. After 8 weeks
+   a. Hind legs begin to form
+   b. If (tadpole is eaten by predator)
+      i. End procedure
+5. After 12 weeks
+   a. Front legs form
+   b. If (tadpole is eaten by predator)
+      i. End procedure
+6. Tail shrinks
+7. Mouth grows larger
+8. Tadpole can live on land as a frog
+9. If (more tadpoles are eaten by predators before their front legs grow)
+   a. There will be fewer frogs in the population.

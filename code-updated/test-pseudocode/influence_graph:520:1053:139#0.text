@@ -1,0 +1,14 @@
+1. FemaleFish lays Eggs
+2. Eggs hatch into Larvae
+3. Larvae eat and grow
+4. Larvae form into JuvenileFish
+5. JuvenileFish grow into AdultFish
+6. AdultFish mate
+7. FemaleFish lays Eggs
+8. If water is polluted:
+   a. Decrease the number of eggs laid by FemaleFish
+   b. Decrease the survival rate of Larvae
+   c. Decrease the growth rate of JuvenileFish
+   d. Decrease the survival rate of AdultFish
+   e. Decrease the mating rate of AdultFish
+   f. Repeat steps 1-7 with the updated parameters.

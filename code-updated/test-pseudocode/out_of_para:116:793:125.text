@@ -1,0 +1,14 @@
+1. If orbital changes in Earth's rotation occur
+2.   Determine if it affects tectonic plate movement
+3.   If plates move less often
+4.     Skip steps 2-9 in previous pseudocode
+5.   Else, continue with previous pseudocode:
+6.     If tectonic plates move
+7.       Create a volcano
+8.       If volcano erupts
+9.         Form volcanic mountain
+10.    If tectonic plates crash or ride over each other
+11.      Fold and buckle plates
+12.      Form fold mountains
+13.    If fault blocks are raised or tilted
+14.      Form block mountains

@@ -1,0 +1,10 @@
+1. magma_rises_to_surface()
+2. magma_changes_temperature()
+3. magma_changes_pressure()
+4. magma_cools()
+5. magma_solidifies()
+6. if more_magma_solidifies:
+7.     less_igneous_rock_formed()
+8. else:
+9.     magma_crystallizes()
+10.     igneous_rock_is_formed()

@@ -1,0 +1,12 @@
+1. magma_rises_to_surface()
+2. magma_changes_temperature()
+3. magma_changes_pressure()
+4. if tide_pattern == "high":
+5.     magma_cools_faster()
+6. elif tide_pattern == "low":
+7.     magma_cools_slower()
+8. else:
+9.     magma_cools()
+10. magma_solidifies()
+11. magma_crystallizes()
+12. igneous_rock_is_formed()

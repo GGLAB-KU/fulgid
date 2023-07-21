@@ -1,0 +1,15 @@
+1. FOR each female frog
+2.     FOR each mating season
+3.         LAY thousands of eggs
+4.         CREATE egg clusters that FLOAT in water
+5.         WAIT for tadpoles to HATCH from the eggs
+6.         IF severe drought in area happens THEN
+7.             FEWER eggs will HATCH
+8.         END IF
+9.         FOR each tadpole
+10.            SWIM in water until legs GROW
+11.            ABSORB tail
+12.            TRANSFORM into a froglet
+13.            WAIT for froglet to MATURE into a frog
+14.        END FOR
+15.    END FOR

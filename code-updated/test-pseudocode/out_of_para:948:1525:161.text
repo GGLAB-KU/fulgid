@@ -1,0 +1,15 @@
+1. Set initial amount of water on earth
+2. While there is water on earth:
+   a. Water evaporates from the earth
+   b. The evaporated water condenses into water drops
+   c. If bees are imported from outside the area:
+      i. Increase the number of bees in the area
+      ii. Bees pollinate plants, leading to more plant growth
+      iii. More plant growth leads to more water released through transpiration
+      iv. More water released through transpiration leads to more water droplets forming
+   d. The water drops fall back to earth
+   e. The water accumulates on the earth
+   f. The water collects into bodies of water
+   g. The water soaks into the earth
+   h. Update the amount of water on earth
+3. End while loop.

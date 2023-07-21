@@ -1,0 +1,20 @@
+1. Input: seeds
+2. Sow seeds into the ground
+3. Input: water and fertilizer
+4. Apply water and fertilizer to the earth where the seeds are planted
+5. Seedlings start to grow
+6. Input: water
+7. Water the plants regularly
+8. Seedlings grow into plants
+9. Loop through all plants:
+10.    Remove weeds growing near the plants
+11. End Loop
+12. If more seeds of weeds are available:
+13.    Loop through all plants:
+14.        Count the number of weeds growing near each plant
+15.        If the number of weeds is greater than a certain threshold:
+16.            Reduce the amount of water and fertilizer given to the plant
+17.        End If
+18.    End Loop
+19. End If
+20. Plants grow to maturity.

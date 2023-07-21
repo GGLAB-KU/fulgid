@@ -1,0 +1,18 @@
+1. Set initial amount of water on earth
+2. While there is water on earth:
+   a. If sunny days are less intense:
+      i. Water evaporates from the earth at a slower rate
+      ii. The evaporated water condenses into water drops
+      iii. The water drops fall back to earth
+      iv. The water accumulates on the earth
+      v. The water collects into bodies of water
+      vi. The water soaks into the earth
+   b. Else (if sunny days are normal):
+      i. Water evaporates from the earth
+      ii. The evaporated water condenses into water drops
+      iii. The water drops fall back to earth
+      iv. The water accumulates on the earth
+      v. The water collects into bodies of water
+      vi. The water soaks into the earth
+   c. Update the amount of water on earth
+3. End while loop.

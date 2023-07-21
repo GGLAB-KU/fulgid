@@ -1,0 +1,13 @@
+1. while (earth_in_stasis):
+2.     magma_rises_to_surface()
+3.     magma_changes_temperature()
+4.     magma_changes_pressure()
+5.     magma_cools()
+6.     magma_solidifies()
+7.     magma_crystallizes()
+8.     if (igneous_rock_is_formed()):
+9.         increase_igneous_rock_count()
+10.    else:
+11.        continue
+12. end while
+13. print("Total number of igneous rocks formed: ", igneous_rock_count)

@@ -1,0 +1,11 @@
+1. While bee is flying:
+   a. Land on flower
+   b. Eat nectar
+   c. Pollen gets on fur
+2. Fly to another area with flowers
+3. Land on flower
+4. Pollen is deposited on flower
+5. If pesticides are used:
+   a. Determine if bee is affected by pesticide
+   b. If bee is affected, it may not be able to pollinate as effectively
+6. Plant may not be able to reproduce as effectively if bees are not able to pollinate enough flowers due to pesticide use.

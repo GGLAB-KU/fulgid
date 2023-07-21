@@ -1,0 +1,17 @@
+Assuming that the question is asking how the laying of eggs by an adult frog will affect the population of frogs, the pseudocode can be updated as follows:
+
+1. SpawnEggsInWater()
+2. HatchEggsIntoTadpoles()
+3. While Tadpoles are alive:
+   - GrowTadpoles()
+   - DevelopExternalGillsAndLongerTail()
+   - StoreFoodInTail()
+   - DevelopHindLegsAndLiveOffStoredFood()
+   - If FrontLegsAppear():
+     - ShortenTail()
+     - LookLikeYoungFrog()
+4. ContinueGrowingToAdulthood()
+5. If AdultFrogIsReadyToLayEggs():
+   - LayEggsInWater()
+   - RepeatSteps2To4ForNewTadpoles()
+6. MonitorFrogPopulation()

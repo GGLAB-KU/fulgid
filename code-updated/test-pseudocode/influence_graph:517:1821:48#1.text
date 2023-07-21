@@ -1,0 +1,26 @@
+1. Set initial number of frog eggs
+2. For each frog egg:
+   a. Frog egg hatches
+   b. Initialize tadpole count to 1
+   c. For each tadpole:
+      i. Tadpole breaks free
+      ii. While gills are present:
+          1. Gills slowly disappear over 6 weeks
+      iii. At 8 weeks:
+          1. Hind legs begin to form
+      iv. At 12 weeks:
+          1. Front legs form
+      v. While tail is present:
+          1. Tail shrinks
+      vi. Mouth grows larger
+      vii. If tadpole survives:
+          1. Tadpole can live on land as a frog
+      viii. If tadpole does not survive:
+          1. Decrement tadpole count
+   d. If tadpole count is 0:
+      i. Frog egg did not produce any surviving tadpoles
+   e. If tadpole count is less than initial count:
+      i. Less tadpoles survived due to increased number of frogs
+   f. If tadpole count is equal to initial count:
+      i. All tadpoles survived
+4. End loop

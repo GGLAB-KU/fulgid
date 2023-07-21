@@ -1,0 +1,13 @@
+1. SpawnEggsInWater()
+2. HatchEggsIntoTadpoles()
+3. While Tadpoles are alive:
+   - GrowTadpoles()
+   - DevelopExternalGillsAndLongerTail()
+   - StoreFoodInTail()
+   - DevelopHindLegsAndLiveOffStoredFood()
+   - If FrontLegsAppear():
+     - ShortenTail()
+     - LookLikeYoungFrog()
+   - If LessFrogsSpawn():
+     - DecreaseNumberofTadpoles()
+4. ContinueGrowingToAdulthood()

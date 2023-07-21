@@ -1,0 +1,11 @@
+1. Set up tectonic plates
+2. Move plates towards each other
+3. Check for collision
+4. If collision occurs, crumple edges of plates
+5. Form ridges from crumpled edges
+6. Check for magma presence
+7. If magma present, force it to the surface
+8. Check for land clearing activities
+9. If land clearing occurs, assess impact on magma movement
+10. If land clearing affects magma movement, adjust magma path towards cleared land
+11. Form volcano from magma.

@@ -1,0 +1,10 @@
+1. Set up tectonic plates
+2. Move plates towards each other
+3. Check for collision
+4. If collision occurs, crumple edges of plates
+5. Form ridges from crumpled edges
+6. Check for magma presence
+7. If magma present, check for temperature
+8. If magma is extra hot, reduce the likelihood of volcano formation
+9. If magma is not extra hot, force it to the surface
+10. Form volcano from magma.

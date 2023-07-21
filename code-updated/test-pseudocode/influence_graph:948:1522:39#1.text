@@ -1,0 +1,9 @@
+1. Set initial amount of water on earth
+2. While there is water on earth:
+   a. If in a rainforest, increase the rate of evaporation
+   b. The evaporated water condenses into water drops
+   c. The water drops fall back to earth
+   d. The water accumulates on the earth
+   e. The water collects into bodies of water
+   f. The water soaks into the earth
+3. End loop

@@ -1,0 +1,12 @@
+1. Input: Carbon dioxide
+2. Input: Water
+3. Light reaction to produce ATP
+4. If less sugar is created using carbon dioxide and energy from ATP:
+   a. Decrease the amount of sugar produced
+   b. Decrease the amount of oxygen produced
+5. Else:
+   a. ATP + Carbon dioxide = Sugar
+   b. Output: Oxygen
+6. Output: Water vapor or reuse water. 
+
+Note: The exact amount of decrease in sugar and oxygen production will depend on the extent to which less sugar is created.

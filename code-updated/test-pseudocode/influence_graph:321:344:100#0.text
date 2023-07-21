@@ -1,0 +1,9 @@
+1. Prompt user to select a crop
+2. Prepare soil for selected crop
+3. Add fertilizer to soil
+4. Prompt user to enter number of seeds to plant
+5. If number of seeds is less than recommended, display a warning message
+6. Plant seeds in field
+7. Set up irrigation system to water crops
+8. Monitor crop growth
+9. When crops are ready, harvest them.

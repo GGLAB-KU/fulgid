@@ -1,0 +1,14 @@
+1. Set initial amount of water on earth
+2. While there is water on earth:
+   a. Water evaporates from the earth
+   b. The evaporated water condenses into water drops
+   c. The water drops fall back to earth
+   d. The water accumulates on the earth
+   e. The water collects into bodies of water
+   f. The water soaks into the earth
+   g. If flood or heavy rain conditions occur:
+      i. Increase the amount of water that accumulates on the earth
+      ii. Increase the amount of water that collects into bodies of water
+      iii. Decrease the amount of water that soaks into the earth
+   h. Update the amount of water on earth
+3. End while loop.

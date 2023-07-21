@@ -1,0 +1,10 @@
+1. Initialize egg variable as "unhatched"
+2. Wait for egg to hatch
+3. If egg hatches, set tadpole variable as "born"
+4. Tadpole swims with siblings and avoids predators
+5. Tadpole grows larger over time
+6. If underground pressure is less than normal, set survival rate variable as "low"
+7. If survival rate is low, fewer tadpoles will survive
+8. When tadpole reaches a certain size, it loses its tail
+9. Tadpole develops limbs and begins to move on land
+10. When tadpole has fully developed into a frog, set frog variable as "formed"

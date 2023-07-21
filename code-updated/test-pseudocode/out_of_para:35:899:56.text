@@ -1,0 +1,9 @@
+1. Input: Different kinds of rocks, Weather conditions
+2. Process: 
+   a. If weather conditions are warm enough for flowers to bloom, then
+      i. More magma may be produced from the melting of rocks
+      ii. More magma may rise to the surface and become lava
+   b. Magma cools in the crust
+   c. Lava cools
+   d. Cooled magma and lava become igneous rock
+3. Output: Igneous rock

@@ -1,0 +1,12 @@
+1. Set fish as eggs
+2. Hatch eggs
+3. Emergence of larvae
+4. Randomly select a percentage of larvae that will mature and grow
+5. Maturation and growth of selected larvae
+6. Development of adolescent fish (or fry)
+7. Growth of adolescent fish
+8. Check for sub-stages based on species or type
+9. Maturation of fish into adult
+10. Adult fish can lay more eggs.
+
+Note: If fewer larvae mature and grow, it will result in fewer adolescent fish and ultimately fewer mature adults, which will lead to a decrease in the number of eggs laid.

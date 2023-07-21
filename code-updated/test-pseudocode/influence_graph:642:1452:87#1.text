@@ -1,0 +1,26 @@
+1. FOR each female frog
+2.     LAY thousands of eggs
+3. END FOR
+4. WHILE there are still egg clusters
+5.     FLOAT egg clusters in water
+6.     FOR each egg cluster
+7.         HATCH tadpoles with gills
+8.         IF tadpoles do not develop into frogs
+9.             DISCARD the egg cluster
+10.        END IF
+11.    END FOR
+12. END WHILE
+13. WHILE there are still tadpoles
+14.     SWIM tadpoles in water
+15.     FOR each tadpole
+16.         IF tadpole has grown legs
+17.             ABSORB tail
+18.             BECOME froglet
+19.         END IF
+20.     END FOR
+21. END WHILE
+22. FOR each froglet
+23.     BECOME frog
+24. END FOR
+
+Note: In this updated pseudocode, if the tadpoles do not develop into frogs, the egg cluster will be discarded. This will result in fewer frogs being produced.

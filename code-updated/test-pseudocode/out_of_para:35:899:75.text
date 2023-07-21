@@ -1,0 +1,18 @@
+1. Input: 
+   a. Different kinds of rocks
+   b. Humid climates
+   c. Seeds
+2. Process:
+   a. If humid climates provide water to the seeds,
+      i. Then the seeds will grow into plants
+      ii. The plants will absorb water and nutrients from the soil
+      iii. The roots of the plants will penetrate the rocks
+      iv. The rocks will undergo weathering and erosion
+      v. The broken down rocks will form sediment
+      vi. The sediment will be transported and deposited
+      vii. The sediment will undergo compaction and cementation
+      viii. Sedimentary rocks will form instead of igneous rocks
+   b. If humid climates do not provide water to the seeds,
+      i. Then the rocks will not undergo weathering and erosion
+      ii. The rocks will remain as igneous rocks
+3. Output: Sedimentary rocks or igneous rocks depending on the presence or absence of water provided by humid climates to the seeds.

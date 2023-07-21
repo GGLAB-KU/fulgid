@@ -1,0 +1,8 @@
+1. Initialize variable "magma" to represent the amount of magma present
+2. Bee lands on flower
+3. Bee's feet slip into grooves holding pollen sacs
+4. Bee flies off, carrying pollen sac
+5. Bee lands on another plant
+6. Pollen sac falls off and pollinates plant
+7. If magma > 0, increase the number of flowers available for bees to land on
+8. Repeat steps 2-6 for additional bees that can now reach the newly available flowers.

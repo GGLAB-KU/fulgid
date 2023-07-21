@@ -1,0 +1,10 @@
+1. if underground_activity == True:
+2.     magma_rises_to_surface()
+3.     magma_changes_temperature()
+4.     magma_changes_pressure()
+5.     magma_cools()
+6.     magma_solidifies()
+7.     magma_crystallizes()
+8.     igneous_rock_is_formed()
+9. else:
+10.     more_temperature_changes_occur()

@@ -1,0 +1,15 @@
+1. Set initial surface water level
+2. Evaporate water from surface
+3. Convert evaporated water into water vapor
+4. Water vapor rises into atmosphere
+5. Monitor temperature and wind conditions
+6. If temperature and wind conditions are favorable, condensation occurs
+7. Water vapor turns into tiny particles of water/ice
+8. Tiny particles of water/ice form together into clouds or fog
+9. Monitor temperature and wind conditions
+10. If temperature and wind conditions are favorable, precipitation occurs
+11. Check the size of the precipitation drops
+12. If the drops are too small to reach the surface, return to step 9
+13. Rain or snow falls to the surface
+14. Collect fallen rain or snow into surface water
+15. Repeat steps 2-14 until desired end condition is met.

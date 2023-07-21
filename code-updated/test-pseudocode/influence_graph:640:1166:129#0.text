@@ -1,0 +1,11 @@
+1. Fish lays eggs
+2. If more eggs are laid:
+   a. Eggs hatch
+   b. For each egg:
+      i. Tiny fish called fry emerge
+      ii. Fry eat and grow
+   c. For each fry:
+      i. Fry become adult fish
+      ii. Fish mate and more eggs are produced.
+3. If no more eggs are laid:
+   a. End procedure.

@@ -162,3 +162,4 @@ cython_debug/
 **/.DS_Store
 
 experiences/saved_models/*
+datasets/boxes-dataset-v1

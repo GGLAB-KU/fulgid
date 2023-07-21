@@ -1,0 +1,20 @@
+1. Bird lays egg
+2. Egg hatches into baby bird
+3. Baby bird eats
+4. Baby bird grows into adult bird
+5. Adult bird finds mate
+6. Pair builds nest
+7. Birds lay eggs
+8. If more eggs are laid, more adult birds will be produced
+
+Updated Pseudocode:
+
+1. lay_egg()
+2. hatch_egg()
+3. eat()
+4. grow()
+5. find_mate()
+6. build_nest()
+7. lay_eggs()
+8. if more_eggs_laid:
+9.     produce_more_adult_birds()

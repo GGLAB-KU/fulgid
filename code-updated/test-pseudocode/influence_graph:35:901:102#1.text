@@ -1,0 +1,14 @@
+1. Input: Rocks
+2. Process:
+   a. Check if rocks are present in the area
+   b. If rocks are present, continue with the following steps:
+      i. Rocks melt into magma
+      ii. Magma cools in the crust
+      iii. Magma rises to the surface and becomes lava
+      iv. Lava cools
+      v. Cooled magma and lava become igneous rock
+   c. If rocks are not present, skip the melting process and continue with the following steps:
+      i. Magma is pushed out of the chambers onto the surface
+      ii. Lava cools
+      iii. Cooled lava becomes igneous rock
+3. Output: Igneous rock

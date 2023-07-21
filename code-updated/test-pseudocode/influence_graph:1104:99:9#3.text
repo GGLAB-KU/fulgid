@@ -1,0 +1,17 @@
+1. Initialize techtonic plates in the earth's crust
+2. Initialize asteroid strike variable to false
+3. While techtonic plates move:
+   a. Create fissures in the crust
+   b. If asteroid strike variable is true:
+      i. Decrease the frequency of crust upheavals
+   c. Else, trigger upheavals in the crust
+   d. If fissures exist:
+      i. Allow lava to erupt into volcanoes at the surface
+      ii. If volcanoes erupt:
+          1. Accumulate lava
+          2. Form mountains
+   e. If upheavals in the crust occur:
+      i. Form mountains from the upheavals
+   f. If asteroid strike happens:
+      i. Set asteroid strike variable to true
+4. End procedure.

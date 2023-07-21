@@ -1,0 +1,9 @@
+1. Initialize egg variable as "unhatched"
+2. Wait for egg to hatch
+3. If egg hatches, set tadpole variable as "born"
+4. Tadpole swims with siblings and avoids predators, including fish
+5. If fish eat more frogs, increase the likelihood of tadpoles losing their tails as a survival mechanism
+6. Tadpole grows larger over time
+7. When tadpole reaches a certain size, it may lose its tail earlier than expected due to increased predation pressure
+8. Tadpole develops limbs and begins to move on land
+9. When tadpole has fully developed into a frog, set frog variable as "formed"

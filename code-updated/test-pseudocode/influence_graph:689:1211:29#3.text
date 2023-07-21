@@ -1,0 +1,12 @@
+1. Input: seeds
+2. Sow seeds into the ground
+3. Give the earth where the seeds are planted water and fertilizer
+4. Wait for seedlings to grow
+5. Input: water
+6. Give water to the plants
+7. Wait for the seedlings to grow into plants
+8. Remove weeds growing near the plants
+9. If less sunny days occur:
+   a. Input: crows
+   b. More crows may occur
+10. Wait for the plants to grow to maturity

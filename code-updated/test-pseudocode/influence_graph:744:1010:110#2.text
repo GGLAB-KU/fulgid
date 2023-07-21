@@ -1,0 +1,16 @@
+1. If weather is good for bees:
+   a. While bee is flying:
+      i. Land on flower
+      ii. Eat nectar
+      iii. Pollen gets on fur
+      iv. Fly to another area with flowers
+      v. Deposit more pollen on flowers in new area
+2. Else:
+   a. Follow the regular procedure:
+      i. While bee is flying:
+         1. Land on flower
+         2. Eat nectar
+         3. Pollen gets on fur
+      ii. Fly to another area with flowers
+      iii. Deposit pollen on flowers in new area
+      iv. Plant in new area is able to reproduce.

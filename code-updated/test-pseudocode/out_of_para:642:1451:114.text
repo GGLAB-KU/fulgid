@@ -1,0 +1,17 @@
+1. IF tectonic plates rub less
+2.     FOR each female frog
+3.         FOR each mating season
+4.             LAY thousands of eggs
+5.             CREATE egg clusters that FLOAT in water
+6.             WAIT for tadpoles to HATCH from eggs
+7.             FOR each tadpole
+8.                 SWIM in water
+9.                 GROW legs
+10.                ABSORB tail
+11.                TRANSFORM into a froglet
+12.                WAIT for froglet to DEVELOP into a frog
+13.         END FOR
+14.     END FOR
+15. ELSE
+16.     PRINT "No impact on frogs due to tectonic plates rubbing less." 
+17. END IF

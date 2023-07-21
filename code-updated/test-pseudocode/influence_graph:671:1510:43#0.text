@@ -1,0 +1,12 @@
+1. Input: Liquid
+2. Heat Liquid from external source
+3. Increase energy of molecules in Liquid
+4. Molecules in Liquid start to move faster
+5. Increase in temperature of Liquid
+6. Check if temperature of Liquid has reached boiling point
+7. If temperature has reached boiling point, change state of Liquid to Gas
+8. Gas molecules float out into atmosphere
+9. Check if all Liquid has turned to Gas
+10. If all Liquid has turned to Gas, Evaporation is complete
+11. If more energy is absorbed by molecules, more molecules will go into gaseous state
+12. Output: No Liquid left behind

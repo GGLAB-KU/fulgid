@@ -1,0 +1,10 @@
+1. Input: Different kinds of rocks
+2. Process: 
+   a. Rocks melt into magma
+   b. If there is less magma, then skip to step d
+   c. Magma cools in the crust
+   d. Magma rises to the surface and becomes lava
+   e. If there is more lava, then skip to step g
+   f. Lava cools
+   g. Cooled magma and lava become igneous rock
+3. Output: Igneous rock

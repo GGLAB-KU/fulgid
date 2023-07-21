@@ -1,0 +1,12 @@
+1. Frog lays eggs in water
+2. If fewer eggs are laid:
+   a. Calculate the number of eggs present
+   b. Determine if there are enough eggs to hatch
+   c. If there are not enough eggs to hatch, end procedure
+3. Tadpoles develop inside eggs
+4. Eggs hatch
+5. While tadpoles are growing:
+   a. Tadpoles eat and grow
+   b. Tadpoles develop legs
+6. Tadpoles form into frogs
+7. Frogs leave the water

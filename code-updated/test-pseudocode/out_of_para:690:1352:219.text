@@ -1,0 +1,8 @@
+1. Choose crop
+2. Check tectonic activity
+3. If tectonic activity is low, go to step 6
+4. If tectonic activity is high, till soil
+5. If tectonic activity is high, go to step 3
+6. Spread seeds
+7. Till again to plant seeds
+8. Wait for crops to grow

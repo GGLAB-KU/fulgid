@@ -1,0 +1,15 @@
+1. Set initial water source as oceans, lakes, rivers, swamps, and plants
+2. While the replication process runs smoothly:
+   a. Convert water from initial source into water vapor
+   b. Form water vapor into droplets in clouds
+   c. Determine if droplets will become rain or snow
+   d. If rain, allow droplets to fall to the ground
+   e. If snow, allow droplets to accumulate and eventually melt into water
+   f. Some water will seep into the ground
+   g. Some water will flow down streams into rivers and oceans
+3. If water stops getting evaporated:
+   a. The amount of water vapor in the atmosphere will decrease
+   b. The formation of clouds will decrease
+   c. The amount of rain and snow will decrease
+   d. The amount of water that seeps into the ground and flows down streams will decrease
+   e. The water cycle will be disrupted and could lead to droughts and other environmental impacts.

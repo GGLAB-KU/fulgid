@@ -1,0 +1,28 @@
+1. FOR each female frog
+2.     LAY thousands of eggs
+3. END FOR
+4. WHILE there are still egg clusters
+5.     FLOAT egg clusters in water
+6.     FOR each egg cluster
+7.         HATCH tadpoles with gills
+8.         SWIM tadpoles in water
+9.         WHILE tadpoles still have tails
+10.            GROW legs
+11.            ABSORB tail
+12.        END WHILE
+13.        IF the tadpole does not develop into a froglet
+14.            SET the tadpole aside for further observation
+15.        ELSE
+16.            BECOME froglet
+17.        END IF
+18.    END FOR
+19. END WHILE
+20. FOR each tadpole that was set aside
+21.     OBSERVE the tadpole for any abnormalities or developmental issues
+22.     IF the tadpole is unable to develop into a frog
+23.         DISPOSE of the tadpole in a humane manner
+24.     ELSE
+25.         BECOME froglet
+26.     END IF
+27. END FOR
+28. BECOME frog

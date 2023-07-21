@@ -1,0 +1,15 @@
+1. Set fish as eggs
+2. Check if egg has reached full term
+3. If egg has reached full term, proceed to step 4. If not, go to step 2.
+4. Check if egg has hatched
+5. If egg has not hatched, proceed to step 6. If egg has hatched, skip to step 9.
+6. Check if egg has broken
+7. If egg has broken, skip to step 9. If egg has not broken, proceed to step 8.
+8. Wait for egg to hatch
+9. Emergence of larvae
+10. Maturation and growth of larvae
+11. Development of adolescent fish (or fry)
+12. Growth of adolescent fish
+13. Check for sub-stages based on species or type
+14. Maturation of fish into adult
+15. Adult fish can lay more eggs.

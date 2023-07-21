@@ -1,0 +1,22 @@
+1. FOR each female frog
+2.     FOR each mating season
+3.         LAY thousands of eggs
+4.         CREATE egg clusters
+5.         RELEASE egg clusters into water
+6.     END FOR
+7. END FOR
+8. WHILE tadpoles have gills
+9.     HATCH from eggs
+10.    SWIM in water
+11.    GROW legs
+12.    ABSORB tail
+13.    IF tail is absorbed
+14.        BECOME a froglet
+15.    END IF
+16.    IF froglet has fully developed
+17.        BECOME a frog
+18.    END IF
+19. END WHILE
+20. IF there are fewer predators
+21.    INCREASE the number of frogs
+22. END IF

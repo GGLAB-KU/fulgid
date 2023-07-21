@@ -1,0 +1,16 @@
+1. Fish lays eggs
+2. Eggs hatch
+3. For each egg:
+   a. Tiny fish called fry emerge
+   b. Fry eat and grow
+4. If there are more predators who prey on fry:
+   a. Some fry may be eaten and not survive
+   b. The number of surviving fry may decrease
+5. When fry become adult fish:
+   a. If there are fewer surviving fry:
+      i. Fewer adult fish may be produced
+      ii. Fewer fish may mate
+   b. If there are more surviving fry:
+      i. More adult fish may be produced
+      ii. More fish may mate
+6. Repeat from step 1.

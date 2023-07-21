@@ -1,0 +1,11 @@
+1. Set variable "eggs_laid" to number of eggs laid
+2. Set variable "bees" to number of bees produced from eggs
+3. For each bee:
+   a. Bee lands on flower
+   b. Little hairs on bee's legs attach to pollen sacs from stamens of flower
+   c. Bee flies away with pollen
+   d. Bee lands on new flower
+   e. Pollen sacs are rubbed off onto stigma of new flower
+4. If "eggs_laid" increases:
+   a. Update variable "bees" to reflect new number of bees produced
+   b. Repeat steps 3a-e for each additional bee produced.

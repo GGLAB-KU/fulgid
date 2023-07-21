@@ -1,0 +1,10 @@
+1. If temperature < desired temperature:
+2.    Calculate required amount of oil/air mixture based on the difference between current temperature and desired temperature
+3.    Send signal to heating system
+4.    Oil travels from tank to burner
+5.    Oil is mixed with air to create a fine mist in the required amount
+6.    Inject oil/air mixture into burner
+7.    Ignite burner in combustion chamber
+8.    Furnace heats air
+9.    Blower sends heated air through ducts
+10.    Heated air comes out of vents and into room.

@@ -1,0 +1,13 @@
+1. Input: Different kinds of rocks, amount of magma created
+2. Process: 
+   a. Rocks melt into magma
+   b. If less magma is created:
+      i. Less magma cools in the crust
+      ii. Less magma rises to the surface and becomes lava
+      iii. Less lava cools
+   c. If more magma is created:
+      i. More magma cools in the crust
+      ii. More magma rises to the surface and becomes lava
+      iii. More lava cools
+   d. Cooled magma and lava become igneous rock
+3. Output: Igneous rock formation is affected by the amount of magma created. If less magma is created, less igneous rock will form. If more magma is created, more igneous rock will form.

@@ -1,0 +1,11 @@
+1. Insert batteries into flashlight
+2. Check if batteries are new
+3. If batteries are old, display message "Batteries are old, please replace"
+4. If batteries are new, turn on flashlight
+5. Contact strips touch, completing circuit between batteries and lamp
+6. Lamp begins to glow
+7. Reflector directs lamp's beam
+8. Generate straight beam of light
+9. Turn off flashlight
+10. Break circuit
+11. Beam is no longer visible

@@ -1,0 +1,11 @@
+1. Fish lays eggs
+2. Eggs hatch
+3. For each egg:
+   a. If egg is not eaten by predators:
+      i. Tiny fish called fry emerge
+      ii. Fry eat and grow
+   b. If egg is eaten by predators:
+      i. No fry emerge
+4. For each fry:
+   a. Fry become adult fish
+   b. Fish mate and more eggs are produced.

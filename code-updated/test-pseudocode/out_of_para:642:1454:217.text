@@ -1,0 +1,25 @@
+1. FOR each female frog
+2.     FOR each mating season
+3.         LAY thousands of eggs
+4.         CREATE egg clusters
+5.         RELEASE egg clusters into water
+6.     END FOR
+7. END FOR
+8. WHILE tadpoles have gills AND there is enough rock to melt
+9.     HATCH tadpoles from eggs
+10.    SWIM in water
+11.    GROW legs
+12.    ABSORB tail
+13.    IF tail is absorbed
+14.        TRANSFORM into froglet
+15.    END IF
+16.    IF froglet is fully developed
+17.        TRANSFORM into frog
+18.    END IF
+19. END WHILE
+20. IF there is not enough rock to melt
+21.     REDUCE the number of egg clusters released into water
+22. END IF
+23. IF there are fewer tadpoles
+24.     MONITOR the population and adjust the number of egg clusters released accordingly
+25. END IF

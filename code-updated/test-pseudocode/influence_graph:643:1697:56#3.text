@@ -1,0 +1,10 @@
+1. Initialize egg variable as "unhatched"
+2. Wait for egg to hatch
+3. If egg hatches, set tadpole variable as "born"
+4. Tadpole swims with siblings and avoids predators
+5. Tadpole grows larger over time
+6. If less fish eat frogs, increase the probability of tadpoles surviving to develop limbs
+7. When tadpole reaches a certain size, it loses its tail
+8. Tadpole develops limbs and begins to move on land
+9. If more tadpoles develop limbs, increase the probability of a successful transition to a frog
+10. When tadpole has fully developed into a frog, set frog variable as "formed"

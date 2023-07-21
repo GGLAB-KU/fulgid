@@ -1,0 +1,13 @@
+1. Fish lays eggs
+2. Eggs hatch
+3. For each egg:
+   a. Tiny fish called fry emerge
+   b. Fry eat and grow
+4. For each fry:
+   a. If there are less predators who feed on fry:
+      i. Fry have a higher chance of survival
+      ii. Fry grow faster
+   b. Fry become adult fish
+5. For each adult fish:
+   a. Fish mate and more eggs are produced. 
+6. Repeat from step 1.

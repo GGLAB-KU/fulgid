@@ -1,0 +1,17 @@
+1. Procedure: Frog Life Cycle
+2. Input: Water safety status
+3. Output: Fully grown frog
+4. Begin
+5.   If water is safe then
+6.     Lay thousands of eggs
+7.     Egg clusters float around in water
+8.     Hatch tadpoles with gills from the eggs
+9.     Tadpoles swim in water until they grow legs
+10.    Absorb their tails
+11.    Tadpole becomes a froglet
+12.    Froglet becomes a frog
+13.    Output fully grown frog
+14.  Else
+15.    Print "Water is too dangerous for frogs to survive"
+16.  End If
+17. End Procedure

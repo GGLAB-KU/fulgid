@@ -1,0 +1,14 @@
+1. Initialize techtonic plates in the earth's crust
+2. While techtonic plates move:
+   a. Create fissures in the crust
+   b. Create upheavals in the crust
+   c. If fissures exist:
+      i. Allow lava to erupt into volcanoes at the surface
+      ii. If volcanoes erupt:
+          1. If less conservation is achieved:
+             a. Increase the likelihood of lava being pushed out of the chambers onto the surface
+          2. Accumulate lava
+          3. Form mountains
+   d. If upheavals exist:
+      i. Form mountains from the upheavals
+3. End while loop.

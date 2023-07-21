@@ -1,0 +1,10 @@
+1. Check for the availability of sufficient DNA for replication
+2. If there is less DNA available, proceed to step 3, else proceed to step 4
+3. Reduce the replication rate to prevent damage to the DNA
+4. Initiate DNA replication with proteins
+5. Break hydrogen bonds holding DNA strand together
+6. Read each side of the strand with a polymerase
+7. Add complimentary nucleotides to each side
+8. Match all bases on each side
+9. Form new DNA strand
+10. Seal new pieces into two new strands with DNA ligase.

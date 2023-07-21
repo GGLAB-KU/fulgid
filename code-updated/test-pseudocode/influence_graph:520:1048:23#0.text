@@ -1,0 +1,11 @@
+1. FemaleFish lays Eggs
+2. If Eggs are not eaten by Predator, then Eggs hatch into Larvae
+3. Larvae eat and grow
+4. Larvae form into JuvenileFish
+5. JuvenileFish grow into AdultFish
+6. AdultFish mate
+7. FemaleFish lays Eggs
+8. If Eggs are eaten by Predator, then fewer Larvae will hatch
+9. As a result, fewer JuvenileFish will form
+10. This will lead to a decrease in the number of AdultFish
+11. The decrease in AdultFish will affect the mating process and result in fewer Eggs being laid by the FemaleFish.

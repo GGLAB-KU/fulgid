@@ -1,0 +1,13 @@
+1. Set volcano = true
+2. Set magma = hot
+3. Set water_in_clouds = true
+4. While volcano is true:
+   a. If water_in_clouds is true:
+      i. Decrease the temperature of the magma required for it to rise towards the surface of the volcano
+   b. Magma rises towards surface of volcano
+   c. Magma cools
+   d. If magma is released from volcano:
+      i. Set magma = lava
+      ii. Lava cools and solidifies into hard rock
+   e. Magma starts to harden as it cools
+4. End procedure.

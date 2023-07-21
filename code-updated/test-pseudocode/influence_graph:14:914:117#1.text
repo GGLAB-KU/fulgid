@@ -1,0 +1,10 @@
+1. Set initial water source as oceans, rivers, swamps, and plants
+2. If lakes are not dry, include lakes as an initial water source
+3. Convert water from initial source into water vapor
+4. Form water vapor into droplets to create clouds
+5. Determine if droplets in clouds will become rain or snow
+6. If droplets become rain or snow, allow them to fall
+7. Some water will go into the ground
+8. Some water will flow down streams into rivers and oceans
+9. If lakes are dry, remove lakes as an initial water source
+10. If lakes are dry, the flow of water may decrease in streams and rivers that were previously fed by the lakes.

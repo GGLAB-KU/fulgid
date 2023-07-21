@@ -1,0 +1,10 @@
+1. Prompt user to select a crop
+2. Prepare soil for selected crop
+3. Add fertilizer to soil
+4. Plant seeds in field
+5. If irrigation system is available, set up irrigation to water crops
+6. If irrigation system is not available, monitor weather conditions and manually water crops as needed
+7. Monitor crop growth
+8. When crops are ready, harvest them. 
+
+Note: If irrigation is not set up, it may affect crop growth and yield. Therefore, it is important to monitor weather conditions and manually water crops as needed to ensure optimal growth and yield.

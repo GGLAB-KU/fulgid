@@ -1,0 +1,19 @@
+1. Deliver oxygen through blood
+2. Break down proteins and acids in liver
+3. If liver breaks down more acids:
+   a. Increase the amount of waste released in the form of urea
+4. Transport urea and carbon dioxide to kidneys through blood
+5. Strain urea and salts from blood in kidneys
+6. Transport carbon dioxide byproduct back to lungs through blood
+7. Exhale carbon dioxide from lungs. 
+
+Updated Pseudocode:
+
+1. Deliver oxygen through blood
+2. Break down proteins and acids in liver
+3. If liver breaks down more acids:
+   a. Increase the amount of waste released in the form of urea
+4. Transport urea and carbon dioxide to kidneys through blood
+5. Strain urea and salts from blood in kidneys
+6. Transport carbon dioxide byproduct back to lungs through blood
+7. Exhale carbon dioxide from lungs.

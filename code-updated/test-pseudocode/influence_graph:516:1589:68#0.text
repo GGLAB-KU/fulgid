@@ -1,0 +1,34 @@
+1. Adult frog spawns eggs in water
+2. Eggs hatch into tadpoles
+3. Tadpoles live in water and grow
+4. Tadpoles develop external gills and longer tail
+5. Tadpole stores food in tail
+6. Tadpole develops hind legs and lives off stored food in tail
+7. Front legs appear and tadpole's tail shortens
+8. Tadpole now looks like a young frog
+9. Young frog continues to grow to adulthood.
+10. If PoorWeatherHappens():
+    a. DecreaseSurvivalRateOfTadpoles()
+    b. DecreaseGrowthRateOfTadpoles()
+    c. DecreaseSurvivalRateOfYoungFrogs()
+    d. DecreaseGrowthRateOfYoungFrogs()
+11. ContinueGrowingToAdulthood() 
+
+Pseudocode:
+
+1. SpawnEggsInWater()
+2. HatchEggsIntoTadpoles()
+3. While Tadpoles are alive:
+    a. GrowTadpoles()
+    b. DevelopExternalGillsAndLongerTail()
+    c. StoreFoodInTail()
+    d. DevelopHindLegsAndLiveOffStoredFood()
+    e. If FrontLegsAppear():
+        i. ShortenTail()
+        ii. LookLikeYoungFrog()
+4. If PoorWeatherHappens():
+    a. DecreaseSurvivalRateOfTadpoles()
+    b. DecreaseGrowthRateOfTadpoles()
+    c. DecreaseSurvivalRateOfYoungFrogs()
+    d. DecreaseGrowthRateOfYoungFrogs()
+5. ContinueGrowingToAdulthood()

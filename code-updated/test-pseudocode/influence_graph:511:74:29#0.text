@@ -1,0 +1,8 @@
+1. Set moonOrbitingEarth = true
+2. Set earthOrbitingSun = true
+3. If moonComesBetweenSunAndEarth = true, then
+4.    Set solarEclipse = true
+5.    If changesInTides = true, then
+6.        Display "The occurrence and duration of solar eclipses may be affected by changes in tides." 
+7.    End If
+8. End If

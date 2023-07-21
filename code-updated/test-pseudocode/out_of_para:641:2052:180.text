@@ -1,0 +1,22 @@
+1. Initialize tadpole
+2. While tadpole has no hind legs:
+   a. Feed tadpole
+   b. Monitor growth
+   c. If hind legs appear, go to step 3
+3. While tadpole has a tail:
+   a. Feed tadpole
+   b. Monitor growth
+   c. If tail is lost, go to step 4
+4. Initialize frog
+5. While frog is alive:
+   a. If hurricane occurs, go to step 6
+   b. Mate with another frog
+   c. Produce offspring
+   d. If no more offspring are desired, end program
+6. If hurricane occurs:
+   a. Monitor oxygen levels
+   b. If oxygen levels are altered, go to step 7
+   c. If oxygen levels are normal, go to step 5
+7. If oxygen levels are altered:
+   a. Eggs will not hatch
+   b. End program.

@@ -1,0 +1,13 @@
+1. Initialize egg variable as "unhatched"
+2. Wait for egg to hatch
+3. If egg hatches, set tadpole variable as "born"
+4. Tadpole swims with siblings and avoids predators
+5. Tadpole grows larger over time
+6. When tadpole reaches a certain size, it loses its tail
+7. Tadpole develops limbs and begins to resemble a frog
+8. If changes in tides occur, check if the water level is too high or too low for the tadpoles to survive
+9. If the water level is too high, move the tadpoles to a higher location
+10. If the water level is too low, move the tadpoles to a lower location with more water
+11. Monitor the tadpoles closely to ensure their survival
+12. When tadpole has fully developed into a frog, set frog variable as "complete"
+13. If there are fewer frogs than expected, investigate the cause and take necessary actions to prevent further decline in the frog population.

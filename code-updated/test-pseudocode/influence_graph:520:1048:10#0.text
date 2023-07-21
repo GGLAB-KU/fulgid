@@ -1,0 +1,13 @@
+1. FemaleFish lays Eggs
+2. Eggs hatch into Larvae
+3. Larvae eat and grow
+4. Larvae form into JuvenileFish
+5. JuvenileFish grow into AdultFish
+6. AdultFish mate
+7. FemaleFish lays Eggs
+8. If PredatoryFishNumbers decrease due to bird predation:
+   a. Larvae survival rate may increase
+   b. More Larvae may hatch from the Eggs
+   c. JuvenileFish population may increase
+   d. AdultFish population may increase
+   e. FemaleFish may lay more Eggs due to increased population size

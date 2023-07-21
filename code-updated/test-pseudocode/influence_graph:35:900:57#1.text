@@ -1,0 +1,11 @@
+1. Input: Different kinds of rocks, Magma
+2. Process: 
+   a. Check if the temperature of magma is hot enough to melt rocks
+   b. If the temperature is not hot enough, skip step c and d
+   c. Rocks melt into magma
+   d. Magma cools in the crust
+   e. Magma rises to the surface and becomes lava
+   f. Lava cools
+   g. Cooled magma and lava become igneous rock
+   h. If the temperature is not hot enough, the magma will still cool the crust but will not melt the rocks
+3. Output: Igneous rock or cooled crust

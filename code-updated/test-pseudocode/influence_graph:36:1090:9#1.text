@@ -1,0 +1,12 @@
+1. magma_rises_to_surface()
+2. magma_changes_temperature()
+3. magma_changes_pressure()
+4. magma_cools()
+5. magma_solidifies()
+6. magma_crystallizes()
+
+If more magma rises to the surface:
+7. if less time is available for cooling then
+8.    less igneous rock will form
+9. else
+10.   the same amount of igneous rock will form

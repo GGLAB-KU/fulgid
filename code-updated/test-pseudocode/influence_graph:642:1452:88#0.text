@@ -1,0 +1,16 @@
+1. FOR each female frog
+2.     FOR each mating season
+3.         LAY thousands of eggs
+4.         CREATE egg clusters that FLOAT in water
+5.         IF there are no tadpoles with gills that HATCH from the eggs
+6.             DECREASE the number of potential frogs
+7.         ELSE
+8.             ALLOW tadpoles to SWIM in water until they grow legs
+9.             ABSORB their tails
+10.            TRANSFORM the tadpole into a froglet
+11.            WAIT for the froglet to develop into a FROG
+12.        END IF
+13.    END FOR
+14. END FOR
+
+Note: In this updated pseudocode, if there are no tadpoles that hatch from the eggs, the number of potential frogs will be decreased.

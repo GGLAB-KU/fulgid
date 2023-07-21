@@ -1,0 +1,9 @@
+1. Set moonOrbitingEarth = true
+2. Set earthOrbitingSun = true
+3. If moonComesBetweenSunAndEarth = true
+4.     If eclipseDuration > threshold
+5.         Set lessSolarEclipses = true
+6.     End if
+7.     Set solarEclipse = true
+8.     Set sunBlocked = true
+9. End if

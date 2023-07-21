@@ -1,0 +1,22 @@
+1. FOR each female frog
+2.     LAY thousands of eggs
+3. END FOR
+4. WHILE there are still egg clusters
+5.     FLOAT egg clusters in water
+6. END WHILE
+7. FOR each egg in the clusters
+8.     HATCH tadpoles with gills
+9. END FOR
+10. IF there are fewer predators
+11.     INCREASE the number of tadpoles that survive
+12. END IF
+13. WHILE there are still tadpoles with gills
+14.     SWIM in water
+15.     IF tadpole has grown legs
+16.         ABSORB tail
+17.         BECOME froglet
+18.     END IF
+19. END WHILE
+20. WHILE there are still froglets
+21.     BECOME frog
+22. END WHILE

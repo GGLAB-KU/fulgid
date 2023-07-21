@@ -1,0 +1,13 @@
+1. Set moonOrbitingEarth = true
+2. Set earthOrbitingSun = true
+3. If moonComesBetweenSunAndEarth = true
+4.     Set solarEclipse = true
+5.     Display "A solar eclipse is occurring"
+6. Else
+7.     Set solarEclipse = false
+8.     Display "No solar eclipse is occurring"
+9. If changesInTides = true
+10.    If solarEclipse = true
+11.        Display "Changes in tides can affect the occurrence of solar eclipses."
+12.    Else
+13.        Display "Changes in tides do not affect the occurrence of solar eclipses."

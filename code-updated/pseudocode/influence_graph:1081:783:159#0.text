@@ -1,0 +1,11 @@
+1. Start
+2. Burn coal in boiler
+3. Produce steam
+4. Check steam pressure
+5. If steam pressure is high, proceed to step 6, else proceed to step 7
+6. Flow steam into turbine
+7. Adjust steam pressure to optimal level
+8. Flow steam into turbine
+9. Spin turbine
+10. Generate electricity
+11. End

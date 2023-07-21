@@ -1,0 +1,10 @@
+1. Check if soil is productive
+2. If soil is productive, proceed to step 3. If soil is unproductive, skip to step 6.
+3. Bee visits flower
+4. Bee collects pollen on leg hairs
+5. Bee moves to different flower
+6. Some pollen falls off bee
+7. Flower is pollinated
+8. If less flowers are pollinated, check if soil is unproductive
+9. If soil is unproductive, take action to improve soil quality
+10. Repeat process from step 1.

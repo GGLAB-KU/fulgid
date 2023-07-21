@@ -1,0 +1,8 @@
+1. For each flower in the environment:
+2.   Bee visits the flower
+3.   Pollen sticks to bee
+4.   Bee flies to another flower of the same type
+5.   Pollen on bee brushes onto pistil of flower
+6.   Flower is pollinated
+7.   If there are more flowers in the environment, the chances of less flowers being pollinated increases
+8. End for loop

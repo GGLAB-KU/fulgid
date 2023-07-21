@@ -1,0 +1,23 @@
+1. Evaporation:
+   - Set initial water surface area
+   - Set initial temperature
+   - Set initial wind speed
+   - While water surface area > 0:
+     - Calculate evaporation rate based on temperature and wind speed
+     - Reduce water surface area by evaporation rate
+     - Convert evaporation rate to water vapor
+
+2. Condensation:
+   - When atmospheric conditions are right, water vapor condenses into tiny particles of water/ice
+   - Monitor particle growth and formation of clouds/fog
+
+3. Precipitation:
+   - When temperature changes occur, clouds/fog release precipitation in the form of rain/snow
+   - Monitor precipitation rate and amount
+
+4. Surface water:
+   - Fallen rain/snow collects into surface water
+   - Monitor surface water level and evaporation rate
+   - Repeat steps 1-4 as necessary.
+
+Note: Without the rise in Earth's atmosphere, the water cycle would be less intense and the water would not be transported as far. The water would still evaporate, condense, and precipitate, but the atmospheric transport step would be removed.

@@ -1,0 +1,12 @@
+1. Set initial amount of water on earth
+2. While there is water on earth:
+   a. Water evaporates from the earth
+   b. If located near the ocean:
+      i. Decrease the amount of water that condenses into water drops
+   c. The evaporated water condenses into water drops
+   d. The water drops fall back to earth
+   e. The water accumulates on the earth
+   f. The water collects into bodies of water
+   g. The water soaks into the earth
+   h. Update the amount of water on earth
+3. End while loop.

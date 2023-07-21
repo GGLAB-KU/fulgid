@@ -1,0 +1,9 @@
+1. Set up a loop for tectonic plate movement
+2. Check for collision between two plates
+3. If collision occurs, crumple the edges of the plates
+4. Convert the crumpled edges into mountain ranges
+5. Check for magma movement towards the surface
+6. If magma is forced to the surface, form a volcano.
+7. If magma is pushed with pressure under the surface, check for stability of the surface
+8. If the surface is stable, continue with the loop
+9. If the surface is not stable, trigger an earthquake or other geological event to release the pressure and restore stability.

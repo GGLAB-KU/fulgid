@@ -1,0 +1,12 @@
+1. Input: seeds
+2. Sow seeds into the ground
+3. Give the earth where the seeds are planted water and fertilizer
+4. Wait for seedlings to grow
+5. Input: water
+6. Give water to the plants
+7. Wait for the seedlings to grow into plants
+8. If weeds grow near the plants:
+   a. Remove the weeds
+   b. Check if there is enough space for the plants to grow
+   c. If there is not enough space, remove some plants to make room for the remaining plants
+9. Wait for the plants to grow to maturity.

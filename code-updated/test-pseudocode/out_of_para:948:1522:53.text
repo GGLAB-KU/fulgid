@@ -1,0 +1,12 @@
+1. Set initial amount of water on earth
+2. While there is water on earth:
+   a. Water evaporates from the earth
+   b. The evaporated water condenses into water drops
+   c. If the weather is less warm for blowers to bloom:
+        i. More water drops will form due to less evaporation
+   d. The water drops fall back to earth
+   e. The water accumulates on the earth
+   f. The water collects into bodies of water
+   g. The water soaks into the earth
+   h. Update the amount of water on earth
+3. End while loop.

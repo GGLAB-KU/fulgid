@@ -1,0 +1,13 @@
+1. Set Predators = Fewer
+2. FemaleFish lays Eggs
+3. Eggs hatch into Larvae
+4. Larvae eat and grow
+5. Larvae form into JuvenileFish
+6. JuvenileFish grow into AdultFish
+7. AdultFish mate
+8. FemaleFish lays Eggs
+9. If Predators = Fewer:
+10.     Increase the number of AdultFish
+11.     Increase the number of JuvenileFish
+12.     Increase the number of Larvae
+13. End If

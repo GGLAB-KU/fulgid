@@ -1,0 +1,18 @@
+1. Set initial amount of water on earth
+2. Set initial location to desert
+3. While there is water on earth:
+   a. If location is desert:
+      i. Water evaporates from the earth at a faster rate
+      ii. The evaporated water condenses into water drops
+      iii. The water drops fall back to earth at a slower rate
+      iv. The water accumulates on the earth at a slower rate
+      v. The water collects into bodies of water at a slower rate
+      vi. The water soaks into the earth at a slower rate
+   b. Else:
+      i. Water evaporates from the earth
+      ii. The evaporated water condenses into water drops
+      iii. The water drops fall back to earth
+      iv. The water accumulates on the earth
+      v. The water collects into bodies of water
+      vi. The water soaks into the earth
+4. End loop

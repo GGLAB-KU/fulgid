@@ -1,0 +1,27 @@
+1. SET environmental_regulations = true
+2. WHILE ocean waves hit land
+3.     IF ocean water is touching sand on beaches
+4.         IF environmental_regulations = true
+5.             IF pollution levels are reduced
+6.                 ocean water pulls sand off of beaches
+7.             END IF
+8.         ELSE
+9.             ocean water pulls sand off of beaches
+10.         END IF
+11.     END IF
+12.     IF ocean water is touching rocks on cliffs
+13.         IF environmental_regulations = true
+14.             IF pollution levels are reduced
+15.                 ocean water breaks rocks off of cliffs
+16.             END IF
+17.         ELSE
+18.             ocean water breaks rocks off of cliffs
+19.         END IF
+20.     END IF
+21.     ocean water carries sand and rocks into the ocean
+22. END WHILE
+23. IF sand and rocks are carried to other land
+24.     sand and rocks go to other land
+25. ELSE IF sand and rocks are carried to the bottom of the ocean
+26.     sand and rocks go to the bottom of the ocean
+27. END IF

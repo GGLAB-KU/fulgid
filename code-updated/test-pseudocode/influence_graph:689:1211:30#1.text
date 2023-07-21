@@ -1,0 +1,13 @@
+1. Input: seeds
+2. Sow seeds into the ground
+3. Input: water and fertilizer
+4. Apply water and fertilizer to the earth where the seeds are planted
+5. Seedlings start to grow
+6. Input: water
+7. Water the plants regularly
+8. Seedlings grow into plants
+9. Remove weeds growing near the plants
+10. If less sunny days occur:
+11. Check if there is enough space for the plants to grow
+12. If there is not enough space, consider transplanting some plants to a different location
+13. Continue to water and care for the plants until they reach maturity.

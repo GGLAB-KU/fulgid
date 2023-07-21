@@ -1,0 +1,12 @@
+1. AdultFish lays Eggs
+2. If less magma is formed, then fewer Eggs are laid
+3. Eggs incubate for a few weeks or months
+4. If Eggs are not hatched, go back to step 3
+5. YoungFish remain where they hatched until they are big enough to venture into the open water
+6. If YoungFish are not big enough, go back to step 5
+7. Fish continue to grow
+8. If Fish are not big enough, go back to step 7
+9. Fish reach adulthood
+10. If Fish are not adults, go back to step 9
+11. AdultFish reproduce, continuing the cycle
+12. Go back to step 1

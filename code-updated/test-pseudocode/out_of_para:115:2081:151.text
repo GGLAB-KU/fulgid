@@ -1,0 +1,10 @@
+1. Set tectonic plates variable to true
+2. Set pumpkin leaves variable to true
+3. While tectonic plates are true:
+   a. Tectonic plates smash together
+   b. The edges of the plates crumple up
+   c. The ridges are mountain ranges
+   d. If pumpkin leaves are true, then smaller mountains will be affected by drying out
+   e. Magma is forced to the surface
+   f. Magma forms a volcano
+4. End while loop.

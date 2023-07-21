@@ -1,0 +1,11 @@
+1. Initialize egg variable as "unhatched"
+2. Wait for egg to hatch
+3. If egg hatches, set tadpole variable as "born"
+4. Tadpole swims with siblings and avoids predators
+5. Tadpole grows larger over time
+6. When tadpole reaches a certain size, it loses its tail
+7. Tadpole develops limbs and begins to resemble a frog
+8. If more tadpoles survive, there will be more competition for resources
+9. This may result in fewer resources available for each tadpole, potentially leading to a smaller size or slower growth rate
+10. If tadpoles are smaller or grow more slowly, they may be more vulnerable to predators or less likely to survive to become frogs
+11. Therefore, if more tadpoles survive, it may result in fewer frogs overall.

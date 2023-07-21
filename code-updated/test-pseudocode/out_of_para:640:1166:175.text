@@ -1,0 +1,11 @@
+1. Fish lays eggs
+2. If fewer eggs are laid:
+   a. Decrease the number of eggs laid
+3. Eggs hatch
+4. For each egg:
+   a. Tiny fish called fry emerge
+   b. Fry eat and grow
+5. For each fry:
+   a. Fry become adult fish
+   b. Fish mate and more eggs are produced, but the number of eggs produced may be affected by the number of adult fish. 
+6. If there are fewer adult fish, fewer eggs may be produced.

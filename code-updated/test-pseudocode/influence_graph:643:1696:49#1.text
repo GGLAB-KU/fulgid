@@ -1,0 +1,10 @@
+1. Initialize egg variable as "unhatched"
+2. Wait for egg to hatch
+3. If egg hatches, set tadpole variable as "born"
+4. If number of tadpoles born is less than expected, adjust for lower number of frogs that will be formed
+5. Tadpole swims with siblings and avoids predators
+6. Tadpole grows larger over time
+7. When tadpole reaches a certain size, it loses its tail
+8. Tadpole develops limbs and begins to resemble a frog
+9. When tadpole has fully developed into a frog, set frog variable as "formed"
+10. If number of frogs formed is less than expected, adjust for potential impact on ecosystem and food chain.

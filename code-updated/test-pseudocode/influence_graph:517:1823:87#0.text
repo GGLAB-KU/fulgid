@@ -1,0 +1,18 @@
+1. Set initial number of frog eggs
+2. Set initial number of eggs eaten by animals
+3. Calculate remaining number of eggs after being eaten by animals
+4. For each remaining egg:
+   a. Egg hatches
+   b. For each tadpole:
+      i. Tadpole breaks free
+      ii. While gills are present:
+          1. Gills slowly disappear over 6 weeks
+      iii. At 8 weeks:
+          1. Hind legs begin to form
+      iv. At 12 weeks:
+          1. Front legs form
+      v. While tail is present:
+          1. Tail shrinks
+      vi. Mouth grows larger
+      vii. Tadpole can live on land as a frog
+5. Calculate number of frogs that developed from remaining eggs.

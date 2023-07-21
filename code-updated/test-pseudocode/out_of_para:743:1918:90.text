@@ -1,0 +1,10 @@
+1. Bee lands on flower
+2. Bee's feet slip into grooves holding pollen sacs
+3. Bee flies off, carrying pollen sac
+4. Bee lands on another plant
+5. Pollen sac falls off and pollinates plant
+6. If more tadpoles survive:
+   a. Increase the number of bees visiting flowers
+   b. Increase the amount of pollen collected by bees
+   c. Increase the number of plants pollinated
+   d. Increase the amount of pollen transported.

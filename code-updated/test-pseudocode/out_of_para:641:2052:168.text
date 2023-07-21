@@ -1,0 +1,17 @@
+1. Initialize tadpole
+2. While tadpole has no hind legs:
+   a. Feed tadpole
+   b. Monitor growth
+   c. If hind legs appear, go to step 3
+3. While tadpole has a tail:
+   a. Feed tadpole
+   b. Monitor growth
+   c. If tail is lost, go to step 4
+4. Tadpole becomes a frog
+5. Frog mates with another frog to produce offspring
+6. A tadpole is hatched from the offspring
+7. If more water is present in the environment:
+   a. Monitor the oil spill
+   b. If the oil spill covers more of the frog's pond habitat, go to step 8
+8. Take necessary actions to clean up the oil spill and prevent harm to the frogs and their habitat
+9. Go to step 1.

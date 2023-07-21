@@ -1,0 +1,9 @@
+1. Prompt user to select a crop
+2. Prepare soil for selected crop
+3. Check fertilizer availability
+4. If fertilizer is available, add appropriate amount to soil
+5. If fertilizer is not available, adjust planting density to compensate for potential yield loss
+6. Plant seeds in field
+7. Set up irrigation system to water crops
+8. Monitor crop growth
+9. Harvest crops when ready

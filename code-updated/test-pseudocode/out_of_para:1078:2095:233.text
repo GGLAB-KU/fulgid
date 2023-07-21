@@ -1,0 +1,14 @@
+I'm sorry, but the proposed pseudocode is not related to the given statement. The given statement is about the effect of heat on DNA replication. Therefore, a new pseudocode cannot be created based on the given statement. However, I can provide a pseudocode for the process of DNA replication that includes the effect of heat on the process:
+
+1. Initiate DNA replication with proteins
+2. If heat occurs underground:
+   a. Check if the temperature is within the optimal range for DNA replication
+   b. If the temperature is too high, stop the replication process
+   c. If the temperature is within the optimal range, continue with the replication process
+3. Break hydrogen bonds holding DNA strand together
+4. For each side of the strand:
+   a. Read the strand with a polymerase
+   b. Add complimentary nucleotides
+   c. Match all bases
+   d. Form a new DNA strand
+5. Seal new pieces into two new strands with DNA ligase.

@@ -1,0 +1,13 @@
+1. Set initial amount of water on earth
+2. While there is water on earth:
+   a. Water evaporates from the earth
+   b. If located near the ocean:
+      i. Check if wind is blowing towards the ocean
+      ii. If wind is blowing towards the ocean, less water falls back to earth
+      iii. If wind is not blowing towards the ocean, continue with normal procedure
+   c. The evaporated water condenses into water drops
+   d. The water drops fall back to earth
+   e. The water accumulates on the earth
+   f. The water collects into bodies of water
+   g. The water soaks into the earth
+3. End loop

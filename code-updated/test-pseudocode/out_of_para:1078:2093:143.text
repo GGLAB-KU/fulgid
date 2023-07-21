@@ -1,0 +1,11 @@
+1. Initiate DNA replication with proteins
+2. Break hydrogen bonds holding DNA strand together
+3. For each side of the strand:
+   a. Read the strand with a polymerase
+   b. Add complimentary nucleotides
+   c. Match all bases
+   d. Check for any interference from the presence of frogs
+   e. If interference is detected, pause replication until the environment is suitable for proper replication
+   f. If no interference is detected, continue replication
+   g. Form new DNA strand
+4. Seal new pieces into two new strands with DNA ligase.

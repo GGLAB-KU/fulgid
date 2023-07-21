@@ -1,0 +1,18 @@
+1. Initialize tadpole
+2. While tadpole has no hind legs:
+   a. Feed tadpole
+   b. Monitor growth
+   c. If hind legs appear, go to step 3
+3. While tadpole has a tail:
+   a. Feed tadpole
+   b. Monitor growth
+   c. If tail is lost, go to step 4
+4. Initialize frog
+5. While frog is alive:
+   a. Mate with another frog
+   b. Produce offspring
+   c. If more bees are created, go to step 6
+   d. If more frogs are produced, check for new genes and increased fertility
+   e. If no more offspring are desired, end program
+6. Initialize tadpole
+7. Go to step 2
