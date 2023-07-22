@@ -1,7 +1,6 @@
 import os
 import json
 import re
-from pathlib import Path
 from dotenv import load_dotenv
 import openai
 import tiktoken
@@ -30,8 +29,50 @@ def num_tokens_from_string(string: str, model_name: str) -> int:
     return num_tokens
 
 
+def parse_output(output):
+    # Split the output into different box descriptions
+    box_descs = re.split(', Box ', output.strip())
+
+    box_dict = {}
+    for desc in box_descs:
+        # Extract the box number and the items
+        match = re.match(r'(\d+) contains (.*)', desc)
+
+        if match:
+            box_num = 'Box ' + match.group(1)
+            items = [item.strip() for item in re.split(', and | and |, ', match.group(2))]
+            box_dict[box_num] = items
+
+    return box_dict
+
+
+def compare_results(final_states, result):
+    total_accuracy = 0
+    num_boxes = len(final_states)
+
+    for box, items in final_states.items():
+        result_items = result.get(box, [])
+
+        # remove trailing '.' if exists
+        result_items = [item.rstrip('.') for item in result_items]
+
+        # Convert lists to sets to make comparison easier
+        items_set = set(items)
+        result_set = set(result_items)
+
+        # Calculate accuracy as the size of intersection divided by size of union
+        box_accuracy = len(items_set & result_set) / len(items_set | result_set)
+
+        total_accuracy += box_accuracy
+
+    # Calculate average accuracy
+    accuracy = total_accuracy / num_boxes
+
+    return accuracy
+
+
 def process_dataset():
-    file_path = "few_shot_boxes_nso_exp2_max3/test-subsample-states-t5.jsonl"
+    file_path = "few_shot_boxes_nso_exp2_max3/aggregated_data.jsonl"
     prompt_template_path = "few_shot_boxes_nso_exp2_max3/prompt_incontext.txt"
     dataset_path = os.path.join(Settings.boxes_dataset_v1, file_path)
     json_file = open(dataset_path, 'r')
@@ -42,18 +83,14 @@ def process_dataset():
 
     json_list = list(json_file)
 
-    for index in [0,2000]:
+    for json_str in json_list:
         data = json.loads(json_str)
-        sentence_masked = data['sentence_masked']
-        masked_content = data['masked_content']
+        sentence = data['sentence']
+        final_states = data['final_states']
         sample_id = data['sample_id']
 
-        pattern = r'\s*[^.]*\.$'
-        only_actions = re.sub(pattern, '', sentence_masked, flags=re.DOTALL)
-        prompt = prompt_template.format(desc=only_actions)
+        prompt = prompt_template.format(desc=sentence)
 
-        # code_representation_path = Path(CODE_PATH.format(sample_id=sample_id))
-        # if not code_representation_path.is_file():
         num_tokens = num_tokens_from_string(prompt, MODEL_NAME)
         engine = "text-davinci-003"
         response = openai.Completion.create(
@@ -64,14 +101,10 @@ def process_dataset():
         )
         output = response.choices[0].text.strip()
 
-        for data in json_data:
-            # Unmask the sentence
-            unmasked_sentence = data["sentence_masked"].replace("<extra_id_0>", data["masked_content"])
-            if unmasked_sentence == output:
-                print(f"Match found: {unmasked_sentence}")
+        result = parse_output(output)
 
-        # with open(code_representation_path, 'w') as f:
-        #     f.write(code_representation)
+        accuracy = compare_results(final_states, result)
+        print(f"Accuracy: {accuracy * 100:.2f}%")
         print(sample_id, "finished")
 
 
