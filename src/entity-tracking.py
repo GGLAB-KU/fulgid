@@ -66,11 +66,11 @@ def calculate_metrics(final_states, result):
 
 
 def process_dataset():
-    aggregated_data_path = os.path.join(Settings.boxes_dataset_v1, "aggregated_data.jsonl")
+    aggregated_data_path = os.path.join(Settings.boxes_dataset, "aggregated_data.jsonl")
     aggregated_boxes_file = open(aggregated_data_path, 'r')
     aggregated_boxes = list(aggregated_boxes_file)
 
-    prompt_path = os.path.join(Settings.boxes_dataset_v1, "prompt_incontext.txt")
+    prompt_path = os.path.join(Settings.boxes_dataset, "prompt_incontext.txt")
     prompt_file = open(prompt_path, 'r')
     prompt_template = prompt_file.read()
 
