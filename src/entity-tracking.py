@@ -10,10 +10,7 @@ from src.settings import Settings
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-MODEL_NAME = "text-davinci-003"
-CODE_BASE_PATH = '../code-base/{engine}/{ques_id}.py'
-CODE_UPDATED_PATH = '../code-updated/{engine}/{ques_id}.py'
-CODE_PATH = '../code/{sample_id}.py'
+ENGINE = "text-davinci-003"
 
 SLEEP_TIME = 100
 MAX_TOKENS = 4097
@@ -69,33 +66,28 @@ def calculate_metrics(final_states, result):
 
 
 def process_dataset():
-    file_path = "few_shot_boxes_nso_exp2_max3/aggregated_data.jsonl"
-    prompt_template_path = "few_shot_boxes_nso_exp2_max3/prompt_incontext.txt"
-    dataset_path = os.path.join(Settings.boxes_dataset_v1, file_path)
-    json_file = open(dataset_path, 'r')
+    aggregated_data_path = os.path.join(Settings.boxes_dataset_v1, "aggregated_data.jsonl")
+    aggregated_boxes_file = open(aggregated_data_path, 'r')
+    aggregated_boxes = list(aggregated_boxes_file)
 
-    prompt_path = os.path.join(Settings.boxes_dataset_v1, prompt_template_path)
+    prompt_path = os.path.join(Settings.boxes_dataset_v1, "prompt_incontext.txt")
     prompt_file = open(prompt_path, 'r')
     prompt_template = prompt_file.read()
-
-    json_list = list(json_file)
 
     total_true_positives = 0
     total_false_positives = 0
     total_false_negatives = 0
 
-    for json_str in json_list[:5]:
+    for json_str in aggregated_boxes[:5]:
         data = json.loads(json_str)
         sentence = data['sentence']
         final_states = data['final_states']
-        sample_id = data['sample_id']
 
         prompt = prompt_template.format(desc=sentence)
 
-        num_tokens = num_tokens_from_string(prompt, MODEL_NAME)
-        engine = "text-davinci-003"
+        num_tokens = num_tokens_from_string(prompt, ENGINE)
         response = openai.Completion.create(
-            engine=engine,
+            engine=ENGINE,
             prompt=prompt,
             temperature=TEMPERATURE,
             max_tokens=MAX_TOKENS - num_tokens,
