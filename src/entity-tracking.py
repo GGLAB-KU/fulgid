@@ -46,9 +46,10 @@ def parse_output(output):
     return box_dict
 
 
-def compare_results(final_states, result):
-    total_accuracy = 0
-    num_boxes = len(final_states)
+def calculate_metrics(final_states, result):
+    true_positives = 0
+    false_positives = 0
+    false_negatives = 0
 
     for box, items in final_states.items():
         result_items = result.get(box, [])
@@ -60,15 +61,11 @@ def compare_results(final_states, result):
         items_set = set(items)
         result_set = set(result_items)
 
-        # Calculate accuracy as the size of intersection divided by size of union
-        box_accuracy = len(items_set & result_set) / len(items_set | result_set)
+        true_positives += len(items_set & result_set)
+        false_positives += len(result_set - items_set)
+        false_negatives += len(items_set - result_set)
 
-        total_accuracy += box_accuracy
-
-    # Calculate average accuracy
-    accuracy = total_accuracy / num_boxes
-
-    return accuracy
+    return true_positives, false_positives, false_negatives
 
 
 def process_dataset():
@@ -83,7 +80,11 @@ def process_dataset():
 
     json_list = list(json_file)
 
-    for json_str in json_list:
+    total_true_positives = 0
+    total_false_positives = 0
+    total_false_negatives = 0
+
+    for json_str in json_list[:5]:
         data = json.loads(json_str)
         sentence = data['sentence']
         final_states = data['final_states']
@@ -103,9 +104,20 @@ def process_dataset():
 
         result = parse_output(output)
 
-        accuracy = compare_results(final_states, result)
-        print(f"Accuracy: {accuracy * 100:.2f}%")
-        print(sample_id, "finished")
+        true_positives, false_positives, false_negatives = calculate_metrics(final_states, result)
+        total_true_positives += true_positives
+        total_false_positives += false_positives
+        total_false_negatives += false_negatives
+
+    precision = total_true_positives / (total_true_positives + total_false_positives)
+    recall = total_true_positives / (total_true_positives + total_false_negatives)
+    f1_score = 2 * ((precision * recall) / (precision + recall))
+    accuracy = total_true_positives / (total_true_positives + total_false_positives + total_false_negatives)
+
+    print(f"Precision: {precision * 100:.2f}%")
+    print(f"Recall: {recall * 100:.2f}%")
+    print(f"F1 Score: {f1_score * 100:.2f}%")
+    print(f"Accuracy: {accuracy * 100:.2f}%")
 
 
 process_dataset()
