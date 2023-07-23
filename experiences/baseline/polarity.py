@@ -2,7 +2,7 @@ import json
 from tqdm import tqdm
 from sklearn.metrics import f1_score
 
-from src.settings import Settings
+from settings import Settings
 
 # Load your data
 with open(Settings.wiqa_test, 'r') as json_file:

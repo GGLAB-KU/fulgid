@@ -4,7 +4,7 @@ import os
 import openai
 from dotenv import load_dotenv
 
-from src.settings import Settings
+from settings import Settings
 
 load_dotenv()
 

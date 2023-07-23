@@ -2,7 +2,7 @@ import json
 import os
 import re
 
-from src.settings import Settings
+from settings import Settings
 
 dataset_path = os.path.join(Settings.boxes_dataset, "test-subsample-states-t5.jsonl")
 
@@ -52,7 +52,7 @@ with open(dataset_path, 'r') as f:
             for box, items in parsed_box_states.items():
                 if box in aggregated_data[item['sample_id']]['final_states']:
                     # Update the list, convert to set for union operation, and convert back to list for JSON compatibility
-                    aggregated_data[item['sample_id']]['final_states'][box] = list(set(aggregated_data[item['sample_id']]['final_states'][box]).union(set(items)))
+                    aggregated_data[item['sample_id']]['final_states'][box] = sorted(list(set(aggregated_data[item['sample_id']]['final_states'][box]).union(set(items))))
                 else:
                     aggregated_data[item['sample_id']]['final_states'][box] = items
         # If the sample_id is not in the aggregated data, add it with the formatted content

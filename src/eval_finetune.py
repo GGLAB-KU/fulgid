@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from tqdm import tqdm
 from sklearn.metrics import f1_score
 
-from src.settings import Settings
+from settings import Settings
 
 load_dotenv()
 
