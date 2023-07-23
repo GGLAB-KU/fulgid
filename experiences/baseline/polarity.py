@@ -5,7 +5,7 @@ from sklearn.metrics import f1_score
 from settings import Settings
 
 # Load your data
-with open(Settings.wiqa_test, 'r') as json_file:
+with open(Settings.wiqa_test_path, 'r') as json_file:
     data = list(json_file)
 
 # List to store the true and predicted labels

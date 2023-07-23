@@ -57,7 +57,7 @@ def get_code_representation_from_gpt(prompt):
 
 
 def process_dataset():
-    with open(Settings.wiqa_train, 'r') as json_file:
+    with open(Settings.wiqa_train_path, 'r') as json_file:
         json_list = list(json_file)
 
     for json_str in json_list:

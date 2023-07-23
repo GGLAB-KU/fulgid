@@ -16,7 +16,7 @@ openai.api_key = OPENAI_API_KEY
 y_true = []
 y_pred = []
 
-with open(Settings.wiqa_test, 'r') as json_file:
+with open(Settings.wiqa_test_path, 'r') as json_file:
     test_data = [json.loads(line) for line in json_file]
 
 for data in tqdm(test_data):

@@ -41,7 +41,7 @@ def num_tokens_from_string(string: str, model_name: str) -> int:
     return num_tokens
 
 
-with open(Settings.wiqa_test, 'r') as json_file:
+with open(Settings.wiqa_test_path, 'r') as json_file:
     test_data = [json.loads(line) for line in json_file]
 
 for data in test_data:

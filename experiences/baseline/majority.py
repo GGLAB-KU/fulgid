@@ -7,7 +7,7 @@ from tqdm import tqdm
 from settings import Settings
 
 # Load your data
-with open(Settings.wiqa_test, 'r') as json_file:
+with open(Settings.wiqa_test_path, 'r') as json_file:
     data = [json.loads(line) for line in json_file]
 
 # Counter for the labels

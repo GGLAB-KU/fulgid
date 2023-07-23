@@ -17,7 +17,7 @@ openai.api_key = OPENAI_API_KEY
 # {"prompt": "<prompt text>", "completion": "<ideal generated text>"}
 # ...
 
-with open(Settings.wiqa_train, 'r') as json_file:
+with open(Settings.wiqa_train_path, 'r') as json_file:
     train_data = [json.loads(line) for line in json_file]
 
 with open('output.jsonl', 'w') as outfile:
