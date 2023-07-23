@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import openai
 import tiktoken
 
-from src.settings import Settings
+from settings import Settings
 
 load_dotenv()
 

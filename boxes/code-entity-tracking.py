@@ -1,11 +1,12 @@
 import os
 import json
 import re
+from pathlib import Path
+
 from dotenv import load_dotenv
 import openai
-import tiktoken
 
-from src.settings import Settings
+from settings import Settings
 
 load_dotenv()
 
@@ -14,15 +15,17 @@ ENGINE = "text-davinci-003"
 
 MAX_TOKENS = 4097
 TEMPERATURE = 0.3
+BOXES_CODE_PATH = '../boxes/code/{engine}/{ques_id}.py'
 
 openai.api_key = OPENAI_API_KEY
 
+example_0 = """Box 0 contains the bomb and the boot, Box 1 contains nothing, Box 2 contains nothing, Box 3 contains the rose and the tissue, Box 4 contains the jacket, Box 5 contains the fish and the painting, Box 6 contains the cross. Put the machine into Box 3. Remove the painting from Box 5. Remove the fish from Box 5. Move the machine and the rose from Box 3 to Box 4. Move the cross from Box 6 to Box 1. Move the cross from Box 1 to Box 3. Move the cross from Box 3 to Box 6. Move the cross from Box 6 to Box 0. Put the bell and the bottle into Box 3.
 
-def num_tokens_from_string(string: str, model_name: str) -> int:
-    """Returns the number of tokens in a text string."""
-    encoding = tiktoken.encoding_for_model(model_name)
-    num_tokens = len(encoding.encode(string))
-    return num_tokens
+convert above text to a simple python code:"""
+
+new_example_template = """{sentence}
+
+convert above text to a simple python code similar to previous one:"""
 
 
 def parse_output(output):
@@ -69,31 +72,29 @@ def process_dataset():
     aggregated_boxes_file = open(aggregated_data_path, 'r')
     aggregated_boxes = list(aggregated_boxes_file)
 
-    prompt_path = os.path.join(Settings.boxes_dataset, "prompt_incontext.txt")
-    prompt_file = open(prompt_path, 'r')
-    prompt_template = prompt_file.read()
+    code_example_path = os.path.join(Settings.boxes_dataset, "sample.py")
+    code_example_file = open(code_example_path, 'r')
 
     total_true_positives = 0
     total_false_positives = 0
     total_false_negatives = 0
 
-    for json_str in aggregated_boxes[:5]:
+    for json_str in aggregated_boxes[31:37]:
         data = json.loads(json_str)
         sentence = data['sentence']
         final_states = data['final_states']
 
-        prompt = prompt_template.format(desc=sentence)
-
-        num_tokens = num_tokens_from_string(prompt, ENGINE)
-        response = openai.Completion.create(
-            engine=ENGINE,
-            prompt=prompt,
-            temperature=TEMPERATURE,
-            max_tokens=MAX_TOKENS - num_tokens,
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "user", "content": example_0},
+                {"role": "assistant", "content": code_example_file.read()},
+                {"role": "user", "content": new_example_template.format(sentence=sentence)},
+            ],
+            temperature=0,
         )
-        output = response.choices[0].text.strip()
-
-        result = parse_output(output)
+        output = response['choices'][0]['message']['content']
+        code_base_representation_path = Path(CODE_BASE_PATH.format(engine=MODEL_NAME, ques_id=ques_id))
 
         true_positives, false_positives, false_negatives = calculate_metrics(final_states, result)
         total_true_positives += true_positives
