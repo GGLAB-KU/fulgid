@@ -5,7 +5,9 @@ current_dir = pathlib.Path(__file__).parent.resolve()
 
 
 class Settings:
-    wiqa_train = os.path.join(current_dir, "datasets/wiqa-dataset-v2-october-2019/train.jsonl")
-    wiqa_test = os.path.join(current_dir, "datasets/wiqa-dataset-v2-october-2019/test.jsonl")
-    wiqa_dev = os.path.join(current_dir, "datasets/wiqa-dataset-v2-october-2019/dev.jsonl")
-    boxes_dataset = os.path.join(current_dir, "datasets/boxes-only-needed/")
+    wiqa_train_path = os.path.join(current_dir, "datasets/wiqa-dataset-v2-october-2019/train.jsonl")
+    wiqa_test_path = os.path.join(current_dir, "datasets/wiqa-dataset-v2-october-2019/test.jsonl")
+    wiqa_dev_path = os.path.join(current_dir, "datasets/wiqa-dataset-v2-october-2019/dev.jsonl")
+    boxes_dataset_path = os.path.join(current_dir, "datasets/boxes-only-needed/")
+    boxes_code_path = os.path.join(current_dir, "boxes/code/{engine}/{sample_id}.py")
+    boxes_simple_path = os.path.join(current_dir, "boxes/simple/{engine}/{sample_id}.json")
