@@ -1,7 +1,7 @@
 import json
 import os
 import re
-
+from collections import OrderedDict
 from settings import Settings
 
 dataset_path = os.path.join(Settings.boxes_dataset, "test-subsample-states-t5.jsonl")
@@ -29,8 +29,8 @@ with open(dataset_path, 'r') as f:
         # Split the final states into separate box states
         box_states = last_sentence.split(', ')
 
-        # Initialize an empty dictionary to store the parsed box states
-        parsed_box_states = {}
+        # Initialize an empty OrderedDict to store the parsed box states
+        parsed_box_states = OrderedDict()
 
         # Parse each box state
         for box_state in box_states:
@@ -40,7 +40,7 @@ with open(dataset_path, 'r') as f:
                 box_number = match.group(1)
                 box_contents = match.group(2).split(' and ')
                 # Convert the set into a list
-                box_contents = list(set(box_contents))
+                box_contents = sorted(list(set(box_contents)))
                 # Add to the parsed box states
                 parsed_box_states['Box ' + box_number] = box_contents
 
@@ -54,7 +54,7 @@ with open(dataset_path, 'r') as f:
                     # Update the list, convert to set for union operation, and convert back to list for JSON compatibility
                     aggregated_data[item['sample_id']]['final_states'][box] = sorted(list(set(aggregated_data[item['sample_id']]['final_states'][box]).union(set(items))))
                 else:
-                    aggregated_data[item['sample_id']]['final_states'][box] = items
+                    aggregated_data[item['sample_id']]['final_states'][box] = sorted(items)
         # If the sample_id is not in the aggregated data, add it with the formatted content
         else:
             del item['masked_content']
