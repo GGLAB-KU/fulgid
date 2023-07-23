@@ -4,7 +4,7 @@ import re
 from collections import OrderedDict
 from settings import Settings
 
-dataset_path = os.path.join(Settings.boxes_dataset, "test-subsample-states-t5.jsonl")
+dataset_path = os.path.join(Settings.boxes_dataset_path, "test-subsample-states-t5.jsonl")
 
 # Initialize an empty dictionary to store the aggregated data
 aggregated_data = {}
@@ -63,7 +63,7 @@ with open(dataset_path, 'r') as f:
             aggregated_data[item['sample_id']]['sentence'] = remaining_text
             aggregated_data[item['sample_id']]['final_states'] = parsed_box_states
 
-dataset_path = os.path.join(Settings.boxes_dataset, "aggregated_data.jsonl")
+dataset_path = os.path.join(Settings.boxes_dataset_path, "aggregated_data.jsonl")
 
 with open(dataset_path, 'w') as outfile:
     for sample_id, data in aggregated_data.items():
