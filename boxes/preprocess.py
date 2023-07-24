@@ -1,3 +1,4 @@
+import hashlib
 import json
 import os
 import re
@@ -8,6 +9,13 @@ dataset_path = os.path.join(Settings.boxes_dataset_path, "test-subsample-states-
 # Initialize an empty dictionary to store the aggregated data
 aggregated_data = {}
 BOX_NUMBER = 7
+
+
+def hash_sentence(text, length=10):
+    full_hash = hashlib.sha256(text.encode()).hexdigest()
+    return full_hash[:length]
+
+
 with open(dataset_path, 'r') as f:
     lines = f.readlines()
 index = 0
@@ -42,6 +50,7 @@ for i in range(0, len(lines), BOX_NUMBER):
 
     # Add the parsed box states to the aggregated data
     aggregated_data[index] = {
+        'sentence_hash': hash_sentence(remaining_text),
         'sentence': remaining_text,
         'sample_id': items[0]['sample_id'],
         'numops': items[0]['numops'],
@@ -49,11 +58,9 @@ for i in range(0, len(lines), BOX_NUMBER):
     }
     index += 1
 
-
 dataset_path = os.path.join(Settings.boxes_dataset_path, "aggregated_data.jsonl")
 
 with open(dataset_path, 'w') as outfile:
     for sample_id, data in aggregated_data.items():
         json.dump(data, outfile)
         outfile.write('\n')
-
