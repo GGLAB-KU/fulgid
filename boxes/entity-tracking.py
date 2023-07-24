@@ -80,6 +80,7 @@ def process_dataset():
         data = json.loads(json_str)
         sentence = data['sentence']
         sample_id = data['sample_id']
+        sentence_hash = data['sentence_hash']
 
         prompt = prompt_template.format(desc=sentence)
 
@@ -96,7 +97,7 @@ def process_dataset():
 
         json_parsed_output = json.dumps(parsed_output, indent=4)
 
-        output_path = Path(Settings.boxes_simple_path.format(engine=ENGINE, sample_id=sample_id))
+        output_path = Path(Settings.boxes_simple_path.format(engine=ENGINE, hash=sentence_hash))
 
         with open(output_path, 'w') as f:
             f.write(json_parsed_output)

@@ -39,6 +39,7 @@ def process_dataset():
         data = json.loads(json_str)
         sentence = data['sentence']
         sample_id = data['sample_id']
+        sentence_hash = data['sentence_hash']
 
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
@@ -50,7 +51,7 @@ def process_dataset():
             temperature=0,
         )
         output = response['choices'][0]['message']['content']
-        code_representation_path = Path(Settings.boxes_code_path.format(engine=ENGINE, sample_id=sample_id))
+        code_representation_path = Path(Settings.boxes_code_path.format(engine=ENGINE, hash=sentence_hash))
 
         with open(code_representation_path, 'w') as f:
             f.write(output)
