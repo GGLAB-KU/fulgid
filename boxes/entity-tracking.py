@@ -1,6 +1,8 @@
 import os
 import json
 import re
+from pathlib import Path
+
 from dotenv import load_dotenv
 import openai
 import tiktoken
@@ -31,6 +33,7 @@ def parse_output(output):
 
     box_dict = {}
     for desc in box_descs:
+        desc = desc.replace(".", "")
         # Extract the box number and the items
         match = re.match(r'(\d+) contains (.*)', desc)
 
@@ -65,22 +68,18 @@ def calculate_metrics(final_states, result):
 
 
 def process_dataset():
-    aggregated_data_path = os.path.join(Settings.boxes_dataset, "aggregated_data.jsonl")
+    aggregated_data_path = os.path.join(Settings.boxes_dataset_path, "aggregated_data.jsonl")
     aggregated_boxes_file = open(aggregated_data_path, 'r')
     aggregated_boxes = list(aggregated_boxes_file)
 
-    prompt_path = os.path.join(Settings.boxes_dataset, "prompt_incontext.txt")
+    prompt_path = os.path.join(Settings.boxes_dataset_path, "prompt_incontext.txt")
     prompt_file = open(prompt_path, 'r')
     prompt_template = prompt_file.read()
 
-    total_true_positives = 0
-    total_false_positives = 0
-    total_false_negatives = 0
-
-    for json_str in aggregated_boxes[:5]:
+    for json_str in aggregated_boxes[100:105]:
         data = json.loads(json_str)
         sentence = data['sentence']
-        final_states = data['final_states']
+        sample_id = data['sample_id']
 
         prompt = prompt_template.format(desc=sentence)
 
@@ -93,22 +92,15 @@ def process_dataset():
         )
         output = response.choices[0].text.strip()
 
-        result = parse_output(output)
+        parsed_output = parse_output(output)
 
-        true_positives, false_positives, false_negatives = calculate_metrics(final_states, result)
-        total_true_positives += true_positives
-        total_false_positives += false_positives
-        total_false_negatives += false_negatives
+        json_parsed_output = json.dumps(parsed_output, indent=4)
 
-    precision = total_true_positives / (total_true_positives + total_false_positives)
-    recall = total_true_positives / (total_true_positives + total_false_negatives)
-    f1_score = 2 * ((precision * recall) / (precision + recall))
-    accuracy = total_true_positives / (total_true_positives + total_false_positives + total_false_negatives)
+        output_path = Path(Settings.boxes_simple_path.format(engine=ENGINE, sample_id=sample_id))
 
-    print(f"Precision: {precision * 100:.2f}%")
-    print(f"Recall: {recall * 100:.2f}%")
-    print(f"F1 Score: {f1_score * 100:.2f}%")
-    print(f"Accuracy: {accuracy * 100:.2f}%")
+        with open(output_path, 'w') as f:
+            f.write(json_parsed_output)
+        print(sample_id, "finished")
 
 
 process_dataset()
