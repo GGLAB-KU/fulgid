@@ -11,3 +11,4 @@ class Settings:
     boxes_dataset_path = os.path.join(current_dir, "datasets/boxes-only-needed/")
     boxes_code_path = os.path.join(current_dir, "boxes/code/{engine}/{hash}.py")
     boxes_simple_path = os.path.join(current_dir, "boxes/simple/{engine}/{hash}.json")
+    sample_range = slice(100, 105)

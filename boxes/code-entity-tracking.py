@@ -35,7 +35,7 @@ def process_dataset():
     code_example_file = open(code_example_path, 'r')
     example_code = code_example_file.read()
 
-    for json_str in aggregated_boxes[100:105]:
+    for json_str in aggregated_boxes[Settings.sample_range]:
         data = json.loads(json_str)
         sentence = data['sentence']
         sample_id = data['sample_id']

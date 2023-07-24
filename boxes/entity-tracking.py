@@ -76,7 +76,7 @@ def process_dataset():
     prompt_file = open(prompt_path, 'r')
     prompt_template = prompt_file.read()
 
-    for json_str in aggregated_boxes[100:105]:
+    for json_str in aggregated_boxes[Settings.sample_range]:
         data = json.loads(json_str)
         sentence = data['sentence']
         sample_id = data['sample_id']
