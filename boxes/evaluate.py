@@ -11,6 +11,8 @@ failed_code = 0
 
 
 def convert_str_to_dict(input_str):
+    if 'Traceback' in input_str:
+        return {}
     dict_result = {}
     # split the string into lines
     lines = input_str.split("\n")
