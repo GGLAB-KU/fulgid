@@ -81,27 +81,27 @@ def process_dataset():
         sentence = data['sentence']
         sample_id = data['sample_id']
         sentence_hash = data['sentence_hash']
-
-        prompt = prompt_template.format(desc=sentence)
-
-        num_tokens = num_tokens_from_string(prompt, ENGINE)
-        response = openai.Completion.create(
-            engine=ENGINE,
-            prompt=prompt,
-            temperature=TEMPERATURE,
-            max_tokens=MAX_TOKENS - num_tokens,
-        )
-        output = response.choices[0].text.strip()
-
-        parsed_output = parse_output(output)
-
-        json_parsed_output = json.dumps(parsed_output, indent=4)
-
         output_path = Path(Settings.boxes_simple_path.format(engine=ENGINE, hash=sentence_hash))
 
-        with open(output_path, 'w') as f:
-            f.write(json_parsed_output)
-        print(sample_id, "finished")
+        if not output_path.is_file():
+            prompt = prompt_template.format(desc=sentence)
+
+            num_tokens = num_tokens_from_string(prompt, ENGINE)
+            response = openai.Completion.create(
+                engine=ENGINE,
+                prompt=prompt,
+                temperature=TEMPERATURE,
+                max_tokens=MAX_TOKENS - num_tokens,
+            )
+            output = response.choices[0].text.strip()
+
+            parsed_output = parse_output(output)
+
+            json_parsed_output = json.dumps(parsed_output, indent=4)
+
+            with open(output_path, 'w') as f:
+                f.write(json_parsed_output)
+            print(sample_id, "finished")
 
 
 process_dataset()

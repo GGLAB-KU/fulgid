@@ -41,21 +41,23 @@ def process_dataset():
         sample_id = data['sample_id']
         sentence_hash = data['sentence_hash']
 
-        response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                {"role": "user", "content": example_0},
-                {"role": "assistant", "content": example_code},
-                {"role": "user", "content": new_example_template.format(sentence=sentence)},
-            ],
-            temperature=0,
-        )
-        output = response['choices'][0]['message']['content']
         code_representation_path = Path(Settings.boxes_code_path.format(engine=ENGINE, hash=sentence_hash))
 
-        with open(code_representation_path, 'w') as f:
-            f.write(output)
-        print(sample_id, "finished")
+        if not code_representation_path.is_file():
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "user", "content": example_0},
+                    {"role": "assistant", "content": example_code},
+                    {"role": "user", "content": new_example_template.format(sentence=sentence)},
+                ],
+                temperature=0,
+            )
+            output = response['choices'][0]['message']['content']
+
+            with open(code_representation_path, 'w') as f:
+                f.write(output)
+            print(sample_id, "finished")
 
 
 process_dataset()
