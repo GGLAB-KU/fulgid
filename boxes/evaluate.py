@@ -2,6 +2,7 @@ import json
 import os
 import subprocess
 from pathlib import Path
+import matplotlib.pyplot as plt
 
 from settings import Settings
 
@@ -88,25 +89,27 @@ def process_dataset():
     aggregated_boxes_file = open(aggregated_data_path, 'r')
     aggregated_boxes = list(aggregated_boxes_file)
 
-    total_true_positives = 0
-    total_false_positives = 0
-    total_false_negatives = 0
-
-    total_true_positives_code = 0
-    total_false_positives_code = 0
-    total_false_negatives_code = 0
+    tp_count = {}  # true positives count for each operations_num
+    fp_count = {}  # false positives count for each operations_num
+    fn_count = {}  # false negatives count for each operations_num
 
     for json_str in aggregated_boxes[Settings.sample_range]:
         data = json.loads(json_str)
         final_states = data['final_states']
         sentence_hash = data['sentence_hash']
+        operations_num = data['numops']
+
+        # Initialize counts for this operations_num if not done yet
+        if operations_num not in tp_count:
+            tp_count[operations_num] = 0
+            fp_count[operations_num] = 0
+            fn_count[operations_num] = 0
 
         simple_output_path = Path(Settings.boxes_simple_path.format(engine=ENGINE, hash=sentence_hash))
-        code_output_path = Path(Settings.boxes_code_path.format(engine=ENGINE, hash=sentence_hash))
-
         simple_prompt_file = open(simple_output_path, 'r')
         simple_output = json.loads(simple_prompt_file.read())
 
+        code_output_path = Path(Settings.boxes_code_path.format(engine=ENGINE, hash=sentence_hash))
         code_output = execute_code(code_output_path)
         if 'Traceback' not in code_output:
             code_dict_output = convert_str_to_dict(code_output)
@@ -114,25 +117,39 @@ def process_dataset():
             print(sentence_hash)
             code_dict_output = {}
 
-        true_positives, false_positives, false_negatives = calculate_metrics(final_states, simple_output)
-
-        total_true_positives += true_positives
-        total_false_positives += false_positives
-        total_false_negatives += false_negatives
-
         true_positives, false_positives, false_negatives = calculate_metrics(final_states, code_dict_output)
 
-        total_true_positives_code += true_positives
-        total_false_positives_code += false_positives
-        total_false_negatives_code += false_negatives
+        # Add the counts to the corresponding operations_num
+        tp_count[operations_num] += true_positives
+        fp_count[operations_num] += false_positives
+        fn_count[operations_num] += false_negatives
 
-    print(".................... Simple Prompt ....................")
+    accuracy_code = {}
+    for operations_num in tp_count:
+        accuracy_code[operations_num] = tp_count[operations_num] / (
+                tp_count[operations_num] + fp_count[operations_num] + fn_count[operations_num])
 
-    create_metrics(total_false_negatives, total_false_positives, total_true_positives)
-
-    print(".................... Code Representation ....................")
-
-    create_metrics(total_false_negatives_code, total_false_positives_code, total_true_positives_code)
+    return accuracy_code
 
 
-process_dataset()
+# Call the process_dataset function to get the accuracy_code dictionary
+accuracy_code = process_dataset()
+
+# Prepare data for the plot
+operations_nums = sorted(accuracy_code.keys())
+accuracies = [accuracy_code[num] for num in operations_nums]
+
+# Create a plot
+plt.figure(figsize=(10, 6))
+plt.plot(operations_nums, accuracies, marker='o')
+
+# Add labels and title
+plt.xlabel('operations_num')
+plt.ylabel('Accuracy')
+plt.title('Python Code Representation')
+
+# Show grid
+plt.grid(True)
+
+# Show the plot
+plt.show()
