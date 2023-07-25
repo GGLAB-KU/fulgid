@@ -11,8 +11,6 @@ failed_code = 0
 
 
 def convert_str_to_dict(input_str):
-    if 'Traceback' in input_str:
-        return {}
     dict_result = {}
     # split the string into lines
     lines = input_str.split("\n")
@@ -110,7 +108,11 @@ def process_dataset():
         simple_output = json.loads(simple_prompt_file.read())
 
         code_output = execute_code(code_output_path)
-        code_dict_output = convert_str_to_dict(code_output)
+        if 'Traceback' not in code_output:
+            code_dict_output = convert_str_to_dict(code_output)
+        else:
+            print(sentence_hash)
+            code_dict_output = {}
 
         true_positives, false_positives, false_negatives = calculate_metrics(final_states, simple_output)
 
