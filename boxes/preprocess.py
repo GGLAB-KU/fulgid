@@ -2,13 +2,24 @@ import hashlib
 import json
 import os
 import re
-from collections import OrderedDict
 from settings import Settings
 
-dataset_path = os.path.join(Settings.boxes_dataset_path, "test-subsample-states-t5.jsonl")
-# Initialize an empty dictionary to store the aggregated data
-aggregated_data = {}
-BOX_NUMBER = 7
+
+def get_number_operations(text):
+    move_operations = len(re.findall(r"\bMove\b", text))
+    remove_operations = len(re.findall(r"\bRemove\b", text))
+    put_operations = len(re.findall(r"\bPut\b", text))
+
+    operations = {
+        "Move": move_operations,
+        "Remove": remove_operations,
+        "Put": put_operations
+    }
+
+    total_operations = sum(operations.values())
+    operations["Total"] = total_operations
+
+    return operations
 
 
 def hash_sentence(text, length=10):
@@ -16,9 +27,14 @@ def hash_sentence(text, length=10):
     return full_hash[:length]
 
 
+dataset_path = os.path.join(Settings.boxes_dataset_path, "test-subsample-states-t5.jsonl")
+aggregated_data = {}
+BOX_NUMBER = 7
+INDEX = 0
+
 with open(dataset_path, 'r') as f:
     lines = f.readlines()
-index = 0
+
 for i in range(0, len(lines), BOX_NUMBER):
     group = lines[i:i + BOX_NUMBER]  # Get the next 7 lines (or fewer if not enough left)
     items = [json.loads(line) for line in group]  # Parse the JSON objects from the lines
@@ -49,14 +65,14 @@ for i in range(0, len(lines), BOX_NUMBER):
             final_states['Box ' + box_number] = box_contents
 
     # Add the parsed box states to the aggregated data
-    aggregated_data[index] = {
+    aggregated_data[INDEX] = {
         'sentence_hash': hash_sentence(remaining_text),
         'sentence': remaining_text,
         'sample_id': items[0]['sample_id'],
-        'numops': items[0]['numops'],
+        'numops': get_number_operations(remaining_text),
         'final_states': final_states
     }
-    index += 1
+    INDEX += 1
 
 dataset_path = os.path.join(Settings.boxes_dataset_path, "aggregated_data.jsonl")
 
