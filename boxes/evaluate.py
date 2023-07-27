@@ -127,7 +127,7 @@ def process_dataset_code():
         if 'Traceback' not in code_output:
             code_dict_output = convert_str_to_dict(code_output)
         else:
-            print(sentence_hash)
+            print("sentence_hash:", sentence_hash, "operations_num: ",operations_num)
             code_dict_output = {}
 
         true_positives, false_positives, false_negatives = calculate_metrics(final_states, code_dict_output)
@@ -186,9 +186,9 @@ def process_dataset_simple():
 
 
 # Call the process_dataset function to get the accuracy_code dictionary
-# accuracy_map_code = process_dataset_code()
+accuracy_map_code = process_dataset_code()
 accuracy_map_simple = process_dataset_simple()
 
 # Plot the charts
-# plotting(accuracy_map_code, "Python Code Representation")
+plotting(accuracy_map_code, "Python Code Representation")
 plotting(accuracy_map_simple, "Simple Prompt")
