@@ -31,3 +31,5 @@ sentence_hash: e05cf4dffc operations_num:  12
 sentence_hash: e88c401f43 operations_num:  12
 
 all code representations which are not executable by computer.
+
+Point: for Python Code Representation we use one-shot prompting, however for simple prompting we used 2 examples instead of one!
