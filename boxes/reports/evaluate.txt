@@ -33,3 +33,12 @@ sentence_hash: e88c401f43 operations_num:  12
 all code representations which are not executable by computer.
 
 Point: for Python Code Representation we use one-shot prompting, however for simple prompting we used 2 examples instead of one!
+
+
+100% of exceptions in code execution are for the following error:
+
+sentence_hash: c7339057ab operations_num:  0
+Traceback (most recent call last):
+  File "/Users/ehsan/PycharmProjects/fulgid/boxes/code/text-davinci-003/c7339057ab.py", line 32, in <module>
+    boxes[src].remove(item)
+ValueError: list.remove(x): x not in list
