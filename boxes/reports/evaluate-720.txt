@@ -1,0 +1,86 @@
+sentence_hash: 477fe017c6 operations_num:  10
+sentence_hash: e42a02b098 operations_num:  0
+sentence_hash: e2b5a96585 operations_num:  12
+sentence_hash: 2e6ba98392 operations_num:  12
+sentence_hash: 47b07e5c40 operations_num:  11
+sentence_hash: ffdb168a48 operations_num:  11
+sentence_hash: 3f141e7aba operations_num:  2
+sentence_hash: e05a8aa587 operations_num:  6
+sentence_hash: 8f1e3fb35b operations_num:  10
+sentence_hash: 217b578392 operations_num:  10
+sentence_hash: 546aac1b96 operations_num:  12
+sentence_hash: 57b24a1986 operations_num:  10
+sentence_hash: c51c8b5c5b operations_num:  11
+sentence_hash: aecaa40c20 operations_num:  11
+sentence_hash: 46beb63da3 operations_num:  12
+sentence_hash: 3466f17566 operations_num:  10
+sentence_hash: 0f21b09aab operations_num:  12
+sentence_hash: c7339057ab operations_num:  0
+sentence_hash: 6ee560a82c operations_num:  11
+sentence_hash: f8e1b0c2c4 operations_num:  12
+sentence_hash: a000fc0ca7 operations_num:  12
+sentence_hash: a7fdc9cf7b operations_num:  11
+sentence_hash: 6e541d088a operations_num:  8
+sentence_hash: 944c9acb83 operations_num:  12
+sentence_hash: 2c84312481 operations_num:  12
+sentence_hash: c759d735b0 operations_num:  5
+sentence_hash: 62b98b0d8a operations_num:  9
+sentence_hash: 6db3b23b04 operations_num:  10
+sentence_hash: bbf63bd561 operations_num:  11
+sentence_hash: e05cf4dffc operations_num:  12
+sentence_hash: e88c401f43 operations_num:  12
+sentence_hash: f869a96f4c operations_num:  0
+sentence_hash: 46a500ab3c operations_num:  10
+sentence_hash: b38c87c1a2 operations_num:  11
+sentence_hash: a6b40b504d operations_num:  11
+sentence_hash: 814405496f operations_num:  10
+sentence_hash: bf3f03d520 operations_num:  11
+sentence_hash: f31277be5b operations_num:  12
+sentence_hash: df4a314f37 operations_num:  11
+sentence_hash: ca9cff6adf operations_num:  12
+sentence_hash: 69a524ce6c operations_num:  9
+sentence_hash: 3063758c68 operations_num:  10
+sentence_hash: ac128419e6 operations_num:  11
+sentence_hash: 4e9b46297e operations_num:  0
+sentence_hash: 4158ef1e1c operations_num:  12
+sentence_hash: 71f06cc9d9 operations_num:  5
+sentence_hash: 932960cc5c operations_num:  7
+sentence_hash: c7443e1a6c operations_num:  8
+sentence_hash: 5fc1c9bcd9 operations_num:  12
+sentence_hash: 85b4854c55 operations_num:  11
+sentence_hash: e24ca66dee operations_num:  11
+sentence_hash: 00d8f460ae operations_num:  11
+sentence_hash: f8f20b8274 operations_num:  11
+sentence_hash: d799ac47f7 operations_num:  10
+sentence_hash: 74ff389c7c operations_num:  11
+sentence_hash: 35a6586042 operations_num:  12
+sentence_hash: 6c0486b1e4 operations_num:  11
+sentence_hash: c181bed621 operations_num:  10
+sentence_hash: e5af362fab operations_num:  12
+sentence_hash: 1583b8c5ac operations_num:  0
+sentence_hash: f86b17e384 operations_num:  11
+sentence_hash: c4b871017c operations_num:  11
+sentence_hash: b5728f8959 operations_num:  8
+sentence_hash: 23d47e9eaf operations_num:  10
+sentence_hash: 46d13a4913 operations_num:  0
+sentence_hash: 35b29c9255 operations_num:  11
+sentence_hash: 7402a2cc59 operations_num:  12
+sentence_hash: 05594c9567 operations_num:  12
+sentence_hash: 0b509e405c operations_num:  12
+sentence_hash: 7c31076591 operations_num:  10
+sentence_hash: 123bfb34c4 operations_num:  10
+sentence_hash: 8b300c3011 operations_num:  10
+sentence_hash: 2e6c91d21a operations_num:  0
+sentence_hash: fcfefee572 operations_num:  9
+.................... Simple Prompt ....................
+Precision: 82.74%
+Recall: 76.58%
+F1 Score: 79.54%
+Accuracy: 66.03%
+
+
+.................... Code Representation ....................
+Precision: 98.46%
+Recall: 87.95%
+F1 Score: 92.91%
+Accuracy: 86.76%
