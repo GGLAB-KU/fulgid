@@ -108,6 +108,13 @@ def print_metrics(title, tp_count, fp_count, fn_count):
     print("\n")
 
 
+def update_counts(final_states, result, tp_count, fp_count, fn_count, operations_num):
+    true_positives, false_positives, false_negatives = calculate_metrics(final_states, result)
+    tp_count[operations_num] += true_positives
+    fp_count[operations_num] += false_positives
+    fn_count[operations_num] += false_negatives
+
+
 def process_dataset_code():
     aggregated_data_path = os.path.join(Settings.boxes_dataset_path, "aggregated_data.jsonl")
     aggregated_boxes_file = open(aggregated_data_path, 'r')
@@ -137,12 +144,7 @@ def process_dataset_code():
             print("sentence_hash:", sentence_hash, "operations_num: ", operations_num)
             code_dict_output = {}
 
-        true_positives, false_positives, false_negatives = calculate_metrics(final_states, code_dict_output)
-
-        # Add the counts to the corresponding operations_num
-        tp_count[operations_num] += true_positives
-        fp_count[operations_num] += false_positives
-        fn_count[operations_num] += false_negatives
+        update_counts(final_states, code_dict_output, tp_count, fp_count, fn_count, operations_num)
 
     accuracy_code = {}
     for operations_num in tp_count:
@@ -177,12 +179,7 @@ def process_dataset_simple():
         simple_prompt_file = open(simple_output_path, 'r')
         simple_output = json.loads(simple_prompt_file.read())
 
-        true_positives, false_positives, false_negatives = calculate_metrics(final_states, simple_output)
-
-        # Add the counts to the corresponding operations_num
-        tp_count[operations_num] += true_positives
-        fp_count[operations_num] += false_positives
-        fn_count[operations_num] += false_negatives
+        update_counts(final_states, simple_output, tp_count, fp_count, fn_count, operations_num)
 
     accuracy_code = {}
     for operations_num in tp_count:
