@@ -31,7 +31,7 @@ def process_dataset():
     aggregated_boxes_file = open(aggregated_data_path, 'r')
     aggregated_boxes = list(aggregated_boxes_file)
 
-    code_example_path = os.path.join(Settings.boxes_dataset_path, "sample.py")
+    code_example_path = os.path.join(Settings.boxes_dataset_path, "sample1.py")
     code_example_file = open(code_example_path, 'r')
     example_code = code_example_file.read()
 
