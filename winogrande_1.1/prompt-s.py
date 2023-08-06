@@ -71,7 +71,7 @@ def is_predicted_before(qID):
 
 def process_dataset():
     dataset_items = list(open(dataset_path, 'r'))
-    for str_item in dataset_items[10:20]:
+    for str_item in dataset_items[10:110]:
         data = json.loads(str_item)
         qID = data['qID']
         if not is_predicted_before(qID):
@@ -88,6 +88,7 @@ def process_dataset():
             output = response['choices'][0]['message']['content']
 
             update_predictions(output, data)
+            print(qID, "finished")
 
 
 process_dataset()

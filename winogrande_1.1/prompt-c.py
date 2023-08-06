@@ -5,8 +5,6 @@ import pathlib
 import openai
 from pathlib import Path
 
-from settings import Settings
-
 ENGINE = "gpt-3.5-turbo"
 TEMPERATURE = 0
 
@@ -39,7 +37,7 @@ def process_dataset():
     sample2_code = code_sample_file.read()
 
     dataset_items = list(open(dataset_path, 'r'))
-    for str_item in dataset_items[10:20]:
+    for str_item in dataset_items[10:110]:
         data = json.loads(str_item)
         qID = data['qID']
         sentence = data['sentence']
