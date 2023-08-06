@@ -1,7 +1,10 @@
 import os
 import pathlib
 
+from dotenv import load_dotenv
+
 current_dir = pathlib.Path(__file__).parent.resolve()
+load_dotenv()
 
 
 class Settings:

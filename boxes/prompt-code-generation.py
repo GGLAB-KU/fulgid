@@ -15,7 +15,7 @@ TEMPERATURE = 0
 
 openai.api_key = OPENAI_API_KEY
 
-example_0 = """Box 0 contains the bomb and the boot, Box 1 contains nothing, Box 2 contains nothing, Box 3 contains the rose and the tissue, Box 4 contains the jacket, Box 5 contains the fish and the painting, Box 6 contains the cross. Put the machine into Box 3. Remove the painting from Box 5. Remove the fish from Box 5. Move the machine and the rose from Box 3 to Box 4. Move the cross from Box 6 to Box 1. Move the cross from Box 1 to Box 3. Move the cross from Box 3 to Box 6. Move the cross from Box 6 to Box 0. Put the bell and the bottle into Box 3.
+example = """Box 0 contains the bomb and the boot, Box 1 contains nothing, Box 2 contains nothing, Box 3 contains the rose and the tissue, Box 4 contains the jacket, Box 5 contains the fish and the painting, Box 6 contains the cross. Put the machine into Box 3. Remove the painting from Box 5. Remove the fish from Box 5. Move the machine and the rose from Box 3 to Box 4. Move the cross from Box 6 to Box 1. Move the cross from Box 1 to Box 3. Move the cross from Box 3 to Box 6. Move the cross from Box 6 to Box 0. Put the bell and the bottle into Box 3.
 
 convert above text to a simple python code:"""
 
@@ -45,7 +45,7 @@ def process_dataset():
             response = openai.ChatCompletion.create(
                 model=ENGINE,
                 messages=[
-                    {"role": "user", "content": example_0},
+                    {"role": "user", "content": example},
                     {"role": "assistant", "content": example_code},
                     {"role": "user", "content": new_example_template.format(sentence=sentence)},
                 ],

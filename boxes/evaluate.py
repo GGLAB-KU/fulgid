@@ -6,9 +6,7 @@ import matplotlib.pyplot as plt
 
 from settings import Settings
 
-ENGINE = "text-davinci-003"
-
-failed_code = 0
+ENGINE = "gpt-3.5-turbo"
 
 
 def convert_str_to_dict(input_str):
@@ -45,8 +43,6 @@ def execute_code(code):
         output, _ = proc.communicate(timeout=3)
     except subprocess.TimeoutExpired:
         proc.kill()
-        global failed_code
-        failed_code += 1
         return None
     return output.decode()
 
