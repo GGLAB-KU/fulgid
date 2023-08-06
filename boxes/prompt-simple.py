@@ -6,11 +6,9 @@ from pathlib import Path
 from settings import Settings
 
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 ENGINE = "gpt-3.5-turbo"
 TEMPERATURE = 0.0
 
-openai.api_key = OPENAI_API_KEY
 system_msg = 'Given the description after "Description:", write a true statement about all boxes and their contents to the description after "Statement:".'
 
 user1_msg = 'Description: Box 0 contains the car, Box 1 contains the cross, Box 2 contains the bag and the machine, Box 3 contains the paper and the string, Box 4 contains the bill, Box 5 contains the apple and the cash and the glass, Box 6 contains the bottle and the map.'
