@@ -1,80 +1,93 @@
-import os
 import json
+import os
+import pathlib
 import re
-import openai
 from pathlib import Path
-from settings import Settings
 
+import openai
+from dotenv import load_dotenv
+
+load_dotenv()
 
 ENGINE = "gpt-3.5-turbo"
 TEMPERATURE = 0.0
 
-system_msg = 'Given the description after "Description:", write a true statement about all boxes and their contents to the description after "Statement:".'
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+openai.api_key = OPENAI_API_KEY
 
-user1_msg = 'Description: Box 0 contains the car, Box 1 contains the cross, Box 2 contains the bag and the machine, Box 3 contains the paper and the string, Box 4 contains the bill, Box 5 contains the apple and the cash and the glass, Box 6 contains the bottle and the map.'
-assistant1_msg = 'Statement: Box 0 contains the car, Box 1 contains the cross, Box 2 contains the bag and the machine, Box 3 contains the paper and the string, Box 4 contains the bill, Box 5 contains the apple and the cash and the glass, Box 6 contains the bottle and the map.'
+user1_msg = """Given the sentence "Sarah was a much better surgeon than Maria so ___ always got the easier cases.", which of the following options best fills in the blank?
+1) Sarah
+2) Maria
+"""
+assistant1_msg = '2'
 
-user2_msg = 'Description: Box 0 contains the car, Box 1 contains the cross, Box 2 contains the bag and the machine, Box 3 contains the paper and the string, Box 4 contains the bill, Box 5 contains the apple and the cash and the glass, Box 6 contains the bottle and the map. Remove the car from Box 0. Remove the paper and the string from Box 3. Put the plane into Box 0. Move the map from Box 6 to Box 2. Remove the bill from Box 4. Put the coat into Box 3.'
-assistant2_msg = 'Statement: Box 0 contains the plane, Box 1 contains the cross, Box 2 contains the bag and the machine and the map, Box 3 contains the coat, Box 4 contains nothing, Box 5 contains the apple and the cash and the glass, Box 6 contains the bottle.'
+current_dir = pathlib.Path(__file__).parent.resolve()
+dataset_path = Path(os.path.join(current_dir, "dataset/dev.jsonl"))
+prediction_path = Path(os.path.join(current_dir, "results/simple-predictions.json"))
 
 
-def parse_output(output):
-    # Remove the "Statement: " prefix
-    text = output.replace("Statement: ", "")
+def generate_prompt(data_dict):
+    sentence_with_blank = data_dict['sentence'].replace("_", "___")
 
-    # Extract the box descriptions without dropping "Box 0"
-    box_descs = re.findall(r'Box \d+ contains (?:[^B]*(?:(?=, Box)|$))', text)
+    options = []
+    for key, value in data_dict.items():
+        if 'option' in key:
+            options.append(value)
 
-    box_dict = {}
-    for desc in box_descs:
-        desc = desc.replace(".", "")
-        # Extract the box number and the items
-        match = re.match(r'Box (\d+) contains (.*)', desc)
+    prompt = f'Given the sentence "{sentence_with_blank}", which of the following options best fills in the blank?\n'
+    for i, option in enumerate(options, 1):
+        prompt += f'{i}) {option}\n'
 
-        if match:
-            box_num = 'Box ' + match.group(1)
-            items = [item.strip() for item in re.split(', and | and |, ', match.group(2))]
-            box_dict[box_num] = items
+    return prompt
 
-    return box_dict
+
+def load_predictions():
+    if prediction_path.exists():
+        with open(prediction_path, 'r') as f:
+            return json.load(f)
+    return {}
+
+
+def update_predictions(output, data):
+    predictions = load_predictions()
+    qID = data['qID']
+
+    # Use regex to extract the number
+    match = re.search(r'(\d+)', output)
+    if match:
+        index = match.group(1)
+        predictions[qID] = index
+    else:
+        print(f"Warning: No number found in output for qID {qID}")
+
+    with prediction_path.open('w') as f:
+        json.dump(predictions, f, indent=4)
+
+
+def is_predicted_before(qID):
+    predictions = load_predictions()
+    return qID in predictions
 
 
 def process_dataset():
-    dataset_path = os.path.join(Settings.winogrande_dataset_path, "dev.jsonl")
-    dataset_file = open(dataset_path, 'r')
-    dataset_obj_list = list(dataset_file)
-
-    for json_str in dataset_obj_list[:10]:
-        data = json.loads(json_str)
-        sentence = data['sentence']
-        option1 = data['option1']
-        option2 = data['option2']
-        answer = data['answer']
+    dataset_items = list(open(dataset_path, 'r'))
+    for str_item in dataset_items[10:20]:
+        data = json.loads(str_item)
         qID = data['qID']
-        output_path = Path(Settings.boxes_simple_path.format(engine=ENGINE, hash=sentence_hash))
-
-        if not output_path.is_file():
+        if not is_predicted_before(qID):
+            prompt = generate_prompt(data)
             response = openai.ChatCompletion.create(
                 model=ENGINE,
                 messages=[
-                    {"role": "system", "content": system_msg},
                     {"role": "user", "content": user1_msg},
                     {"role": "assistant", "content": assistant1_msg},
-                    {"role": "user", "content": user2_msg},
-                    {"role": "assistant", "content": assistant2_msg},
-                    {"role": "user", "content": f'Description: {sentence}'},
+                    {"role": "user", "content": prompt},
                 ],
                 temperature=TEMPERATURE,
             )
             output = response['choices'][0]['message']['content']
 
-            parsed_output = parse_output(output)
-
-            json_parsed_output = json.dumps(parsed_output, indent=4)
-
-            with open(output_path, 'w') as f:
-                f.write(json_parsed_output)
-            print(sample_id, "finished")
+            update_predictions(output, data)
 
 
 process_dataset()
