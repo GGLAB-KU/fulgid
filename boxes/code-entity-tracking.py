@@ -10,10 +10,8 @@ from settings import Settings
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-ENGINE = "text-davinci-003"
-
-MAX_TOKENS = 4097
-TEMPERATURE = 0.3
+ENGINE = "gpt-3.5-turbo"
+TEMPERATURE = 0
 
 openai.api_key = OPENAI_API_KEY
 
@@ -45,13 +43,13 @@ def process_dataset():
 
         if not code_representation_path.is_file():
             response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model=ENGINE,
                 messages=[
                     {"role": "user", "content": example_0},
                     {"role": "assistant", "content": example_code},
                     {"role": "user", "content": new_example_template.format(sentence=sentence)},
                 ],
-                temperature=0,
+                temperature=TEMPERATURE,
             )
             output = response['choices'][0]['message']['content']
 
