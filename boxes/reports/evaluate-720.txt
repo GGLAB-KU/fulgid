@@ -73,10 +73,10 @@ sentence_hash: 8b300c3011 operations_num:  10
 sentence_hash: 2e6c91d21a operations_num:  0
 sentence_hash: fcfefee572 operations_num:  9
 .................... Simple Prompt ....................
-Precision: 82.74%
-Recall: 76.58%
-F1 Score: 79.54%
-Accuracy: 66.03%
+Precision: 82.09%
+Recall: 80.25%
+F1 Score: 81.16%
+Accuracy: 68.29%
 
 
 .................... Code Representation ....................
