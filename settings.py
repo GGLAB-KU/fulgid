@@ -1,10 +1,14 @@
 import os
 import pathlib
 
+import openai
 from dotenv import load_dotenv
 
 current_dir = pathlib.Path(__file__).parent.resolve()
 load_dotenv()
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+openai.api_key = OPENAI_API_KEY
 
 
 class Settings:
