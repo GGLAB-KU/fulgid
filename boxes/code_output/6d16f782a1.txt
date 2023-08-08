@@ -1,0 +1,7 @@
+Box 0: ['cup']
+Box 1: ['ring', 'mirror']
+Box 2: ['bag']
+Box 3: ['coat']
+Box 4: ['key']
+Box 5: []
+Box 6: ['television']
