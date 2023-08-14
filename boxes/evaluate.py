@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import subprocess
 from pathlib import Path
 import matplotlib.pyplot as plt
@@ -184,10 +185,24 @@ def process_dataset_simple():
 
     return accuracy_code, tp_count, fp_count, fn_count
 
+
 def process_dataset_simple_execution():
     aggregated_data_path = os.path.join(Settings.boxes_dataset_path, "aggregated_data.jsonl")
     aggregated_boxes_file = open(aggregated_data_path, 'r')
     aggregated_boxes = list(aggregated_boxes_file)
+
+    def load_text(text):
+        pattern = r"Box (\d+): \[([^\]]+)\]"
+
+        matches = re.findall(pattern, text)
+
+        result = {}
+
+        for match in matches:
+            box_number, items_str = match
+            items = [item.strip().strip("'") for item in items_str.split(',')]
+            result[f"Box {box_number}"] = [f"the {item}" for item in items]
+        return result
 
     tp_count = {}  # true positives count for each operations_num
     fp_count = {}  # false positives count for each operations_num
@@ -205,9 +220,9 @@ def process_dataset_simple_execution():
             fp_count[operations_num] = 0
             fn_count[operations_num] = 0
 
-        simple_output_path = Path(Settings.boxes_simple_path.format(engine=ENGINE, hash=sentence_hash))
+        simple_output_path = Path(Settings.boxes_execute_path.format(engine=ENGINE, hash=sentence_hash))
         simple_prompt_file = open(simple_output_path, 'r')
-        simple_output = json.loads(simple_prompt_file.read())
+        simple_output = load_text(simple_prompt_file.read())
 
         update_counts(final_states, simple_output, tp_count, fp_count, fn_count, operations_num)
 
@@ -217,6 +232,7 @@ def process_dataset_simple_execution():
                 tp_count[operations_num] + fp_count[operations_num] + fn_count[operations_num])
 
     return accuracy_code, tp_count, fp_count, fn_count
+
 
 # Call the process_dataset functions
 # accuracy_map_code, tp_code, fp_code, fn_code = process_dataset_code()

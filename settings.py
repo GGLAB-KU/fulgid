@@ -18,5 +18,6 @@ class Settings:
     boxes_dataset_path = os.path.join(current_dir, "datasets/boxes-only-needed/")
     boxes_code_path = os.path.join(current_dir, "boxes/code/{engine}/{hash}.py")
     boxes_simple_path = os.path.join(current_dir, "boxes/simple/{engine}/{hash}.json")
+    boxes_execute_path = os.path.join(current_dir, "boxes/code_execution/{engine}/{hash}.txt")
     winogrande_dataset_path = os.path.join(current_dir, "winogrande_1.1/dataset/")
     sample_range = slice(0, 720)
