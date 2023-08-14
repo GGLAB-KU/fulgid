@@ -235,16 +235,16 @@ def process_dataset_simple_execution():
 
 
 # Call the process_dataset functions
-# accuracy_map_code, tp_code, fp_code, fn_code = process_dataset_code()
-# accuracy_map_simple, tp_simple, fp_simple, fn_simple = process_dataset_simple()
-accuracy_map_simple, tp_simple, fp_simple, fn_simple = process_dataset_simple_execution()
+accuracy_map_code, tp_code, fp_code, fn_code = process_dataset_code()
+accuracy_map_simple, tp_simple, fp_simple, fn_simple = process_dataset_simple()
+accuracy_map_simple_exc, tp_simple_exc, fp_simple_exc, fn_simple_exc = process_dataset_simple_execution()
 
 # Plot the charts
-# plotting(accuracy_map_code, "Python Code Representation")
-# plotting(accuracy_map_simple, "Simple Prompt")
+plotting(accuracy_map_code, "Python Code Representation")
+plotting(accuracy_map_simple, "Simple Prompt")
 plotting(accuracy_map_simple, "Simple Execution")
 
 # Print the metrics
-# print_metrics("Simple Prompt", tp_simple, fp_simple, fn_simple)
-# print_metrics("Code Representation", tp_code, fp_code, fn_code)
+print_metrics("Simple Prompt", tp_simple, fp_simple, fn_simple)
+print_metrics("Code Representation", tp_code, fp_code, fn_code)
 print_metrics("Simple Execution", tp_simple, fp_simple, fn_simple)
