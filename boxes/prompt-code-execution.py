@@ -9,7 +9,7 @@ ENGINE = "gpt-3.5-turbo"
 TEMPERATURE = 0
 
 current_dir = pathlib.Path(__file__).parent.resolve()
-output_dir = os.path.join(current_dir, "code_output")
+output_dir = os.path.join(current_dir, "code_execution")
 boxes_code_path = os.path.join(current_dir, "code/{engine}".format(engine=ENGINE))
 
 

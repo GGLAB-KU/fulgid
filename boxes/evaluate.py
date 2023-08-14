@@ -184,15 +184,51 @@ def process_dataset_simple():
 
     return accuracy_code, tp_count, fp_count, fn_count
 
+def process_dataset_simple_execution():
+    aggregated_data_path = os.path.join(Settings.boxes_dataset_path, "aggregated_data.jsonl")
+    aggregated_boxes_file = open(aggregated_data_path, 'r')
+    aggregated_boxes = list(aggregated_boxes_file)
+
+    tp_count = {}  # true positives count for each operations_num
+    fp_count = {}  # false positives count for each operations_num
+    fn_count = {}  # false negatives count for each operations_num
+
+    for json_str in aggregated_boxes[Settings.sample_range]:
+        data = json.loads(json_str)
+        final_states = data['final_states']
+        sentence_hash = data['sentence_hash']
+        operations_num = data['numops']['Total']
+
+        # Initialize counts for this operations_num if not done yet
+        if operations_num not in tp_count:
+            tp_count[operations_num] = 0
+            fp_count[operations_num] = 0
+            fn_count[operations_num] = 0
+
+        simple_output_path = Path(Settings.boxes_simple_path.format(engine=ENGINE, hash=sentence_hash))
+        simple_prompt_file = open(simple_output_path, 'r')
+        simple_output = json.loads(simple_prompt_file.read())
+
+        update_counts(final_states, simple_output, tp_count, fp_count, fn_count, operations_num)
+
+    accuracy_code = {}
+    for operations_num in tp_count:
+        accuracy_code[operations_num] = tp_count[operations_num] / (
+                tp_count[operations_num] + fp_count[operations_num] + fn_count[operations_num])
+
+    return accuracy_code, tp_count, fp_count, fn_count
 
 # Call the process_dataset functions
-accuracy_map_code, tp_code, fp_code, fn_code = process_dataset_code()
-accuracy_map_simple, tp_simple, fp_simple, fn_simple = process_dataset_simple()
+# accuracy_map_code, tp_code, fp_code, fn_code = process_dataset_code()
+# accuracy_map_simple, tp_simple, fp_simple, fn_simple = process_dataset_simple()
+accuracy_map_simple, tp_simple, fp_simple, fn_simple = process_dataset_simple_execution()
 
 # Plot the charts
-plotting(accuracy_map_code, "Python Code Representation")
-plotting(accuracy_map_simple, "Simple Prompt")
+# plotting(accuracy_map_code, "Python Code Representation")
+# plotting(accuracy_map_simple, "Simple Prompt")
+plotting(accuracy_map_simple, "Simple Execution")
 
 # Print the metrics
-print_metrics("Simple Prompt", tp_simple, fp_simple, fn_simple)
-print_metrics("Code Representation", tp_code, fp_code, fn_code)
+# print_metrics("Simple Prompt", tp_simple, fp_simple, fn_simple)
+# print_metrics("Code Representation", tp_code, fp_code, fn_code)
+print_metrics("Simple Execution", tp_simple, fp_simple, fn_simple)
