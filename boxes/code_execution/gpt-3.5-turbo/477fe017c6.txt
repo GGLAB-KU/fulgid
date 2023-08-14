@@ -1,0 +1,7 @@
+Box 0: ['pipe']
+Box 1: ['picture', 'tissue', 'letter']
+Box 2: ['cash']
+Box 3: []
+Box 4: ['block', 'glass', 'tea']
+Box 5: ['milk']
+Box 6: ['boot', 'wheel']

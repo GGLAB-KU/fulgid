@@ -1,0 +1,7 @@
+Box 0: ['plant', 'cross', 'bell', 'bottle']
+Box 1: ['bomb', 'bowl']
+Box 2: ['drink', 'seed']
+Box 3: ['coffee', 'clock', 'leaf']
+Box 4: ['machine', 'rose']
+Box 5: ['radio', 'shoe', 'stone']
+Box 6: ['painting']

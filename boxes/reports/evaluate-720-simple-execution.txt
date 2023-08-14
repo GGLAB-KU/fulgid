@@ -1,0 +1,5 @@
+.................... Simple Execution ....................
+Precision: 73.74%
+Recall: 69.22%
+F1 Score: 71.41%
+Accuracy: 55.53%

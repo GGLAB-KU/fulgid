@@ -1,0 +1,7 @@
+Box 0: ['meat', 'tea', 'cross']
+Box 1: ['computer', 'disk']
+Box 2: ['file']
+Box 3: ['boot', 'drug', 'jacket']
+Box 4: []
+Box 5: ['book', 'cigarette', 'fig']
+Box 6: ['car', 'watch', 'bottle']

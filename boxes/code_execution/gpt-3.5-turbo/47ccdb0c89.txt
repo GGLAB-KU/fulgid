@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['card', 'crown', 'newspaper']
+Box 2: ['shoe', 'chemical', 'cream']
+Box 3: ['brain', 'wheel', 'fan']
+Box 4: ['coat']
+Box 5: []
+Box 6: ['picture', 'ticket']
