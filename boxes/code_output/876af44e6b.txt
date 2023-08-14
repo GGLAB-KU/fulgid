@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['key']
+Box 2: []
+Box 3: ['egg', 'seed']
+Box 4: ['computer']
+Box 5: ['branch', 'clock']
+Box 6: ['block', 'letter', 'meat']

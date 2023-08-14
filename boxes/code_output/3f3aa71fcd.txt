@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['bowl', 'ice']
+Box 2: ['bread', 'bowl', 'ice', 'watch']
+Box 3: []
+Box 4: ['card', 'engine']
+Box 5: []
+Box 6: ['knife']

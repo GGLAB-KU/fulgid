@@ -1,0 +1,7 @@
+Box 0: ['apple', 'sheet', 'machine']
+Box 1: ['tape', 'computer', 'cheese']
+Box 2: ['plane']
+Box 3: ['disk']
+Box 4: ['picture']
+Box 5: ['bell', 'plant', 'disk']
+Box 6: ['hat']

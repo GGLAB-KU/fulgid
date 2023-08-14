@@ -1,0 +1,7 @@
+Box 0: ['drug', 'ball', 'egg']
+Box 1: []
+Box 2: ['clock', 'jacket', 'wire']
+Box 3: ['picture']
+Box 4: []
+Box 5: ['train', 'watch']
+Box 6: ['pipe', 'string']

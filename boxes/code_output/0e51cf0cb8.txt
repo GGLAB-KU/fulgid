@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['guitar', 'computer', 'bone']
+Box 2: ['newspaper']
+Box 3: []
+Box 4: ['book']
+Box 5: ['cake', 'paper']
+Box 6: ['cup', 'knife']

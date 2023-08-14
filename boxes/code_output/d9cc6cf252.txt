@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['dish']
+Box 2: ['radio', 'bag', 'bus', 'cup']
+Box 3: ['bell', 'chemical', 'bottle']
+Box 4: ['creature', 'flower', 'shoe', 'string']
+Box 5: ['drug', 'tissue']
+Box 6: ['computer', 'tie']

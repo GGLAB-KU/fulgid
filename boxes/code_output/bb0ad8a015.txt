@@ -1,0 +1,7 @@
+Box 0: ['brick', 'wire']
+Box 1: ['cigarette']
+Box 2: ['bone']
+Box 3: ['tie']
+Box 4: []
+Box 5: ['bus', 'newspaper', 'tape']
+Box 6: ['chemical', 'rock', 'suit']

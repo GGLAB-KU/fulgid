@@ -1,0 +1,7 @@
+Box 0: ['television', 'wire']
+Box 1: ['bottle', 'coat', 'map']
+Box 2: ['boot']
+Box 3: []
+Box 4: ['plant']
+Box 5: ['egg', 'medicine']
+Box 6: ['computer']

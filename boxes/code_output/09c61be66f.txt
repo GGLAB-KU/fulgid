@@ -1,0 +1,7 @@
+Box 0: ['pot']
+Box 1: []
+Box 2: ['suit', 'ticket']
+Box 3: ['bell', 'cigarette', 'mirror']
+Box 4: ['map', 'camera']
+Box 5: ['cup', 'string', 'newspaper']
+Box 6: []

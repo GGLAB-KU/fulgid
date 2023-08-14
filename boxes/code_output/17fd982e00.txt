@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: ['cup', 'paper', 'car']
+Box 3: []
+Box 4: ['cream', 'card']
+Box 5: ['coffee']
+Box 6: []

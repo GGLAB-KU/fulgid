@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['disk']
+Box 2: ['ice']
+Box 3: ['coat', 'file', 'painting']
+Box 4: ['bomb']
+Box 5: ['bus', 'magazine', 'meat']
+Box 6: ['cigarette', 'seed']

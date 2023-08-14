@@ -1,0 +1,7 @@
+Box 0: ['beer', 'cup', 'phone']
+Box 1: ['boat', 'shirt']
+Box 2: ['wire']
+Box 3: ['suit']
+Box 4: ['bread', 'key', 'plane']
+Box 5: ['car', 'ticket']
+Box 6: ['drink', 'file']

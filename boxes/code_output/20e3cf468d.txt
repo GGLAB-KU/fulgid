@@ -1,0 +1,7 @@
+Box 0: ['map', 'shoe']
+Box 1: ['bag', 'ball']
+Box 2: ['coffee', 'painting']
+Box 3: ['camera', 'tissue', 'mirror']
+Box 4: []
+Box 5: ['drug', 'medicine', 'picture']
+Box 6: ['beer', 'letter']

@@ -1,0 +1,7 @@
+Box 0: ['pot', 'bottle']
+Box 1: ['cheese', 'computer']
+Box 2: ['document', 'engine']
+Box 3: ['camera', 'chemical', 'coffee']
+Box 4: ['newspaper', 'ticket']
+Box 5: ['shirt']
+Box 6: []

@@ -1,0 +1,7 @@
+Box 0: ['bag', 'crown', 'meat']
+Box 1: ['cream']
+Box 2: ['tape']
+Box 3: ['plane']
+Box 4: ['shell']
+Box 5: ['disk']
+Box 6: ['plant', 'sheet', 'cheese', 'egg']

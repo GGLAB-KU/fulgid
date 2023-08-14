@@ -1,0 +1,7 @@
+Box 0: ['leaf']
+Box 1: ['game', 'cash']
+Box 2: ['book', 'car']
+Box 3: ['pot']
+Box 4: ['apple', 'pipe']
+Box 5: ['brain', 'clock']
+Box 6: ['coffee', 'pot']

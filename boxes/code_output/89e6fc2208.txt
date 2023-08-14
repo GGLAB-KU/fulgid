@@ -1,0 +1,7 @@
+Box 0: ['cup', 'television', 'tissue']
+Box 1: []
+Box 2: ['cigarette', 'seed', 'tie']
+Box 3: []
+Box 4: ['drug', 'mirror', 'ticket']
+Box 5: ['watch', 'guitar']
+Box 6: ['glass']

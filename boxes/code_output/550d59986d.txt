@@ -1,0 +1,7 @@
+Box 0: ['cigarette', 'pipe']
+Box 1: ['book', 'magazine']
+Box 2: ['flower', 'computer', 'block', 'stone']
+Box 3: []
+Box 4: ['bread']
+Box 5: ['bill', 'brick', 'cream']
+Box 6: ['cake', 'engine']

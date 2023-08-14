@@ -1,0 +1,7 @@
+Box 0: ['ball', 'bread']
+Box 1: []
+Box 2: ['bottle', 'cash', 'creature']
+Box 3: ['engine', 'medicine', 'tissue']
+Box 4: ['fig']
+Box 5: ['bell']
+Box 6: ['guitar']

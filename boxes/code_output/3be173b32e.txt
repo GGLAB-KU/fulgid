@@ -1,0 +1,7 @@
+Box 0: ['clock', 'pot', 'tea']
+Box 1: ['apple', 'bone', 'plate']
+Box 2: ['watch', 'bottle', 'letter']
+Box 3: []
+Box 4: ['newspaper', 'painting']
+Box 5: []
+Box 6: ['beer', 'cup']

@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['cake', 'cash']
+Box 2: ['clock', 'ice']
+Box 3: ['sheet']
+Box 4: ['string']
+Box 5: ['bus', 'note']
+Box 6: ['wheel']

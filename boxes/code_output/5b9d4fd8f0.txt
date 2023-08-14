@@ -1,0 +1,7 @@
+Box 0: ['jacket']
+Box 1: ['brick', 'ice', 'suit', 'plant']
+Box 2: ['book', 'dish', 'fig']
+Box 3: ['ticket']
+Box 4: []
+Box 5: ['painting']
+Box 6: ['camera', 'tie']

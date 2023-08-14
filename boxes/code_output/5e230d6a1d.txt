@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['hat', 'milk']
+Box 2: ['apple', 'picture', 'plant', 'wire']
+Box 3: ['card', 'egg', 'leaf']
+Box 4: []
+Box 5: []
+Box 6: ['bag', 'tape', 'hat', 'wheel', 'drink', 'rose']

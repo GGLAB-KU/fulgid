@@ -1,0 +1,7 @@
+Box 0: ['bottle', 'pot', 'tea']
+Box 1: []
+Box 2: ['bone', 'camera', 'dress']
+Box 3: ['apple', 'bill', 'cake']
+Box 4: ['brain', 'mirror', 'radio']
+Box 5: []
+Box 6: ['engine', 'coffee']

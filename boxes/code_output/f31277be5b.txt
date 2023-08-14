@@ -1,0 +1,7 @@
+Box 0: ['bag', 'shoe', 'leaf']
+Box 1: ['television']
+Box 2: []
+Box 3: []
+Box 4: []
+Box 5: []
+Box 6: []

@@ -1,0 +1,7 @@
+Box 0: ['tape', 'magazine', 'plate', 'hat']
+Box 1: ['cup', 'flower', 'hat', 'plate']
+Box 2: []
+Box 3: ['glass', 'flower']
+Box 4: ['cigarette']
+Box 5: ['key', 'beer']
+Box 6: ['meat', 'computer', 'creature']

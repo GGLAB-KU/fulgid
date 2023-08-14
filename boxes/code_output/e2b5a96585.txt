@@ -1,0 +1,7 @@
+Box 0: ['bread', 'jacket']
+Box 1: ['machine', 'note']
+Box 2: ['boot']
+Box 3: []
+Box 4: ['apple']
+Box 5: ['knife']
+Box 6: ['bottle']

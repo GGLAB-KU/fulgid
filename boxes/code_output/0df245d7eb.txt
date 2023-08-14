@@ -1,0 +1,7 @@
+Box 0: ['computer', 'pipe', 'wire']
+Box 1: ['stone', 'tape']
+Box 2: ['letter']
+Box 3: ['egg']
+Box 4: ['bus', 'crown']
+Box 5: ['drink', 'sheet']
+Box 6: ['leaf']

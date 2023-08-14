@@ -1,0 +1,7 @@
+Box 0: ['ball', 'shoe', 'wire']
+Box 1: ['stone', 'letter']
+Box 2: []
+Box 3: ['book', 'boot', 'shirt']
+Box 4: ['branch', 'fig', 'ring']
+Box 5: []
+Box 6: ['beer', 'bell', 'coffee', 'stone']

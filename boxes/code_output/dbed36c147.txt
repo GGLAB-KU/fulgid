@@ -1,0 +1,7 @@
+Box 0: ['brick', 'dress', 'jacket']
+Box 1: ['boat']
+Box 2: ['boot', 'cigarette', 'watch', 'block']
+Box 3: ['wire']
+Box 4: ['computer', 'block']
+Box 5: ['ball', 'pot', 'machine']
+Box 6: ['map', 'card']

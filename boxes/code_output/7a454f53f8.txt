@@ -1,0 +1,7 @@
+Box 0: ['coffee', 'egg', 'string']
+Box 1: ['pot', 'card', 'map']
+Box 2: ['disk', 'key']
+Box 3: ['drug', 'boot', 'radio']
+Box 4: ['cream', 'plate']
+Box 5: ['block', 'creature', 'tea', 'map', 'radio']
+Box 6: ['rock']

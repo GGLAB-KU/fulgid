@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: []
+Box 3: ['car', 'dish']
+Box 4: ['clock', 'rose']
+Box 5: ['fig', 'flower']
+Box 6: ['bread', 'jacket', 'key', 'shirt', 'shoe']

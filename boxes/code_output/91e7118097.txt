@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['cigarette', 'suit']
+Box 2: []
+Box 3: ['book']
+Box 4: ['chemical', 'fan']
+Box 5: ['tie']
+Box 6: ['drink']

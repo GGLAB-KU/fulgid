@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: ['jacket']
+Box 3: []
+Box 4: []
+Box 5: ['file', 'boot', 'dish', 'rock']
+Box 6: []

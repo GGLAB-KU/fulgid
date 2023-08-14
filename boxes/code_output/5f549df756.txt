@@ -1,0 +1,7 @@
+Box 0: ['beer']
+Box 1: ['brain', 'coffee', 'tape']
+Box 2: ['book', 'camera', 'rose']
+Box 3: ['car', 'newspaper']
+Box 4: ['branch', 'bread']
+Box 5: ['bill']
+Box 6: ['dress', 'ice', 'tie']

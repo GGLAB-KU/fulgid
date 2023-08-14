@@ -1,0 +1,7 @@
+Box 0: ['beer', 'cheese', 'flower']
+Box 1: ['gift', 'radio']
+Box 2: []
+Box 3: []
+Box 4: ['wire']
+Box 5: ['creature', 'tie']
+Box 6: ['brain', 'camera']

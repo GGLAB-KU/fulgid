@@ -1,0 +1,7 @@
+Box 0: ['block', 'computer', 'cream']
+Box 1: ['fan', 'radio', 'stone']
+Box 2: []
+Box 3: ['apple']
+Box 4: ['bill', 'map']
+Box 5: ['boot', 'watch']
+Box 6: ['branch', 'clock', 'cigarette']

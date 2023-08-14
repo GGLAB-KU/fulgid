@@ -1,0 +1,7 @@
+Box 0: ['bone', 'television']
+Box 1: ['drink', 'fig']
+Box 2: ['glass', 'pot']
+Box 3: []
+Box 4: ['key', 'plate', 'shoe']
+Box 5: ['beer', 'egg']
+Box 6: []

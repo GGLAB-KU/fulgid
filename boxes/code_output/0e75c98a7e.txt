@@ -1,0 +1,7 @@
+Box 0: ['bus', 'ring']
+Box 1: []
+Box 2: ['key', 'tie', 'ticket']
+Box 3: ['cake', 'chemical', 'watch']
+Box 4: ['coat', 'paper', 'tissue']
+Box 5: ['string']
+Box 6: ['cheese', 'cigarette']

@@ -1,0 +1,7 @@
+Box 0: ['bone', 'block']
+Box 1: []
+Box 2: []
+Box 3: []
+Box 4: ['brain', 'cross']
+Box 5: []
+Box 6: ['cigarette']

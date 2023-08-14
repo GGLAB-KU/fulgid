@@ -1,0 +1,7 @@
+Box 0: ['cash']
+Box 1: ['bill', 'seed', 'bone', 'boot', 'pot', 'mirror']
+Box 2: []
+Box 3: ['paper']
+Box 4: []
+Box 5: ['tie']
+Box 6: ['ball', 'boat', 'medicine']

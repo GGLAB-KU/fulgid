@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: ['cake', 'painting']
+Box 3: ['bone']
+Box 4: ['magazine', 'radio']
+Box 5: ['chemical', 'plant', 'tape', 'knife', 'leaf']
+Box 6: ['flower', 'suit', 'wire']

@@ -1,0 +1,7 @@
+Box 0: ['bomb']
+Box 1: ['bill', 'cup', 'plant']
+Box 2: ['branch', 'pot', 'card']
+Box 3: []
+Box 4: ['drug']
+Box 5: []
+Box 6: ['cash', 'key', 'phone']

@@ -1,0 +1,7 @@
+Box 0: ['pipe', 'crown', 'cigarette']
+Box 1: ['cream', 'meat', 'pot']
+Box 2: []
+Box 3: []
+Box 4: ['map']
+Box 5: ['bread']
+Box 6: ['car', 'beer']

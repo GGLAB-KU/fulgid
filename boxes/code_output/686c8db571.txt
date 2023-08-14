@@ -1,0 +1,7 @@
+Box 0: ['brick']
+Box 1: []
+Box 2: []
+Box 3: ['coffee', 'file']
+Box 4: ['tape']
+Box 5: ['radio', 'tea', 'document', 'note', 'train']
+Box 6: ['paper']

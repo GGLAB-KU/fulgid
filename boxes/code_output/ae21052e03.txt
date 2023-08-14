@@ -1,0 +1,7 @@
+Box 0: ['radio', 'rock', 'tie']
+Box 1: ['bone', 'cup']
+Box 2: []
+Box 3: ['leaf', 'note', 'plate']
+Box 4: []
+Box 5: ['sheet']
+Box 6: ['cross', 'key', 'painting']

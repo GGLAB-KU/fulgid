@@ -1,0 +1,7 @@
+Box 0: ['computer', 'fish', 'sheet']
+Box 1: []
+Box 2: ['rose', 'painting']
+Box 3: ['glass']
+Box 4: []
+Box 5: []
+Box 6: ['boat', 'hat', 'suit']

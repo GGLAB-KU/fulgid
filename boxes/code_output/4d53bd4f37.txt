@@ -1,0 +1,7 @@
+Box 0: ['guitar', 'bell', 'tie']
+Box 1: ['ring']
+Box 2: []
+Box 3: ['seed']
+Box 4: []
+Box 5: ['cake', 'document']
+Box 6: []

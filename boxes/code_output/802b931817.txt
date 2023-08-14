@@ -1,0 +1,7 @@
+Box 0: ['dress', 'fan']
+Box 1: ['drug', 'milk', 'computer']
+Box 2: ['newspaper']
+Box 3: ['coat', 'letter', 'paper', 'disk', 'shirt', 'bill']
+Box 4: []
+Box 5: ['drink']
+Box 6: ['shoe', 'tea']

@@ -1,0 +1,7 @@
+Box 0: ['bone', 'dress', 'newspaper']
+Box 1: ['ring', 'rose', 'drink']
+Box 2: ['brain', 'drug']
+Box 3: []
+Box 4: ['medicine']
+Box 5: ['cheese', 'creature', 'tape']
+Box 6: ['branch', 'crown', 'glass', 'fig']

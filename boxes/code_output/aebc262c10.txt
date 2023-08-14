@@ -1,0 +1,7 @@
+Box 0: ['jacket']
+Box 1: []
+Box 2: ['bowl', 'cream']
+Box 3: ['drug']
+Box 4: ['leaf', 'plane']
+Box 5: ['shirt']
+Box 6: ['fan', 'knife', 'picture']

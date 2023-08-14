@@ -1,0 +1,7 @@
+Box 0: ['book', 'brick']
+Box 1: ['crown', 'plant']
+Box 2: ['apple', 'drug', 'wire']
+Box 3: ['file']
+Box 4: ['game']
+Box 5: ['paper', 'ring']
+Box 6: ['milk', 'watch']

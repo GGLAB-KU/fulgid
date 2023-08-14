@@ -1,0 +1,7 @@
+Box 0: ['beer']
+Box 1: []
+Box 2: []
+Box 3: ['suit']
+Box 4: []
+Box 5: ['car', 'ticket', 'picture']
+Box 6: []

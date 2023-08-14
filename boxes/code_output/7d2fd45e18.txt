@@ -1,0 +1,7 @@
+Box 0: ['shoe']
+Box 1: ['magazine']
+Box 2: ['egg', 'fan', 'branch']
+Box 3: []
+Box 4: ['bomb', 'ball']
+Box 5: ['bottle', 'machine']
+Box 6: ['picture']

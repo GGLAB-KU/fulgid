@@ -1,0 +1,7 @@
+Box 0: ['ring']
+Box 1: ['jacket']
+Box 2: ['knife', 'shell', 'train', 'egg']
+Box 3: ['brick', 'mirror']
+Box 4: ['document', 'radio']
+Box 5: ['disk']
+Box 6: ['bottle']

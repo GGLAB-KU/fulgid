@@ -1,0 +1,7 @@
+Box 0: ['cross', 'egg', 'bomb', 'coffee']
+Box 1: []
+Box 2: ['beer']
+Box 3: ['tie']
+Box 4: []
+Box 5: []
+Box 6: []

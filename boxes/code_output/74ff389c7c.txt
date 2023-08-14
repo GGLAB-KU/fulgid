@@ -1,0 +1,7 @@
+Box 0: ['coffee']
+Box 1: ['plane', 'pot', 'sheet']
+Box 2: ['cup', 'tissue', 'car']
+Box 3: ['dish', 'plate']
+Box 4: ['gift', 'plant', 'shell']
+Box 5: ['bomb', 'wire']
+Box 6: ['cheese', 'ice']

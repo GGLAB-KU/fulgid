@@ -1,0 +1,7 @@
+Box 0: ['computer']
+Box 1: []
+Box 2: ['watch']
+Box 3: ['beer', 'fan', 'suit']
+Box 4: ['brain', 'egg', 'wheel']
+Box 5: ['boat', 'drug']
+Box 6: ['map', 'game', 'knife']

@@ -1,0 +1,7 @@
+Box 0: ['bone', 'coat']
+Box 1: ['bus', 'file', 'bottle']
+Box 2: ['engine', 'medicine', 'milk', 'dress']
+Box 3: ['brain', 'glass']
+Box 4: ['bomb', 'tea']
+Box 5: ['cream', 'paper', 'wire']
+Box 6: ['cup', 'newspaper']

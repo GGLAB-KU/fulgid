@@ -1,0 +1,7 @@
+Box 0: ['leaf']
+Box 1: ['pot', 'dish', 'flower']
+Box 2: ['cheese', 'ring']
+Box 3: ['file', 'knife']
+Box 4: ['brain', 'cross']
+Box 5: ['bell', 'bone']
+Box 6: ['bag']

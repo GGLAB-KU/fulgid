@@ -1,0 +1,7 @@
+Box 0: ['paper', 'painting']
+Box 1: ['bus']
+Box 2: ['phone']
+Box 3: ['jacket', 'shirt']
+Box 4: ['bread', 'bill']
+Box 5: ['bag', 'tape']
+Box 6: []

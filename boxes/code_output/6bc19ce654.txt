@@ -1,0 +1,7 @@
+Box 0: ['fig', 'cigarette']
+Box 1: ['fan']
+Box 2: []
+Box 3: []
+Box 4: ['coat']
+Box 5: ['train']
+Box 6: []

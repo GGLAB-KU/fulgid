@@ -1,0 +1,7 @@
+Box 0: ['coffee', 'rock']
+Box 1: ['ring']
+Box 2: []
+Box 3: ['crown', 'plane']
+Box 4: ['television']
+Box 5: ['glass', 'phone']
+Box 6: ['creature', 'ticket', 'ring']

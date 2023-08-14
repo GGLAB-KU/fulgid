@@ -1,0 +1,7 @@
+Box 0: ['leaf']
+Box 1: []
+Box 2: ['drink', 'boot', 'rose']
+Box 3: []
+Box 4: ['apple', 'cash', 'tape']
+Box 5: []
+Box 6: ['beer']

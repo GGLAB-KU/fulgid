@@ -1,0 +1,7 @@
+Box 0: ['book', 'tea']
+Box 1: []
+Box 2: ['drug', 'ring', 'shell']
+Box 3: []
+Box 4: ['tissue', 'game']
+Box 5: ['milk']
+Box 6: ['television']

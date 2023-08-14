@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['map', 'tea', 'brick']
+Box 2: ['file', 'tape']
+Box 3: ['disk', 'wheel', 'medicine']
+Box 4: ['bomb', 'shell']
+Box 5: ['plane', 'bowl']
+Box 6: ['bill', 'fish', 'letter', 'radio']

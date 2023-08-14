@@ -1,0 +1,7 @@
+Box 0: ['nothing']
+Box 1: ['nothing']
+Box 2: ['meat']
+Box 3: ['fan']
+Box 4: ['bell']
+Box 5: ['map']
+Box 6: ['bottle', 'car', 'document']

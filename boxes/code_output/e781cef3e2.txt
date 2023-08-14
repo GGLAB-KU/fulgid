@@ -1,0 +1,7 @@
+Box 0: ['ticket', 'newspaper']
+Box 1: ['cup', 'watch', 'boot']
+Box 2: ['fish', 'leaf']
+Box 3: ['coffee']
+Box 4: ['camera', 'glass', 'milk']
+Box 5: ['chemical', 'letter']
+Box 6: ['bill', 'brain', 'pipe']

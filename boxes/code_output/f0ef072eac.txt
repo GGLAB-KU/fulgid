@@ -1,0 +1,7 @@
+Box 0: ['note', 'stone']
+Box 1: ['fig', 'glass', 'file']
+Box 2: ['disk', 'shirt']
+Box 3: ['cigarette']
+Box 4: ['document', 'guitar', 'pot']
+Box 5: ['train', 'tape', 'tie']
+Box 6: ['hat', 'newspaper']

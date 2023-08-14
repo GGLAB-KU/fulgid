@@ -1,0 +1,7 @@
+Box 0: ['paper', 'shirt', 'bell', 'bottle']
+Box 1: ['cross']
+Box 2: ['cream', 'dish']
+Box 3: ['leaf', 'rock', 'machine', 'machine', 'rose']
+Box 4: ['boat', 'branch', 'train']
+Box 5: ['coffee', 'pipe', 'tie', 'painting', 'fish']
+Box 6: []

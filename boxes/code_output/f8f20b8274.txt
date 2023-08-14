@@ -1,0 +1,7 @@
+Box 0: ['cream', 'tape', 'brain']
+Box 1: []
+Box 2: ['drink', 'sheet', 'tea']
+Box 3: ['plane', 'drink', 'sheet']
+Box 4: ['bowl', 'phone']
+Box 5: ['meat', 'note', 'branch']
+Box 6: ['document', 'milk', 'key']

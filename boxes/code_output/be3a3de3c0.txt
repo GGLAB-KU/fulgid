@@ -1,0 +1,7 @@
+Box 0: ['bus', 'tape', 'cross']
+Box 1: ['apple', 'branch', 'tea']
+Box 2: ['jacket', 'cross']
+Box 3: ['bill']
+Box 4: ['guitar', 'plane', 'fig']
+Box 5: ['ball']
+Box 6: ['plant']

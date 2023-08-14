@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['medicine', 'paper']
+Box 2: ['bomb', 'brick']
+Box 3: ['block', 'ticket']
+Box 4: []
+Box 5: []
+Box 6: []

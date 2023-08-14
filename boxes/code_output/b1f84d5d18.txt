@@ -1,0 +1,7 @@
+Box 0: ['seed']
+Box 1: []
+Box 2: ['egg', 'key']
+Box 3: ['ball', 'bread', 'rose']
+Box 4: ['apple', 'drug']
+Box 5: ['painting']
+Box 6: ['bill', 'computer', 'jacket', 'creature', 'plane', 'card', 'cheese', 'drink']

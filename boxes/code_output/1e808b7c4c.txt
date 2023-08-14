@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['coat', 'shell', 'television']
+Box 2: ['key', 'boat', 'crown', 'magazine']
+Box 3: ['leaf', 'drink']
+Box 4: ['fish', 'train', 'wheel']
+Box 5: ['painting', 'plant', 'ring']
+Box 6: []

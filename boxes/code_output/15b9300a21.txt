@@ -1,0 +1,7 @@
+Box 0: ['apple', 'tea']
+Box 1: []
+Box 2: ['engine']
+Box 3: ['television']
+Box 4: []
+Box 5: ['brick', 'tie']
+Box 6: ['flower', 'key']

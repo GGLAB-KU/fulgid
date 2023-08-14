@@ -1,0 +1,7 @@
+Box 0: ['key', 'bill']
+Box 1: []
+Box 2: ['tape']
+Box 3: []
+Box 4: ['plane']
+Box 5: []
+Box 6: ['bus', 'meat']

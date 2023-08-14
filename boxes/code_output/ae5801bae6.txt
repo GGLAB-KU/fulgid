@@ -1,0 +1,7 @@
+Box 0: ['bomb']
+Box 1: ['gift']
+Box 2: []
+Box 3: []
+Box 4: ['drink', 'gift']
+Box 5: ['note', 'seed']
+Box 6: []

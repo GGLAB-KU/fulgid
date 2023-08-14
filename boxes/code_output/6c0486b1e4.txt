@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['bag', 'bell', 'tape']
+Box 2: ['cream', 'drug']
+Box 3: ['letter', 'rose', 'tea']
+Box 4: ['medicine']
+Box 5: ['coffee', 'sheet']
+Box 6: ['cash', 'fig', 'gift', 'medicine']

@@ -1,0 +1,7 @@
+Box 0: ['ticket', 'phone', 'document']
+Box 1: ['pipe', 'shirt', 'jacket']
+Box 2: ['boot', 'document', 'phone']
+Box 3: ['knife', 'stone']
+Box 4: ['fig']
+Box 5: []
+Box 6: []

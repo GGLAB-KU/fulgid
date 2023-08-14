@@ -1,0 +1,7 @@
+Box 0: ['branch', 'bread']
+Box 1: []
+Box 2: []
+Box 3: []
+Box 4: ['clock', 'drug']
+Box 5: ['card', 'key']
+Box 6: ['fig', 'ice', 'rose']

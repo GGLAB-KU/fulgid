@@ -1,0 +1,7 @@
+Box 0: ['document', 'string']
+Box 1: ['stone', 'television']
+Box 2: ['boot', 'bottle', 'ring']
+Box 3: ['key', 'medicine', 'machine']
+Box 4: []
+Box 5: []
+Box 6: ['dress']

@@ -1,0 +1,7 @@
+Box 0: ['fig']
+Box 1: ['bus']
+Box 2: ['bread', 'shirt', 'gift']
+Box 3: ['hat']
+Box 4: ['boat', 'suit', 'bowl']
+Box 5: ['plane', 'string', 'bag']
+Box 6: ['coat', 'magazine', 'picture']

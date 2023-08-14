@@ -1,0 +1,7 @@
+Box 0: ['glass', 'computer', 'ice']
+Box 1: ['cash', 'guitar', 'map']
+Box 2: ['card', 'newspaper', 'tea']
+Box 3: ['drug', 'machine', 'shell']
+Box 4: ['wheel', 'milk', 'note']
+Box 5: ['branch', 'coat', 'rock']
+Box 6: ['television']

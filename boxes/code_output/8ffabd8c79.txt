@@ -1,0 +1,7 @@
+Box 0: ['book', 'radio']
+Box 1: ['bus']
+Box 2: ['shell', 'brain', 'card']
+Box 3: ['hat', 'brain', 'card']
+Box 4: ['pot']
+Box 5: []
+Box 6: ['disk', 'painting', 'sheet']

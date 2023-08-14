@@ -1,0 +1,7 @@
+Box 0: ['hat', 'leaf']
+Box 1: ['dish', 'television', 'tie']
+Box 2: ['pipe']
+Box 3: []
+Box 4: ['pipe', 'plant']
+Box 5: []
+Box 6: []

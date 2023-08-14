@@ -1,0 +1,7 @@
+Box 0: ['bone', 'drug', 'rock']
+Box 1: []
+Box 2: ['cake', 'letter']
+Box 3: []
+Box 4: ['game', 'gift', 'hat']
+Box 5: []
+Box 6: ['car', 'cigarette', 'disk']

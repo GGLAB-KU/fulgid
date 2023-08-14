@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['pot']
+Box 2: ['egg']
+Box 3: ['cash', 'cigarette', 'train']
+Box 4: ['disk', 'cake']
+Box 5: ['computer', 'drink']
+Box 6: []

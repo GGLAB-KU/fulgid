@@ -1,0 +1,7 @@
+Box 0: ['flower']
+Box 1: ['map']
+Box 2: ['note']
+Box 3: ['coat', 'meat']
+Box 4: ['bottle']
+Box 5: ['bag', 'phone', 'tissue']
+Box 6: ['computer', 'shoe']

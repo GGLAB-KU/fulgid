@@ -1,0 +1,7 @@
+Box 0: ['dress', 'flower', 'map']
+Box 1: ['cup', 'shoe']
+Box 2: ['egg']
+Box 3: ['cream', 'document', 'bell', 'jacket']
+Box 4: ['cross', 'fan']
+Box 5: ['plane']
+Box 6: ['cake']

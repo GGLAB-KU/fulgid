@@ -1,0 +1,7 @@
+Box 0: ['ball']
+Box 1: ['camera', 'rock']
+Box 2: []
+Box 3: ['wire', 'sheet']
+Box 4: ['ice', 'machine', 'ticket']
+Box 5: ['computer', 'cream', 'pot']
+Box 6: ['file', 'painting', 'radio']

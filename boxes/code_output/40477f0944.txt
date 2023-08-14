@@ -1,0 +1,7 @@
+Box 0: ['seed']
+Box 1: ['drink', 'ball']
+Box 2: ['hat']
+Box 3: ['brain', 'fan', 'shoe']
+Box 4: ['pot']
+Box 5: ['file', 'rock', 'train']
+Box 6: ['bone']

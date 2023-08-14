@@ -1,0 +1,7 @@
+Box 0: ['cup', 'note', 'picture']
+Box 1: ['boat', 'television']
+Box 2: ['computer']
+Box 3: []
+Box 4: ['cream']
+Box 5: ['bag', 'milk']
+Box 6: ['hat', 'watch', 'ball']

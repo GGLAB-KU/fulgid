@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['disk', 'guitar', 'mirror']
+Box 2: ['apple', 'painting', 'wire']
+Box 3: ['book', 'cross']
+Box 4: ['boot', 'cup', 'radio']
+Box 5: ['camera', 'cream']
+Box 6: ['card']

@@ -1,0 +1,7 @@
+Box 0: ['cake']
+Box 1: ['coffee', 'tie', 'coffee']
+Box 2: []
+Box 3: ['pipe', 'rock']
+Box 4: ['meat', 'note', 'tie']
+Box 5: ['pipe', 'rock']
+Box 6: []

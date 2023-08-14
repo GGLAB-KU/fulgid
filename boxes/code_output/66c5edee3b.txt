@@ -1,0 +1,7 @@
+Box 0: ['cheese', 'fish']
+Box 1: ['bone', 'bread', 'pot']
+Box 2: ['game']
+Box 3: ['cross']
+Box 4: ['clock', 'bell']
+Box 5: ['meat', 'radio']
+Box 6: ['train']

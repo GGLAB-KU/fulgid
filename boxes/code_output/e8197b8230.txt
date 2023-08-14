@@ -1,0 +1,7 @@
+Box 0: ['file', 'disk']
+Box 1: ['cream', 'plane', 'tie']
+Box 2: ['bag', 'chemical', 'rock']
+Box 3: ['computer', 'gift', 'medicine']
+Box 4: ['bone']
+Box 5: ['shoe']
+Box 6: ['ball', 'bowl']

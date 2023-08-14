@@ -1,0 +1,7 @@
+Box 0: ['dress']
+Box 1: []
+Box 2: ['boot', 'cigarette', 'watch', 'block']
+Box 3: ['pipe']
+Box 4: ['computer', 'watch']
+Box 5: ['ball', 'machine']
+Box 6: ['map', 'wire', 'card']

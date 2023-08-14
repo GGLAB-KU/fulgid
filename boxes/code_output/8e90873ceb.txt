@@ -1,0 +1,7 @@
+Box 0: ['rock', 'fan', 'rose']
+Box 1: ['brain', 'fig']
+Box 2: ['watch', 'bill', 'bone']
+Box 3: ['coffee']
+Box 4: ['shell', 'shirt', 'coffee']
+Box 5: []
+Box 6: ['boat', 'fish']

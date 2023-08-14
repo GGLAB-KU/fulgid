@@ -1,0 +1,7 @@
+Box 0: ['ice', 'creature', 'machine']
+Box 1: ['bottle', 'knife']
+Box 2: ['document', 'clock', 'medicine']
+Box 3: []
+Box 4: []
+Box 5: ['boot', 'bread', 'shell']
+Box 6: ['bowl', 'mirror', 'guitar']

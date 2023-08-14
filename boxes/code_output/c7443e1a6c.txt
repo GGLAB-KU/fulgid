@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: ['tea', 'wire']
+Box 3: []
+Box 4: ['disk', 'painting']
+Box 5: ['cake', 'machine']
+Box 6: []

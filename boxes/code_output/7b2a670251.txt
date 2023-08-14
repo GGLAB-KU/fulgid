@@ -1,0 +1,7 @@
+Box 0: ['card']
+Box 1: ['meat', 'painting']
+Box 2: ['chemical', 'key']
+Box 3: []
+Box 4: ['creature', 'document']
+Box 5: ['car']
+Box 6: []

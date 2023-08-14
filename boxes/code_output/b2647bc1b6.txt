@@ -1,0 +1,7 @@
+Box 0: ['picture', 'wire']
+Box 1: ['cream']
+Box 2: ['leaf', 'rose', 'computer', 'bag', 'computer', 'dress']
+Box 3: ['bus', 'hat']
+Box 4: ['dish']
+Box 5: ['radio']
+Box 6: ['disk', 'seed']

@@ -1,0 +1,7 @@
+Box 0: ['tape']
+Box 1: ['watch']
+Box 2: ['train']
+Box 3: ['tissue']
+Box 4: ['cheese', 'document', 'leaf']
+Box 5: ['machine', 'phone', 'branch', 'train']
+Box 6: ['bag']

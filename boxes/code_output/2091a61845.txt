@@ -1,0 +1,7 @@
+Box 0: ['bag', 'file']
+Box 1: []
+Box 2: []
+Box 3: ['plane']
+Box 4: ['wire', 'picture']
+Box 5: ['beer', 'tea']
+Box 6: ['bottle', 'gift']

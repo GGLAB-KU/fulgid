@@ -1,0 +1,7 @@
+Box 0: ['paper']
+Box 1: []
+Box 2: ['branch', 'cream']
+Box 3: ['letter']
+Box 4: ['watch']
+Box 5: []
+Box 6: ['fish', 'rose']

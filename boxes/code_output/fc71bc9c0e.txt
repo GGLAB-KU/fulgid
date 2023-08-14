@@ -1,0 +1,7 @@
+Box 0: ['bread', 'paper', 'watch']
+Box 1: ['bomb']
+Box 2: ['ticket']
+Box 3: []
+Box 4: ['brain', 'magazine', 'seed']
+Box 5: ['cake', 'newspaper']
+Box 6: []

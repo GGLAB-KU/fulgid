@@ -1,0 +1,7 @@
+Box 0: ['bag', 'plant', 'dish']
+Box 1: ['car', 'game']
+Box 2: ['rose', 'meat']
+Box 3: ['stone', 'television', 'branch', 'gift']
+Box 4: []
+Box 5: ['watch']
+Box 6: ['hat', 'shirt', 'dress']

@@ -1,0 +1,7 @@
+Box 0: ['ticket']
+Box 1: ['milk', 'plate']
+Box 2: ['guitar']
+Box 3: ['letter', 'paper']
+Box 4: ['bomb', 'leaf', 'document']
+Box 5: ['gift', 'ticket', 'magazine']
+Box 6: []

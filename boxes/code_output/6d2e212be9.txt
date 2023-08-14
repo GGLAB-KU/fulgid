@@ -1,0 +1,7 @@
+Box 0: ['cake', 'ice', 'television']
+Box 1: ['newspaper', 'ring', 'sheet', 'tissue']
+Box 2: ['cash']
+Box 3: ['rock', 'watch', 'plate']
+Box 4: ['engine', 'fan', 'ticket']
+Box 5: []
+Box 6: ['knife', 'string', 'bill']

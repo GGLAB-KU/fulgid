@@ -1,0 +1,7 @@
+Box 0: ['pipe', 'bread', 'cup']
+Box 1: []
+Box 2: ['boat', 'block']
+Box 3: ['drug']
+Box 4: ['chemical', 'mirror', 'shell']
+Box 5: ['rock']
+Box 6: ['cigarette']

@@ -1,0 +1,7 @@
+Box 0: ['suit']
+Box 1: []
+Box 2: []
+Box 3: []
+Box 4: ['fan', 'bag', 'chemical', 'painting']
+Box 5: ['bus', 'watch', 'crown']
+Box 6: ['fish', 'ring', 'tape']

@@ -1,0 +1,7 @@
+Box 0: ['ball', 'glass', 'stone']
+Box 1: ['disk']
+Box 2: ['meat', 'flower']
+Box 3: ['cheese', 'cross', 'disk']
+Box 4: ['cash', 'drug', 'stone']
+Box 5: ['suit']
+Box 6: ['apple', 'camera', 'dish']

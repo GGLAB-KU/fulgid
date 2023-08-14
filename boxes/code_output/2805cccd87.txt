@@ -1,0 +1,7 @@
+Box 0: ['ring', 'tape', 'wire', 'pipe']
+Box 1: ['dish']
+Box 2: []
+Box 3: []
+Box 4: ['coat', 'sheet']
+Box 5: ['key', 'train']
+Box 6: ['boot']

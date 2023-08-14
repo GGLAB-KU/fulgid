@@ -1,0 +1,7 @@
+Box 0: ['branch', 'ring']
+Box 1: ['document', 'fan', 'fig']
+Box 2: ['meat', 'magazine']
+Box 3: ['apple', 'cash', 'tape']
+Box 4: ['plane']
+Box 5: []
+Box 6: []

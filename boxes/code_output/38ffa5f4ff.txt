@@ -1,0 +1,7 @@
+Box 0: ['paper']
+Box 1: ['radio', 'tie']
+Box 2: ['boat', 'dress']
+Box 3: []
+Box 4: []
+Box 5: ['branch', 'guitar', 'shell']
+Box 6: []

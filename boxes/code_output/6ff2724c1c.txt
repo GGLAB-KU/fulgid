@@ -1,0 +1,7 @@
+Box 0: ['egg', 'machine']
+Box 1: []
+Box 2: ['document', 'suit']
+Box 3: []
+Box 4: ['crown']
+Box 5: ['knife', 'pot', 'shell']
+Box 6: ['branch', 'tea']

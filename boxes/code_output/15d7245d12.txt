@@ -1,0 +1,7 @@
+Box 0: ['rock', 'watch']
+Box 1: ['pipe']
+Box 2: ['paper']
+Box 3: ['book', 'camera', 'wheel']
+Box 4: ['key', 'plane', 'radio']
+Box 5: ['magazine']
+Box 6: ['seed', 'tissue']

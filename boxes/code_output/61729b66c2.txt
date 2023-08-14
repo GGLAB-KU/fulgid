@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['coffee', 'knife']
+Box 2: ['brick']
+Box 3: ['machine']
+Box 4: ['boat', 'chemical']
+Box 5: ['cup', 'fish', 'magazine']
+Box 6: ['fan', 'ice', 'sheet', 'stone']

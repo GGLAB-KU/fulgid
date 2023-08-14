@@ -1,0 +1,7 @@
+Box 0: ['picture', 'seed', 'watch']
+Box 1: []
+Box 2: []
+Box 3: ['apple', 'bread']
+Box 4: ['milk', 'wheel']
+Box 5: ['ball', 'chemical']
+Box 6: ['note']

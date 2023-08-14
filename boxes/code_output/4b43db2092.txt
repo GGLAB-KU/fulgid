@@ -1,0 +1,7 @@
+Box 0: ['fan']
+Box 1: ['pot']
+Box 2: ['tissue', 'wire']
+Box 3: ['train', 'bill', 'machine']
+Box 4: []
+Box 5: []
+Box 6: []

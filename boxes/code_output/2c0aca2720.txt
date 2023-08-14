@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['suit', 'picture']
+Box 2: []
+Box 3: ['television']
+Box 4: ['card', 'meat', 'plant']
+Box 5: ['radio']
+Box 6: ['letter']

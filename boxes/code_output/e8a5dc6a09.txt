@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['ball', 'engine']
+Box 2: ['bill', 'bomb']
+Box 3: []
+Box 4: ['radio']
+Box 5: []
+Box 6: ['hat', 'egg']

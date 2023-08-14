@@ -1,0 +1,7 @@
+Box 0: ['watch']
+Box 1: []
+Box 2: []
+Box 3: []
+Box 4: ['magazine', 'watch']
+Box 5: ['phone']
+Box 6: []

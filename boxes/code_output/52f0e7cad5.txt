@@ -1,0 +1,7 @@
+Box 0: ['shell', 'flower']
+Box 1: ['dish']
+Box 2: ['plant']
+Box 3: []
+Box 4: ['drink', 'flower', 'shell']
+Box 5: ['cake', 'machine', 'note']
+Box 6: []

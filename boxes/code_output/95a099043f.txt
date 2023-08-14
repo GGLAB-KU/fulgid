@@ -1,0 +1,7 @@
+Box 0: ['watch', 'bread', 'creature']
+Box 1: ['brain']
+Box 2: ['cup', 'tie']
+Box 3: ['key', 'rock']
+Box 4: ['computer', 'disk', 'note']
+Box 5: ['guitar']
+Box 6: ['coffee', 'cross', 'tissue', 'shell']

@@ -1,0 +1,7 @@
+Box 0: ['milk']
+Box 1: ['clock', 'cross', 'game']
+Box 2: ['letter', 'fig']
+Box 3: ['cup']
+Box 4: ['book', 'fig']
+Box 5: ['ball', 'coat']
+Box 6: ['medicine', 'television']

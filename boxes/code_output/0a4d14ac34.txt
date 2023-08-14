@@ -1,0 +1,7 @@
+Box 0: ['boat', 'cake', 'magazine']
+Box 1: ['game']
+Box 2: ['shoe']
+Box 3: ['rose']
+Box 4: ['cream', 'book']
+Box 5: ['bowl', 'guitar']
+Box 6: ['bone', 'egg', 'tea', 'document']

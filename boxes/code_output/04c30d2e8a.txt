@@ -1,0 +1,7 @@
+Box 0: ['string', 'tape', 'train']
+Box 1: ['brain']
+Box 2: ['pot', 'dress']
+Box 3: []
+Box 4: ['tea', 'plant', 'rose']
+Box 5: ['note', 'drug', 'rose']
+Box 6: ['apple', 'shell']

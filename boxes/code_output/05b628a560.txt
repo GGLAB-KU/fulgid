@@ -1,0 +1,7 @@
+Box 0: ['magazine', 'painting']
+Box 1: ['cross', 'cup']
+Box 2: []
+Box 3: ['leaf']
+Box 4: ['cheese', 'disk', 'milk']
+Box 5: ['brain', 'document', 'picture']
+Box 6: ['coat', 'plate']

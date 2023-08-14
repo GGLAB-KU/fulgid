@@ -1,0 +1,7 @@
+Box 0: ['bone', 'branch', 'wire']
+Box 1: ['coat', 'radio', 'rose']
+Box 2: []
+Box 3: []
+Box 4: ['boot', 'hat']
+Box 5: ['medicine', 'rock', 'cake']
+Box 6: ['egg']

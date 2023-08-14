@@ -1,0 +1,7 @@
+Box 0: ['tea', 'fish', 'gift', 'tape']
+Box 1: ['ice']
+Box 2: ['tissue']
+Box 3: []
+Box 4: ['shell', 'tea']
+Box 5: ['block']
+Box 6: ['train']

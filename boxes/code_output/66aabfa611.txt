@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['boat']
+Box 2: ['bus']
+Box 3: ['coffee']
+Box 4: ['bill', 'chemical', 'letter']
+Box 5: []
+Box 6: []

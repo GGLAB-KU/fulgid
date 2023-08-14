@@ -1,0 +1,7 @@
+Box 0: ['wheel']
+Box 1: ['letter', 'stone']
+Box 2: ['bell', 'cash']
+Box 3: ['bowl', 'tea']
+Box 4: ['cup', 'document', 'bowl']
+Box 5: ['knife', 'ring', 'document']
+Box 6: []

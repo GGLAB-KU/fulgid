@@ -1,0 +1,7 @@
+Box 0: ['drink', 'bomb']
+Box 1: []
+Box 2: ['coat']
+Box 3: ['suit']
+Box 4: ['brain']
+Box 5: []
+Box 6: ['computer', 'engine']

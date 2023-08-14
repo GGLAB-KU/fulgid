@@ -1,0 +1,7 @@
+Box 0: ['bread', 'bus', 'shoe']
+Box 1: ['bag']
+Box 2: ['bottle', 'pot', 'seed']
+Box 3: ['camera']
+Box 4: ['cup', 'glass']
+Box 5: ['radio', 'tea']
+Box 6: ['clock', 'medicine']

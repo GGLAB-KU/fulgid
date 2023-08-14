@@ -1,0 +1,7 @@
+Box 0: ['bomb', 'boot']
+Box 1: ['cross']
+Box 2: []
+Box 3: ['machine', 'rose', 'tissue', 'bell', 'bottle']
+Box 4: ['jacket']
+Box 5: []
+Box 6: []

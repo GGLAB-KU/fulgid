@@ -1,0 +1,7 @@
+Box 0: ['game', 'magazine']
+Box 1: []
+Box 2: []
+Box 3: ['branch']
+Box 4: ['cheese', 'dish', 'fig']
+Box 5: []
+Box 6: []

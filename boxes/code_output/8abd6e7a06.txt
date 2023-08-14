@@ -1,0 +1,7 @@
+Box 0: ['painting']
+Box 1: ['ball', 'shell']
+Box 2: []
+Box 3: ['fig']
+Box 4: ['paper']
+Box 5: ['computer', 'phone', 'rock']
+Box 6: ['bill']

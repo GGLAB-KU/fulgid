@@ -1,0 +1,7 @@
+Box 0: ['brain', 'seed', 'bell', 'bottle']
+Box 1: ['jacket', 'cross']
+Box 2: ['bomb', 'computer', 'shoe']
+Box 3: ['medicine', 'tea']
+Box 4: ['ball', 'disk', 'machine', 'rose']
+Box 5: ['bus', 'glass', 'watch', 'painting', 'fish']
+Box 6: ['pot']

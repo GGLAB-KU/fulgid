@@ -1,0 +1,7 @@
+Box 0: ['machine', 'cross']
+Box 1: ['apple', 'ice', 'tape']
+Box 2: ['coat']
+Box 3: ['cash', 'drug', 'pipe', 'bell', 'bottle']
+Box 4: ['bowl', 'flower']
+Box 5: ['painting', 'plane']
+Box 6: []

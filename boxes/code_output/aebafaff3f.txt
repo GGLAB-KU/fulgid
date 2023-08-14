@@ -1,0 +1,7 @@
+Box 0: ['document', 'shell', 'wheel']
+Box 1: ['dress', 'radio']
+Box 2: []
+Box 3: ['bill']
+Box 4: []
+Box 5: ['cup', 'magazine', 'plant']
+Box 6: []

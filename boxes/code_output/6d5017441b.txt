@@ -1,0 +1,7 @@
+Box 0: ['magazine']
+Box 1: ['cream']
+Box 2: []
+Box 3: ['dish']
+Box 4: ['shell']
+Box 5: []
+Box 6: []

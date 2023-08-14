@@ -1,0 +1,7 @@
+Box 0: ['boot', 'chemical', 'shirt']
+Box 1: ['bomb', 'television', 'coffee']
+Box 2: ['dress', 'fan', 'phone']
+Box 3: ['wheel']
+Box 4: ['bomb', 'television']
+Box 5: ['fig']
+Box 6: ['cheese']

@@ -1,0 +1,7 @@
+Box 0: ['cream', 'phone']
+Box 1: ['brick']
+Box 2: ['cross', 'gift', 'plate', 'cream', 'phone']
+Box 3: []
+Box 4: ['bag', 'jacket', 'rose', 'document']
+Box 5: ['ice']
+Box 6: ['egg']

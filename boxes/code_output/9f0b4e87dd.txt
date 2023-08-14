@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['train']
+Box 2: []
+Box 3: ['meat', 'plant', 'television']
+Box 4: ['boat', 'leaf', 'jacket']
+Box 5: []
+Box 6: []

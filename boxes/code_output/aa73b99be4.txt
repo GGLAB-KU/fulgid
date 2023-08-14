@@ -1,0 +1,7 @@
+Box 0: ['boot', 'bread', 'cross', 'key']
+Box 1: ['clock', 'apple']
+Box 2: []
+Box 3: ['book', 'cheese', 'ring']
+Box 4: []
+Box 5: ['shoe', 'tea']
+Box 6: []

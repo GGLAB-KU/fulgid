@@ -1,0 +1,7 @@
+Box 0: ['block', 'television', 'watch']
+Box 1: ['bowl', 'ice']
+Box 2: ['bread', 'bowl', 'ice']
+Box 3: ['shirt', 'bill', 'mirror']
+Box 4: ['card', 'engine']
+Box 5: ['ball', 'shirt']
+Box 6: ['knife']

@@ -1,0 +1,7 @@
+Box 0: ['cigarette', 'crown', 'rock']
+Box 1: ['medicine', 'plate', 'bag', 'ring', 'tissue']
+Box 2: ['disk']
+Box 3: ['document']
+Box 4: ['egg']
+Box 5: ['note']
+Box 6: ['phone']

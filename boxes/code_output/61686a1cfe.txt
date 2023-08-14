@@ -1,0 +1,7 @@
+Box 0: ['fig', 'plate', 'suit']
+Box 1: ['cake', 'drink', 'fish']
+Box 2: ['branch', 'coat']
+Box 3: ['coffee', 'letter']
+Box 4: []
+Box 5: ['radio', 'string']
+Box 6: []

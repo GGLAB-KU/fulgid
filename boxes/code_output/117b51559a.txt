@@ -1,0 +1,7 @@
+Box 0: ['cigarette', 'dress', 'string', 'cup']
+Box 1: ['disk', 'stone']
+Box 2: ['cup']
+Box 3: []
+Box 4: ['tape']
+Box 5: ['engine']
+Box 6: ['watch']

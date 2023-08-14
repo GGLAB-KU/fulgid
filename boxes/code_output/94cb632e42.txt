@@ -1,0 +1,7 @@
+Box 0: ['wheel']
+Box 1: ['camera', 'map']
+Box 2: ['chemical', 'mirror']
+Box 3: []
+Box 4: ['dish']
+Box 5: ['shell', 'milk', 'car']
+Box 6: []

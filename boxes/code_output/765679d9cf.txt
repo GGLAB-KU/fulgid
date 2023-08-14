@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['boat', 'magazine']
+Box 2: ['ball', 'bill']
+Box 3: ['car']
+Box 4: []
+Box 5: []
+Box 6: []

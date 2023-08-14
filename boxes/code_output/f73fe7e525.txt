@@ -1,0 +1,7 @@
+Box 0: ['block', 'clock', 'computer']
+Box 1: []
+Box 2: []
+Box 3: ['string', 'television']
+Box 4: ['fan']
+Box 5: []
+Box 6: ['game']

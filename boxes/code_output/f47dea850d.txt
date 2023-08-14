@@ -1,0 +1,7 @@
+Box 0: ['block', 'dress']
+Box 1: ['key']
+Box 2: ['tape']
+Box 3: ['bomb', 'brain']
+Box 4: []
+Box 5: ['engine', 'leaf', 'book']
+Box 6: ['card', 'cup']

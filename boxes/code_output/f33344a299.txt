@@ -1,0 +1,7 @@
+Box 0: ['gift', 'key']
+Box 1: ['ball', 'bone', 'sheet']
+Box 2: ['game', 'map', 'tissue']
+Box 3: []
+Box 4: ['document']
+Box 5: []
+Box 6: ['bomb', 'machine', 'picture']

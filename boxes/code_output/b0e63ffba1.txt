@@ -1,0 +1,7 @@
+Box 0: ['ball']
+Box 1: ['paper']
+Box 2: ['knife', 'rose']
+Box 3: ['engine']
+Box 4: ['picture']
+Box 5: ['car', 'medicine']
+Box 6: []

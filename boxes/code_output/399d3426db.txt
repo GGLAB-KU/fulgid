@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['key', 'bell', 'computer']
+Box 2: ['shell']
+Box 3: ['crown', 'chemical']
+Box 4: ['fan', 'ball']
+Box 5: []
+Box 6: []

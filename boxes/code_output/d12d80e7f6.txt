@@ -1,0 +1,7 @@
+Box 0: ['boot', 'book', 'branch']
+Box 1: []
+Box 2: ['hat']
+Box 3: ['knife', 'suit', 'tape']
+Box 4: []
+Box 5: ['bell', 'disk', 'ticket']
+Box 6: ['picture', 'radio']

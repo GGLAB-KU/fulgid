@@ -1,0 +1,7 @@
+Box 0: ['crown']
+Box 1: ['bell']
+Box 2: ['game', 'crown']
+Box 3: ['gift']
+Box 4: ['beer', 'computer', 'cross']
+Box 5: ['tea']
+Box 6: ['apple']

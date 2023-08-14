@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['meat', 'string', 'rock']
+Box 2: ['boot', 'cheese', 'chemical']
+Box 3: []
+Box 4: ['branch', 'drug', 'egg']
+Box 5: ['cup']
+Box 6: ['pipe']

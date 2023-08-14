@@ -1,0 +1,7 @@
+Box 0: ['cheese', 'train']
+Box 1: ['plant', 'tape', 'tissue']
+Box 2: []
+Box 3: []
+Box 4: ['card', 'clock', 'engine']
+Box 5: []
+Box 6: []

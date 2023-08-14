@@ -1,0 +1,7 @@
+Box 0: ['shell']
+Box 1: []
+Box 2: []
+Box 3: []
+Box 4: ['game']
+Box 5: ['bag']
+Box 6: []

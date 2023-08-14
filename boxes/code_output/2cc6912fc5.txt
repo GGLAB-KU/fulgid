@@ -1,0 +1,7 @@
+Box 0: ['cash']
+Box 1: ['ticket']
+Box 2: ['beer', 'brain', 'guitar']
+Box 3: ['medicine', 'newspaper', 'cash']
+Box 4: ['crown']
+Box 5: ['meat', 'ice', 'painting', 'string']
+Box 6: ['bomb', 'boot', 'plane']

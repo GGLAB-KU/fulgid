@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: ['brick', 'document', 'engine']
+Box 3: ['milk', 'train']
+Box 4: ['newspaper']
+Box 5: []
+Box 6: ['fan', 'shell', 'egg']

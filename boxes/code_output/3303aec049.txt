@@ -1,0 +1,7 @@
+Box 0: ['map']
+Box 1: ['cheese', 'coffee']
+Box 2: ['card', 'train']
+Box 3: ['apple']
+Box 4: ['stone']
+Box 5: ['fig', 'tissue']
+Box 6: ['bag', 'sheet', 'bottle', 'map', 'stone', 'boot']

@@ -1,0 +1,7 @@
+Box 0: ['cheese', 'disk', 'tie']
+Box 1: ['cake', 'newspaper']
+Box 2: []
+Box 3: ['coffee', 'brain', 'rose', 'flower']
+Box 4: []
+Box 5: []
+Box 6: []

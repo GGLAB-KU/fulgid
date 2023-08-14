@@ -1,0 +1,7 @@
+Box 0: ['tape']
+Box 1: []
+Box 2: ['dish', 'knife', 'note']
+Box 3: ['drink']
+Box 4: ['fan']
+Box 5: ['radio']
+Box 6: ['leaf', 'string']

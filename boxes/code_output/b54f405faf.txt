@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: []
+Box 3: []
+Box 4: ['ticket', 'gift']
+Box 5: ['camera', 'pot']
+Box 6: ['branch', 'tissue', 'crown']

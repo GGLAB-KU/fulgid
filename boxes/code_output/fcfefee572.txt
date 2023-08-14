@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: ['pipe', 'document']
+Box 3: []
+Box 4: ['shirt', 'watch', 'television']
+Box 5: ['bottle', 'ice']
+Box 6: ['ball', 'fan', 'file']

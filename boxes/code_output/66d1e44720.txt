@@ -1,0 +1,7 @@
+Box 0: ['machine', 'shell']
+Box 1: ['disk', 'engine']
+Box 2: ['bowl', 'glass', 'ring', 'disk', 'machine', 'shell']
+Box 3: ['coat', 'coffee', 'fish']
+Box 4: ['bomb', 'ice', 'apple']
+Box 5: ['bus', 'meat']
+Box 6: ['cigarette', 'seed']

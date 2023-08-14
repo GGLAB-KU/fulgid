@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: ['coffee', 'wire']
+Box 3: []
+Box 4: ['plate', 'radio']
+Box 5: ['apple']
+Box 6: []

@@ -1,0 +1,7 @@
+Box 0: ['beer', 'picture']
+Box 1: ['string', 'magazine', 'bowl', 'boot', 'flower']
+Box 2: ['cross']
+Box 3: []
+Box 4: []
+Box 5: ['drink']
+Box 6: ['file']

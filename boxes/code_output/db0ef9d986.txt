@@ -1,0 +1,7 @@
+Box 0: ['coat']
+Box 1: ['beer', 'cigarette']
+Box 2: ['key']
+Box 3: []
+Box 4: ['dish', 'egg', 'knife']
+Box 5: ['cup', 'drink']
+Box 6: []

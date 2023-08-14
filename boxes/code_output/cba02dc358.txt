@@ -1,0 +1,7 @@
+Box 0: ['block', 'bottle', 'wire']
+Box 1: ['boot', 'leaf']
+Box 2: []
+Box 3: ['game']
+Box 4: ['bone']
+Box 5: ['plane', 'cup', 'shell']
+Box 6: ['cash', 'ice']

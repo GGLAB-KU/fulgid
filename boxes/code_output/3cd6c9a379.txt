@@ -1,0 +1,7 @@
+Box 0: ['book', 'cash', 'seed']
+Box 1: []
+Box 2: ['glass']
+Box 3: ['tissue']
+Box 4: ['letter']
+Box 5: ['flower', 'game', 'leaf']
+Box 6: ['ball', 'phone']

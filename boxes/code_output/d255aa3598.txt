@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['document', 'chemical', 'meat']
+Box 2: ['shirt']
+Box 3: []
+Box 4: ['branch']
+Box 5: ['watch', 'bill']
+Box 6: ['car', 'machine']

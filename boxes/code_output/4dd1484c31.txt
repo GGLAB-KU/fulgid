@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['wheel', 'engine', 'ring']
+Box 2: ['brick', 'camera', 'cream']
+Box 3: []
+Box 4: ['flower', 'glass']
+Box 5: ['boot', 'coffee', 'tissue']
+Box 6: ['cup', 'paper']

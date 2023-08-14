@@ -1,0 +1,7 @@
+Box 0: ['suit']
+Box 1: ['train']
+Box 2: ['pot', 'picture']
+Box 3: ['boot']
+Box 4: ['apple', 'milk', 'wire']
+Box 5: ['cigarette', 'letter', 'coat']
+Box 6: ['camera']

@@ -1,0 +1,7 @@
+Box 0: ['bell', 'jacket']
+Box 1: ['newspaper', 'sheet', 'newspaper', 'tea', 'pipe']
+Box 2: ['flower', 'milk', 'chemical', 'disk', 'picture']
+Box 3: ['bread', 'machine', 'drug', 'tape']
+Box 4: []
+Box 5: ['apple', 'meat', 'ice', 'letter']
+Box 6: []

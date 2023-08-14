@@ -1,0 +1,7 @@
+Box 0: ['apple', 'plate', 'string', 'game']
+Box 1: ['apple', 'plane', 'ticket', 'game']
+Box 2: ['tea']
+Box 3: ['coffee', 'plate', 'string']
+Box 4: ['leaf', 'magazine']
+Box 5: ['fish', 'train', 'tea', 'plane']
+Box 6: ['ball']

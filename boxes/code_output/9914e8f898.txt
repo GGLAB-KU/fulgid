@@ -1,0 +1,7 @@
+Box 0: ['hat']
+Box 1: []
+Box 2: ['bomb', 'flower', 'shoe']
+Box 3: ['branch', 'car', 'mirror']
+Box 4: ['ice']
+Box 5: ['creature', 'watch']
+Box 6: ['card']

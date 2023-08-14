@@ -1,0 +1,7 @@
+Box 0: ['note', 'mirror']
+Box 1: ['bus', 'camera', 'radio', 'ball', 'ring']
+Box 2: ['computer']
+Box 3: []
+Box 4: ['jacket']
+Box 5: ['cream', 'tie', 'bill']
+Box 6: ['document', 'bell']

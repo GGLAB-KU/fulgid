@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['chemical', 'medicine']
+Box 2: ['boot', 'cheese']
+Box 3: ['bowl', 'glass', 'hat']
+Box 4: ['branch', 'drug', 'egg']
+Box 5: ['cup']
+Box 6: ['pipe', 'meat', 'string']

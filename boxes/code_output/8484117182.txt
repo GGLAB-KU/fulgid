@@ -1,0 +1,7 @@
+Box 0: ['rock']
+Box 1: []
+Box 2: []
+Box 3: ['brain', 'gift']
+Box 4: []
+Box 5: ['rose', 'disk', 'hat']
+Box 6: ['clock', 'plane', 'brick', 'ice', 'pot']

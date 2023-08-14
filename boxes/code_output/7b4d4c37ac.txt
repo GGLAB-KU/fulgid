@@ -1,0 +1,7 @@
+Box 0: ['boat', 'boat']
+Box 1: ['branch']
+Box 2: []
+Box 3: []
+Box 4: ['cheese']
+Box 5: ['block', 'bottle', 'dish']
+Box 6: ['document', 'ice', 'mirror', 'shell']

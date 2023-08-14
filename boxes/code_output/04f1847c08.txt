@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['camera', 'phone']
+Box 2: ['file']
+Box 3: ['newspaper', 'television', 'ice']
+Box 4: ['coffee']
+Box 5: []
+Box 6: ['dish']

@@ -1,0 +1,7 @@
+Box 0: ['clock', 'game']
+Box 1: ['fig', 'apple']
+Box 2: ['mirror', 'brick']
+Box 3: ['bill', 'creature', 'phone']
+Box 4: []
+Box 5: ['pipe', 'jacket']
+Box 6: ['leaf']

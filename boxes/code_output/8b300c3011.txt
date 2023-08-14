@@ -1,0 +1,7 @@
+Box 0: ['ring']
+Box 1: ['pipe', 'cigarette']
+Box 2: ['camera', 'picture', 'tape']
+Box 3: ['stone', 'television', 'gift']
+Box 4: ['key', 'sheet', 'ring']
+Box 5: []
+Box 6: []

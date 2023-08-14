@@ -1,0 +1,7 @@
+Box 0: ['computer', 'key', 'seed']
+Box 1: ['bone', 'note', 'ticket']
+Box 2: []
+Box 3: ['hat', 'knife', 'radio']
+Box 4: ['television', 'wire']
+Box 5: ['drug']
+Box 6: ['tape']

@@ -1,0 +1,7 @@
+Box 0: ['gift']
+Box 1: ['apple', 'phone', 'plane']
+Box 2: ['machine', 'ticket']
+Box 3: ['fan', 'wire']
+Box 4: ['television', 'tie', 'knife', 'map', 'pipe']
+Box 5: ['note', 'map', 'knife', 'boat']
+Box 6: ['glass', 'milk', 'bill']

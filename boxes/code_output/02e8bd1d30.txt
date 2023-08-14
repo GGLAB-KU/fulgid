@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: []
+Box 3: ['machine', 'drink']
+Box 4: ['plant']
+Box 5: ['chemical', 'milk']
+Box 6: ['watch']

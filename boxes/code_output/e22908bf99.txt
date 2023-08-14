@@ -1,0 +1,7 @@
+Box 0: ['glass', 'note', 'string']
+Box 1: []
+Box 2: ['guitar', 'shirt', 'fig', 'ticket']
+Box 3: ['boat']
+Box 4: ['tape']
+Box 5: ['magazine']
+Box 6: ['newspaper', 'pipe', 'chemical']

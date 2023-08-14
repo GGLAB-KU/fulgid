@@ -1,0 +1,7 @@
+Box 0: ['pot', 'phone', 'tea']
+Box 1: ['flower', 'pot']
+Box 2: ['creature', 'ticket']
+Box 3: ['glass']
+Box 4: ['cross']
+Box 5: ['cheese']
+Box 6: []

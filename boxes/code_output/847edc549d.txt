@@ -1,0 +1,7 @@
+Box 0: ['rock']
+Box 1: ['flower', 'rock', 'milk', 'tea']
+Box 2: []
+Box 3: ['cream']
+Box 4: ['bone', 'book', 'pipe', 'sheet']
+Box 5: ['knife', 'shoe']
+Box 6: []

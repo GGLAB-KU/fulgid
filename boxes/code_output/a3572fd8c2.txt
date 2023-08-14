@@ -1,0 +1,7 @@
+Box 0: ['pot', 'cigarette']
+Box 1: ['key', 'plate']
+Box 2: ['cash', 'meat', 'paper']
+Box 3: ['game', 'tie', 'train']
+Box 4: ['jacket', 'shell']
+Box 5: ['computer', 'crown', 'suit']
+Box 6: ['disk', 'wheel', 'shirt']

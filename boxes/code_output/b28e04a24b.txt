@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['leaf', 'mirror', 'cross', 'gift', 'pipe']
+Box 2: ['block', 'camera', 'knife']
+Box 3: ['crown', 'tissue']
+Box 4: []
+Box 5: ['ice']
+Box 6: ['card', 'document', 'letter']

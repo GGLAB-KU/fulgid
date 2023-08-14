@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['plant', 'magazine']
+Box 2: ['apple', 'bell', 'crown']
+Box 3: ['branch', 'document', 'map']
+Box 4: ['pipe', 'plate', 'rock']
+Box 5: ['painting', 'fan', 'magazine']
+Box 6: ['drink', 'note']

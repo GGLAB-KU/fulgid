@@ -1,0 +1,7 @@
+Box 0: ['apple', 'seed']
+Box 1: ['ice', 'plant']
+Box 2: ['radio']
+Box 3: []
+Box 4: ['tissue']
+Box 5: ['flower', 'pot']
+Box 6: ['map', 'crown']

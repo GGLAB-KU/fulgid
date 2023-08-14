@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['string', 'cheese']
+Box 2: []
+Box 3: ['seed']
+Box 4: []
+Box 5: []
+Box 6: ['dish', 'watch', 'gift', 'knife', 'painting', 'cup', 'card', 'cigarette', 'hat', 'mirror']

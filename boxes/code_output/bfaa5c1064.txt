@@ -1,0 +1,7 @@
+Box 0: ['bottle', 'bowl', 'drug']
+Box 1: ['clock']
+Box 2: ['ball', 'plant', 'tea']
+Box 3: ['chemical', 'phone']
+Box 4: ['file', 'flower', 'plate']
+Box 5: ['meat']
+Box 6: ['beer', 'guitar']

@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['bell', 'bill', 'brain']
+Box 2: ['camera', 'guitar']
+Box 3: ['crown', 'pipe']
+Box 4: ['knife', 'phone', 'plant']
+Box 5: ['glass', 'key', 'television']
+Box 6: ['cross', 'flower', 'jacket']

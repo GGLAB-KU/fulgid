@@ -1,0 +1,7 @@
+Box 0: ['coffee', 'egg', 'plane']
+Box 1: ['fig']
+Box 2: []
+Box 3: []
+Box 4: []
+Box 5: ['plant', 'branch']
+Box 6: ['letter', 'machine', 'rock']

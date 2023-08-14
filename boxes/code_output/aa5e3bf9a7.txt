@@ -1,0 +1,7 @@
+Box 0: ['dress']
+Box 1: ['cross', 'medicine', 'radio']
+Box 2: ['beer', 'shell']
+Box 3: ['apple', 'bottle']
+Box 4: ['string', 'apple']
+Box 5: ['bomb', 'pot', 'tape']
+Box 6: []

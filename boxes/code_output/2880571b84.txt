@@ -1,0 +1,7 @@
+Box 0: ['apple', 'shell', 'television']
+Box 1: ['brick', 'mirror', 'plane']
+Box 2: ['rock']
+Box 3: ['coffee', 'train']
+Box 4: ['dish']
+Box 5: ['clock', 'fan']
+Box 6: []

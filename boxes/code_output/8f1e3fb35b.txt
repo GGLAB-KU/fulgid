@@ -1,0 +1,7 @@
+Box 0: ['ball', 'chemical', 'suit']
+Box 1: []
+Box 2: ['medicine']
+Box 3: []
+Box 4: []
+Box 5: ['fan']
+Box 6: ['bread', 'egg']

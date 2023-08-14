@@ -1,0 +1,7 @@
+Box 0: ['machine', 'plant', 'tea', 'apple', 'sheet', 'pipe']
+Box 1: ['bowl', 'medicine', 'tie']
+Box 2: ['pipe']
+Box 3: ['cake', 'camera', 'note']
+Box 4: ['boat', 'cheese', 'bottle']
+Box 5: ['ice', 'boat', 'sheet']
+Box 6: ['branch', 'creature', 'drug']

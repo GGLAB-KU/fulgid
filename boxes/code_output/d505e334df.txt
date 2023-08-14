@@ -1,0 +1,7 @@
+Box 0: ['cake', 'crown', 'knife']
+Box 1: ['note', 'shell']
+Box 2: ['coat', 'medicine']
+Box 3: ['bag']
+Box 4: ['card']
+Box 5: ['gift', 'painting']
+Box 6: []

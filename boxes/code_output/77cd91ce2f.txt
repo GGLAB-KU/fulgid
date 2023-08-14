@@ -1,0 +1,7 @@
+Box 0: ['bell', 'cigarette', 'tape']
+Box 1: ['string', 'computer']
+Box 2: ['brick', 'suit']
+Box 3: ['beer', 'fan', 'rock']
+Box 4: []
+Box 5: []
+Box 6: ['plate']

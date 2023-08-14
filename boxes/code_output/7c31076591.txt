@@ -1,0 +1,7 @@
+Box 0: ['newspaper', 'painting', 'apple', 'hat']
+Box 1: ['rock', 'dress']
+Box 2: []
+Box 3: ['guitar', 'pipe', 'dress', 'radio']
+Box 4: ['phone']
+Box 5: []
+Box 6: ['bowl']

@@ -1,0 +1,7 @@
+Box 0: ['fan', 'flower', 'game']
+Box 1: []
+Box 2: ['suit', 'coat', 'letter']
+Box 3: []
+Box 4: []
+Box 5: []
+Box 6: ['gift', 'key']

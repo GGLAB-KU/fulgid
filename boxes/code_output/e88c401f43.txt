@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['glass', 'drink']
+Box 2: ['bus', 'milk', 'picture']
+Box 3: ['boat', 'rock', 'card']
+Box 4: ['car', 'fish']
+Box 5: ['dish']
+Box 6: ['apple', 'creature', 'plate']

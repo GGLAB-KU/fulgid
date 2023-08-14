@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['document']
+Box 2: ['crown', 'tissue']
+Box 3: ['brain', 'dish']
+Box 4: ['computer', 'gift']
+Box 5: ['beer', 'cheese', 'seed']
+Box 6: ['bell', 'wire']

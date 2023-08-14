@@ -1,0 +1,7 @@
+Box 0: ['block', 'rock', 'flower']
+Box 1: ['apple', 'camera']
+Box 2: ['coat']
+Box 3: ['bill', 'disk', 'letter']
+Box 4: ['key', 'bag']
+Box 5: ['shoe', 'mirror']
+Box 6: ['radio']

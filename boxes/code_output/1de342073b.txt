@@ -1,0 +1,7 @@
+Box 0: ['creature']
+Box 1: ['drug', 'key', 'shirt']
+Box 2: []
+Box 3: ['gift']
+Box 4: ['fish', 'letter']
+Box 5: ['computer']
+Box 6: ['bowl', 'stone', 'bowl', 'creature', 'rose']

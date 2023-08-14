@@ -1,0 +1,7 @@
+Box 0: ['suit']
+Box 1: ['cup', 'drink', 'mirror']
+Box 2: ['dress', 'pot', 'radio']
+Box 3: ['bill', 'branch', 'fan']
+Box 4: ['disk', 'pot', 'radio']
+Box 5: ['bomb', 'engine', 'magazine']
+Box 6: ['card', 'document']

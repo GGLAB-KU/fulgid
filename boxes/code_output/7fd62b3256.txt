@@ -1,0 +1,7 @@
+Box 0: ['beer']
+Box 1: ['coffee', 'wire', 'document', 'train']
+Box 2: ['ball', 'hat']
+Box 3: []
+Box 4: ['cream', 'tissue', 'brick']
+Box 5: ['bone', 'rock', 'rose']
+Box 6: ['bottle', 'brain', 'coat']

@@ -1,0 +1,7 @@
+Box 0: ['bone', 'computer', 'tea']
+Box 1: ['leaf', 'cross', 'leaf']
+Box 2: []
+Box 3: ['bread', 'drink', 'coat', 'note']
+Box 4: ['boat', 'tie']
+Box 5: ['crown', 'beer', 'radio', 'cross', 'leaf', 'apple']
+Box 6: ['flower', 'hat']

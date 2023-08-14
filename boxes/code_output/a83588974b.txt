@@ -1,0 +1,7 @@
+Box 0: ['game']
+Box 1: ['bomb', 'ice', 'wheel']
+Box 2: ['picture', 'note', 'apple', 'newspaper']
+Box 3: []
+Box 4: ['card', 'coat']
+Box 5: []
+Box 6: []

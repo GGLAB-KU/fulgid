@@ -1,0 +1,7 @@
+Box 0: ['wheel', 'shell', 'mirror']
+Box 1: ['chemical']
+Box 2: ['bread', 'crown', 'guitar']
+Box 3: []
+Box 4: ['bag', 'game', 'television']
+Box 5: ['computer', 'gift']
+Box 6: ['bottle', 'pot', 'drink']

@@ -1,0 +1,7 @@
+Box 0: ['boat']
+Box 1: []
+Box 2: ['flower', 'shell']
+Box 3: []
+Box 4: ['cream', 'disk', 'phone']
+Box 5: ['bag', 'bill', 'sheet']
+Box 6: ['crown', 'game', 'hat']

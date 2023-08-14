@@ -1,0 +1,7 @@
+Box 0: ['computer', 'disk', 'gift']
+Box 1: ['bone']
+Box 2: ['train']
+Box 3: ['meat', 'chemical']
+Box 4: ['shirt']
+Box 5: ['cake', 'string', 'train']
+Box 6: ['creature', 'knife', 'milk']

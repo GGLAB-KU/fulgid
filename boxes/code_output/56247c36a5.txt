@@ -1,0 +1,7 @@
+Box 0: ['guitar', 'magazine', 'picture']
+Box 1: ['plate', 'shirt', 'drug']
+Box 2: ['medicine']
+Box 3: ['boat', 'key', 'paper']
+Box 4: ['wheel']
+Box 5: ['bill', 'cup', 'tea']
+Box 6: []

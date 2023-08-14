@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['disk']
+Box 2: ['ball', 'fan', 'painting']
+Box 3: ['medicine']
+Box 4: []
+Box 5: ['beer', 'ticket']
+Box 6: ['stone']

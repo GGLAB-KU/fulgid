@@ -1,0 +1,7 @@
+Box 0: ['bottle', 'cigarette']
+Box 1: ['suit']
+Box 2: ['fan']
+Box 3: ['painting']
+Box 4: ['train']
+Box 5: ['camera', 'mirror']
+Box 6: ['branch', 'computer', 'egg', 'engine']

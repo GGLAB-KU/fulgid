@@ -1,0 +1,7 @@
+Box 0: ['key']
+Box 1: ['branch', 'meat', 'drug']
+Box 2: ['tissue', 'fig', 'leaf']
+Box 3: ['machine', 'painting', 'sheet']
+Box 4: ['bell', 'pot', 'crown', 'plate']
+Box 5: ['bag', 'cross', 'disk']
+Box 6: ['letter', 'shell']

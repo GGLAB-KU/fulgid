@@ -1,0 +1,7 @@
+Box 0: ['bomb', 'watch']
+Box 1: ['bill', 'string']
+Box 2: ['cash']
+Box 3: ['hat', 'pot', 'tape', 'cream', 'ice', 'wheel']
+Box 4: ['fig']
+Box 5: []
+Box 6: []

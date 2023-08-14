@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['computer']
+Box 2: ['glass', 'paper', 'seed']
+Box 3: ['bag', 'branch', 'car']
+Box 4: ['document']
+Box 5: ['camera', 'letter', 'painting']
+Box 6: ['television', 'tie']

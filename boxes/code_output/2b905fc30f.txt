@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['coat', 'drug']
+Box 2: []
+Box 3: []
+Box 4: []
+Box 5: ['pipe']
+Box 6: ['glass']

@@ -1,0 +1,7 @@
+Box 0: ['pipe', 'brain', 'chemical', 'plane']
+Box 1: ['glass']
+Box 2: ['radio']
+Box 3: ['knife']
+Box 4: ['document']
+Box 5: ['bone', 'wire', 'bomb']
+Box 6: ['book', 'game']

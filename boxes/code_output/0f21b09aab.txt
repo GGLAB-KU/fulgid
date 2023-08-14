@@ -1,0 +1,7 @@
+Box 0: ['brain', 'block']
+Box 1: ['boot']
+Box 2: ['chemical', 'phone', 'seed', 'bowl', 'ticket']
+Box 3: ['fig', 'mirror', 'pot']
+Box 4: ['train']
+Box 5: ['cross', 'sheet', 'shell', 'car', 'shoe']
+Box 6: ['cheese', 'dish', 'painting']

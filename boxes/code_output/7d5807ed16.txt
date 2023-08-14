@@ -1,0 +1,7 @@
+Box 0: ['bill', 'bowl', 'meat']
+Box 1: []
+Box 2: []
+Box 3: ['painting']
+Box 4: []
+Box 5: ['beer', 'bone', 'plate', 'sheet', 'brick']
+Box 6: ['egg', 'shirt']

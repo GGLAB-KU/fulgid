@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['block', 'document', 'jacket']
+Box 2: ['machine']
+Box 3: []
+Box 4: ['sheet', 'tissue']
+Box 5: ['egg']
+Box 6: ['mirror', 'plane', 'string']

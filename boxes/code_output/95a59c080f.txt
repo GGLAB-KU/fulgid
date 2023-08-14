@@ -1,0 +1,7 @@
+Box 0: ['coffee']
+Box 1: ['tissue', 'cheese']
+Box 2: []
+Box 3: ['fig', 'shirt', 'wheel']
+Box 4: ['engine', 'fan', 'suit']
+Box 5: ['stone', 'coffee']
+Box 6: ['bomb', 'branch', 'rock']

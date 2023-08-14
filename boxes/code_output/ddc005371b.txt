@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: []
+Box 3: ['boot', 'fig', 'medicine']
+Box 4: []
+Box 5: ['disk', 'phone', 'drink', 'hat', 'shirt', 'drink', 'ring']
+Box 6: ['rock', 'egg', 'flower']

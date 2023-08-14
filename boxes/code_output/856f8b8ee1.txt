@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['paper', 'cheese', 'train', 'guitar']
+Box 2: []
+Box 3: ['drug']
+Box 4: ['bread', 'medicine', 'shirt']
+Box 5: ['dress', 'bill', 'fig']
+Box 6: []

@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['clock', 'guitar']
+Box 2: []
+Box 3: []
+Box 4: ['pot', 'drug']
+Box 5: ['bowl', 'computer', 'boot']
+Box 6: []

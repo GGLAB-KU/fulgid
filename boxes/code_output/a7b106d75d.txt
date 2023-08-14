@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['coat', 'knife']
+Box 2: ['ring']
+Box 3: ['camera', 'gift']
+Box 4: ['clock']
+Box 5: ['car', 'pot']
+Box 6: []

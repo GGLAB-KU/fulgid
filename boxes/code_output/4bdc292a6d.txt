@@ -1,0 +1,7 @@
+Box 0: ['shell', 'stone', 'branch']
+Box 1: ['shirt']
+Box 2: ['disk']
+Box 3: ['key', 'beer', 'brain', 'mirror']
+Box 4: ['computer', 'bill']
+Box 5: ['fan']
+Box 6: ['map', 'wheel']

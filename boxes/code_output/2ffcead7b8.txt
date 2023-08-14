@@ -1,0 +1,7 @@
+Box 0: ['machine']
+Box 1: []
+Box 2: ['key', 'letter']
+Box 3: ['radio', 'string']
+Box 4: []
+Box 5: ['dress']
+Box 6: ['shoe', 'gift', 'bread']

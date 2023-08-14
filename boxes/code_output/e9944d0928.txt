@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['mirror', 'rock', 'tie']
+Box 2: ['bowl', 'camera', 'file']
+Box 3: []
+Box 4: ['creature', 'shell']
+Box 5: ['bag', 'note', 'book']
+Box 6: ['wheel']

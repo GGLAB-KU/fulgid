@@ -1,0 +1,7 @@
+Box 0: ['ring', 'suit']
+Box 1: ['book']
+Box 2: []
+Box 3: []
+Box 4: ['brick', 'cup']
+Box 5: ['game']
+Box 6: ['magazine']

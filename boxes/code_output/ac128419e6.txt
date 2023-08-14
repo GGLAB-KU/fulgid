@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: ['plate', 'key', 'bill', 'bus']
+Box 3: ['pot', 'bus']
+Box 4: ['boat']
+Box 5: ['boot', 'drug']
+Box 6: ['cigarette']

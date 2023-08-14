@@ -1,0 +1,7 @@
+Box 0: ['phone', 'machine']
+Box 1: ['apple', 'brain', 'guitar']
+Box 2: []
+Box 3: ['picture', 'newspaper', 'branch']
+Box 4: ['tape']
+Box 5: ['book']
+Box 6: ['bus', 'key', 'ticket']

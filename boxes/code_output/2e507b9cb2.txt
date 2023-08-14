@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['bone', 'radio']
+Box 2: ['cup', 'hat']
+Box 3: []
+Box 4: ['bell', 'card', 'note']
+Box 5: []
+Box 6: ['coffee', 'watch', 'mirror']

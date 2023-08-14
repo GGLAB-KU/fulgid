@@ -1,0 +1,7 @@
+Box 0: ['meat']
+Box 1: ['computer', 'creature']
+Box 2: ['bone', 'cigarette', 'drug']
+Box 3: ['hat', 'seed']
+Box 4: ['egg', 'gift', 'radio']
+Box 5: ['milk']
+Box 6: []

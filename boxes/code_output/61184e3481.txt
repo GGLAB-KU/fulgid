@@ -1,0 +1,7 @@
+Box 0: ['bottle']
+Box 1: ['block', 'cheese', 'note']
+Box 2: ['cake']
+Box 3: []
+Box 4: ['book', 'fan', 'shirt']
+Box 5: ['clock']
+Box 6: ['cross', 'flower']

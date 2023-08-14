@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['block', 'document', 'jacket']
+Box 2: ['machine', 'bag']
+Box 3: ['sheet', 'tissue']
+Box 4: ['cash', 'glass']
+Box 5: ['ice']
+Box 6: ['string']

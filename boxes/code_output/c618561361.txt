@@ -1,0 +1,7 @@
+Box 0: ['apple']
+Box 1: ['pot']
+Box 2: ['crown', 'bottle', 'game']
+Box 3: ['bill']
+Box 4: ['meat', 'paper']
+Box 5: ['bomb']
+Box 6: ['shell']

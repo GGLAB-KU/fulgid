@@ -1,0 +1,7 @@
+Box 0: ['tie', 'bus', 'cream']
+Box 1: []
+Box 2: ['ball', 'bill']
+Box 3: ['bomb', 'car']
+Box 4: ['brick']
+Box 5: ['knife', 'phone', 'train']
+Box 6: []

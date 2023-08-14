@@ -1,0 +1,7 @@
+Box 0: ['bell', 'card', 'shirt']
+Box 1: ['bag', 'coat', 'machine']
+Box 2: ['jacket', 'mirror', 'television']
+Box 3: ['clock', 'watch']
+Box 4: ['cigarette', 'medicine']
+Box 5: []
+Box 6: []

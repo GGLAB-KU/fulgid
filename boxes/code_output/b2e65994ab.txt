@@ -1,0 +1,7 @@
+Box 0: ['ball', 'car']
+Box 1: ['coat', 'drink', 'pot']
+Box 2: ['drug', 'egg', 'plate']
+Box 3: []
+Box 4: ['cash', 'newspaper']
+Box 5: ['apple', 'bus', 'stone']
+Box 6: ['ice']

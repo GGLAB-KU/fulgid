@@ -1,0 +1,7 @@
+Box 0: ['boat']
+Box 1: ['branch', 'file']
+Box 2: ['meat', 'bone']
+Box 3: ['car', 'plate']
+Box 4: ['jacket']
+Box 5: ['ball', 'creature']
+Box 6: ['glass', 'guitar']

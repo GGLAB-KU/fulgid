@@ -1,0 +1,7 @@
+Box 0: ['guitar', 'jacket', 'letter', 'cup']
+Box 1: []
+Box 2: ['cheese', 'block']
+Box 3: ['painting']
+Box 4: []
+Box 5: []
+Box 6: ['rose']

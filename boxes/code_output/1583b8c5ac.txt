@@ -1,0 +1,7 @@
+Box 0: ['jacket', 'tape', 'fan', 'file', 'ice', 'radio', 'leaf', 'string']
+Box 1: ['ring']
+Box 2: ['dish']
+Box 3: ['drink', 'ball']
+Box 4: []
+Box 5: []
+Box 6: []

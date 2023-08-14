@@ -1,0 +1,7 @@
+Box 0: ['egg', 'fig']
+Box 1: ['apple']
+Box 2: ['radio', 'tea', 'watch']
+Box 3: ['cake', 'apple']
+Box 4: ['boat']
+Box 5: ['disk']
+Box 6: ['sheet']

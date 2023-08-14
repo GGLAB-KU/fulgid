@@ -1,0 +1,7 @@
+Box 0: ['bread', 'document', 'wheel']
+Box 1: ['cash', 'hat', 'phone', 'boot']
+Box 2: ['drink', 'hat', 'phone']
+Box 3: ['cigarette']
+Box 4: ['ice', 'shirt', 'television']
+Box 5: ['bottle', 'brick', 'tape']
+Box 6: ['file', 'picture']

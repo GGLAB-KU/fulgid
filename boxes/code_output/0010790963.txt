@@ -1,0 +1,7 @@
+Box 0: ['brain']
+Box 1: ['fish', 'leaf']
+Box 2: ['bag', 'paper', 'guitar', 'gift']
+Box 3: ['car', 'meat', 'coffee']
+Box 4: ['mirror']
+Box 5: ['card', 'phone', 'plate', 'cream']
+Box 6: []

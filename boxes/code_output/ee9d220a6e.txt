@@ -1,0 +1,7 @@
+Box 0: ['card', 'shirt', 'wheel']
+Box 1: ['drink', 'fish', 'machine']
+Box 2: ['bread', 'crown', 'guitar']
+Box 3: []
+Box 4: ['bag', 'game', 'television']
+Box 5: ['shell', 'computer', 'gift']
+Box 6: ['bottle', 'pot']

@@ -1,0 +1,7 @@
+Box 0: ['bag', 'picture']
+Box 1: ['boot', 'gift', 'cigarette']
+Box 2: ['clock']
+Box 3: ['bowl', 'mirror']
+Box 4: ['dish', 'wire', 'bag']
+Box 5: ['coat', 'cigarette', 'gift']
+Box 6: ['camera', 'creature']

@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['cash', 'hat', 'cream']
+Box 2: ['phone']
+Box 3: ['crown', 'boat']
+Box 4: ['document', 'medicine', 'picture']
+Box 5: ['jacket', 'machine', 'tape']
+Box 6: []

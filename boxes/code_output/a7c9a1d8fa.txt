@@ -1,0 +1,7 @@
+Box 0: ['watch']
+Box 1: ['dish']
+Box 2: ['boot']
+Box 3: []
+Box 4: []
+Box 5: []
+Box 6: []

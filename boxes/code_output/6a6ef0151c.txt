@@ -1,0 +1,7 @@
+Box 0: ['meat']
+Box 1: ['bus']
+Box 2: ['jacket']
+Box 3: ['bell', 'flower', 'leaf']
+Box 4: ['camera', 'picture']
+Box 5: []
+Box 6: ['string']

@@ -1,0 +1,7 @@
+Box 0: ['meat', 'ball', 'drink']
+Box 1: ['bill']
+Box 2: ['machine', 'painting']
+Box 3: ['jacket']
+Box 4: ['fan', 'mirror', 'stone']
+Box 5: ['card', 'coat', 'cross']
+Box 6: []

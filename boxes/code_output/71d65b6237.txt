@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: ['apple', 'drug', 'wire']
+Box 3: ['painting']
+Box 4: ['game']
+Box 5: []
+Box 6: ['watch', 'milk', 'painting']

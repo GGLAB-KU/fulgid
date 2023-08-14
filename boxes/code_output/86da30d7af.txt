@@ -1,0 +1,7 @@
+Box 0: ['machine', 'chemical']
+Box 1: ['pipe', 'boat']
+Box 2: ['brain', 'tie', 'car']
+Box 3: ['dish', 'plate', 'pipe']
+Box 4: ['car']
+Box 5: ['rock', 'bill']
+Box 6: ['egg', 'newspaper']

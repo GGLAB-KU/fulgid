@@ -1,0 +1,7 @@
+Box 0: ['bowl']
+Box 1: []
+Box 2: ['bomb', 'drug', 'shirt']
+Box 3: []
+Box 4: ['block', 'glass', 'suit']
+Box 5: []
+Box 6: ['boot', 'cross', 'milk']

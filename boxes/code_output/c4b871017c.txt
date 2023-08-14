@@ -1,0 +1,7 @@
+Box 0: ['bowl', 'drug']
+Box 1: ['crown', 'leaf', 'newspaper', 'bill', 'rose']
+Box 2: ['dish']
+Box 3: ['watch', 'painting']
+Box 4: ['map', 'cigarette']
+Box 5: ['seed']
+Box 6: ['fan']

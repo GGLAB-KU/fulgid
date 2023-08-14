@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['bowl']
+Box 2: ['wire']
+Box 3: []
+Box 4: ['fan', 'flower']
+Box 5: []
+Box 6: ['guitar', 'television', 'phone']

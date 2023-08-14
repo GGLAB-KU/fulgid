@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['creature', 'ice']
+Box 2: []
+Box 3: []
+Box 4: ['chemical']
+Box 5: ['note', 'tissue', 'television']
+Box 6: ['bread']

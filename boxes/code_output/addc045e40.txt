@@ -1,0 +1,7 @@
+Box 0: ['beer', 'guitar', 'mirror']
+Box 1: []
+Box 2: ['cheese', 'pipe', 'sheet']
+Box 3: []
+Box 4: ['cream', 'fan']
+Box 5: []
+Box 6: ['disk', 'tissue', 'fish']

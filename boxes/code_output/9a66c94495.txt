@@ -1,0 +1,7 @@
+Box 0: ['wheel', 'pipe', 'guitar']
+Box 1: []
+Box 2: ['branch']
+Box 3: []
+Box 4: []
+Box 5: ['coat', 'jacket']
+Box 6: ['tea', 'picture']

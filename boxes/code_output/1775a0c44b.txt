@@ -1,0 +1,7 @@
+Box 0: ['bell']
+Box 1: ['bread', 'drink', 'engine']
+Box 2: ['bone']
+Box 3: ['cigarette', 'ring', 'bowl']
+Box 4: ['cake', 'newspaper', 'phone']
+Box 5: ['crown']
+Box 6: ['plant']

@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['leaf']
+Box 2: []
+Box 3: ['drug', 'medicine', 'knife', 'plane']
+Box 4: ['dish', 'flower']
+Box 5: ['guitar']
+Box 6: ['television', 'note']

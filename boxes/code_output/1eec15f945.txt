@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['game']
+Box 2: ['boat', 'bottle', 'engine']
+Box 3: ['ball', 'cream', 'milk']
+Box 4: []
+Box 5: ['fan']
+Box 6: ['boot']

@@ -1,0 +1,7 @@
+Box 0: ['chemical', 'clock']
+Box 1: []
+Box 2: ['letter']
+Box 3: ['dress', 'hat']
+Box 4: []
+Box 5: ['apple', 'tape', 'ticket']
+Box 6: ['cup', 'picture', 'knife']

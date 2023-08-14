@@ -1,0 +1,7 @@
+Box 0: ['document', 'ring', 'camera']
+Box 1: ['dish']
+Box 2: []
+Box 3: ['creature']
+Box 4: ['cream', 'meat', 'plant']
+Box 5: ['sheet', 'fish']
+Box 6: ['bottle', 'bus']

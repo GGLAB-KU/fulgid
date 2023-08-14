@@ -1,0 +1,7 @@
+Box 0: ['rock', 'plane', 'bowl']
+Box 1: ['flower', 'guitar']
+Box 2: ['brick']
+Box 3: ['ball', 'boat', 'bread', 'note']
+Box 4: []
+Box 5: ['glass', 'painting']
+Box 6: ['card', 'crown', 'shirt']

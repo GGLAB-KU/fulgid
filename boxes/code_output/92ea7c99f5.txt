@@ -1,0 +1,7 @@
+Box 0: ['cream']
+Box 1: ['coffee', 'wheel', 'bill', 'coat', 'cream']
+Box 2: ['letter', 'tape']
+Box 3: ['leaf', 'machine', 'watch']
+Box 4: ['car']
+Box 5: ['fan', 'plant']
+Box 6: []

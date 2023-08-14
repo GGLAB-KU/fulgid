@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['crown']
+Box 2: ['bus', 'pot', 'suit']
+Box 3: ['apple', 'branch', 'bread']
+Box 4: []
+Box 5: ['ball', 'chemical']
+Box 6: []

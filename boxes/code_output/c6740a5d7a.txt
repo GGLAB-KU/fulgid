@@ -1,0 +1,7 @@
+Box 0: ['cash', 'machine', 'rock']
+Box 1: ['cheese', 'document', 'drink']
+Box 2: ['coat']
+Box 3: ['plane']
+Box 4: ['rock']
+Box 5: []
+Box 6: ['note']

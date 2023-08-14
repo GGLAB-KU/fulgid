@@ -1,0 +1,7 @@
+Box 0: ['shirt']
+Box 1: ['bowl']
+Box 2: ['flower', 'magazine']
+Box 3: []
+Box 4: ['branch', 'card', 'crown']
+Box 5: ['machine']
+Box 6: ['ring']

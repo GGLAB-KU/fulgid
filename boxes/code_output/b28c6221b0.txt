@@ -1,0 +1,7 @@
+Box 0: ['crown']
+Box 1: []
+Box 2: []
+Box 3: ['letter', 'picture']
+Box 4: ['clock', 'boot', 'plane']
+Box 5: []
+Box 6: ['computer']

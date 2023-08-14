@@ -1,0 +1,7 @@
+Box 0: ['dress', 'string', 'tea']
+Box 1: ['coat']
+Box 2: []
+Box 3: ['brick', 'gift']
+Box 4: []
+Box 5: []
+Box 6: ['picture', 'bell', 'clock']

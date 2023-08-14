@@ -1,0 +1,7 @@
+Box 0: ['document', 'guitar', 'tea', 'bell', 'bottle']
+Box 1: ['cross']
+Box 2: ['apple', 'phone']
+Box 3: ['machine', 'rose']
+Box 4: ['fan']
+Box 5: ['jacket']
+Box 6: ['camera', 'fish']

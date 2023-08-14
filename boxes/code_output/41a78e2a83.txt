@@ -1,0 +1,7 @@
+Box 0: ['dress', 'key', 'computer']
+Box 1: ['fig']
+Box 2: ['mirror', 'train', 'hat', 'tape']
+Box 3: []
+Box 4: ['watch', 'fig', 'hat', 'tape']
+Box 5: ['bread', 'rock']
+Box 6: ['bag', 'note']

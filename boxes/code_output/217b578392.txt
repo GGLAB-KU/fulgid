@@ -1,0 +1,7 @@
+Box 0: ['boot']
+Box 1: ['file', 'plant', 'boot']
+Box 2: ['boot']
+Box 3: ['clock', 'train']
+Box 4: ['television', 'wheel']
+Box 5: ['brick']
+Box 6: ['block', 'branch', 'disk']

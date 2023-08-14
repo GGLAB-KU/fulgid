@@ -1,0 +1,7 @@
+Box 0: ['mirror', 'plane']
+Box 1: ['cheese', 'disk', 'tissue']
+Box 2: ['pipe', 'watch']
+Box 3: []
+Box 4: ['book', 'tea']
+Box 5: ['drug']
+Box 6: []

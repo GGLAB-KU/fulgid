@@ -1,0 +1,7 @@
+Box 0: ['creature']
+Box 1: ['drink', 'sheet', 'tissue']
+Box 2: ['ball', 'cup', 'tie']
+Box 3: ['key', 'rock', 'shell', 'bomb']
+Box 4: ['computer', 'disk', 'note']
+Box 5: ['guitar']
+Box 6: ['coffee', 'cross']

@@ -1,0 +1,7 @@
+Box 0: ['cash', 'map', 'bomb', 'picture']
+Box 1: ['car', 'bomb', 'picture']
+Box 2: ['hat', 'pot', 'shoe']
+Box 3: ['book', 'cross']
+Box 4: []
+Box 5: ['engine']
+Box 6: ['camera', 'dress']

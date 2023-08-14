@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['drink', 'ball']
+Box 2: ['milk', 'hat']
+Box 3: ['brain', 'fan', 'shoe']
+Box 4: ['pot', 'hat']
+Box 5: ['file', 'rock', 'train']
+Box 6: ['tape', 'ticket']

@@ -1,0 +1,7 @@
+Box 0: ['pot', 'car']
+Box 1: ['disk', 'pot']
+Box 2: []
+Box 3: ['cash', 'cigarette', 'train']
+Box 4: []
+Box 5: ['computer', 'drink', 'boat']
+Box 6: []

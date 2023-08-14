@@ -1,0 +1,7 @@
+Box 0: ['knife', 'map']
+Box 1: ['magazine']
+Box 2: []
+Box 3: ['game']
+Box 4: ['cigarette', 'painting']
+Box 5: ['apple', 'bomb', 'rock']
+Box 6: ['machine']

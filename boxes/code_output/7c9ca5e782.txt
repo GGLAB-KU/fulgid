@@ -1,0 +1,7 @@
+Box 0: ['glass', 'sheet']
+Box 1: ['picture', 'book']
+Box 2: ['seed', 'sheet', 'card']
+Box 3: ['disk', 'medicine', 'magazine']
+Box 4: ['crown']
+Box 5: []
+Box 6: []

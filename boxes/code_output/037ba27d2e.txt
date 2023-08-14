@@ -1,0 +1,7 @@
+Box 0: ['boot', 'wheel']
+Box 1: ['tea']
+Box 2: []
+Box 3: ['crown', 'drug', 'seed']
+Box 4: ['medicine']
+Box 5: ['bottle', 'fish']
+Box 6: ['mirror']

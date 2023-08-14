@@ -1,0 +1,7 @@
+Box 0: ['stone']
+Box 1: []
+Box 2: []
+Box 3: []
+Box 4: ['cash', 'fish']
+Box 5: []
+Box 6: ['game']

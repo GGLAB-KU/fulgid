@@ -1,0 +1,7 @@
+Box 0: ['apple', 'leaf']
+Box 1: ['beer', 'plate']
+Box 2: ['ticket']
+Box 3: ['watch', 'bell', 'clock']
+Box 4: ['drink', 'egg']
+Box 5: ['chemical', 'fish', 'key']
+Box 6: ['camera', 'jacket', 'beer', 'pipe']

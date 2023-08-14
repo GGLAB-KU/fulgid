@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['apple', 'ice']
+Box 2: ['coat']
+Box 3: []
+Box 4: ['bowl', 'flower']
+Box 5: []
+Box 6: []

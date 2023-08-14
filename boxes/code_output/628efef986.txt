@@ -1,0 +1,7 @@
+Box 0: ['rose']
+Box 1: ['document', 'sheet', 'card']
+Box 2: ['engine', 'painting', 'picture', 'tissue']
+Box 3: ['bell', 'block', 'key']
+Box 4: ['ball', 'clock', 'seed', 'picture']
+Box 5: ['cross', 'tape', 'painting']
+Box 6: ['cash', 'fig']

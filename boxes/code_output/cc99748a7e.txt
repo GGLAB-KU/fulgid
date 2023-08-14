@@ -1,0 +1,7 @@
+Box 0: ['key']
+Box 1: []
+Box 2: []
+Box 3: ['drug', 'plane', 'shirt', 'magazine', 'seed']
+Box 4: []
+Box 5: []
+Box 6: []

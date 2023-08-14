@@ -1,0 +1,7 @@
+Box 0: ['creature', 'magazine']
+Box 1: []
+Box 2: ['milk', 'sheet']
+Box 3: ['disk', 'radio']
+Box 4: ['shoe']
+Box 5: ['ball', 'fig']
+Box 6: ['engine']

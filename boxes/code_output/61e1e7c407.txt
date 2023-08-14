@@ -1,0 +1,7 @@
+Box 0: ['cross', 'key', 'machine']
+Box 1: []
+Box 2: ['bottle', 'plant', 'brain']
+Box 3: ['game']
+Box 4: []
+Box 5: []
+Box 6: []

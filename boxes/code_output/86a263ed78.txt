@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: ['tissue']
+Box 3: []
+Box 4: ['engine']
+Box 5: ['brick', 'tie']
+Box 6: ['flower', 'key']

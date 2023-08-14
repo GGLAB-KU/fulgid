@@ -1,0 +1,7 @@
+Box 0: ['dress', 'apple', 'file']
+Box 1: ['note']
+Box 2: ['brick']
+Box 3: []
+Box 4: []
+Box 5: ['cream', 'cream']
+Box 6: ['engine']

@@ -1,0 +1,7 @@
+Box 0: ['radio']
+Box 1: []
+Box 2: ['computer', 'tape', 'ticket']
+Box 3: ['rock', 'medicine']
+Box 4: ['branch']
+Box 5: ['egg', 'string']
+Box 6: ['boat', 'crown']

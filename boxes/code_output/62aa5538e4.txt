@@ -1,0 +1,7 @@
+Box 0: ['tea', 'magazine', 'shirt']
+Box 1: ['block', 'dress']
+Box 2: ['brain', 'wheel']
+Box 3: ['ice']
+Box 4: []
+Box 5: ['fig', 'note']
+Box 6: ['ball']

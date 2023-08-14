@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['chemical', 'ring', 'sheet']
+Box 2: ['document', 'newspaper', 'tissue']
+Box 3: ['boat', 'dress', 'pipe']
+Box 4: ['guitar', 'letter']
+Box 5: ['branch']
+Box 6: []

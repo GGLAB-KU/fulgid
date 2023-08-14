@@ -1,0 +1,7 @@
+Box 0: ['rock']
+Box 1: ['ball', 'crown']
+Box 2: []
+Box 3: []
+Box 4: ['bag', 'magazine', 'seed']
+Box 5: ['block', 'engine', 'plane']
+Box 6: ['disk']

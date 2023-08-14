@@ -1,0 +1,7 @@
+Box 0: ['train', 'brain']
+Box 1: ['cheese', 'chemical', 'camera']
+Box 2: ['bowl', 'tie']
+Box 3: ['shirt', 'guitar', 'card', 'paper', 'plant']
+Box 4: []
+Box 5: ['ice']
+Box 6: ['bomb', 'shoe', 'cigarette']

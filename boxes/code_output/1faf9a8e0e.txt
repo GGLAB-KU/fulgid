@@ -1,0 +1,7 @@
+Box 0: ['television', 'bag']
+Box 1: ['pipe', 'wheel']
+Box 2: []
+Box 3: ['fig', 'rock', 'shirt']
+Box 4: ['egg']
+Box 5: ['cigarette', 'letter', 'medicine']
+Box 6: ['leaf', 'phone', 'tea']

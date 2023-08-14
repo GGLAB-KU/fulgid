@@ -1,0 +1,7 @@
+Box 0: ['boot', 'drug', 'leaf']
+Box 1: ['bus']
+Box 2: ['bus']
+Box 3: ['television']
+Box 4: ['phone']
+Box 5: ['shoe']
+Box 6: ['chemical', 'guitar']

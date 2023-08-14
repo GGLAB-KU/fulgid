@@ -1,0 +1,7 @@
+Box 0: ['letter', 'stone']
+Box 1: []
+Box 2: []
+Box 3: ['bowl', 'seed', 'tea']
+Box 4: ['cup']
+Box 5: ['knife', 'ring']
+Box 6: []

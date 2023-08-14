@@ -1,0 +1,7 @@
+Box 0: ['car']
+Box 1: ['block', 'bread', 'fish', 'note', 'picture', 'rock']
+Box 2: ['block', 'bread', 'fish']
+Box 3: ['bone']
+Box 4: []
+Box 5: []
+Box 6: ['boat']

@@ -1,0 +1,7 @@
+Box 0: ['beer', 'glass', 'boot']
+Box 1: ['cake', 'gift', 'letter']
+Box 2: ['hat', 'shoe']
+Box 3: ['bill', 'rock']
+Box 4: ['apple', 'milk', 'newspaper']
+Box 5: ['bomb', 'clock']
+Box 6: ['fig', 'painting']

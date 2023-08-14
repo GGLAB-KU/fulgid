@@ -1,0 +1,7 @@
+Box 0: ['dish']
+Box 1: ['brain', 'bread']
+Box 2: ['bottle', 'newspaper']
+Box 3: ['block', 'clock', 'wire']
+Box 4: ['disk']
+Box 5: ['boot']
+Box 6: ['beer', 'suit']

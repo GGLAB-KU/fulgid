@@ -1,0 +1,7 @@
+Box 0: ['camera', 'note', 'suit']
+Box 1: []
+Box 2: []
+Box 3: []
+Box 4: ['bell', 'knife']
+Box 5: ['game', 'pipe', 'bottle', 'ice', 'mirror']
+Box 6: ['drink', 'brain', 'tissue']

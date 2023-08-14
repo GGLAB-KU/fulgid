@@ -1,0 +1,7 @@
+Box 0: ['bread', 'pot']
+Box 1: ['cream']
+Box 2: ['shell', 'brain']
+Box 3: ['stone', 'guitar', 'pot']
+Box 4: ['creature', 'milk']
+Box 5: ['car', 'cigarette', 'gift']
+Box 6: ['cross']

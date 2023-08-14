@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: ['crown', 'wheel', 'letter']
+Box 3: []
+Box 4: ['key', 'rose', 'ice']
+Box 5: ['drink', 'fig']
+Box 6: []

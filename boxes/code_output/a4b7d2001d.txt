@@ -1,0 +1,7 @@
+Box 0: ['camera', 'chemical', 'milk']
+Box 1: []
+Box 2: ['book', 'radio', 'sheet']
+Box 3: ['phone', 'ring']
+Box 4: ['bus', 'clock', 'computer']
+Box 5: ['beer']
+Box 6: []

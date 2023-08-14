@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: []
+Box 3: ['ice', 'medicine']
+Box 4: ['bowl', 'stone']
+Box 5: ['leaf']
+Box 6: ['map', 'bag']

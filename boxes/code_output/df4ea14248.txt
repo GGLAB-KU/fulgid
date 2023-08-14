@@ -1,0 +1,7 @@
+Box 0: ['coat', 'cross', 'wire']
+Box 1: ['shirt']
+Box 2: ['ticket', 'wheel', 'phone']
+Box 3: []
+Box 4: ['radio']
+Box 5: ['branch']
+Box 6: []

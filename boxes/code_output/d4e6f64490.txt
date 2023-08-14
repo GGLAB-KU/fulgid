@@ -1,0 +1,7 @@
+Box 0: ['engine', 'boat']
+Box 1: ['bottle', 'pipe', 'wheel', 'brain']
+Box 2: ['letter', 'crown', 'medicine']
+Box 3: ['shoe']
+Box 4: ['egg', 'map', 'gift']
+Box 5: ['cake']
+Box 6: ['cream', 'drug', 'wheel']

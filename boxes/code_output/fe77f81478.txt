@@ -1,0 +1,7 @@
+Box 0: ['phone']
+Box 1: []
+Box 2: ['boot', 'watch']
+Box 3: ['rose']
+Box 4: ['picture']
+Box 5: ['jacket', 'machine', 'tape']
+Box 6: ['cream', 'phone']

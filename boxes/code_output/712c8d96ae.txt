@@ -1,0 +1,7 @@
+Box 0: ['magazine', 'cigarette']
+Box 1: ['document', 'train', 'branch', 'train']
+Box 2: []
+Box 3: []
+Box 4: ['cream']
+Box 5: ['bowl']
+Box 6: ['branch']

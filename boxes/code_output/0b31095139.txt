@@ -1,0 +1,7 @@
+Box 0: ['engine']
+Box 1: []
+Box 2: ['suit']
+Box 3: ['newspaper', 'drug']
+Box 4: []
+Box 5: ['suit']
+Box 6: ['book', 'bag', 'dress', 'apple', 'branch']

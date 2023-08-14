@@ -1,0 +1,7 @@
+Box 0: ['cigarette', 'map']
+Box 1: ['drug', 'fig', 'bus']
+Box 2: ['pot', 'card', 'cigarette', 'map']
+Box 3: ['coffee']
+Box 4: ['egg', 'string', 'tissue', 'ball', 'sheet']
+Box 5: ['map', 'egg', 'string', 'tissue']
+Box 6: ['plane']

@@ -1,0 +1,7 @@
+Box 0: ['newspaper', 'dish']
+Box 1: []
+Box 2: ['ball', 'letter', 'file']
+Box 3: ['document']
+Box 4: ['book']
+Box 5: ['bread']
+Box 6: []

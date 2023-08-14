@@ -1,0 +1,7 @@
+Box 0: ['bottle', 'picture', 'book']
+Box 1: ['bowl', 'rose']
+Box 2: ['letter', 'shirt', 'television']
+Box 3: ['brain', 'branch', 'sheet']
+Box 4: ['block', 'cigarette', 'drink']
+Box 5: []
+Box 6: ['engine']

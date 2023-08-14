@@ -1,0 +1,7 @@
+Box 0: ['flower']
+Box 1: ['document', 'leaf', 'drink']
+Box 2: ['pot']
+Box 3: ['dress', 'game']
+Box 4: ['cheese', 'radio', 'ring']
+Box 5: ['ball']
+Box 6: ['milk', 'file']

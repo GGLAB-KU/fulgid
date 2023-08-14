@@ -1,0 +1,7 @@
+Box 0: ['bag', 'plant', 'fig']
+Box 1: ['milk', 'pipe', 'bag', 'clock']
+Box 2: []
+Box 3: ['machine', 'cream']
+Box 4: []
+Box 5: ['magazine', 'tie']
+Box 6: []

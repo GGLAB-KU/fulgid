@@ -1,0 +1,7 @@
+Box 0: ['ball']
+Box 1: ['cross', 'boat', 'drug']
+Box 2: ['paper', 'rose', 'key']
+Box 3: []
+Box 4: ['cash', 'tea']
+Box 5: ['branch', 'clock']
+Box 6: ['gift', 'card', 'tape', 'television']

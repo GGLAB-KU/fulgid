@@ -1,0 +1,7 @@
+Box 0: ['map', 'egg']
+Box 1: []
+Box 2: ['picture']
+Box 3: ['book']
+Box 4: ['flower', 'tape', 'fish']
+Box 5: []
+Box 6: []

@@ -1,0 +1,7 @@
+Box 0: ['branch', 'cream']
+Box 1: []
+Box 2: []
+Box 3: []
+Box 4: ['newspaper', 'pot', 'knife']
+Box 5: ['boat']
+Box 6: ['boot', 'chemical', 'shirt']

@@ -1,0 +1,7 @@
+Box 0: ['guitar', 'coat', 'creature']
+Box 1: []
+Box 2: ['cross', 'jacket', 'knife']
+Box 3: ['pot', 'ring']
+Box 4: ['ball', 'glass', 'phone']
+Box 5: ['drink', 'hat', 'picture']
+Box 6: []

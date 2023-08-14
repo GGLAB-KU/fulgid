@@ -1,0 +1,7 @@
+Box 0: ['fig', 'suit']
+Box 1: ['creature', 'dress', 'engine']
+Box 2: []
+Box 3: []
+Box 4: ['letter', 'dress', 'drug', 'plane']
+Box 5: ['cross', 'tissue', 'cake']
+Box 6: ['block', 'radio']

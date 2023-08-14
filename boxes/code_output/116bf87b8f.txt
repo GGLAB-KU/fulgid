@@ -1,0 +1,7 @@
+Box 0: ['bread', 'creature']
+Box 1: ['bomb']
+Box 2: ['book', 'magazine', 'glass']
+Box 3: ['chemical']
+Box 4: ['cake', 'seed']
+Box 5: ['fig', 'cross', 'mirror']
+Box 6: ['key']

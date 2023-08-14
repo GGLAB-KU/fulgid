@@ -1,0 +1,7 @@
+Box 0: ['shell', 'wheel']
+Box 1: ['dress']
+Box 2: []
+Box 3: []
+Box 4: ['pipe', 'crown', 'note', 'gift']
+Box 5: ['cup']
+Box 6: []

@@ -1,0 +1,7 @@
+Box 0: ['meat', 'plant']
+Box 1: ['apple', 'branch', 'letter']
+Box 2: ['plane', 'plane']
+Box 3: ['watch']
+Box 4: ['beer', 'crown']
+Box 5: ['crown']
+Box 6: ['gift', 'painting']

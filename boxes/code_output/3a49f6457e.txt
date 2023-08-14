@@ -1,0 +1,7 @@
+Box 0: ['bus', 'wheel', 'brain']
+Box 1: ['cross']
+Box 2: ['shirt']
+Box 3: ['bill', 'card', 'drink']
+Box 4: ['jacket']
+Box 5: ['cash', 'crown']
+Box 6: ['cream', 'seed', 'tie']

@@ -1,0 +1,7 @@
+Box 0: ['crown', 'newspaper', 'television', 'document']
+Box 1: ['plant', 'seed', 'hat']
+Box 2: ['branch']
+Box 3: []
+Box 4: []
+Box 5: ['bag', 'picture']
+Box 6: ['pot']

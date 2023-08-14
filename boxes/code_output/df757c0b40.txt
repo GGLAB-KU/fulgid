@@ -1,0 +1,7 @@
+Box 0: ['hat', 'bottle', 'drug', 'ice', 'car', 'ring', 'pipe', 'document', 'file', 'cream', 'wire', 'boot']
+Box 1: []
+Box 2: []
+Box 3: ['clock']
+Box 4: []
+Box 5: []
+Box 6: ['block', 'leaf']

@@ -1,0 +1,7 @@
+Box 0: ['jacket']
+Box 1: ['car', 'creature', 'string']
+Box 2: ['engine']
+Box 3: ['fig']
+Box 4: ['computer', 'sheet']
+Box 5: []
+Box 6: ['cake', 'bowl']

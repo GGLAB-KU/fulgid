@@ -1,0 +1,7 @@
+Box 0: ['brick', 'television', 'tea']
+Box 1: ['branch']
+Box 2: ['fan', 'wire']
+Box 3: ['book']
+Box 4: []
+Box 5: []
+Box 6: ['bell', 'bus']

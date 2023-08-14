@@ -1,0 +1,7 @@
+Box 0: ['key', 'magazine']
+Box 1: ['shell']
+Box 2: ['shirt']
+Box 3: []
+Box 4: ['plane', 'tape', 'computer']
+Box 5: ['bag']
+Box 6: ['bus', 'meat']

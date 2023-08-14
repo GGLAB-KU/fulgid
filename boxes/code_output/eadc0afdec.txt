@@ -1,0 +1,7 @@
+Box 0: ['creature', 'tissue']
+Box 1: []
+Box 2: ['drink', 'radio', 'fish']
+Box 3: ['plant']
+Box 4: ['map', 'painting', 'tape']
+Box 5: ['glass', 'mirror', 'phone']
+Box 6: ['ball']

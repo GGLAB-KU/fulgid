@@ -1,0 +1,7 @@
+Box 0: ['note', 'key', 'plate']
+Box 1: ['tea']
+Box 2: ['picture', 'ticket', 'letter']
+Box 3: ['branch', 'cross']
+Box 4: ['coffee', 'drug']
+Box 5: ['newspaper', 'disk']
+Box 6: ['flower', 'sheet']

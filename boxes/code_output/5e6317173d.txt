@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['drug']
+Box 2: []
+Box 3: []
+Box 4: ['creature', 'milk', 'sheet', 'train']
+Box 5: ['rock']
+Box 6: ['letter', 'crown', 'coffee', 'ticket']

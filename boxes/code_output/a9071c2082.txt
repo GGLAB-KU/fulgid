@@ -1,0 +1,7 @@
+Box 0: ['shoe', 'boat']
+Box 1: ['camera', 'car', 'plane']
+Box 2: ['drink', 'chemical', 'stone']
+Box 3: ['fan']
+Box 4: ['cross', 'file', 'note']
+Box 5: ['dish']
+Box 6: ['television', 'cake']

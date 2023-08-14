@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['cream']
+Box 2: ['camera', 'tape']
+Box 3: ['dish']
+Box 4: []
+Box 5: ['painting', 'shoe']
+Box 6: ['brick', 'magazine', 'cream']

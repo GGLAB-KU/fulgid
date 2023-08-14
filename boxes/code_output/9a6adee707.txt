@@ -1,0 +1,7 @@
+Box 0: ['watch']
+Box 1: ['map']
+Box 2: ['gift', 'guitar', 'brick']
+Box 3: ['block', 'milk', 'wire']
+Box 4: ['bottle']
+Box 5: ['ticket']
+Box 6: ['bag', 'chemical']

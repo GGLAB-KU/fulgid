@@ -1,0 +1,7 @@
+Box 0: ['block', 'sheet', 'tape']
+Box 1: []
+Box 2: ['computer', 'shoe']
+Box 3: []
+Box 4: ['flower']
+Box 5: ['brick', 'flower']
+Box 6: ['paper', 'shirt']

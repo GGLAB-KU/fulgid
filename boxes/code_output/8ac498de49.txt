@@ -1,0 +1,7 @@
+Box 0: ['branch', 'phone', 'shoe']
+Box 1: ['pot', 'coat', 'document', 'egg', 'game']
+Box 2: ['pipe', 'television', 'book', 'plant']
+Box 3: ['machine', 'train', 'coat', 'egg', 'game']
+Box 4: ['hat']
+Box 5: ['chemical', 'bottle']
+Box 6: []

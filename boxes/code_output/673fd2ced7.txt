@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['bell', 'medicine', 'shoe']
+Box 2: ['cake']
+Box 3: ['map', 'pot']
+Box 4: ['camera']
+Box 5: ['block', 'string', 'train']
+Box 6: ['disk']

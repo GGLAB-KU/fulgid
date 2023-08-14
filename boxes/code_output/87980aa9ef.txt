@@ -1,0 +1,7 @@
+Box 0: ['bomb', 'card', 'fig']
+Box 1: ['cigarette', 'shoe']
+Box 2: []
+Box 3: ['bill']
+Box 4: ['map', 'plant']
+Box 5: []
+Box 6: []

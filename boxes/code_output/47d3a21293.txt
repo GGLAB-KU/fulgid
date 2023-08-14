@@ -1,0 +1,7 @@
+Box 0: ['bus']
+Box 1: []
+Box 2: ['bag', 'cross', 'tea']
+Box 3: ['disk', 'note']
+Box 4: []
+Box 5: ['cigarette', 'drug', 'string', 'suit', 'tea']
+Box 6: ['boot', 'drink', 'pipe', 'pot']

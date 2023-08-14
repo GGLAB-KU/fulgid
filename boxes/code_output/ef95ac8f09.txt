@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['disk', 'shell']
+Box 2: []
+Box 3: ['camera', 'medicine']
+Box 4: ['fan', 'string', 'wheel', 'cream', 'ring']
+Box 5: ['coat', 'egg', 'rose']
+Box 6: ['plate']

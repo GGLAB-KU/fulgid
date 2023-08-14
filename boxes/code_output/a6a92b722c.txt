@@ -1,0 +1,7 @@
+Box 0: ['bag', 'plant', 'bag', 'ice']
+Box 1: ['coffee', 'tape']
+Box 2: []
+Box 3: ['cheese', 'picture', 'tie']
+Box 4: []
+Box 5: ['ball']
+Box 6: []

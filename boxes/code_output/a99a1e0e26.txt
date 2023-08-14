@@ -1,0 +1,7 @@
+Box 0: ['cash']
+Box 1: ['file', 'brain']
+Box 2: []
+Box 3: ['book', 'bottle', 'cake']
+Box 4: ['ticket', 'plant']
+Box 5: ['plate']
+Box 6: []

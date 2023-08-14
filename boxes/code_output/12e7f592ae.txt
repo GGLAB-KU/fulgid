@@ -1,0 +1,7 @@
+Box 0: ['chemical', 'seed']
+Box 1: ['game', 'paper']
+Box 2: []
+Box 3: ['rose']
+Box 4: []
+Box 5: ['bomb', 'milk']
+Box 6: ['shell', 'shoe']

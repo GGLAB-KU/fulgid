@@ -1,0 +1,7 @@
+Box 0: ['computer', 'ring']
+Box 1: ['card', 'shirt']
+Box 2: []
+Box 3: []
+Box 4: ['brick', 'dish', 'medicine']
+Box 5: []
+Box 6: ['ticket', 'fish', 'gift', 'tape']

@@ -1,0 +1,7 @@
+Box 0: ['cup', 'television', 'tissue']
+Box 1: ['shoe', 'drug']
+Box 2: []
+Box 3: ['ticket']
+Box 4: ['mirror']
+Box 5: []
+Box 6: []

@@ -1,0 +1,7 @@
+Box 0: ['sheet']
+Box 1: ['coffee', 'leaf']
+Box 2: []
+Box 3: ['fish', 'boat', 'letter']
+Box 4: ['bomb', 'key', 'plant']
+Box 5: ['card', 'ticket']
+Box 6: ['tie', 'plane', 'cross']

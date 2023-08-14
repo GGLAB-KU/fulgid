@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['television', 'plane', 'fig', 'shell']
+Box 2: []
+Box 3: ['bread', 'coat', 'boat']
+Box 4: ['tea']
+Box 5: []
+Box 6: ['disk', 'tie', 'tissue', 'card']

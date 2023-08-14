@@ -1,0 +1,7 @@
+Box 0: ['leaf']
+Box 1: []
+Box 2: ['shirt']
+Box 3: []
+Box 4: ['bag']
+Box 5: []
+Box 6: ['computer', 'plant']

@@ -1,0 +1,7 @@
+Box 0: ['tape']
+Box 1: ['shell']
+Box 2: []
+Box 3: ['bomb', 'shoe']
+Box 4: ['ring', 'shirt']
+Box 5: ['fish', 'tea']
+Box 6: ['fan']

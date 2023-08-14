@@ -1,0 +1,7 @@
+Box 0: ['tape']
+Box 1: ['guitar', 'ball', 'branch']
+Box 2: ['cake']
+Box 3: []
+Box 4: ['cup', 'engine', 'rose']
+Box 5: ['magazine']
+Box 6: ['card', 'cash', 'key', 'apple', 'shell']

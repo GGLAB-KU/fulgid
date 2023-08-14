@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['plate', 'radio']
+Box 2: []
+Box 3: ['tissue']
+Box 4: ['fish']
+Box 5: ['boat', 'ring']
+Box 6: ['bill', 'plant', 'shell']

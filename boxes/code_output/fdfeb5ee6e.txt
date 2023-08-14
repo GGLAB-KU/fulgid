@@ -1,0 +1,7 @@
+Box 0: ['note']
+Box 1: []
+Box 2: ['cup']
+Box 3: ['plate']
+Box 4: ['coffee', 'dress', 'key']
+Box 5: ['pipe']
+Box 6: ['hat', 'magazine']

@@ -1,0 +1,7 @@
+Box 0: ['clock']
+Box 1: ['note', 'watch']
+Box 2: ['radio', 'train']
+Box 3: ['pot', 'apple', 'fig']
+Box 4: ['newspaper']
+Box 5: ['beer', 'medicine']
+Box 6: ['ball', 'cheese']

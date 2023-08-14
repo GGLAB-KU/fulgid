@@ -1,0 +1,7 @@
+Box 0: ['cross', 'fan']
+Box 1: ['bag', 'meat', 'tissue']
+Box 2: []
+Box 3: ['bread', 'brick']
+Box 4: ['bottle', 'radio']
+Box 5: []
+Box 6: ['jacket', 'ticket', 'drug', 'fan']

@@ -1,0 +1,7 @@
+Box 0: ['coffee']
+Box 1: ['cake', 'rock', 'tissue', 'brick']
+Box 2: ['drug', 'leaf']
+Box 3: ['magazine']
+Box 4: ['cigarette']
+Box 5: ['shoe', 'pot']
+Box 6: []

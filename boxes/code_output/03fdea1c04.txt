@@ -1,0 +1,7 @@
+Box 0: ['drug', 'fish', 'shirt']
+Box 1: ['crown']
+Box 2: ['sheet']
+Box 3: ['ring', 'rose', 'watch']
+Box 4: ['bus']
+Box 5: ['beer', 'car']
+Box 6: ['machine', 'shoe', 'ice', 'pipe']

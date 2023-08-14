@@ -1,0 +1,7 @@
+Box 0: ['painting', 'plate', 'pipe']
+Box 1: ['drug', 'game']
+Box 2: ['computer']
+Box 3: ['fan']
+Box 4: []
+Box 5: []
+Box 6: []

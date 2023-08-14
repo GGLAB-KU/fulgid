@@ -1,0 +1,7 @@
+Box 0: ['painting']
+Box 1: ['coat', 'ring', 'tie']
+Box 2: []
+Box 3: ['bone', 'train']
+Box 4: ['milk']
+Box 5: ['bomb', 'game', 'brick']
+Box 6: ['cigarette', 'disk']

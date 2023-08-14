@@ -1,0 +1,7 @@
+Box 0: ['bell', 'television']
+Box 1: ['picture']
+Box 2: ['document', 'glass']
+Box 3: ['meat', 'dress', 'drug']
+Box 4: []
+Box 5: ['brain', 'pipe', 'tape']
+Box 6: ['boot']

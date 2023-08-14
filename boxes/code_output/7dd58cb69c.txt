@@ -1,0 +1,7 @@
+Box 0: ['coat', 'medicine', 'tie']
+Box 1: ['apple', 'guitar', 'shell']
+Box 2: ['bag', 'drink']
+Box 3: ['machine', 'paper', 'watch']
+Box 4: ['camera', 'seed']
+Box 5: ['clock']
+Box 6: ['computer', 'note', 'plant']

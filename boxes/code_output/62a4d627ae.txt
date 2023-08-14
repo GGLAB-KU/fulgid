@@ -1,0 +1,7 @@
+Box 0: ['gift', 'brick']
+Box 1: ['ball', 'map']
+Box 2: []
+Box 3: ['tie', 'fish']
+Box 4: ['document']
+Box 5: []
+Box 6: ['bomb']

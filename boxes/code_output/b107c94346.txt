@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['mirror', 'suit', 'tape']
+Box 2: ['television', 'bomb']
+Box 3: ['cream', 'dish', 'hat', 'crown', 'bomb']
+Box 4: []
+Box 5: []
+Box 6: ['card', 'wheel', 'meat']

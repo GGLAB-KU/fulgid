@@ -1,0 +1,7 @@
+Box 0: ['camera', 'note', 'suit']
+Box 1: []
+Box 2: []
+Box 3: ['computer', 'medicine']
+Box 4: ['bell', 'knife']
+Box 5: []
+Box 6: ['brain', 'tissue']

@@ -1,0 +1,7 @@
+Box 0: ['bell', 'phone']
+Box 1: []
+Box 2: ['dish', 'egg']
+Box 3: ['tissue', 'apple', 'rose']
+Box 4: []
+Box 5: ['boat', 'pot']
+Box 6: ['map', 'suit']

@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['leaf', 'map', 'phone']
+Box 2: []
+Box 3: ['computer', 'suit']
+Box 4: ['cake', 'ring', 'rose']
+Box 5: ['cigarette', 'cross']
+Box 6: ['ball', 'machine', 'television']

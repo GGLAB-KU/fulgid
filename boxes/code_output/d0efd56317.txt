@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['watch', 'painting', 'phone', 'suit', 'pot']
+Box 2: ['string', 'meat']
+Box 3: ['car']
+Box 4: ['ice']
+Box 5: ['boat']
+Box 6: []

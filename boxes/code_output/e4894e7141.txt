@@ -1,0 +1,7 @@
+Box 0: ['jacket', 'ring']
+Box 1: ['file']
+Box 2: ['boot', 'computer', 'machine']
+Box 3: ['bell', 'hat', 'seed']
+Box 4: []
+Box 5: ['hat']
+Box 6: ['crown', 'jacket', 'ring']

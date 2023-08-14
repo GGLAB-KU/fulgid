@@ -1,0 +1,7 @@
+Box 0: ['boat', 'ball', 'creature']
+Box 1: []
+Box 2: ['cash', 'document', 'ticket']
+Box 3: ['map']
+Box 4: ['coat', 'sheet']
+Box 5: []
+Box 6: ['ice', 'plant', 'rose']

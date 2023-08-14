@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['wire', 'boat', 'coat']
+Box 2: []
+Box 3: ['knife']
+Box 4: ['newspaper', 'pot', 'boat', 'coat']
+Box 5: ['camera', 'cheese', 'chemical']
+Box 6: ['branch', 'cream']

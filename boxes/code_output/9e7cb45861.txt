@@ -1,0 +1,7 @@
+Box 0: ['bread', 'flower']
+Box 1: ['knife']
+Box 2: []
+Box 3: ['letter']
+Box 4: ['ticket', 'bus', 'seed']
+Box 5: ['dish']
+Box 6: ['medicine']

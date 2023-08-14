@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['ring', 'milk']
+Box 2: ['wheel', 'document']
+Box 3: ['leaf', 'branch']
+Box 4: ['file']
+Box 5: ['machine']
+Box 6: []

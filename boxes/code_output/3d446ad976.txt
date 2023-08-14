@@ -1,0 +1,7 @@
+Box 0: ['brain']
+Box 1: ['car', 'magazine', 'ring']
+Box 2: ['camera', 'engine']
+Box 3: ['machine']
+Box 4: []
+Box 5: ['bag', 'guitar']
+Box 6: []

@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['watch']
+Box 2: ['bowl']
+Box 3: ['dress', 'plant', 'sheet']
+Box 4: ['fig', 'string']
+Box 5: []
+Box 6: []

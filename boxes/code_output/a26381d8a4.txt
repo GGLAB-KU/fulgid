@@ -1,0 +1,7 @@
+Box 0: ['ticket', 'tie']
+Box 1: ['mirror', 'plane', 'radio', 'block', 'phone', 'ticket', 'tie']
+Box 2: ['bone', 'cheese', 'painting']
+Box 3: ['pipe']
+Box 4: ['tape', 'plant', 'shirt']
+Box 5: []
+Box 6: ['fan', 'sheet']

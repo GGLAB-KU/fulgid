@@ -1,0 +1,7 @@
+Box 0: ['book', 'fish', 'watch']
+Box 1: []
+Box 2: []
+Box 3: ['apple', 'branch', 'hat']
+Box 4: ['seed']
+Box 5: ['crown', 'plane']
+Box 6: []

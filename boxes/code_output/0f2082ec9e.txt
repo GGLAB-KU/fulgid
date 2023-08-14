@@ -1,0 +1,7 @@
+Box 0: ['file']
+Box 1: ['computer']
+Box 2: ['hat', 'tape']
+Box 3: ['block', 'meat']
+Box 4: ['guitar', 'map', 'tissue']
+Box 5: ['fan']
+Box 6: ['jacket', 'bomb', 'suit', 'ticket']

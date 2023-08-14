@@ -1,0 +1,7 @@
+Box 0: ['cheese', 'train']
+Box 1: ['apple', 'block']
+Box 2: ['dress', 'milk']
+Box 3: ['plant']
+Box 4: ['car']
+Box 5: ['bus', 'stone']
+Box 6: ['tape']

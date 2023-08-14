@@ -1,0 +1,7 @@
+Box 0: ['computer', 'plate', 'suit']
+Box 1: []
+Box 2: []
+Box 3: []
+Box 4: ['leaf', 'picture']
+Box 5: ['rock', 'wheel']
+Box 6: ['tape', 'milk']

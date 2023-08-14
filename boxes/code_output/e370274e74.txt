@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: []
+Box 2: ['key']
+Box 3: ['cheese', 'map', 'block']
+Box 4: []
+Box 5: ['picture']
+Box 6: ['machine', 'watch']

@@ -1,0 +1,7 @@
+Box 0: ['ring', 'bomb', 'newspaper', 'painting']
+Box 1: ['coffee', 'bag']
+Box 2: ['bone', 'clock', 'phone']
+Box 3: ['crown', 'seed']
+Box 4: ['fish', 'milk']
+Box 5: ['creature', 'flower', 'ticket']
+Box 6: ['apple', 'bowl', 'plane']

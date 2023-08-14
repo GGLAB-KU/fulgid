@@ -1,0 +1,7 @@
+Box 0: ['suit']
+Box 1: ['note', 'drug', 'phone']
+Box 2: []
+Box 3: ['glass', 'stone', 'tape']
+Box 4: ['document']
+Box 5: []
+Box 6: ['newspaper', 'clock', 'wheel']

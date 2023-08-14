@@ -1,0 +1,7 @@
+Box 0: ['machine', 'ticket']
+Box 1: ['magazine', 'boat', 'plant']
+Box 2: ['cash', 'shirt', 'plant']
+Box 3: ['crown']
+Box 4: ['bone']
+Box 5: ['phone', 'cup']
+Box 6: ['ticket']

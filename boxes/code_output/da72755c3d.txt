@@ -1,0 +1,7 @@
+Box 0: ['bottle', 'coffee', 'medicine']
+Box 1: []
+Box 2: []
+Box 3: []
+Box 4: ['plate', 'bottle']
+Box 5: ['painting']
+Box 6: []

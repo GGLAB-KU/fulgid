@@ -1,0 +1,7 @@
+Box 0: ['hat']
+Box 1: ['cream', 'drug', 'bottle']
+Box 2: ['glass', 'medicine']
+Box 3: []
+Box 4: ['tissue', 'knife']
+Box 5: ['file', 'meat']
+Box 6: ['key', 'sheet', 'hat', 'note']

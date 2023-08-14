@@ -1,0 +1,7 @@
+Box 0: ['machine', 'medicine']
+Box 1: ['magazine', 'phone', 'boat']
+Box 2: ['bone', 'egg', 'file']
+Box 3: ['radio', 'map']
+Box 4: ['brain', 'card', 'meat']
+Box 5: ['bell']
+Box 6: ['cross', 'flower']

@@ -1,0 +1,7 @@
+Box 0: ['book', 'phone', 'picture']
+Box 1: []
+Box 2: []
+Box 3: ['bell', 'note']
+Box 4: ['newspaper']
+Box 5: ['fig']
+Box 6: ['beer', 'bottle', 'magazine', 'brain', 'mirror']

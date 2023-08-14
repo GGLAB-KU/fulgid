@@ -1,0 +1,7 @@
+Box 0: ['beer', 'gift', 'plate']
+Box 1: ['boat', 'crown', 'jacket']
+Box 2: ['ticket']
+Box 3: ['bread', 'chemical', 'seed']
+Box 4: ['tea']
+Box 5: ['milk']
+Box 6: ['drug', 'bill']

@@ -1,0 +1,7 @@
+Box 0: ['game', 'hat', 'car', 'dish']
+Box 1: ['plane']
+Box 2: ['cross', 'glass']
+Box 3: []
+Box 4: ['car', 'dish', 'milk', 'note']
+Box 5: ['key', 'tissue']
+Box 6: ['drink']

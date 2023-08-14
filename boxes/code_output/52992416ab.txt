@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['leaf']
+Box 2: []
+Box 3: []
+Box 4: ['bill', 'clock']
+Box 5: ['phone', 'drug']
+Box 6: ['boat', 'letter', 'map']

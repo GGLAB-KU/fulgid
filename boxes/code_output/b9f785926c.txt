@@ -1,0 +1,7 @@
+Box 0: ['ticket']
+Box 1: []
+Box 2: []
+Box 3: []
+Box 4: ['car']
+Box 5: ['radio']
+Box 6: []

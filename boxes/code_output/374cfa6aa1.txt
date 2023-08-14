@@ -1,0 +1,7 @@
+Box 0: ['boot', 'computer']
+Box 1: ['coat', 'drug']
+Box 2: ['disk', 'medicine']
+Box 3: []
+Box 4: ['block', 'boat', 'phone']
+Box 5: ['engine', 'ring']
+Box 6: ['dish']

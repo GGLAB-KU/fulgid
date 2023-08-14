@@ -1,0 +1,7 @@
+Box 0: ['dress', 'tape', 'tie']
+Box 1: ['picture']
+Box 2: ['document', 'glass']
+Box 3: ['meat']
+Box 4: ['drug']
+Box 5: ['brain', 'pipe']
+Box 6: ['boat', 'boot']

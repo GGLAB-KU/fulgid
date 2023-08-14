@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['card', 'paper']
+Box 2: ['ring', 'suit']
+Box 3: []
+Box 4: ['pipe']
+Box 5: ['fish', 'wheel']
+Box 6: []

@@ -1,0 +1,7 @@
+Box 0: ['boat', 'leaf', 'fish']
+Box 1: ['cash']
+Box 2: ['bottle']
+Box 3: ['key', 'map', 'picture']
+Box 4: []
+Box 5: ['pot']
+Box 6: ['guitar']

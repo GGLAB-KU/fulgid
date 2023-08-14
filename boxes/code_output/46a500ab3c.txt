@@ -1,0 +1,7 @@
+Box 0: ['glass', 'map']
+Box 1: ['clock']
+Box 2: ['meat', 'cigarette', 'creature']
+Box 3: []
+Box 4: ['bell']
+Box 5: []
+Box 6: ['document']

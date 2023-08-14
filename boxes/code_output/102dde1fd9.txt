@@ -1,0 +1,7 @@
+Box 0: ['apple', 'watch', 'bill']
+Box 1: []
+Box 2: ['magazine', 'seed']
+Box 3: []
+Box 4: ['engine']
+Box 5: ['creature', 'fan', 'shirt']
+Box 6: ['brick', 'pipe']

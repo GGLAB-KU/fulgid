@@ -1,0 +1,7 @@
+Box 0: ['glass', 'television']
+Box 1: ['cigarette']
+Box 2: ['flower', 'block', 'cheese']
+Box 3: []
+Box 4: ['chemical', 'disk']
+Box 5: ['cash', 'shell']
+Box 6: ['bus', 'ring', 'train']

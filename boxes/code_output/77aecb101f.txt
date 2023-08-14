@@ -1,0 +1,7 @@
+Box 0: ['sheet', 'rose']
+Box 1: []
+Box 2: ['chemical', 'map', 'wire']
+Box 3: ['cash', 'boot', 'glass', 'meat']
+Box 4: ['newspaper', 'block', 'engine']
+Box 5: ['book', 'tie']
+Box 6: ['watch']

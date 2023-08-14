@@ -1,0 +1,7 @@
+Box 0: ['seed', 'map']
+Box 1: ['cake', 'glass', 'plane']
+Box 2: []
+Box 3: ['document', 'television']
+Box 4: ['cheese']
+Box 5: ['ball', 'paper', 'television']
+Box 6: ['disk', 'tissue', 'flower']

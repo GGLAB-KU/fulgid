@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['picture', 'dress']
+Box 2: ['ball', 'boat']
+Box 3: ['leaf', 'train']
+Box 4: []
+Box 5: ['creature']
+Box 6: []

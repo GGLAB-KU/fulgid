@@ -1,0 +1,7 @@
+Box 0: ['coffee']
+Box 1: ['camera', 'tissue']
+Box 2: []
+Box 3: ['engine']
+Box 4: ['key', 'radio', 'tape']
+Box 5: ['beer', 'suit']
+Box 6: ['fig', 'paper']

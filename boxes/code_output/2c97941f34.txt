@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['train']
+Box 2: ['disk', 'tape', 'tie']
+Box 3: ['television', 'tissue']
+Box 4: []
+Box 5: ['clock']
+Box 6: ['phone', 'wheel']

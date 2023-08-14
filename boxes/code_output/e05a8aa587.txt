@@ -1,0 +1,7 @@
+Box 0: ['bottle', 'brick', 'train']
+Box 1: ['clock', 'gift', 'pipe']
+Box 2: ['camera', 'leaf']
+Box 3: []
+Box 4: ['milk', 'plant', 'ball', 'computer']
+Box 5: ['machine', 'paper']
+Box 6: ['hat', 'shell']

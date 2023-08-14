@@ -1,0 +1,7 @@
+Box 0: ['wire', 'coffee', 'letter', 'painting']
+Box 1: ['bag', 'boat', 'leaf']
+Box 2: ['seed', 'wire', 'coffee']
+Box 3: ['jacket']
+Box 4: ['clock']
+Box 5: ['watch']
+Box 6: ['disk']

@@ -1,0 +1,7 @@
+Box 0: ['brick', 'cup', 'plane']
+Box 1: ['tie']
+Box 2: ['gift']
+Box 3: ['brain']
+Box 4: ['drug', 'glass']
+Box 5: ['string', 'dish', 'paper']
+Box 6: ['radio', 'tea']

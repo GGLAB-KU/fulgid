@@ -1,0 +1,7 @@
+Box 0: ['jacket']
+Box 1: ['clock', 'phone', 'cross']
+Box 2: ['dish']
+Box 3: ['document', 'game']
+Box 4: ['boat', 'plant']
+Box 5: ['shell', 'fish']
+Box 6: ['egg']

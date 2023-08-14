@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['picture']
+Box 2: []
+Box 3: ['computer', 'card', 'ice']
+Box 4: ['egg']
+Box 5: ['document', 'fish']
+Box 6: ['plate', 'bus', 'drink']

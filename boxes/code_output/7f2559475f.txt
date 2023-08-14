@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['coat']
+Box 2: ['bill', 'drug']
+Box 3: []
+Box 4: ['cream', 'guitar']
+Box 5: ['fish', 'meat']
+Box 6: ['clock', 'paper', 'plane']

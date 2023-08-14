@@ -1,0 +1,7 @@
+Box 0: ['fan', 'pipe']
+Box 1: ['knife']
+Box 2: ['leaf', 'cake', 'string']
+Box 3: ['flower', 'magazine', 'camera', 'file', 'television']
+Box 4: ['milk']
+Box 5: ['car', 'tea']
+Box 6: ['computer']

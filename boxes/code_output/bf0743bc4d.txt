@@ -1,0 +1,7 @@
+Box 0: ['beer', 'bread', 'dress']
+Box 1: ['apple', 'branch']
+Box 2: ['watch', 'ball']
+Box 3: ['crown', 'clock']
+Box 4: ['brain', 'fan', 'tissue']
+Box 5: ['glass', 'tea', 'fig']
+Box 6: ['gift', 'television']

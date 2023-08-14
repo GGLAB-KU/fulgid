@@ -1,0 +1,7 @@
+Box 0: ['bell']
+Box 1: ['picture', 'television', 'ice', 'shell', 'apple', 'coat']
+Box 2: ['ball', 'boot']
+Box 3: ['branch', 'guitar', 'leaf']
+Box 4: ['map']
+Box 5: ['plant']
+Box 6: ['string', 'plane']

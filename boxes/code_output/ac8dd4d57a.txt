@@ -1,0 +1,7 @@
+Box 0: ['fig']
+Box 1: ['document']
+Box 2: []
+Box 3: ['drug', 'plane']
+Box 4: []
+Box 5: []
+Box 6: ['bus', 'game', 'fish']

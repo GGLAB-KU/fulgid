@@ -1,0 +1,7 @@
+Box 0: ['card', 'clock', 'glass']
+Box 1: []
+Box 2: ['ring']
+Box 3: ['fig']
+Box 4: ['shoe']
+Box 5: ['branch', 'seed', 'radio']
+Box 6: []

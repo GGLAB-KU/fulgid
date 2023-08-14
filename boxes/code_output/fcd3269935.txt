@@ -1,0 +1,7 @@
+Box 0: ['disk', 'tape']
+Box 1: []
+Box 2: ['branch', 'cross']
+Box 3: ['milk', 'plate', 'tape']
+Box 4: ['medicine', 'disk', 'cross']
+Box 5: ['beer']
+Box 6: ['jacket', 'letter', 'bowl']

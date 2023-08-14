@@ -1,0 +1,7 @@
+Box 0: ['dish', 'fish']
+Box 1: ['ring', 'ticket', 'drink']
+Box 2: ['bag', 'bread', 'map']
+Box 3: ['knife', 'coffee', 'radio']
+Box 4: []
+Box 5: []
+Box 6: ['document', 'picture', 'pot']

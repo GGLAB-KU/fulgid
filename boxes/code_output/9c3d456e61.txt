@@ -1,0 +1,7 @@
+Box 0: ['coffee', 'gift', 'ball']
+Box 1: ['coat', 'shoe']
+Box 2: ['computer']
+Box 3: ['string']
+Box 4: ['branch', 'letter', 'shell']
+Box 5: ['document']
+Box 6: ['wheel']

@@ -1,0 +1,7 @@
+Box 0: ['brain', 'newspaper', 'rock']
+Box 1: ['wheel', 'bag']
+Box 2: ['map', 'watch']
+Box 3: []
+Box 4: ['plant', 'wheel']
+Box 5: ['plane', 'chemical']
+Box 6: ['file']

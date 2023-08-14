@@ -1,0 +1,7 @@
+Box 0: ['cross', 'pot']
+Box 1: ['book']
+Box 2: []
+Box 3: []
+Box 4: ['shoe']
+Box 5: ['mirror', 'sheet']
+Box 6: ['chemical', 'seed']

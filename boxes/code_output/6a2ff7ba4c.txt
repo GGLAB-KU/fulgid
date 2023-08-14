@@ -1,0 +1,7 @@
+Box 0: ['computer', 'machine']
+Box 1: []
+Box 2: ['plate', 'clock', 'leaf']
+Box 3: ['suit', 'stone']
+Box 4: ['apple']
+Box 5: ['car', 'cross']
+Box 6: []

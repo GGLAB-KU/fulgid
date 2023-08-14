@@ -1,0 +1,7 @@
+Box 0: ['cigarette', 'beer']
+Box 1: []
+Box 2: []
+Box 3: []
+Box 4: ['egg', 'knife']
+Box 5: ['bone', 'cup', 'drink']
+Box 6: []

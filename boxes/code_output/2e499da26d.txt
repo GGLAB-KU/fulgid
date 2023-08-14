@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['plane']
+Box 2: []
+Box 3: []
+Box 4: ['plate', 'radio']
+Box 5: ['apple', 'coffee', 'wire']
+Box 6: ['crown', 'picture', 'television']

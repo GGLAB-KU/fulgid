@@ -1,0 +1,7 @@
+Box 0: ['bomb']
+Box 1: ['coat']
+Box 2: []
+Box 3: ['map']
+Box 4: ['cash', 'wire', 'stone']
+Box 5: ['branch']
+Box 6: ['mirror']

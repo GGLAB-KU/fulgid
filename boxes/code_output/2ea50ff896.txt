@@ -1,0 +1,7 @@
+Box 0: ['rock']
+Box 1: ['branch', 'beer', 'egg', 'radio']
+Box 2: []
+Box 3: ['bone']
+Box 4: ['bill', 'ticket']
+Box 5: []
+Box 6: ['suit', 'tie']

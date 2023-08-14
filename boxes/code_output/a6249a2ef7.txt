@@ -1,0 +1,7 @@
+Box 0: ['camera', 'fan', 'note']
+Box 1: []
+Box 2: []
+Box 3: ['leaf', 'plate']
+Box 4: ['coffee', 'dress', 'key']
+Box 5: ['pipe']
+Box 6: ['egg', 'hat', 'magazine']

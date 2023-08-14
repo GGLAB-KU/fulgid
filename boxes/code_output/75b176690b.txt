@@ -1,0 +1,7 @@
+Box 0: ['fig', 'coffee', 'train']
+Box 1: ['brain', 'fig']
+Box 2: ['bone', 'watch']
+Box 3: ['apple', 'coffee', 'train']
+Box 4: ['shell', 'shirt']
+Box 5: ['bill']
+Box 6: ['key', 'boat']

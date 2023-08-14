@@ -1,0 +1,7 @@
+Box 0: ['beer']
+Box 1: ['disk']
+Box 2: ['phone', 'shoe', 'sheet']
+Box 3: ['string', 'card']
+Box 4: []
+Box 5: ['egg', 'fig', 'milk']
+Box 6: ['jacket', 'bone']

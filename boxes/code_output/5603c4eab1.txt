@@ -1,0 +1,7 @@
+Box 0: ['television']
+Box 1: []
+Box 2: ['glass']
+Box 3: ['game']
+Box 4: ['key', 'plate', 'shoe']
+Box 5: ['beer', 'egg', 'glass']
+Box 6: ['cream']

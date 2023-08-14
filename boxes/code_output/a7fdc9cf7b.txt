@@ -1,0 +1,7 @@
+Box 0: ['letter', 'beer', 'dress']
+Box 1: ['dress']
+Box 2: ['bell', 'apple']
+Box 3: ['chemical', 'string', 'bill', 'shirt']
+Box 4: ['crown', 'plane', 'tape']
+Box 5: []
+Box 6: ['train', 'cream', 'mirror']

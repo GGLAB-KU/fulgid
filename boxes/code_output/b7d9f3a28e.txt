@@ -1,0 +1,7 @@
+Box 0: ['crown', 'magazine', 'sheet']
+Box 1: ['document', 'cigarette']
+Box 2: ['bag']
+Box 3: ['chemical', 'drug', 'branch']
+Box 4: ['ring', 'stone']
+Box 5: ['brick', 'wire']
+Box 6: ['television', 'wheel', 'game']

@@ -1,0 +1,7 @@
+Box 0: ['key']
+Box 1: []
+Box 2: ['fan']
+Box 3: ['medicine']
+Box 4: ['coffee', 'boot']
+Box 5: ['beer', 'game']
+Box 6: ['file', 'plate', 'cash', 'boot']

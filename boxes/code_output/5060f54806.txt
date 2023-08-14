@@ -1,0 +1,7 @@
+Box 0: ['apple', 'paper', 'rock']
+Box 1: ['plate']
+Box 2: ['bus', 'note', 'shirt']
+Box 3: ['boot', 'meat']
+Box 4: ['map']
+Box 5: ['bill', 'card', 'flower']
+Box 6: ['mirror', 'ticket', 'watch']

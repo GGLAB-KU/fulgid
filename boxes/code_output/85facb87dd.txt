@@ -1,0 +1,7 @@
+Box 0: []
+Box 1: ['plane']
+Box 2: []
+Box 3: ['car', 'seed', 'suit']
+Box 4: ['drug', 'leaf', 'painting']
+Box 5: ['bus', 'cheese']
+Box 6: []

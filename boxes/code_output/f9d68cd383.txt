@@ -1,0 +1,7 @@
+Box 0: ['shoe', 'note']
+Box 1: []
+Box 2: ['newspaper', 'cake']
+Box 3: ['gift']
+Box 4: ['bomb', 'branch', 'plate']
+Box 5: ['fish']
+Box 6: ['game']
