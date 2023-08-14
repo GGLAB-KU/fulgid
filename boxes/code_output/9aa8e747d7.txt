@@ -1,7 +1,0 @@
-Box 0: ['cigarette']
-Box 1: []
-Box 2: []
-Box 3: ['ice', 'medicine']
-Box 4: ['bag', 'bowl', 'stone']
-Box 5: ['file', 'leaf']
-Box 6: ['map', 'train', 'television']

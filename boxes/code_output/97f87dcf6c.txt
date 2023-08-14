@@ -1,7 +1,0 @@
-Box 0: ['disk', 'jacket', 'tape']
-Box 1: ['beer', 'tea']
-Box 2: ['branch', 'cross', 'cup', 'mirror']
-Box 3: ['milk', 'plate', 'tape']
-Box 4: ['medicine', 'disk', 'cross']
-Box 5: ['boat', 'map']
-Box 6: ['letter', 'bowl']

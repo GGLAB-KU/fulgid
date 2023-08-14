@@ -3,6 +3,8 @@ import pathlib
 import openai
 import time
 
+from settings import Settings
+
 ENGINE = "gpt-3.5-turbo"
 TEMPERATURE = 0
 
@@ -12,27 +14,23 @@ boxes_code_path = os.path.join(current_dir, "code/{engine}".format(engine=ENGINE
 
 
 def ask_model_to_execute_the_code():
-    example_code = open(os.path.join(current_dir, "sample1.py"), 'r')
-    answer_output = open(os.path.join(current_dir, "sample1_answer.txt"), 'r')
-    example = example_code.read()
-    answer = answer_output.read()
-
     for code_hash in os.listdir(boxes_code_path):
-        code_representation_path = pathlib.Path(os.path.join(boxes_code_path, "{filename}".format(filename=code_hash)))
-        if code_representation_path.is_file():
-            sentence_hash = code_hash[:-3] + ".txt"
-            output_path = pathlib.Path(os.path.join(output_dir, sentence_hash))
-            if not output_path.is_file():
-                code_prompt_file = open(code_representation_path, 'r')
-                prompt_code = code_prompt_file.read()
+        sentence_hash = code_hash[:-3]
 
+        code_representation_path = pathlib.Path(Settings.boxes_code_path.format(engine=ENGINE, hash=sentence_hash))
+
+        if code_representation_path.is_file():
+            text_file = sentence_hash + ".txt"
+            output_path = pathlib.Path(os.path.join(output_dir, text_file))
+            if not output_path.is_file():
+                code_file = open(code_representation_path, 'r')
+                code = code_file.read()
+                code_prompt = "Run the following code and print the results:\n\n" + code
                 try:
                     response = openai.ChatCompletion.create(
                         model=ENGINE,
                         messages=[
-                            {"role": "user", "content": example},
-                            {"role": "assistant", "content": answer},
-                            {"role": "user", "content": prompt_code},
+                            {"role": "user", "content": code_prompt},
                         ],
                         temperature=TEMPERATURE,
                     )
@@ -41,7 +39,7 @@ def ask_model_to_execute_the_code():
                     with open(output_path, 'w') as d:
                         d.write(output)
                     print(code_hash, "finished")
-                except openai.error.RateLimitError:
+                except openai.error.OpenAIError:
                     print("sleeping")
                     time.sleep(20)
 

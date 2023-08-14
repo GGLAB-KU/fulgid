@@ -1,7 +1,0 @@
-Box 0: ['rose', 'suit', 'tie']
-Box 1: ['key', 'note', 'shoe', 'magazine', 'shell']
-Box 2: ['crown']
-Box 3: ['cheese', 'ticket']
-Box 4: ['fish', 'book', 'rock']
-Box 5: ['paper']
-Box 6: ['fan', 'shell', 'map']
