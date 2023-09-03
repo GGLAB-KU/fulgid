@@ -20,3 +20,8 @@ You can run the preprocessing script using the following command:
 ```shell
 python preprocess.py datasets/test-subsample-states-t5.jsonl datasets/aggregated_data.jsonl
 ```
+
+
+```shell
+python3 prompt-code-execution.py --input_path datasets/aggregated_data.jsonl --code_representation_base_path results/original-boxes-dataset/code/gpt-3.5-turbo/ --code_execution_base_path results/original-boxes-dataset/code_execution/gpt-3.5-turbo/ --engine gpt-3.5-turbo --temperature 0 --sleep_time 20
+```
