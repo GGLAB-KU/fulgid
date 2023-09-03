@@ -49,20 +49,16 @@ with open(file_path_aggregated_data, "r") as file:
             sentence_hashes_used.add(sentence_hash)  # add sentence hash to the used hashes set
 
 
-# print(len(sentence_hashes_used))
-
-
 def generate_procedural_text(total_operations_count, total_boxes_count):
     numops = {"Move": 0, "Remove": 0, "Put": 0, "Empty": 0, "Replace": 0, "Swap": 0, "Total": 0}
     # Randomly generating initial box contents
     box_contents = {}  # Keeping track of box contents for some operations to make sense, e.g. Swap, Replace
-    for i in range(total_boxes_count):
+    for box_index in range(total_boxes_count):
         num_items = random.randint(0, 4)  # Initially, boxes may contain 0 to 4 items / Which may be changed as needed
         items = []
         for j in range(num_items):
             items.append(random.choice(content_items))
-        box_contents[f"Box {i}"] = items
-    # print(box_contents)
+        box_contents[f"Box {box_index}"] = items
 
     # Now, we have boxes, and their contents
 
@@ -78,11 +74,10 @@ def generate_procedural_text(total_operations_count, total_boxes_count):
     # Combining box descriptions into a single string
     # E.G. Box 0 contains tape and science and book, Box 1 contains apple, Box 2 contains nothing.
     procedural_text = "".join(box_descriptions)[:-2] + "."
-    # print(procedural_text)
 
     # Generating operations and keeping track of box contents
     operations_text = []
-    for i in range(total_operations_count):
+    for operation_index in range(total_operations_count):
         # Some operations require items in the boxes, which requires to know which boxes contain items
         # E.G. SWAP, MOVE, REPLACE
         boxes_with_items = [box for box, items in box_contents.items() if items]
@@ -92,7 +87,7 @@ def generate_procedural_text(total_operations_count, total_boxes_count):
         # Keeping track of numops for our JSON
         numops[str(operation)] += 1
         numops["Total"] += 1
-
+        actions = ""
         # THINK OF APPLYING AN OPERATION TO MULTIPLE ITEMS AT THE SAME TIME
         # E.G. Put the dish and the stone into Box 5.
         if operation == "Put":
@@ -108,8 +103,6 @@ def generate_procedural_text(total_operations_count, total_boxes_count):
                 source = random.choice(boxes_with_items)
                 destination = random.choice(list(box_contents.keys()))
                 item = random.choice(box_contents[source])  # Randomly select an item from source box
-                # print(box_contents[destination])
-                # print(item)
                 box_contents[source].remove(item)
                 box_contents[destination].append(item)
                 actions = f"{operation} {item} from {source} to {destination}."
@@ -169,22 +162,17 @@ def generate_procedural_text(total_operations_count, total_boxes_count):
                   "sample_id": -1,
                   "numops": numops,
                   "final_states": box_contents}
-    # print(procedural_text)
-    # print(box_contents)
     return final_json
 
 
 # # Example usage
 data_list = []
-for i in range(800):  # 500 examples
+for sample_id in range(800):  # 500 examples
     num_operations = random.randint(5, 20)
     num_boxes = random.randint(5, 15)
     example = generate_procedural_text(num_operations, num_boxes)
-    example["sample_id"] = i
+    example["sample_id"] = sample_id
     data_list.append(example)
-
-# print(procedural_text)
-# print(final_states)
 
 # Creating new JSONL file
 jsonl_filepath = "new_aggregated_data.jsonl"
