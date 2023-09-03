@@ -179,7 +179,7 @@ for sample_id in range(716):  # 500 examples
     data_list.append(example)
 
 # Creating new JSONL file
-jsonl_filepath = os.path.join(Settings.boxes_dataset_path, "new_aggregated_data.jsonl")
+jsonl_filepath = os.path.join(Settings.boxes_dataset_path, "complex_aggregated_data.jsonl")
 
 
 # Write each JSON object as a line in the JSONL file
