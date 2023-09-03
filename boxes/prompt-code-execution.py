@@ -2,7 +2,7 @@ import json
 import pathlib
 import time
 import argparse
-from base import openai
+from base import openai, SLEEP_SECONDS
 
 
 def ask_model_to_execute_the_code(
@@ -10,7 +10,7 @@ def ask_model_to_execute_the_code(
         input_path,
         code_representation_base_path,
         code_execution_base_path,
-        temperature, sleep_time
+        temperature,
 ):
     with open(input_path, 'r') as aggregated_boxes_file:
         aggregated_boxes = aggregated_boxes_file.readlines()
@@ -42,7 +42,7 @@ def ask_model_to_execute_the_code(
             except openai.error.OpenAIError as e:
                 print(e)
                 print("sleeping")
-                time.sleep(sleep_time)
+                time.sleep(SLEEP_SECONDS)
 
 
 if __name__ == '__main__':
@@ -54,7 +54,6 @@ if __name__ == '__main__':
                         help='Base path for code execution outputs.')
     parser.add_argument('--engine', type=str, default="gpt-3.5-turbo", help='OpenAI engine to use.')
     parser.add_argument('--temperature', type=float, default=0, help='Temperature setting for OpenAI model.')
-    parser.add_argument('--sleep_time', type=int, default=20, help='Sleep time in seconds if OpenAI error occurs.')
 
     args = parser.parse_args()
 
@@ -63,5 +62,4 @@ if __name__ == '__main__':
         args.code_representation_base_path,
         args.code_execution_base_path,
         args.temperature,
-        args.sleep_time
     )
