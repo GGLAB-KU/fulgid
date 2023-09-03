@@ -11,7 +11,7 @@ def read_file_content(file_path):
         return file.read()
 
 
-def process_dataset(
+def ask_model_to_generate_code(
         aggregated_data_path,
         code_representation_base_path,
         sample_prompt_path,
@@ -72,7 +72,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    process_dataset(
+    ask_model_to_generate_code(
         args.aggregated_data_path,
         args.code_representation_base_path,
         args.sample_prompt_path,
