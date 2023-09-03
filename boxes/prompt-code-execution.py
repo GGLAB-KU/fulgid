@@ -1,12 +1,17 @@
 import json
 import pathlib
-import openai
 import time
 import argparse
+from base import openai
 
 
-def ask_model_to_execute_the_code(input_path, code_representation_base_path, code_execution_base_path, engine,
-                                  temperature, sleep_time):
+def ask_model_to_execute_the_code(
+        engine,
+        input_path,
+        code_representation_base_path,
+        code_execution_base_path,
+        temperature, sleep_time
+):
     with open(input_path, 'r') as aggregated_boxes_file:
         aggregated_boxes = aggregated_boxes_file.readlines()
 
@@ -34,7 +39,8 @@ def ask_model_to_execute_the_code(input_path, code_representation_base_path, cod
                 with open(specific_code_execution_path, 'w') as d:
                     d.write(output)
                 print(sentence_hash, "finished")
-            except openai.error.OpenAIError:
+            except openai.error.OpenAIError as e:
+                print(e)
                 print("sleeping")
                 time.sleep(sleep_time)
 
@@ -52,5 +58,10 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    ask_model_to_execute_the_code(args.input_path, args.code_representation_base_path, args.code_execution_base_path,
-                                  args.engine, args.temperature, args.sleep_time)
+    ask_model_to_execute_the_code(
+        args.engine, args.input_path,
+        args.code_representation_base_path,
+        args.code_execution_base_path,
+        args.temperature,
+        args.sleep_time
+    )
