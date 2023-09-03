@@ -48,6 +48,7 @@ def process_dataset(
         output_path = pathlib.Path(f"{output_base_path}/{sentence_hash}.json")
 
         if not output_path.is_file():
+            output_path.parent.mkdir(parents=True, exist_ok=True)
             try:
                 response = openai.ChatCompletion.create(
                     model=engine,
