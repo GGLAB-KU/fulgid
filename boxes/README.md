@@ -1,14 +1,22 @@
-RESULT:
-ENGINE = "text-davinci-003"
-sample_range = slice(100, 150)
+## Prerequisites
+- Python 3.x
+- A dataset in JSONL format.
 
-.................... Simple Prompt ....................
-Precision: 83.52%
-Recall: 77.78%
-F1 Score: 80.55%
-Accuracy: 67.43%
-.................... Code Representation ....................
-Precision: 98.55%
-Recall: 95.59%
-F1 Score: 97.05%
-Accuracy: 94.26%
+How to Use
+
+## Setting up:
+Clone the repository and navigate to the directory containing preprocess.py.
+
+```shell
+git clone [Your Repository URL]
+cd [Your Repository Name or Directory]
+```
+
+## Running the Script:
+
+You can run the preprocessing script using the following command:
+
+
+```shell
+python preprocess.py datasets/test-subsample-states-t5.jsonl datasets/aggregated_data.jsonl
+```
