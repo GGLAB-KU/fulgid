@@ -14,11 +14,11 @@ def read_file_content(file_path):
 def process_dataset(
         aggregated_data_path,
         code_representation_base_path,
-        engine,
-        temperature,
         sample_prompt_path,
         sample_code_path,
-        new_sample_prompt_path
+        new_sample_prompt_path,
+        engine,
+        temperature,
 ):
     sample_prompt = read_file_content(sample_prompt_path)
     sample_code = read_file_content(sample_code_path)
@@ -61,23 +61,23 @@ if __name__ == '__main__':
     parser.add_argument('--aggregated_data_path', type=str, required=True, help='Path to the input aggregated data.')
     parser.add_argument('--code_representation_base_path', type=str, required=True,
                         help='Base path for code representations.')
-    parser.add_argument('--engine', type=str, default="gpt-3.5-turbo", help='OpenAI engine to use.')
-    parser.add_argument('--temperature', type=float, default=0, help='Temperature setting for OpenAI model.')
     parser.add_argument('--sample_prompt_path', type=str, required=True,
                         help='Path to the file containing the example text for OpenAI model.')
     parser.add_argument('--sample_code_path', type=str, required=True,
                         help='Path to the file containing the example code corresponding to the given example text.')
     parser.add_argument('--new_sample_prompt_path', type=str, required=True,
                         help='Path to the file containing the template for new examples.')
+    parser.add_argument('--engine', type=str, default="gpt-3.5-turbo", help='OpenAI engine to use.')
+    parser.add_argument('--temperature', type=float, default=0, help='Temperature setting for OpenAI model.')
 
     args = parser.parse_args()
 
     process_dataset(
         args.aggregated_data_path,
         args.code_representation_base_path,
-        args.engine,
-        args.temperature,
         args.sample_prompt_path,
         args.sample_code_path,
-        args.new_sample_prompt_path
+        args.new_sample_prompt_path,
+        args.engine,
+        args.temperature,
     )

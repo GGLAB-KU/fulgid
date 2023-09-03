@@ -6,10 +6,10 @@ from base import openai, SLEEP_SECONDS
 
 
 def ask_model_to_execute_the_code(
-        engine,
         input_path,
         code_representation_base_path,
         code_execution_base_path,
+        engine,
         temperature,
 ):
     with open(input_path, 'r') as aggregated_boxes_file:
@@ -58,8 +58,9 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     ask_model_to_execute_the_code(
-        args.engine, args.input_path,
+        args.input_path,
         args.code_representation_base_path,
         args.code_execution_base_path,
+        args.engine,
         args.temperature,
     )
