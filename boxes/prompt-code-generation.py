@@ -35,6 +35,7 @@ def ask_model_to_generate_code(
         code_representation_path = pathlib.Path(f"{code_representation_base_path}/{sentence_hash}.py")
 
         if not code_representation_path.is_file():
+            code_representation_path.parent.mkdir(parents=True, exist_ok=True)
             try:
                 response = openai.ChatCompletion.create(
                     model=engine,
