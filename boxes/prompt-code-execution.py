@@ -1,48 +1,56 @@
 import json
-import os
 import pathlib
 import openai
 import time
-
-from settings import Settings
-
-ENGINE = "gpt-3.5-turbo"
-TEMPERATURE = 0
+import argparse
 
 
-def ask_model_to_execute_the_code():
-    aggregated_data_path = os.path.join(Settings.boxes_dataset_path, "aggregated_data.jsonl")
-    aggregated_boxes_file = open(aggregated_data_path, 'r')
-    aggregated_boxes = list(aggregated_boxes_file)
+def ask_model_to_execute_the_code(input_path, code_representation_base_path, code_execution_base_path, engine,
+                                  temperature, sleep_time):
+    with open(input_path, 'r') as aggregated_boxes_file:
+        aggregated_boxes = aggregated_boxes_file.readlines()
 
-    for json_str in aggregated_boxes[Settings.sample_range]:
+    for json_str in aggregated_boxes:
         data = json.loads(json_str)
         sentence_hash = data['sentence_hash']
 
-        code_representation_path = pathlib.Path(Settings.boxes_code_path.format(engine=ENGINE, hash=sentence_hash))
+        specific_code_representation_path = pathlib.Path(f"{code_representation_base_path}/{sentence_hash}.py")
+        specific_code_execution_path = pathlib.Path(f"{code_execution_base_path}/{sentence_hash}.txt")
 
-        output_path = pathlib.Path(Settings.boxes_execute_path.format(engine=ENGINE, hash=sentence_hash))
-
-        if code_representation_path.is_file() and not output_path.is_file():
-            code_file = open(code_representation_path, 'r')
-            code = code_file.read()
+        if specific_code_representation_path.is_file() and not specific_code_execution_path.is_file():
+            with open(specific_code_representation_path, 'r') as code_file:
+                code = code_file.read()
             code_prompt = "Run the following code and print the results:\n\n" + code
             try:
                 response = openai.ChatCompletion.create(
-                    model=ENGINE,
+                    model=engine,
                     messages=[
                         {"role": "user", "content": code_prompt},
                     ],
-                    temperature=TEMPERATURE,
+                    temperature=temperature,
                 )
                 output = response['choices'][0]['message']['content']
 
-                with open(output_path, 'w') as d:
+                with open(specific_code_execution_path, 'w') as d:
                     d.write(output)
                 print(sentence_hash, "finished")
             except openai.error.OpenAIError:
                 print("sleeping")
-                time.sleep(20)
+                time.sleep(sleep_time)
 
 
-ask_model_to_execute_the_code()
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Process and execute code using OpenAI.')
+    parser.add_argument('--input_path', type=str, required=True, help='Path to the input aggregated data.')
+    parser.add_argument('--code_representation_base_path', type=str, required=True,
+                        help='Base path for code representations.')
+    parser.add_argument('--code_execution_base_path', type=str, required=True,
+                        help='Base path for code execution outputs.')
+    parser.add_argument('--engine', type=str, default="gpt-3.5-turbo", help='OpenAI engine to use.')
+    parser.add_argument('--temperature', type=float, default=0, help='Temperature setting for OpenAI model.')
+    parser.add_argument('--sleep_time', type=int, default=20, help='Sleep time in seconds if OpenAI error occurs.')
+
+    args = parser.parse_args()
+
+    ask_model_to_execute_the_code(args.input_path, args.code_representation_base_path, args.code_execution_base_path,
+                                  args.engine, args.temperature, args.sleep_time)
