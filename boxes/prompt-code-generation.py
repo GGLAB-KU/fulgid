@@ -1,54 +1,83 @@
-import os
 import json
-import openai
-from pathlib import Path
+import pathlib
+import time
+import argparse
 
-from settings import Settings
-
-ENGINE = "gpt-3.5-turbo"
-TEMPERATURE = 0
-
-example = """Box 0 contains the bomb and the boot, Box 1 contains nothing, Box 2 contains nothing, Box 3 contains the rose and the tissue, Box 4 contains the jacket, Box 5 contains the fish and the painting, Box 6 contains the cross. Put the machine into Box 3. Remove the painting from Box 5. Remove the fish from Box 5. Move the machine and the rose from Box 3 to Box 4. Move the cross from Box 6 to Box 1. Move the cross from Box 1 to Box 3. Move the cross from Box 3 to Box 6. Move the cross from Box 6 to Box 0. Put the bell and the bottle into Box 3.
-
-convert above text to a simple python code:"""
-
-new_example_template = """{sentence}
-
-convert above text to a simple python code similar to previous one:"""
+from base import openai, SLEEP_SECONDS
 
 
-def process_dataset():
-    aggregated_data_path = os.path.join(Settings.boxes_dataset_path, "aggregated_data.jsonl")
-    aggregated_boxes_file = open(aggregated_data_path, 'r')
-    aggregated_boxes = list(aggregated_boxes_file)
+def read_file_content(file_path):
+    with open(file_path, 'r') as file:
+        return file.read()
 
-    code_example_path = os.path.join(Settings.boxes_dataset_path, "sample1.py")
-    code_example_file = open(code_example_path, 'r')
-    example_code = code_example_file.read()
 
-    for json_str in aggregated_boxes[Settings.sample_range]:
+def process_dataset(
+        aggregated_data_path,
+        code_representation_base_path,
+        engine,
+        temperature,
+        sample_prompt_path,
+        sample_code_path,
+        new_sample_prompt_path
+):
+    sample_prompt = read_file_content(sample_prompt_path)
+    sample_code = read_file_content(sample_code_path)
+    new_sample_prompt = read_file_content(new_sample_prompt_path)
+
+    with open(aggregated_data_path, 'r') as aggregated_boxes_file:
+        aggregated_boxes = aggregated_boxes_file.readlines()
+
+    for json_str in aggregated_boxes:
         data = json.loads(json_str)
         sentence = data['sentence']
-        sample_id = data['sample_id']
         sentence_hash = data['sentence_hash']
 
-        code_representation_path = Path(Settings.boxes_code_path.format(engine=ENGINE, hash=sentence_hash))
+        code_representation_path = pathlib.Path(f"{code_representation_base_path}/{sentence_hash}.py")
 
         if not code_representation_path.is_file():
-            response = openai.ChatCompletion.create(
-                model=ENGINE,
-                messages=[
-                    {"role": "user", "content": example},
-                    {"role": "assistant", "content": example_code},
-                    {"role": "user", "content": new_example_template.format(sentence=sentence)},
-                ],
-                temperature=TEMPERATURE,
-            )
-            output = response['choices'][0]['message']['content']
+            try:
+                response = openai.ChatCompletion.create(
+                    model=engine,
+                    messages=[
+                        {"role": "user", "content": sample_prompt},
+                        {"role": "assistant", "content": sample_code},
+                        {"role": "user", "content": new_sample_prompt.format(sentence=sentence)},
+                    ],
+                    temperature=temperature,
+                )
+                output = response['choices'][0]['message']['content']
 
-            with open(code_representation_path, 'w') as f:
-                f.write(output)
-            print(sample_id, "finished")
+                with open(code_representation_path, 'w') as f:
+                    f.write(output)
+                print(sentence_hash, "finished")
+            except openai.error.OpenAIError as e:
+                print(e)
+                print("sleeping")
+                time.sleep(SLEEP_SECONDS)
 
 
-process_dataset()
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Generate code representation using OpenAI.')
+    parser.add_argument('--aggregated_data_path', type=str, required=True, help='Path to the input aggregated data.')
+    parser.add_argument('--code_representation_base_path', type=str, required=True,
+                        help='Base path for code representations.')
+    parser.add_argument('--engine', type=str, default="gpt-3.5-turbo", help='OpenAI engine to use.')
+    parser.add_argument('--temperature', type=float, default=0, help='Temperature setting for OpenAI model.')
+    parser.add_argument('--sample_prompt_path', type=str, required=True,
+                        help='Path to the file containing the example text for OpenAI model.')
+    parser.add_argument('--sample_code_path', type=str, required=True,
+                        help='Path to the file containing the example code corresponding to the given example text.')
+    parser.add_argument('--new_sample_prompt_path', type=str, required=True,
+                        help='Path to the file containing the template for new examples.')
+
+    args = parser.parse_args()
+
+    process_dataset(
+        args.aggregated_data_path,
+        args.code_representation_base_path,
+        args.engine,
+        args.temperature,
+        args.sample_prompt_path,
+        args.sample_code_path,
+        args.new_sample_prompt_path
+    )

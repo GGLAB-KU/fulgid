@@ -11,9 +11,9 @@ boxes = {
 
 # Define the moves
 moves = [
-    (1, None, 'fig'),     # Remove the fig from Box 1
-    (3, None, 'engine'),  # Remove the engine from Box 3
-    (1, None, 'document') # Remove the document from Box 1
+    (1, None, 'fig'),       # Remove the fig from Box 1
+    (3, None, 'engine'),    # Remove the engine from Box 3
+    (1, None, 'document')   # Remove the document from Box 1
 ]
 
 # Execute the moves

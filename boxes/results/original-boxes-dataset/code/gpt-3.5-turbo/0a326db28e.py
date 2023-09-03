@@ -24,7 +24,7 @@ moves = [
     (None, 4, 'magazine'),   # Put the magazine into Box 4
     (3, 5, 'string'),        # Move the string from Box 3 to Box 5
     (2, None, 'phone'),      # Remove the phone from Box 2
-    (0, 1, 'game')           # Move the game from Box 0 to Box 1
+    (0, 1, 'game'),          # Move the game from Box 0 to Box 1
 ]
 
 # Execute the moves
