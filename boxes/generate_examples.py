@@ -1,6 +1,9 @@
 import hashlib
+import os
 import random
 import json
+
+from settings import Settings
 
 # Extended List of Operations
 operations = ["Put", "Move", "Remove", "Empty", "Replace", "Swap"]
@@ -31,7 +34,8 @@ content_items = ["the apple", "the book", "the candle", "the pen", "the hat", "t
                  "the retirement", "the insurance", "the claim", "the deductible", "the premium", "the coverage",
                  "the policy", "the badge", "the uniform", "the weapon", "the shield"]
 
-file_path_aggregated_data = "../datasets/boxes-only-needed/aggregated_data.jsonl"
+file_path_aggregated_data = os.path.join(Settings.boxes_dataset_path, "aggregated_data.jsonl")
+
 sentence_hashes_used = set()  # set to store sentence_hash values
 
 
@@ -167,7 +171,7 @@ def generate_procedural_text(total_operations_count, total_boxes_count):
 
 # # Example usage
 data_list = []
-for sample_id in range(800):  # 500 examples
+for sample_id in range(716):  # 500 examples
     num_operations = random.randint(5, 20)
     num_boxes = random.randint(5, 15)
     example = generate_procedural_text(num_operations, num_boxes)
@@ -175,7 +179,8 @@ for sample_id in range(800):  # 500 examples
     data_list.append(example)
 
 # Creating new JSONL file
-jsonl_filepath = "new_aggregated_data.jsonl"
+jsonl_filepath = os.path.join(Settings.boxes_dataset_path, "new_aggregated_data.jsonl")
+
 
 # Write each JSON object as a line in the JSONL file
 with open(jsonl_filepath, 'w') as jsonl_file:
