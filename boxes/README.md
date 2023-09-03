@@ -40,3 +40,10 @@ python3 prompt-code-generation.py \
 --sample_code_path datasets/sample1/code.py \
 --new_sample_prompt_path datasets/sample1/prompt.txt
 ```
+
+
+```shell
+python3 prompt-simple.py \
+--aggregated_data_path datasets/aggregated_data.jsonl \
+--output_base_path results/original-boxes-dataset/simple/gpt-3.5-turbo/
+```
