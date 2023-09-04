@@ -13,8 +13,8 @@ def convert_str_to_dict(input_str):
     for line in lines:
         # if line is not empty
         if line:
-            # split line into key and value
-            key_str, value_str = line.split(": ")
+            # split line into key and value using partition which returns a tuple (head, sep, tail)
+            key_str, _, value_str = line.partition(": ")
 
             # remove unwanted characters from key
             key = key_str.replace("User\n\"", "")
@@ -124,3 +124,42 @@ def load_text(text):
         items = [item.strip().strip("'") for item in items_str.split(',')]
         result[f"Box {box_number}"] = [f"the {item}" for item in items]
     return result
+
+
+operations = ["Put", "Move", "Remove", "Empty", "Replace", "Swap"]
+content_items = [
+    "apple", "book", "candle", "pen", "hat",
+    "shoe", "shirt", "car", "cup", "laptop",
+    "keyboard", "phone", "chair", "table", "watch",
+    "bracelet", "guitar", "drum", "piano", "flute",
+    "glasses", "spoon", "fork", "plate", "bowl",
+    "blanket", "pillow", "lamp", "toothbrush", "toothpaste",
+    "soap", "shampoo", "towel", "mirror", "bag",
+    "wallet", "coin", "note", "headphone", "speaker",
+    "basket", "vase", "flower", "grass", "tree",
+    "leaf", "branch", "butterfly", "bird", "cat",
+    "dog", "horse", "cow", "elephant", "tiger",
+    "lion", "bear", "fish", "shark", "dolphin",
+    "octopus", "starfish", "coral", "seaweed", "rock",
+    "mountain", "river", "ocean", "beach", "desert",
+    "forest", "jungle", "island", "cloud", "rain",
+    "snow", "storm", "thunder", "lightning", "sun",
+    "moon", "star", "planet", "comet", "meteor",
+    "rocket", "ship", "boat", "submarine", "plane",
+    "train", "bus", "truck", "bicycle", "motorcycle",
+    "helmet", "glove", "scarf", "umbrella", "key",
+    "lock", "clock", "battery", "magnet", "wire",
+    "camera", "telescope", "microscope", "needle", "thread",
+    "button", "zipper", "belt", "tie", "sock",
+    "boot", "sandals", "shorts", "skirt", "dress",
+    "jacket", "coat", "swimsuit", "ring", "necklace",
+    "earring", "crown", "mask", "wig", "perfume",
+    "makeup", "lipstick", "brush", "comb", "polish",
+    "toy", "doll", "puzzle", "game", "card",
+    "dice", "console", "controller", "charger", "usb",
+    "tape", "shelf", "frame", "paint", "sculpture",
+    "pot", "pan", "oven", "fridge", "freezer",
+    "toaster", "microwave", "blender", "mixer", "grinder",
+    "whistle", "horn", "bell", "harmonica", "violin",
+    "scissors", "pants", "shoes", "gloves", "razor"
+]
