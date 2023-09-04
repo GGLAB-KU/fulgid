@@ -42,20 +42,25 @@ def execute_code(code):
     return output.decode()
 
 
-def plotting(accuracy_dict, title):
+def plotting(accuracy_dict, title, dataset_name):
     # Prepare data for the plot
     operations_nums = sorted(accuracy_dict.keys())
     accuracies = [accuracy_dict[num] for num in operations_nums]
+
     # Create a plot
     plt.figure(figsize=(10, 6))
     plt.plot(operations_nums, accuracies, marker='o')
+
     # Add labels and title
     plt.xlabel('operations_num')
     plt.ylabel('Accuracy')
-    plt.title(title)
+    plt.title(dataset_name + " with " + title, fontsize=10)  # Subtitle, with smaller font size
+
     # Show grid
     plt.grid(True)
+
     # Show the plot
+    plt.tight_layout()
     plt.show()
 
 
@@ -81,7 +86,7 @@ def calculate_metrics(final_states, result):
     return true_positives, false_positives, false_negatives
 
 
-def print_metrics(title, tp_count, fp_count, fn_count):
+def print_metrics(title, dataset_name, tp_count, fp_count, fn_count):
     total_true_positives = sum(tp_count.values())
     total_false_positives = sum(fp_count.values())
     total_false_negatives = sum(fn_count.values())
@@ -91,6 +96,7 @@ def print_metrics(title, tp_count, fp_count, fn_count):
     f1_score = 2 * ((precision * recall) / (precision + recall))
     accuracy = total_true_positives / (total_true_positives + total_false_positives + total_false_negatives)
 
+    print(f".................... {dataset_name} ....................")
     print(f".................... {title} ....................")
     print(f"Precision: {precision * 100:.2f}%")
     print(f"Recall: {recall * 100:.2f}%")
