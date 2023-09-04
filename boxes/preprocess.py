@@ -20,11 +20,11 @@ def hash_sentence(text, length=10):
     return hashlib.sha256(text.encode()).hexdigest()[:length]
 
 
-def process_dataset(input_path, output_path, box_number=7):
+def process_dataset(input_dataset_path, output_path, box_number=7):
     aggregated_data = {}
     index = 0
 
-    with open(input_path, 'r') as f:
+    with open(input_dataset_path, 'r') as f:
         lines = f.readlines()
 
     for group_start_index in range(0, len(lines), box_number):
