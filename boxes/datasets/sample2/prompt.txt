@@ -1,0 +1,2 @@
+{sentence}
+Convert above text to a simple python code similar to previous one:
