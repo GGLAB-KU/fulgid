@@ -20,21 +20,21 @@ You can run the preprocessing script using the following command:
 ```shell
 python3 preprocess.py \
 datasets/test-subsample-states-t5.jsonl \
-datasets/aggregated_data.jsonl
+datasets/original_aggregated_data.jsonl
 ```
 
 
 
 ```shell
 python3 prompt-code-execution.py \
---dataset_path datasets/aggregated_data.jsonl \
+--dataset_path datasets/original_aggregated_data.jsonl \
 --code_representation_base_path results/original-boxes-dataset/code/gpt-3.5-turbo/ \
 --code_execution_base_path results/original-boxes-dataset/code-execution/gpt-3.5-turbo/
 ```
 
 ```shell
 python3 prompt-code-generation.py \
---dataset_path datasets/aggregated_data.jsonl \
+--dataset_path datasets/original_aggregated_data.jsonl \
 --code_representation_base_path results/original-boxes-dataset/code/gpt-3.5-turbo/ \
 --sample_prompt_path datasets/sample1/sample-prompt.txt \
 --sample_code_path datasets/sample1/code.py \
@@ -44,7 +44,7 @@ python3 prompt-code-generation.py \
 
 ```shell
 python3 prompt-plaintext.py \
---dataset_path datasets/aggregated_data.jsonl \
+--dataset_path datasets/original_aggregated_data \
 --output_base_path results/original-boxes-dataset/simple/gpt-3.5-turbo/
 ```
 
@@ -52,4 +52,12 @@ python3 prompt-plaintext.py \
 python3 prompt-plaintext.py \
 --dataset_path datasets/complex_aggregated_data.jsonl \
 --output_base_path results/complex-boxes-dataset/simple/gpt-3.5-turbo/
+```
+
+
+```shell
+python3 evaluate.py \
+--dataset_path datasets/complex_aggregated_data.jsonl \
+--method Plaintext \
+--output_base_path results/complex-boxes-dataset/plaintext/gpt-3.5-turbo/
 ```
