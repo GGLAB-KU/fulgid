@@ -45,13 +45,13 @@ python3 prompt-code-generation.py \
 ```shell
 python3 prompt-plaintext.py \
 --dataset_path datasets/original_aggregated_data \
---output_base_path results/original-boxes-dataset/simple/gpt-3.5-turbo/
+--output_base_path results/original-boxes-dataset/plaintext/gpt-3.5-turbo/
 ```
 
 ```shell
 python3 prompt-plaintext.py \
 --dataset_path datasets/complex_aggregated_data.jsonl \
---output_base_path results/complex-boxes-dataset/simple/gpt-3.5-turbo/
+--output_base_path results/complex-boxes-dataset/plaintext/gpt-3.5-turbo/
 ```
 
 
@@ -60,4 +60,22 @@ python3 evaluate.py \
 --dataset_path datasets/complex_aggregated_data.jsonl \
 --method Plaintext \
 --output_base_path results/complex-boxes-dataset/plaintext/gpt-3.5-turbo/
+```
+
+
+```shell
+python3 evaluate.py \
+--dataset_path datasets/complex_aggregated_data.jsonl \
+--method Code \
+--output_base_path results/complex-boxes-dataset/code/gpt-3.5-turbo/
+```
+
+
+```shell
+python3 prompt-code-generation.py \
+--dataset_path datasets/complex_aggregated_data.jsonl \
+--code_representation_base_path results/complex-boxes-dataset/code/gpt-3.5-turbo/ \
+--sample_prompt_path datasets/sample2/sample-prompt.txt \
+--sample_code_path datasets/sample2/code.py \
+--new_sample_prompt_path datasets/sample2/prompt.txt
 ```
