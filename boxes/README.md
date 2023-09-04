@@ -47,3 +47,9 @@ python3 prompt-simple.py \
 --aggregated_data_path datasets/aggregated_data.jsonl \
 --output_base_path results/original-boxes-dataset/simple/gpt-3.5-turbo/
 ```
+
+```shell
+python3 prompt-simple.py \
+--aggregated_data_path datasets/complex_aggregated_data.jsonl \
+--output_base_path results/complex-boxes-dataset/simple/gpt-3.5-turbo/
+```
