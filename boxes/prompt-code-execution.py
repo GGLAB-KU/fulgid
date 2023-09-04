@@ -6,13 +6,13 @@ from base import openai, SLEEP_SECONDS
 
 
 def ask_model_to_execute_the_code(
-        input_path,
+        dataset_path,
         code_representation_base_path,
         code_execution_base_path,
         engine,
         temperature,
 ):
-    with open(input_path, 'r') as aggregated_boxes_file:
+    with open(dataset_path, 'r') as aggregated_boxes_file:
         aggregated_boxes = aggregated_boxes_file.readlines()
 
     for json_str in aggregated_boxes:
@@ -47,7 +47,7 @@ def ask_model_to_execute_the_code(
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process and execute code using OpenAI.')
-    parser.add_argument('--input_path', type=str, required=True, help='Path to the input aggregated data.')
+    parser.add_argument('--dataset_path', type=str, required=True, help='Path to the input aggregated data.')
     parser.add_argument('--code_representation_base_path', type=str, required=True,
                         help='Base path for code representations.')
     parser.add_argument('--code_execution_base_path', type=str, required=True,
@@ -58,7 +58,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     ask_model_to_execute_the_code(
-        args.input_path,
+        args.dataset_path,
         args.code_representation_base_path,
         args.code_execution_base_path,
         args.engine,

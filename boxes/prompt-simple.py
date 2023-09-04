@@ -33,12 +33,12 @@ def parse_output(output):
 
 
 def process_dataset(
-        aggregated_data_path,
+        dataset_path,
         output_base_path,
         engine,
         temperature,
 ):
-    with open(aggregated_data_path, 'r') as aggregated_boxes_file:
+    with open(dataset_path, 'r') as aggregated_boxes_file:
         aggregated_boxes = aggregated_boxes_file.readlines()
 
     for json_str in aggregated_boxes:
@@ -78,7 +78,7 @@ def process_dataset(
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process the dataset using OpenAI.')
-    parser.add_argument('--aggregated_data_path', type=str, required=True, help='Path to the input aggregated data.')
+    parser.add_argument('--dataset_path', type=str, required=True, help='Path to the input aggregated data.')
     parser.add_argument('--output_base_path', type=str, required=True, help='Base path for prediction outputs.')
     parser.add_argument('--engine', type=str, default="gpt-3.5-turbo", help='OpenAI engine to use.')
     parser.add_argument('--temperature', type=float, default=0, help='Temperature setting for OpenAI model.')
@@ -86,7 +86,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     process_dataset(
-        args.aggregated_data_path,
+        args.dataset_path,
         args.output_base_path,
         args.engine,
         args.temperature,

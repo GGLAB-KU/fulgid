@@ -27,14 +27,14 @@ datasets/aggregated_data.jsonl
 
 ```shell
 python3 prompt-code-execution.py \
---input_path datasets/aggregated_data.jsonl \
+--dataset_path datasets/aggregated_data.jsonl \
 --code_representation_base_path results/original-boxes-dataset/code/gpt-3.5-turbo/ \
 --code_execution_base_path results/original-boxes-dataset/code-execution/gpt-3.5-turbo/
 ```
 
 ```shell
 python3 prompt-code-generation.py \
---aggregated_data_path datasets/aggregated_data.jsonl \
+--dataset_path datasets/aggregated_data.jsonl \
 --code_representation_base_path results/original-boxes-dataset/code/gpt-3.5-turbo/ \
 --sample_prompt_path datasets/sample1/sample-prompt.txt \
 --sample_code_path datasets/sample1/code.py \
@@ -44,12 +44,12 @@ python3 prompt-code-generation.py \
 
 ```shell
 python3 prompt-simple.py \
---aggregated_data_path datasets/aggregated_data.jsonl \
+--dataset_path datasets/aggregated_data.jsonl \
 --output_base_path results/original-boxes-dataset/simple/gpt-3.5-turbo/
 ```
 
 ```shell
 python3 prompt-simple.py \
---aggregated_data_path datasets/complex_aggregated_data.jsonl \
+--dataset_path datasets/complex_aggregated_data.jsonl \
 --output_base_path results/complex-boxes-dataset/simple/gpt-3.5-turbo/
 ```

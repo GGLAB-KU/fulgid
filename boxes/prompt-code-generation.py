@@ -12,7 +12,7 @@ def read_file_content(file_path):
 
 
 def ask_model_to_generate_code(
-        aggregated_data_path,
+        dataset_path,
         code_representation_base_path,
         sample_prompt_path,
         sample_code_path,
@@ -24,7 +24,7 @@ def ask_model_to_generate_code(
     sample_code = read_file_content(sample_code_path)
     new_sample_prompt = read_file_content(new_sample_prompt_path)
 
-    with open(aggregated_data_path, 'r') as aggregated_boxes_file:
+    with open(dataset_path, 'r') as aggregated_boxes_file:
         aggregated_boxes = aggregated_boxes_file.readlines()
 
     for json_str in aggregated_boxes:
@@ -59,7 +59,7 @@ def ask_model_to_generate_code(
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate code representation using OpenAI.')
-    parser.add_argument('--aggregated_data_path', type=str, required=True, help='Path to the input aggregated data.')
+    parser.add_argument('--dataset_path', type=str, required=True, help='Path to the input aggregated data.')
     parser.add_argument('--code_representation_base_path', type=str, required=True,
                         help='Base path for code representations.')
     parser.add_argument('--sample_prompt_path', type=str, required=True,
@@ -74,7 +74,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     ask_model_to_generate_code(
-        args.aggregated_data_path,
+        args.dataset_path,
         args.code_representation_base_path,
         args.sample_prompt_path,
         args.sample_code_path,
