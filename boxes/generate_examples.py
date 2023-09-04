@@ -1,51 +1,14 @@
-import hashlib
-import os
+import pathlib
 import random
 import json
 
-from settings import Settings
-
-# Extended List of Operations
-operations = ["Put", "Move", "Remove", "Empty", "Replace", "Swap"]
-content_items = ["the apple", "the book", "the candle", "the pen", "the hat", "the gloves", "the shoes", "the socks",
-                 "the watch", "the ring", "the necklace", "the spoon", "the fork", "the shirt", "the pants",
-                 "the flashlight", "the mug", "the scarf", "the battery", "the key", "the glasses", "the knife",
-                 "the pillow", "the camera", "the tape", "the charger", "the remote", "the map", "the ball",
-                 "the painting", "the pliers", "the hammer", "the screwdriver", "the bottle", "the cork", "the wallet",
-                 "the perfume", "the brush", "the comb", "the soap", "the toothbrush", "the toothpaste", "the towel",
-                 "the umbrella", "the guitar", "the microphone", "the headphones", "the calculator", "the wallet",
-                 "the coin", "the phone", "the tablet", "the laptop", "the keyboard", "the mouse", "the blanket",
-                 "the lamp", "the clock", "the mirror", "the shovel", "the plant", "the flower", "the scissors",
-                 "the plate", "the bowl", "the cup", "the fork", "the knife", "the spoon", "the glass",
-                 "the candlestick", "the vase", "the frame", "the portrait", "the fan", "the shampoo",
-                 "the conditioner", "the razor", "the hairbrush", "the bandage", "the ointment", "the socks",
-                 "the underwear", "the shirt", "the pants", "the dress", "the tie", "the jacket", "the coat",
-                 "the belt", "the bracelet", "the watch", "the earrings", "the necklace", "the paper", "the pencil",
-                 "the pen", "the marker", "the crayon", "the chalk", "the ruler", "the eraser", "the notebook",
-                 "the calendar", "the envelope", "the stamp", "the stapler", "the scissors", "the tape", "the glue",
-                 "the folder", "the backpack", "the briefcase", "the lunchbox", "the book", "the magazine",
-                 "the newspaper", "the dictionary", "the thesaurus", "the encyclopedia", "the novel", "the poetry",
-                 "the biography", "the history", "the fiction", "the nonfiction", "the mystery", "the romance",
-                 "the science", "the fantasy", "the adventure", "the horror", "the comedy", "the drama", "the music",
-                 "the art", "the film", "the photograph", "the exhibition", "the concert", "the ticket", "the recipe",
-                 "the ingredient", "the grocery", "the shopping", "the cart", "the basket", "the bag", "the wallet",
-                 "the purse", "the cashier", "the credit", "the debit", "the receipt", "the change", "the coin",
-                 "the bank", "the account", "the loan", "the interest", "the investment", "the stock", "the portfolio",
-                 "the retirement", "the insurance", "the claim", "the deductible", "the premium", "the coverage",
-                 "the policy", "the badge", "the uniform", "the weapon", "the shield"]
-
-file_path_aggregated_data = os.path.join(Settings.boxes_dataset_path, "aggregated_data.jsonl")
+from preprocess import hash_sentence
+from utils import content_items, operations
 
 sentence_hashes_used = set()  # set to store sentence_hash values
+original_aggregated_path = pathlib.Path("datasets/original_aggregated_data.jsonl")
 
-
-def hash_sentence(text, length=10):
-    # To get sentence_hash values
-    full_hash = hashlib.sha256(text.encode()).hexdigest()
-    return full_hash[:length]
-
-
-with open(file_path_aggregated_data, "r") as file:
+with open(original_aggregated_path, "r") as file:
     for line in file:
         data = json.loads(line)  # get the JSON from each line
         sentence_hash = data.get("sentence_hash")  # get the sentence hash of the current JSON
@@ -53,35 +16,43 @@ with open(file_path_aggregated_data, "r") as file:
             sentence_hashes_used.add(sentence_hash)  # add sentence hash to the used hashes set
 
 
-def generate_procedural_text(total_operations_count, total_boxes_count):
+def generate_procedural_text(operations_count, boxes_count):
     numops = {"Move": 0, "Remove": 0, "Put": 0, "Empty": 0, "Replace": 0, "Swap": 0, "Total": 0}
+
     # Randomly generating initial box contents
-    box_contents = {}  # Keeping track of box contents for some operations to make sense, e.g. Swap, Replace
-    for box_index in range(total_boxes_count):
-        num_items = random.randint(0, 4)  # Initially, boxes may contain 0 to 4 items / Which may be changed as needed
-        items = []
-        for j in range(num_items):
-            items.append(random.choice(content_items))
-        box_contents[f"Box {box_index}"] = items
+    box_contents = {}
+
+    shuffled_items = random.sample(content_items, len(content_items))  # This shuffles the entire content_items list
+
+    item_index = 0  # This index will keep track of where we are in the shuffled_items list
+    for box_index in range(boxes_count):
+        num_items = random.randint(0, 5)  # Number of items to be placed in the current box
+
+        # Assign items to the current box, making sure not to exceed the length of shuffled_items
+        items_for_box = shuffled_items[item_index: item_index + num_items]
+
+        # Update the item_index for the next iteration
+        item_index += num_items
+
+        # Assign the selected items to the current box
+        box_contents[f"Box {box_index}"] = items_for_box
 
     # Now, we have boxes, and their contents
-
-    # Generating box descriptions
-    box_descriptions = []
-    for box, items in box_contents.items():
-        if items:
-            description = f"{box} contains {' and '.join(items)}, "
+    def describe_box(box_name, items):
+        if not items:
+            return f"{box_name} contains nothing"
+        elif len(items) == 1:
+            return f"{box_name} contains the {items[0]}"
         else:
-            description = f"{box} contains nothing, "
-        box_descriptions.append(description)
+            items_description = ' and '.join(f"the {item}" for item in items)
+            return f"{box_name} contains {items_description}"
 
-    # Combining box descriptions into a single string
-    # E.G. Box 0 contains tape and science and book, Box 1 contains apple, Box 2 contains nothing.
-    procedural_text = "".join(box_descriptions)[:-2] + "."
+    descriptions = [describe_box(box, items) for box, items in box_contents.items()]
+    procedural_text = ', '.join(descriptions) + '.'
 
     # Generating operations and keeping track of box contents
     operations_text = []
-    for operation_index in range(total_operations_count):
+    for operation_index in range(operations_count):
         # Some operations require items in the boxes, which requires to know which boxes contain items
         # E.G. SWAP, MOVE, REPLACE
         boxes_with_items = [box for box, items in box_contents.items() if items]
@@ -105,7 +76,12 @@ def generate_procedural_text(total_operations_count, total_boxes_count):
         elif operation == "Move":
             if boxes_with_items:
                 source = random.choice(boxes_with_items)
-                destination = random.choice(list(box_contents.keys()))
+
+                # Make sure destination is not the same as source
+                destination = source
+                while destination == source:
+                    destination = random.choice(list(box_contents.keys()))
+
                 item = random.choice(box_contents[source])  # Randomly select an item from source box
                 box_contents[source].remove(item)
                 box_contents[destination].append(item)
@@ -137,18 +113,20 @@ def generate_procedural_text(total_operations_count, total_boxes_count):
 
         elif operation == "Swap":
             if len(boxes_with_items) >= 2:  # If there are at least 2 boxes with items, we can do swap
-                box1, box2 = random.sample(boxes_with_items, 2)
-                item1 = random.choice(box_contents[box1])
-                item2 = random.choice(box_contents[box2])
-                while item1 == item2:  # If both are items are the same, search for new ones
-                    item1 = random.choice(box_contents[box1])
-                    item2 = random.choice(box_contents[box2])
+                source, destination = random.sample(boxes_with_items, 2)
 
-                box_contents[box1].remove(item1)
-                box_contents[box2].remove(item2)
-                box_contents[box1].append(item2)
-                box_contents[box2].append(item1)
-                actions = f"{operation} {item1} in {box1} with {item2} in {box2}."
+                # Randomly select valid indices for source and destination
+                source_index = random.randint(0, len(box_contents[source]) - 1)
+                destination_index = random.randint(0, len(box_contents[destination]) - 1)
+
+                source_item = box_contents[source][source_index]
+                destination_item = box_contents[destination][destination_index]
+
+                # Swap the items at the specified indices
+                box_contents[source][source_index] = destination_item
+                box_contents[destination][destination_index] = source_item
+
+                actions = f"{operation} {source_item} in {source} with {destination_item} in {destination}."
 
         operations_text.append(actions)
 
@@ -179,11 +157,10 @@ for sample_id in range(716):  # 500 examples
     data_list.append(example)
 
 # Creating new JSONL file
-jsonl_filepath = os.path.join(Settings.boxes_dataset_path, "complex_aggregated_data.jsonl")
-
+output_path = pathlib.Path("datasets/complex_aggregated_data.jsonl")
 
 # Write each JSON object as a line in the JSONL file
-with open(jsonl_filepath, 'w') as jsonl_file:
+with open(output_path, 'w') as jsonl_file:
     for data in data_list:
         json_line = json.dumps(data, ensure_ascii=False)
         jsonl_file.write(json_line + '\n')
