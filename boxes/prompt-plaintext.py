@@ -11,8 +11,11 @@ system_msg = 'Given the description after "Description:", write a true statement
 user1_msg = 'Description: Box 0 contains the car, Box 1 contains the cross, Box 2 contains the bag and the machine, Box 3 contains the paper and the string, Box 4 contains the bill, Box 5 contains the apple and the cash and the glass, Box 6 contains the bottle and the map.'
 assistant1_msg = 'Statement: Box 0 contains the car, Box 1 contains the cross, Box 2 contains the bag and the machine, Box 3 contains the paper and the string, Box 4 contains the bill, Box 5 contains the apple and the cash and the glass, Box 6 contains the bottle and the map.'
 
-user2_msg = 'Description: Box 0 contains the button and the pan, Box 1 contains the necklace and the lipstick and the brush and the comb, Box 2 contains nothing, Box 3 contains the thunder and the battery, Box 4 contains the fish. Remove comb from Box 1. Swap battery in Box 3 with pan in Box 0. Remove necklace from Box 1. Remove lipstick from Box 1. Swap button in Box 0 with pan in Box 3. Swap fish in Box 4 with brush in Box 1. Put oven into Box 1. Replace thunder with wallet in Box 3. Empty Box 0. Put cat into Box 2. Move wallet from Box 3 to Box 0. Move wallet from Box 0 to Box 2. Replace button with lock in Box 3.'
-assistant2_msg = 'Statement: Box 0 contains nothing, Box 1 contains the fish and the oven, Box 2 contains the cat and the wallet, Box 3 contains the lock, Box 4 contains the brush.'
+user2_msg = 'Description: Box 0 contains the car, Box 1 contains the cross, Box 2 contains the bag and the machine, Box 3 contains the paper and the string, Box 4 contains the bill, Box 5 contains the apple and the cash and the glass, Box 6 contains the bottle and the map. Remove the car from Box 0. Remove the paper and the string from Box 3. Put the plane into Box 0. Move the map from Box 6 to Box 2. Remove the bill from Box 4. Put the coat into Box 3.'
+assistant2_msg = 'Statement: Box 0 contains the plane, Box 1 contains the cross, Box 2 contains the bag and the machine and the map, Box 3 contains the coat, Box 4 contains nothing, Box 5 contains the apple and the cash and the glass, Box 6 contains the bottle.'
+
+user3_msg = 'Description: Box 0 contains the car and the shampoo and the hat, Box 1 contains nothing, Box 2 contains the shark and the basket, Box 3 contains nothing, Box 4 contains the button, Box 5 contains nothing, Box 6 contains the sculpture and the thunder and the watch, Box 7 contains the swimsuit and the sock and the chair and the fridge. Swap thunder in Box 6 with hat in Box 0. Swap watch in Box 6 with button in Box 4. Remove watch from Box 4. Move car from Box 0 to Box 2. Replace shampoo with island in Box 0. Move shark from Box 2 to Box 5. Remove sculpture from Box 6. Empty Box 2. Put desert into Box 7. Move button from Box 6 to Box 3.'
+assistant3_msg = 'Statement: Box 0 contains the thunder and the island, Box 1 contains nothing, Box 2 contains nothing, Box 3 contains the button, Box 4 contains nothing, Box 5 contains the shark, Box 6 contains the hat, Box 7 contains the swimsuit and the sock and the chair and the fridge and the desert.'
 
 
 def parse_output(output):
@@ -58,6 +61,8 @@ def process_dataset(
                         {"role": "assistant", "content": assistant1_msg},
                         {"role": "user", "content": user2_msg},
                         {"role": "assistant", "content": assistant2_msg},
+                        {"role": "user", "content": user3_msg},
+                        {"role": "assistant", "content": assistant3_msg},
                         {"role": "user", "content": f'Description: {sentence}'},
                     ],
                     temperature=temperature,
