@@ -94,7 +94,8 @@ def replace_operation(box_contents, boxes_with_items):
     for idx, item_to_replace in enumerate(items_to_replace):
         box_contents[box].remove(item_to_replace)
         box_contents[box].append(new_items[idx])
-    return f"Replace {describe_items(items_to_replace)} with {describe_items(new_items)} in {box}.", box_contents
+    return (f"Replace {describe_items(items_to_replace)} with "
+            f"{describe_items(new_items)} in {box}."), box_contents
 
 
 def swap_operation(box_contents, boxes_with_items):
@@ -105,7 +106,8 @@ def swap_operation(box_contents, boxes_with_items):
     destination_item = box_contents[destination][destination_index]
     box_contents[source][source_index] = destination_item
     box_contents[destination][destination_index] = source_item
-    return f"Swap the {source_item} in {source} with the {destination_item} in {destination}.", box_contents
+    return (f"Swap the {source_item} in {source} with the {destination_item} "
+            f"in {destination}."), box_contents
 
 
 def apply_operation(operation, box_contents):
