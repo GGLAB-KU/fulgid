@@ -1,46 +1,61 @@
-# Initial contents of the boxes
+# Initial state of boxes
 boxes = {
-    0: ['wallet', 'fork', 'novel', 'coat'],
-    1: ['candle', 'fork'],
-    2: ['uniform'],
-    3: ['eraser', 'fiction', 'biography', 'adventure'],
-    4: ['basket'],
-    5: ['cart', 'envelope', 'guitar', 'hat'],
-    6: ['biography', 'book'],
-    7: ['coverage', 'biography', 'spoon']
+    0: ['shirt', 'seaweed', 'thunder'],
+    1: ['charger', 'pants', 'cat', 'bag', 'storm'],
+    2: [],
+    3: ['piano', 'ring', 'bird', 'guitar'],
+    4: ['horse', 'controller', 'table'],
+    5: ['toothbrush'],
+    6: ['boot', 'towel']
 }
 
-# Empty Box 0
-boxes[0] = []
+# Replace the bird and the guitar with the glove and the puzzle in Box 3.
+boxes[3].remove('bird')
+boxes[3].remove('guitar')
+boxes[3].append('glove')
+boxes[3].append('puzzle')
 
-# Empty Box 5
-boxes[5] = []
+# Put the glasses into Box 2.
+boxes[2].append('glasses')
 
-# Remove the basket from Box 4
-boxes[4].remove('basket')
+# Remove the towel and the boot from Box 6.
+boxes[6].remove('towel')
+boxes[6].remove('boot')
 
-# Put the spoon into Box 3
-boxes[3].append('spoon')
+# Replace the seaweed and the thunder with the elephant and the freezer in Box 0.
+boxes[0].remove('seaweed')
+boxes[0].remove('thunder')
+boxes[0].append('elephant')
+boxes[0].append('freezer')
 
-# Replace the fork with the knife in Box 1
-index_fork = boxes[1].index('fork')
-boxes[1][index_fork] = 'knife'
+# Swap the charger in Box 1 with the glasses in Box 2.
+boxes[1].remove('charger')
+boxes[2].remove('glasses')
+boxes[1].append('glasses')
+boxes[2].append('charger')
 
+# Remove the charger from Box 2.
+boxes[2].remove('charger')
 
-# Move the candle from Box 1 to Box 0
-boxes[1].remove('candle')
-boxes[0].append('candle')
+# Move the shirt and the elephant and the freezer from Box 0 to Box 5.
+items_to_move = ['shirt', 'elephant', 'freezer']
+for item in items_to_move:
+    boxes[0].remove(item)
+    boxes[5].append(item)
 
-# Swap the uniform in Box 2 with the candle in Box 0
-index_candle = boxes[0].index('candle')
-index_uniform = boxes[2].index('uniform')
+# Remove the puzzle from Box 3.
+boxes[3].remove('puzzle')
 
-boxes[0][index_candle] = 'uniform'
-boxes[2][index_uniform] = 'candle'
+# Move the storm and the cat from Box 1 to Box 4.
+items_to_move = ['storm', 'cat']
+for item in items_to_move:
+    boxes[1].remove(item)
+    boxes[4].append(item)
 
-# Remove the book from Box 6
-boxes[6].remove('book')
+# Move the toothbrush from Box 5 to Box 2.
+boxes[5].remove('toothbrush')
+boxes[2].append('toothbrush')
 
 # Print the boxes
-for box in boxes:
-    print(f"Box {box}: {boxes[box]}")
+for box_number, items in boxes.items():
+    print(f"Box {box_number}: {items}")
