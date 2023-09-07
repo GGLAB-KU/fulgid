@@ -5,6 +5,8 @@ import json
 from preprocess import hash_sentence
 from utils import content_items, operations
 
+MAX_EMPTY_ACTIONS = 3
+
 sentence_hashes_used = set()  # set to store sentence_hash values
 original_aggregated_path = pathlib.Path("datasets/original_aggregated_data.jsonl")
 
@@ -16,14 +18,39 @@ with open(original_aggregated_path, "r") as file:
             sentence_hashes_used.add(sentence_hash)  # add sentence hash to the used hashes set
 
 
-def generate_procedural_text(operations_count, boxes_count):
+def generate_procedural_text():
+    boxes_count = random.randint(5, 15)
+    operations_count = int(1.5 * boxes_count)  # 1.5 times the number of boxes
+
+    # Weighted probabilities for each operation
+    operation_weights = {
+        "Move": 1,
+        "Remove": 0.9,
+        "Put": 0.9,
+        "Empty": 0.2,
+        "Replace": 0.8,
+        "Swap": 0.8,
+    }
+
+    # Preparing operations list before loop
+    operations_list = random.choices(
+        operations,
+        weights=[operation_weights[op] for op in operations],
+        k=operations_count
+    )
+
+    # Limiting Empty action to MAX_EMPTY_ACTIONS
+    empty_counter = operations_list.count("Empty")
+    while empty_counter > MAX_EMPTY_ACTIONS:
+        operations_list.remove("Empty")
+        operations_list.append(random.choice([op for op in operations if op != "Empty"]))
+        empty_counter = operations_list.count("Empty")
+
     numops = {"Move": 0, "Remove": 0, "Put": 0, "Empty": 0, "Replace": 0, "Swap": 0, "Total": 0}
+    shuffled_items = random.sample(content_items, len(content_items))  # This shuffles the entire content_items list
 
     # Randomly generating initial box contents
     box_contents = {}
-
-    shuffled_items = random.sample(content_items, len(content_items))  # This shuffles the entire content_items list
-
     item_index = 0  # This index will keep track of where we are in the shuffled_items list
     for box_index in range(boxes_count):
         num_items = random.randint(0, 5)  # Number of items to be placed in the current box
@@ -52,12 +79,10 @@ def generate_procedural_text(operations_count, boxes_count):
 
     # Generating operations and keeping track of box contents
     operations_text = []
-    for operation_index in range(operations_count):
+    for operation in operations_list:
         # Some operations require items in the boxes, which requires to know which boxes contain items
         # E.G. SWAP, MOVE, REPLACE
         boxes_with_items = [box for box, items in box_contents.items() if items]
-
-        operation = random.choice(operations)
 
         # Keeping track of numops for our JSON
         numops[str(operation)] += 1
@@ -150,9 +175,7 @@ def generate_procedural_text(operations_count, boxes_count):
 # # Example usage
 data_list = []
 for sample_id in range(716):  # 500 examples
-    num_operations = random.randint(5, 20)
-    num_boxes = random.randint(5, 15)
-    example = generate_procedural_text(num_operations, num_boxes)
+    example = generate_procedural_text()
     example["sample_id"] = sample_id
     data_list.append(example)
 
