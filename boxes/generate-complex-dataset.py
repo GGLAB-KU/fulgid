@@ -25,17 +25,36 @@ def describe_box(box_name, items):
     elif len(items) == 1:
         return f"{box_name} contains the {items[0]}"
     else:
-        items_description = ', '.join(f"the {item}" for item in items[:-1]) + ' and ' + f"the {items[-1]}"
+        items_description = ' and '.join(f"the {item}" for item in items)
         return f"{box_name} contains {items_description}"
+
+
+def describe_items(items):
+    if len(items) == 1:
+        return f"the {items[0]}"
+    else:
+        items_description = ' and '.join(f"the {item}" for item in items)
+        return items_description
+
+
+def describe_final_state(items):
+    if not items:
+        return ["nothing"]
+    else:
+        return [f"the {item}" for item in items]
 
 
 def put_operation(box_contents):
     destination = random.choice(list(box_contents.keys()))
-    item = random.choice(content_items)
-    while item in box_contents[destination]:
-        item = random.choice(content_items)
-    box_contents[destination].append(item)
-    return f"Put {item} into {destination}.", box_contents
+    num_items_to_put = random.randint(1, 3)
+    items = [random.choice(content_items) for _ in range(num_items_to_put)]
+    # Ensure there are no duplicates
+    items = list(set(items))
+    for item in items:
+        while item in box_contents[destination]:
+            item = random.choice(content_items)
+        box_contents[destination].append(item)
+    return f"Put {describe_items(items)} into {destination}.", box_contents
 
 
 def move_operation(box_contents, boxes_with_items):
@@ -43,17 +62,21 @@ def move_operation(box_contents, boxes_with_items):
     destination = source
     while destination == source:
         destination = random.choice(list(box_contents.keys()))
-    item = random.choice(box_contents[source])
-    box_contents[source].remove(item)
-    box_contents[destination].append(item)
-    return f"Move {item} from {source} to {destination}.", box_contents
+    num_items_to_move = random.randint(1, min(3, len(box_contents[source])))
+    items = random.sample(box_contents[source], num_items_to_move)
+    for item in items:
+        box_contents[source].remove(item)
+        box_contents[destination].append(item)
+    return f"Move {describe_items(items)} from {source} to {destination}.", box_contents
 
 
 def remove_operation(box_contents, boxes_with_items):
     box = random.choice(boxes_with_items)
-    item = random.choice(box_contents[box])
-    box_contents[box].remove(item)
-    return f"Remove {item} from {box}.", box_contents
+    num_items_to_remove = random.randint(1, min(3, len(box_contents[box])))
+    items = random.sample(box_contents[box], num_items_to_remove)
+    for item in items:
+        box_contents[box].remove(item)
+    return f"Remove {describe_items(items)} from {box}.", box_contents
 
 
 def empty_operation(box_contents, boxes_with_items):
@@ -64,12 +87,14 @@ def empty_operation(box_contents, boxes_with_items):
 
 def replace_operation(box_contents, boxes_with_items):
     box = random.choice(boxes_with_items)
-    item_to_replace = random.choice(box_contents[box])
-    new_item_candidates = [item for item in content_items if item != item_to_replace]
-    new_item = random.choice(new_item_candidates)
-    box_contents[box].remove(item_to_replace)
-    box_contents[box].append(new_item)
-    return f"Replace {item_to_replace} with {new_item} in {box}.", box_contents
+    num_items_to_replace = random.randint(1, min(3, len(box_contents[box])))
+    items_to_replace = random.sample(box_contents[box], num_items_to_replace)
+    new_items_candidates = [item for item in content_items if item not in items_to_replace]
+    new_items = random.sample(new_items_candidates, num_items_to_replace)
+    for idx, item_to_replace in enumerate(items_to_replace):
+        box_contents[box].remove(item_to_replace)
+        box_contents[box].append(new_items[idx])
+    return f"Replace {describe_items(items_to_replace)} with {describe_items(new_items)} in {box}.", box_contents
 
 
 def swap_operation(box_contents, boxes_with_items):
@@ -80,7 +105,7 @@ def swap_operation(box_contents, boxes_with_items):
     destination_item = box_contents[destination][destination_index]
     box_contents[source][source_index] = destination_item
     box_contents[destination][destination_index] = source_item
-    return f"Swap {source_item} in {source} with {destination_item} in {destination}.", box_contents
+    return f"Swap the {source_item} in {source} with the {destination_item} in {destination}.", box_contents
 
 
 def apply_operation(operation, box_contents):
@@ -141,9 +166,10 @@ def generate_procedural_text(sentence_hashes_used):
     numops = {op: operations_list.count(op) for op in operations}
     numops["Total"] = len(operations_list)
 
+    final_states = {box: describe_final_state(items) for box, items in box_contents.items()}
     final_json = {
         "sentence_hash": sentence_hash_value, "sentence": procedural_text,
-        "sample_id": -1, "numops": numops, "final_states": box_contents
+        "sample_id": -1, "numops": numops, "final_states": final_states
     }
 
     return final_json, sentence_hashes_used
