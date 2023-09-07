@@ -2,6 +2,7 @@ import re
 import subprocess
 
 from matplotlib import pyplot as plt
+from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 
 
 def convert_str_to_dict(input_str):
@@ -87,20 +88,29 @@ def calculate_metrics(final_states, result):
 
 
 def print_metrics(title, dataset_name, tp_count, fp_count, fn_count):
-    total_true_positives = sum(tp_count.values())
-    total_false_positives = sum(fp_count.values())
-    total_false_negatives = sum(fn_count.values())
+    y_true = ['true_positive'] * sum(tp_count.values()) + ['false_positive'] * sum(fp_count.values()) + [
+        'false_negative'] * sum(fn_count.values())
+    y_pred = ['true_positive'] * sum(tp_count.values()) + ['true_positive'] * sum(fp_count.values()) + [
+        'false_positive'] * sum(fn_count.values())
 
-    precision = total_true_positives / (total_true_positives + total_false_positives)
-    recall = total_true_positives / (total_true_positives + total_false_negatives)
-    f1_score = 2 * ((precision * recall) / (precision + recall))
-    accuracy = total_true_positives / (total_true_positives + total_false_positives + total_false_negatives)
-
+    precision = precision_score(
+        y_true, y_pred, average='weighted',
+        labels=['true_positive', 'false_positive', 'false_negative'], zero_division=0
+    )
+    recall = recall_score(
+        y_true, y_pred, average='weighted',
+        labels=['true_positive', 'false_positive', 'false_negative'], zero_division=0
+    )
+    f1 = f1_score(
+        y_true, y_pred, average='weighted', labels=['true_positive', 'false_positive', 'false_negative'],
+        zero_division=0
+    )
+    accuracy = accuracy_score(y_true, y_pred)
     print(f".................... {dataset_name} ....................")
     print(f".................... {title} ....................")
     print(f"Precision: {precision * 100:.2f}%")
     print(f"Recall: {recall * 100:.2f}%")
-    print(f"F1 Score: {f1_score * 100:.2f}%")
+    print(f"F1 Score: {f1 * 100:.2f}%")
     print(f"Accuracy: {accuracy * 100:.2f}%")
     print("\n")
 
