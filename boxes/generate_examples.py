@@ -71,7 +71,7 @@ def generate_procedural_text():
         elif len(items) == 1:
             return f"{box_name} contains the {items[0]}"
         else:
-            items_description = ' and '.join(f"the {item}" for item in items)
+            items_description = ', '.join(f"the {item}" for item in items[:-1]) + ' and ' + f"the {items[-1]}"
             return f"{box_name} contains {items_description}"
 
     descriptions = [describe_box(box, items) for box, items in box_contents.items()]
