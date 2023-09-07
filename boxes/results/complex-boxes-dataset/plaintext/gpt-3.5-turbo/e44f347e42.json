@@ -1,0 +1,54 @@
+{
+    "Box 0": [
+        "the book",
+        "the rock"
+    ],
+    "Box 1": [
+        "the paint",
+        "the usb"
+    ],
+    "Box 2": [
+        "the frame"
+    ],
+    "Box 3": [
+        "the starfish",
+        "the sun",
+        "the fish"
+    ],
+    "Box 4": [
+        "the apple",
+        "the mask",
+        "the dog",
+        "the key",
+        "the pants"
+    ],
+    "Box 5": [
+        "the laptop",
+        "the moon",
+        "the perfume",
+        "the button"
+    ],
+    "Box 6": [
+        "the seaweed"
+    ],
+    "Box 7": [
+        "the flute",
+        "the fork",
+        "the telescope"
+    ],
+    "Box 8": [
+        "the ship",
+        "the sculpture",
+        "the grass"
+    ],
+    "Box 9": [
+        "the shoes",
+        "the horn",
+        "the island",
+        "the star",
+        "the thunder"
+    ],
+    "Box 10": [
+        "the note"
+    ]
+}

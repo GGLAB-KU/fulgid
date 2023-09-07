@@ -1,0 +1,40 @@
+{
+    "Box 0": [
+        "the rock",
+        "the flute",
+        "the scissors",
+        "the storm",
+        "the horn",
+        "the mask",
+        "the tie"
+    ],
+    "Box 1": [
+        "nothing"
+    ],
+    "Box 2": [
+        "the book",
+        "the ship",
+        "the pot",
+        "the lipstick"
+    ],
+    "Box 3": [
+        "the table",
+        "the drum",
+        "the cloud",
+        "the brush"
+    ],
+    "Box 4": [
+        "nothing"
+    ],
+    "Box 5": [
+        "the game",
+        "the gloves",
+        "the watch"
+    ],
+    "Box 6": [
+        "the bracelet",
+        "the oven",
+        "the speaker",
+        "the telescope"
+    ]
+}

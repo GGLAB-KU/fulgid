@@ -1,0 +1,41 @@
+{
+    "Box 0": [
+        "the book",
+        "the car",
+        "the needle"
+    ],
+    "Box 1": [
+        "the vase"
+    ],
+    "Box 2": [
+        "the comb"
+    ],
+    "Box 3": [
+        "the bag",
+        "the lightning",
+        "the moon"
+    ],
+    "Box 4": [
+        "the key"
+    ],
+    "Box 5": [
+        "the dice",
+        "the toaster",
+        "the clock"
+    ],
+    "Box 6": [
+        "the chair",
+        "the grass"
+    ],
+    "Box 7": [
+        "the cow",
+        "the snow",
+        "the sculpture"
+    ],
+    "Box 8": [
+        "the rain"
+    ],
+    "Box 9": [
+        "nothing"
+    ]
+}
