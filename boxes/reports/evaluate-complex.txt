@@ -1,9 +1,9 @@
 .................... Complex Boxes Dataset ....................
 .................... Plaintext ....................
-Precision: 35.55%
-Recall: 48.00%
-F1 Score: 40.84%
-Accuracy: 48.00%
+Precision: 35.26%
+Recall: 47.67%
+F1 Score: 40.54%
+Accuracy: 47.67%
 
 
 .................... Complex Boxes Dataset ....................

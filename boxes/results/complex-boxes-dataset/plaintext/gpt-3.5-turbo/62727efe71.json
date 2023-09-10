@@ -1,0 +1,52 @@
+{
+    "Box 0": [
+        "nothing"
+    ],
+    "Box 1": [
+        "the glove",
+        "the horn",
+        "the train",
+        "the magnet"
+    ],
+    "Box 2": [
+        "nothing"
+    ],
+    "Box 3": [
+        "the wallet",
+        "the glove",
+        "the train",
+        "the magnet"
+    ],
+    "Box 4": [
+        "the horn",
+        "the controller",
+        "the coral"
+    ],
+    "Box 5": [
+        "the apple",
+        "the coat"
+    ],
+    "Box 6": [
+        "the star",
+        "the charger"
+    ],
+    "Box 7": [
+        "the crown",
+        "the violin",
+        "the mask",
+        "the wig",
+        "the doll"
+    ],
+    "Box 8": [
+        "the card"
+    ],
+    "Box 9": [
+        "the clock",
+        "the grinder"
+    ],
+    "Box 10": [
+        "the mirror",
+        "the flower",
+        "the ocean"
+    ]
+}
