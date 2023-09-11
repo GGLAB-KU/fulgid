@@ -44,7 +44,7 @@ def execute_code(code):
     return output.decode()
 
 
-def plotting(accuracy_dict, title, dataset_name,x_label,y_label):
+def plotting(accuracy_dict, title, dataset_name, x_label, y_label):
     # Prepare data for the plot
     operations_nums = sorted(accuracy_dict.keys())
     accuracies = [accuracy_dict[num] for num in operations_nums]
@@ -54,8 +54,8 @@ def plotting(accuracy_dict, title, dataset_name,x_label,y_label):
     plt.plot(operations_nums, accuracies, marker='o')
 
     # Add labels and title
-    plt.xlabel('operations_num')
-    plt.ylabel('Accuracy')
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
     plt.title(dataset_name + " with " + title, fontsize=10)  # Subtitle, with smaller font size
 
     # Show grid
