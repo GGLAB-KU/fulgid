@@ -1,3 +1,4 @@
+import pathlib
 import re
 import subprocess
 
@@ -173,3 +174,9 @@ content_items = [
     "whistle", "horn", "bell", "harmonica", "violin",
     "scissors", "pants", "shoes", "gloves", "razor"
 ]
+
+
+def get_sentence_hash_from_path(text):
+    filename = pathlib.Path(text).name  # get the filename
+    name_without_extension = filename.split('.')[0]  # split by '.' and take the first element
+    return name_without_extension

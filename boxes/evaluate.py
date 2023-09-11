@@ -3,15 +3,10 @@ import glob
 import json
 import pathlib
 
-from utils import convert_str_to_dict, execute_code, plotting, print_metrics, update_counts, load_text
+from utils import convert_str_to_dict, execute_code, plotting, print_metrics, update_counts, load_text, \
+    get_sentence_hash_from_path
 
 ENGINE = "gpt-3.5-turbo"
-
-
-def get_sentence_hash_from_path(text):
-    filename = pathlib.Path(text).name  # get the filename
-    name_without_extension = filename.split('.')[0]  # split by '.' and take the first element
-    return name_without_extension
 
 
 def evaluate_dataset(dataset_path, method, output_base_path):
