@@ -44,7 +44,7 @@ def execute_code(code):
     return output.decode()
 
 
-def plotting(accuracy_dict, title, dataset_name):
+def plotting(accuracy_dict, title, dataset_name,x_label,y_label):
     # Prepare data for the plot
     operations_nums = sorted(accuracy_dict.keys())
     accuracies = [accuracy_dict[num] for num in operations_nums]

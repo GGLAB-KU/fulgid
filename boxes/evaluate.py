@@ -86,4 +86,4 @@ if __name__ == '__main__':
 
     # Plot and print metrics
     print_metrics(f"{args.method}", dataset_name, tp, fp, fn)
-    plotting(accuracy_map, f"{args.method}", dataset_name)
+    plotting(accuracy_map, f"{args.method}", dataset_name, 'operations_num', 'Accuracy')
