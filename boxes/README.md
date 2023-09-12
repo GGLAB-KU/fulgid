@@ -79,3 +79,17 @@ python3 prompt-code-generation.py \
 --sample_code_path datasets/sample2/code.py \
 --new_sample_prompt_path datasets/sample2/prompt.txt
 ```
+
+```shell
+python3 zero-shot-prompt-code-generation.py \
+--dataset_path datasets/complex_aggregated_data.jsonl \
+--code_representation_base_path results/complex-boxes-dataset/zero-shot-code/gpt-3.5-turbo/ \
+--prompt_path datasets/zero-shot-prompt.txt
+```
+
+```shell
+python3 evaluate.py \
+--dataset_path datasets/complex_aggregated_data.jsonl \
+--method Code \
+--output_base_path results/complex-boxes-dataset/zero-shot-code/gpt-3.5-turbo/
+```
