@@ -48,6 +48,8 @@ python3 prompt-plaintext.py \
 --output_base_path results/original-boxes-dataset/plaintext/gpt-3.5-turbo/
 ```
 
+# Complex dataset commands:
+
 ```shell
 python3 prompt-plaintext.py \
 --dataset_path datasets/complex_aggregated_data.jsonl \
@@ -70,6 +72,14 @@ python3 evaluate.py \
 --output_base_path results/complex-boxes-dataset/code/gpt-3.5-turbo/
 ```
 
+```shell
+python3 evaluate.py \
+--dataset_path datasets/complex_aggregated_data.jsonl \
+--method Code \
+--output_base_path results/complex-boxes-dataset/zero-shot-code/gpt-3.5-turbo/
+```
+
+
 
 ```shell
 python3 prompt-code-generation.py \
@@ -85,11 +95,4 @@ python3 zero-shot-prompt-code-generation.py \
 --dataset_path datasets/complex_aggregated_data.jsonl \
 --code_representation_base_path results/complex-boxes-dataset/zero-shot-code/gpt-3.5-turbo/ \
 --prompt_path datasets/zero-shot-prompt.txt
-```
-
-```shell
-python3 evaluate.py \
---dataset_path datasets/complex_aggregated_data.jsonl \
---method Code \
---output_base_path results/complex-boxes-dataset/zero-shot-code/gpt-3.5-turbo/
 ```
