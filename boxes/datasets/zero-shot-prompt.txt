@@ -1,0 +1,4 @@
+{sentence}
+Convert above text to a simple python code. When I run the code I should get output like:
+Box x: ['a']
+Which x is the index of box and a is the item (it could be more than one.) and if the box is empty it should be [].
