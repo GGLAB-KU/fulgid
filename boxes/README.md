@@ -44,7 +44,7 @@ python3 prompt-code-generation.py \
 
 ```shell
 python3 prompt-plaintext.py \
---dataset_path datasets/original_aggregated_data \
+--dataset_path datasets/original_aggregated_data.jsonl \
 --output_base_path results/original-boxes-dataset/plaintext/gpt-3.5-turbo/
 ```
 
@@ -78,7 +78,6 @@ python3 evaluate.py \
 --method Code \
 --output_base_path results/complex-boxes-dataset/zero-shot-code/gpt-3.5-turbo/
 ```
-
 
 
 ```shell
