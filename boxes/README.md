@@ -95,3 +95,18 @@ python3 zero-shot-prompt-code-generation.py \
 --code_representation_base_path results/complex-boxes-dataset/zero-shot-code/gpt-3.5-turbo/ \
 --prompt_path datasets/zero-shot-prompt.txt
 ```
+
+
+```shell
+python3 prompt-plaintext.py \
+--dataset_path datasets/complex_aggregated_data.jsonl \
+--output_base_path results/complex-boxes-dataset/plaintext/gpt-4 \
+--engine gpt-4
+```
+
+```shell
+python3 evaluate.py \
+--dataset_path datasets/complex_aggregated_data.jsonl \
+--method Plaintext \
+--output_base_path results/complex-boxes-dataset/plaintext/gpt-4
+```
