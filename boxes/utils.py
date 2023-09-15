@@ -2,6 +2,7 @@ import pathlib
 import re
 import subprocess
 
+import tiktoken
 from matplotlib import pyplot as plt
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 
@@ -180,3 +181,10 @@ def get_sentence_hash_from_path(text):
     filename = pathlib.Path(text).name  # get the filename
     name_without_extension = filename.split('.')[0]  # split by '.' and take the first element
     return name_without_extension
+
+
+def num_tokens_from_string(string: str, model_name: str) -> int:
+    """Returns the number of tokens in a text string."""
+    encoding = tiktoken.encoding_for_model(model_name)
+    num_tokens = len(encoding.encode(string))
+    return num_tokens
