@@ -48,7 +48,7 @@ python3 prompt-plaintext.py \
 --output_base_path results/original-boxes-dataset/plaintext/gpt-3.5-turbo/
 ```
 
-# Complex dataset commands:
+# Commands to work with complex dataset:
 
 ```shell
 python3 prompt-plaintext.py \
